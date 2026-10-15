@@ -1,2 +1,4 @@
 # Preserve exact tested artifact bytes and their recorded SHA256 hashes.
 * -text
+# Tested Windows artifacts retain CRLF; still check actual trailing spaces.
+* whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
