@@ -1,0 +1,58 @@
+{
+  "agentSha256": "5dc79a92175da53e428f58b4c6e9733b8f6183ff4e69dc50930f4ca8a4dc009e",
+  "method": "Resample two-game matchup/side pairs, 5000 replicates, seed 8741. Descriptive only; does not account for policy or team selection.",
+  "reports": {
+    "v3-final-v1.json": {
+      "wins": 62,
+      "games": 100,
+      "pairedBootstrap95": [
+        0.53,
+        0.7
+      ],
+      "latencyMs": {
+        "median": 15.537100000074133,
+        "p95": 45.44560000067577,
+        "max": 151.22749999864027
+      }
+    },
+    "v3-final-v2.json": {
+      "wins": 66,
+      "games": 100,
+      "pairedBootstrap95": [
+        0.58,
+        0.74
+      ],
+      "latencyMs": {
+        "median": 17.1561000024667,
+        "p95": 42.96479999902658,
+        "max": 100.66050000023097
+      }
+    },
+    "v3-final-custom.json": {
+      "wins": 56,
+      "games": 60,
+      "pairedBootstrap95": [
+        0.8333333333333334,
+        1.0
+      ],
+      "latencyMs": {
+        "median": 19.73590000125114,
+        "p95": 56.072799998219125,
+        "max": 111.7787999974098
+      }
+    },
+    "v3-final-stateless.json": {
+      "wins": 38,
+      "games": 40,
+      "pairedBootstrap95": [
+        0.85,
+        1.0
+      ],
+      "latencyMs": {
+        "median": 21.0017999925185,
+        "p95": 50.41120000532828,
+        "max": 70.0829999987036
+      }
+    }
+  }
+}

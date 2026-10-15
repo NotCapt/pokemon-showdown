@@ -1,0 +1,18 @@
+{
+  "name": "pokemon_showdown",
+  "version": "1.0.0",
+  "description": "REDLINE Pokemon battle agent, submission artifacts and reproducible Showdown benchmarks",
+  "private": true,
+  "scripts": {
+    "test": "python -m unittest discover -s tests",
+    "benchmark": "node tools/benchmark.js",
+    "build:agent": "python tools/build_agent.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "pokemon-showdown": "0.11.11"
+  }
+}

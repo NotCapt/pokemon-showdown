@@ -1,0 +1,75 @@
+{
+  "agentSha256": "872624e2c86fb677b5aceeed825fca629156582a100116dca967bcccaded1ccf",
+  "controlSha256": "4af73c4ca0c20e67777b360c2d2a5cd03b2d6786ad92542c7b89834a1e404d26",
+  "method": "5000 bootstrap replicates of side-reversed two-game pairs; seed 8741. Mixed policies are simple baselines. Not tournament win probabilities.",
+  "reports": {
+    "development": {
+      "games": 160,
+      "releaseWins": 125,
+      "v4Wins": 123,
+      "gainPercentagePoints": 1.25,
+      "pairedBootstrap95GainPP": [
+        -1.25,
+        4.375
+      ],
+      "improvedGames": 3,
+      "regressedGames": 1,
+      "latencyMs": {
+        "median": 11.87799999024719,
+        "p95": 38.388300003134646,
+        "max": 82.86860000225715
+      }
+    },
+    "holdout": {
+      "games": 200,
+      "releaseWins": 151,
+      "v4Wins": 145,
+      "gainPercentagePoints": 3.0,
+      "pairedBootstrap95GainPP": [
+        0.0,
+        7.000000000000001
+      ],
+      "improvedGames": 6,
+      "regressedGames": 0,
+      "latencyMs": {
+        "median": 12.8573999973014,
+        "p95": 45.23249999328982,
+        "max": 111.8657000042731
+      }
+    },
+    "custom": {
+      "games": 60,
+      "releaseWins": 59,
+      "v4Wins": 59,
+      "gainPercentagePoints": 0.0,
+      "pairedBootstrap95GainPP": [
+        0.0,
+        0.0
+      ],
+      "improvedGames": 0,
+      "regressedGames": 0,
+      "latencyMs": {
+        "median": 8.32750000699889,
+        "p95": 34.049600013531744,
+        "max": 65.48140000086278
+      }
+    },
+    "stateless": {
+      "games": 40,
+      "releaseWins": 31,
+      "v4Wins": 31,
+      "gainPercentagePoints": 0.0,
+      "pairedBootstrap95GainPP": [
+        0.0,
+        0.0
+      ],
+      "improvedGames": 0,
+      "regressedGames": 0,
+      "latencyMs": {
+        "median": 17.622300001676194,
+        "p95": 56.76230000972282,
+        "max": 292.9911999963224
+      }
+    }
+  }
+}

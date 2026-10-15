@@ -1,0 +1,71 @@
+{
+  "agentSha256": "4af73c4ca0c20e67777b360c2d2a5cd03b2d6786ad92542c7b89834a1e404d26",
+  "method": "Resample two-game side-reversed pairs, 5000 replicates, seed 8741. Descriptive; does not adjust for candidate selection.",
+  "reports": {
+    "v4-arcanine-holdout.json": {
+      "wins": 70,
+      "games": 120,
+      "pairedBootstrap95": [
+        0.5333333333333333,
+        0.6333333333333333
+      ],
+      "latencyMs": {
+        "median": 9.017999997013249,
+        "p95": 36.20750000118278,
+        "max": 60.94219999795314
+      }
+    },
+    "v4-arcanine-final-custom.json": {
+      "wins": 59,
+      "games": 60,
+      "pairedBootstrap95": [
+        0.95,
+        1.0
+      ],
+      "latencyMs": {
+        "median": 8.878299995558336,
+        "p95": 30.208600001060404,
+        "max": 58.65960000664927
+      }
+    },
+    "v4-arcanine-final-v1.json": {
+      "wins": 69,
+      "games": 100,
+      "pairedBootstrap95": [
+        0.6,
+        0.78
+      ],
+      "latencyMs": {
+        "median": 9.40959999570623,
+        "p95": 37.3358999931952,
+        "max": 80.56109999597538
+      }
+    },
+    "v4-arcanine-final-v2.json": {
+      "wins": 65,
+      "games": 100,
+      "pairedBootstrap95": [
+        0.57,
+        0.73
+      ],
+      "latencyMs": {
+        "median": 9.676899993792176,
+        "p95": 37.854099995456636,
+        "max": 77.0559999946272
+      }
+    },
+    "v4-arcanine-stateless.json": {
+      "wins": 31,
+      "games": 40,
+      "pairedBootstrap95": [
+        0.575,
+        0.95
+      ],
+      "latencyMs": {
+        "median": 7.540099992183968,
+        "p95": 26.353900000685826,
+        "max": 55.25590000615921
+      }
+    }
+  }
+}

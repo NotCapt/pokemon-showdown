@@ -1,0 +1,147 @@
+|t:|1792074673
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Togekiss, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Gengar, M|
+|teampreview
+|
+|t:|1792074673
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Tyranitar|Tyranitar, M|404/404
+|switch|p2a: Tyranitar|Tyranitar, M|404/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1792074673
+|move|p1a: Dragonite|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|split|p2
+|-damage|p2a: Tyranitar|64/404
+|-damage|p2a: Tyranitar|64/404
+|move|p2a: Tyranitar|Ice Punch|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|115/323
+|-damage|p1a: Dragonite|115/323
+|
+|-weather|Sandstorm|[upkeep]
+|split|p1
+|-damage|p1a: Dragonite|95/323|[from] Sandstorm
+|-damage|p1a: Dragonite|95/323|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|split|p2
+|-heal|p2a: Tyranitar|89/404|[from] item: Leftovers
+|-heal|p2a: Tyranitar|89/404|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1792074673
+|move|p1a: Dragonite|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|split|p2
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|split|p1
+|-damage|p1a: Dragonite|75/323|[from] Sandstorm
+|-damage|p1a: Dragonite|75/323|[from] Sandstorm
+|upkeep
+|
+|t:|1792074673
+|split|p2
+|switch|p2a: Excadrill|Excadrill, F|361/361
+|switch|p2a: Excadrill|Excadrill, F|361/361
+|turn|3
+|
+|t:|1792074673
+|move|p2a: Excadrill|Iron Head|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|split|p2
+|-damage|p2a: Excadrill|325/361|[from] item: Life Orb
+|-damage|p2a: Excadrill|325/361|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|
+|t:|1792074673
+|split|p1
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|turn|4
+|
+|t:|1792074673
+|move|p2a: Excadrill|Earthquake|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|4/317
+|-damage|p1a: Dragapult|4/317
+|split|p2
+|-damage|p2a: Excadrill|289/361|[from] item: Life Orb
+|-damage|p2a: Excadrill|289/361|[from] item: Life Orb
+|move|p1a: Dragapult|Flamethrower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|split|p2
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|split|p1
+|-damage|p1a: Dragapult|0 fnt|[from] Sandstorm
+|-damage|p1a: Dragapult|0 fnt|[from] Sandstorm
+|faint|p1a: Dragapult
+|upkeep
+|
+|t:|1792074673
+|split|p1
+|switch|p1a: Togekiss|Togekiss, F|311/311
+|switch|p1a: Togekiss|Togekiss, F|311/311
+|split|p2
+|switch|p2a: Gengar|Gengar, M|261/261
+|switch|p2a: Gengar|Gengar, M|261/261
+|turn|5
+|
+|t:|1792074673
+|debug|doubling secondary chance
+|move|p1a: Togekiss|Air Slash|p2a: Gengar
+|split|p2
+|-damage|p2a: Gengar|95/261
+|-damage|p2a: Gengar|95/261
+|cant|p2a: Gengar|flinch
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1792074673
+|debug|doubling secondary chance
+|move|p1a: Togekiss|Air Slash|p2a: Gengar
+|split|p2
+|-damage|p2a: Gengar|0 fnt
+|-damage|p2a: Gengar|0 fnt
+|-start|p1a: Togekiss|Disable|Air Slash|[from] ability: Cursed Body|[of] p2a: Gengar
+|faint|p2a: Gengar
+|
+|win|agent

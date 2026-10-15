@@ -1,0 +1,1072 @@
+{
+  "summary": {
+    "fixtures": 12852,
+    "meanAbsoluteHPError": 1.1784218452410475,
+    "over5HP": 141,
+    "over20HP": 2,
+    "worstMoves": [
+      [
+        "solarbeam",
+        5.489204941736683
+      ],
+      [
+        "freezedry",
+        2.191993813276212
+      ],
+      [
+        "lowkick",
+        2.096776645339179
+      ],
+      [
+        "bulletpunch",
+        1.8880567123802354
+      ],
+      [
+        "dragonclaw",
+        1.855160461907027
+      ],
+      [
+        "fierydance",
+        1.82999517607278
+      ],
+      [
+        "dracometeor",
+        1.8081850931161985
+      ],
+      [
+        "iceshard",
+        1.8006158365885125
+      ],
+      [
+        "shadowsneak",
+        1.7160895062548693
+      ],
+      [
+        "outrage",
+        1.6661117163016508
+      ],
+      [
+        "overheat",
+        1.6655248826527218
+      ],
+      [
+        "phantomforce",
+        1.652588119361269
+      ],
+      [
+        "gyroball",
+        1.568741948243979
+      ],
+      [
+        "aquajet",
+        1.5385541688048632
+      ],
+      [
+        "icebeam",
+        1.5137896853436603
+      ]
+    ]
+  },
+  "worst": [
+    {
+      "error": 135.65063291139245,
+      "predicted": 273.65063291139245,
+      "actual": 138,
+      "source": "Charizard",
+      "target": "Tyranitar",
+      "move": "solarbeam",
+      "roll": 1,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 116.60303797468359,
+      "predicted": 232.6030379746836,
+      "actual": 116,
+      "source": "Charizard",
+      "target": "Tyranitar",
+      "move": "solarbeam",
+      "roll": 0.85,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 14.029437500000085,
+      "predicted": 846.0294375000001,
+      "actual": 832,
+      "source": "Lucario",
+      "target": "Tyranitar",
+      "move": "closecombat",
+      "roll": 0.85,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 13.204187500000103,
+      "predicted": 543.2041875000001,
+      "actual": 530,
+      "source": "Greninja",
+      "target": "Tyranitar",
+      "move": "lowkick",
+      "roll": 0.85,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 12.14761421319804,
+      "predicted": 652.147614213198,
+      "actual": 640,
+      "source": "Volcarona",
+      "target": "Scizor",
+      "move": "fierydance",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 12.043797468354398,
+      "predicted": 314.0437974683544,
+      "actual": 302,
+      "source": "Lucario",
+      "target": "Tyranitar",
+      "move": "aurasphere",
+      "roll": 0.85,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 11.681290322580594,
+      "predicted": 447.6812903225806,
+      "actual": 436,
+      "source": "Togekiss",
+      "target": "Hydreigon",
+      "move": "dazzlinggleam",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 10.64408921933068,
+      "predicted": 994.6440892193307,
+      "actual": 984,
+      "source": "Charizard",
+      "target": "Ferrothorn",
+      "move": "overheat",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 10.223493975903693,
+      "predicted": 790.2234939759037,
+      "actual": 780,
+      "source": "Tyranitar",
+      "target": "Volcarona",
+      "move": "rockslide",
+      "roll": 0.85,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 10.063750000000027,
+      "predicted": 639.06375,
+      "actual": 629,
+      "source": "Greninja",
+      "target": "Tyranitar",
+      "move": "lowkick",
+      "roll": 1,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 10.061412639405205,
+      "predicted": 314.0614126394052,
+      "actual": 304,
+      "source": "Arcanine",
+      "target": "Ferrothorn",
+      "move": "flamethrower",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 10.061412639405205,
+      "predicted": 314.0614126394052,
+      "actual": 304,
+      "source": "Arcanine",
+      "target": "Ferrothorn",
+      "move": "flamethrower",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 9.050000000000011,
+      "predicted": 385.05,
+      "actual": 376,
+      "source": "Lapras",
+      "target": "Gyarados",
+      "move": "freezedry",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 8.622156133829094,
+      "predicted": 656.6221561338291,
+      "actual": 648,
+      "source": "Volcarona",
+      "target": "Ferrothorn",
+      "move": "fireblast",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 8.595312499999977,
+      "predicted": 684.5953125,
+      "actual": 676,
+      "source": "Tyranitar",
+      "target": "Charizard",
+      "move": "rockslide",
+      "roll": 0.85,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 8.451136363636351,
+      "predicted": 656.4511363636364,
+      "actual": 648,
+      "source": "Lapras",
+      "target": "Salamence",
+      "move": "icebeam",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 8.391065989847675,
+      "predicted": 732.3910659898477,
+      "actual": 724,
+      "source": "Volcarona",
+      "target": "Scizor",
+      "move": "flamethrower",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 8.325204460966631,
+      "predicted": 480.32520446096663,
+      "actual": 472,
+      "source": "Volcarona",
+      "target": "Ferrothorn",
+      "move": "fierydance",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 8.099152542372849,
+      "predicted": 299.09915254237285,
+      "actual": 291,
+      "source": "Alakazam",
+      "target": "Gyarados",
+      "move": "chargebeam",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 8.04838938053092,
+      "predicted": 278.0483893805309,
+      "actual": 270,
+      "source": "Scizor",
+      "target": "Togekiss",
+      "move": "bulletpunch",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 7.738215613382977,
+      "predicted": 691.738215613383,
+      "actual": 684,
+      "source": "Charizard",
+      "target": "Ferrothorn",
+      "move": "flamethrower",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 7.669565217391209,
+      "predicted": 559.6695652173912,
+      "actual": 552,
+      "source": "Lapras",
+      "target": "Garchomp",
+      "move": "icebeam",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 7.63461928933998,
+      "predicted": 1147.63461928934,
+      "actual": 1140,
+      "source": "Charizard",
+      "target": "Scizor",
+      "move": "fireblast",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 7.566265060240994,
+      "predicted": 1235.566265060241,
+      "actual": 1228,
+      "source": "Tyranitar",
+      "target": "Volcarona",
+      "move": "stoneedge",
+      "roll": 1,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 7.4191435768262295,
+      "predicted": 463.41914357682623,
+      "actual": 456,
+      "source": "Arcanine",
+      "target": "Ferrothorn",
+      "move": "flareblitz",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 7.4191435768262295,
+      "predicted": 463.41914357682623,
+      "actual": 456,
+      "source": "Arcanine",
+      "target": "Ferrothorn",
+      "move": "flareblitz",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 7.415739130434815,
+      "predicted": 314.4157391304348,
+      "actual": 307,
+      "source": "Garchomp",
+      "target": "Garchomp",
+      "move": "dracometeor",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 7.382118959107828,
+      "predicted": 205.38211895910783,
+      "actual": 198,
+      "source": "Lucario",
+      "target": "Ferrothorn",
+      "move": "aurasphere",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 7.359256505576241,
+      "predicted": 435.35925650557624,
+      "actual": 428,
+      "source": "Dragapult",
+      "target": "Ferrothorn",
+      "move": "flamethrower",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 7.328750000000127,
+      "predicted": 995.3287500000001,
+      "actual": 988,
+      "source": "Lucario",
+      "target": "Tyranitar",
+      "move": "closecombat",
+      "roll": 1,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 7.232487309644625,
+      "predicted": 767.2324873096446,
+      "actual": 760,
+      "source": "Volcarona",
+      "target": "Scizor",
+      "move": "fierydance",
+      "roll": 1,
+      "weather": ""
+    },
+    {
+      "error": 7.168866498740499,
+      "predicted": 247.1688664987405,
+      "actual": 240,
+      "source": "Charizard",
+      "target": "Ferrothorn",
+      "move": "flareblitz",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 7.129969773299763,
+      "predicted": 275.12996977329976,
+      "actual": 268,
+      "source": "Lucario",
+      "target": "Ferrothorn",
+      "move": "closecombat",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 7.115752212389339,
+      "predicted": 327.11575221238934,
+      "actual": 320,
+      "source": "Scizor",
+      "target": "Togekiss",
+      "move": "bulletpunch",
+      "roll": 1,
+      "weather": ""
+    },
+    {
+      "error": 7.090855018587376,
+      "predicted": 539.0908550185874,
+      "actual": 532,
+      "source": "Volcarona",
+      "target": "Ferrothorn",
+      "move": "flamethrower",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 7.024684014869933,
+      "predicted": 507.02468401486993,
+      "actual": 500,
+      "source": "Hydreigon",
+      "target": "Ferrothorn",
+      "move": "flamethrower",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.887522123893859,
+      "predicted": 401.88752212389386,
+      "actual": 395,
+      "source": "Lucario",
+      "target": "Garchomp",
+      "move": "icepunch",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.782608695652129,
+      "predicted": 514.7826086956521,
+      "actual": 508,
+      "source": "Lapras",
+      "target": "Garchomp",
+      "move": "freezedry",
+      "roll": 1,
+      "weather": ""
+    },
+    {
+      "error": 6.76877323420058,
+      "predicted": 910.7687732342006,
+      "actual": 904,
+      "source": "Volcarona",
+      "target": "Ferrothorn",
+      "move": "overheat",
+      "roll": 1,
+      "weather": ""
+    },
+    {
+      "error": 6.762430379746775,
+      "predicted": 458.7624303797468,
+      "actual": 452,
+      "source": "Gengar",
+      "target": "Tyranitar",
+      "move": "focusblast",
+      "roll": 0.85,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 6.7062499999999545,
+      "predicted": 625.70625,
+      "actual": 619,
+      "source": "Lucario",
+      "target": "Charizard",
+      "move": "stoneedge",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.683870967741996,
+      "predicted": 526.683870967742,
+      "actual": 520,
+      "source": "Togekiss",
+      "target": "Hydreigon",
+      "move": "dazzlinggleam",
+      "roll": 1,
+      "weather": ""
+    },
+    {
+      "error": 6.659142857142967,
+      "predicted": 414.65914285714297,
+      "actual": 408,
+      "source": "Garchomp",
+      "target": "Salamence",
+      "move": "outrage",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.653982300884991,
+      "predicted": 390.653982300885,
+      "actual": 384,
+      "source": "Metagross",
+      "target": "Garchomp",
+      "move": "icepunch",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.628125000000011,
+      "predicted": 458.628125,
+      "actual": 452,
+      "source": "Metagross",
+      "target": "Tyranitar",
+      "move": "hammerarm",
+      "roll": 0.85,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 6.540374999999955,
+      "predicted": 246.54037499999995,
+      "actual": 240,
+      "source": "Scizor",
+      "target": "Tyranitar",
+      "move": "bulletpunch",
+      "roll": 0.85,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 6.495982300885032,
+      "predicted": 360.49598230088503,
+      "actual": 354,
+      "source": "Garchomp",
+      "target": "Garchomp",
+      "move": "dragonclaw",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.495982300885032,
+      "predicted": 360.49598230088503,
+      "actual": 354,
+      "source": "Gengar",
+      "target": "Alakazam",
+      "move": "shadowball",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.47256637168141,
+      "predicted": 150.4725663716814,
+      "actual": 144,
+      "source": "Lapras",
+      "target": "Garchomp",
+      "move": "iceshard",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.440913705583625,
+      "predicted": 1354.4409137055836,
+      "actual": 1348,
+      "source": "Charizard",
+      "target": "Scizor",
+      "move": "overheat",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.434782608695514,
+      "predicted": 658.4347826086955,
+      "actual": 652,
+      "source": "Lapras",
+      "target": "Garchomp",
+      "move": "icebeam",
+      "roll": 1,
+      "weather": ""
+    },
+    {
+      "error": 6.372769911504463,
+      "predicted": 360.37276991150446,
+      "actual": 354,
+      "source": "Lucario",
+      "target": "Togekiss",
+      "move": "meteormash",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.35682432432435,
+      "predicted": 344.35682432432435,
+      "actual": 338,
+      "source": "Garchomp",
+      "target": "Metagross",
+      "move": "earthquake",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.3066666666666436,
+      "predicted": 242.30666666666664,
+      "actual": 236,
+      "source": "Dragapult",
+      "target": "Metagross",
+      "move": "shadowball",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.2313253012048335,
+      "predicted": 1050.2313253012048,
+      "actual": 1044,
+      "source": "Tyranitar",
+      "target": "Volcarona",
+      "move": "stoneedge",
+      "roll": 0.85,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 6.224535315985122,
+      "predicted": 634.2245353159851,
+      "actual": 628,
+      "source": "Volcarona",
+      "target": "Ferrothorn",
+      "move": "flamethrower",
+      "roll": 1,
+      "weather": ""
+    },
+    {
+      "error": 6.222300884955757,
+      "predicted": 414.22230088495576,
+      "actual": 408,
+      "source": "Dragonite",
+      "target": "Garchomp",
+      "move": "icespinner",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.185724907063218,
+      "predicted": 618.1857249070632,
+      "actual": 612,
+      "source": "Hydreigon",
+      "target": "Ferrothorn",
+      "move": "fireblast",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.169516728624558,
+      "predicted": 1170.1695167286246,
+      "actual": 1164,
+      "source": "Charizard",
+      "target": "Ferrothorn",
+      "move": "overheat",
+      "roll": 1,
+      "weather": ""
+    },
+    {
+      "error": 6.158375634517597,
+      "predicted": 1350.1583756345176,
+      "actual": 1344,
+      "source": "Charizard",
+      "target": "Scizor",
+      "move": "fireblast",
+      "roll": 1,
+      "weather": ""
+    },
+    {
+      "error": 6.153457249070584,
+      "predicted": 774.1534572490706,
+      "actual": 768,
+      "source": "Volcarona",
+      "target": "Ferrothorn",
+      "move": "overheat",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.123000000000161,
+      "predicted": 500.12300000000016,
+      "actual": 494,
+      "source": "Lucario",
+      "target": "Hydreigon",
+      "move": "closecombat",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.089090909090942,
+      "predicted": 416.08909090909094,
+      "actual": 410,
+      "source": "Dragapult",
+      "target": "Dragapult",
+      "move": "shadowball",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.089090909090942,
+      "predicted": 416.08909090909094,
+      "actual": 410,
+      "source": "Dragapult",
+      "target": "Gengar",
+      "move": "shadowball",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.089090909090942,
+      "predicted": 416.08909090909094,
+      "actual": 410,
+      "source": "Dragapult",
+      "target": "Dragapult",
+      "move": "shadowball",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.047500000000014,
+      "predicted": 290.0475,
+      "actual": 284,
+      "source": "Scizor",
+      "target": "Tyranitar",
+      "move": "bulletpunch",
+      "roll": 1,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 6.043000000000006,
+      "predicted": 224.043,
+      "actual": 218,
+      "source": "Greninja",
+      "target": "Excadrill",
+      "move": "lowkick",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.028571428571425,
+      "predicted": 118.02857142857142,
+      "actual": 112,
+      "source": "Lapras",
+      "target": "Salamence",
+      "move": "iceshard",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.021898734177199,
+      "predicted": 157.0218987341772,
+      "actual": 151,
+      "source": "Lucario",
+      "target": "Tyranitar",
+      "move": "flashcannon",
+      "roll": 0.85,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 6.016347607052893,
+      "predicted": 149.0163476070529,
+      "actual": 143,
+      "source": "Greninja",
+      "target": "Ferrothorn",
+      "move": "lowkick",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 6.003000000000043,
+      "predicted": 562.003,
+      "actual": 556,
+      "source": "Garchomp",
+      "target": "Hydreigon",
+      "move": "outrage",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.9375,
+      "predicted": 525.9375,
+      "actual": 520,
+      "source": "Gyarados",
+      "target": "Charizard",
+      "move": "stoneedge",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.933451327433659,
+      "predicted": 617.9334513274337,
+      "actual": 612,
+      "source": "Dragonite",
+      "target": "Garchomp",
+      "move": "icespinner",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.919999999999959,
+      "predicted": 301.91999999999996,
+      "actual": 296,
+      "source": "Dragonite",
+      "target": "Gyarados",
+      "move": "thunderpunch",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.919999999999959,
+      "predicted": 301.91999999999996,
+      "actual": 296,
+      "source": "Tyranitar",
+      "target": "Gyarados",
+      "move": "thunderpunch",
+      "roll": 0.85,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 5.847918781725866,
+      "predicted": 689.8479187817259,
+      "actual": 684,
+      "source": "Hydreigon",
+      "target": "Scizor",
+      "move": "flamethrower",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.822857142857117,
+      "predicted": 327.8228571428571,
+      "actual": 322,
+      "source": "Garchomp",
+      "target": "Salamence",
+      "move": "dragonclaw",
+      "roll": 1,
+      "weather": ""
+    },
+    {
+      "error": 5.809665427509117,
+      "predicted": 813.8096654275091,
+      "actual": 808,
+      "source": "Charizard",
+      "target": "Ferrothorn",
+      "move": "flamethrower",
+      "roll": 1,
+      "weather": ""
+    },
+    {
+      "error": 5.788915662650538,
+      "predicted": 811.7889156626505,
+      "actual": 806,
+      "source": "Garchomp",
+      "target": "Volcarona",
+      "move": "stoneedge",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.787999999999954,
+      "predicted": 343.78799999999995,
+      "actual": 338,
+      "source": "Ferrothorn",
+      "target": "Greninja",
+      "move": "powerwhip",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.7837419354838175,
+      "predicted": 538.7837419354838,
+      "actual": 533,
+      "source": "Salamence",
+      "target": "Hydreigon",
+      "move": "dracometeor",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.7078947368421495,
+      "predicted": 281.70789473684215,
+      "actual": 276,
+      "source": "Greninja",
+      "target": "Blastoise",
+      "move": "grassknot",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.700338983050813,
+      "predicted": 237.7003389830508,
+      "actual": 232,
+      "source": "Dragapult",
+      "target": "Gyarados",
+      "move": "thunderbolt",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.674698795180689,
+      "predicted": 929.6746987951807,
+      "actual": 924,
+      "source": "Tyranitar",
+      "target": "Volcarona",
+      "move": "rockslide",
+      "roll": 1,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 5.671000000000049,
+      "predicted": 320.67100000000005,
+      "actual": 315,
+      "source": "Greninja",
+      "target": "Alakazam",
+      "move": "uturn",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.64942857142853,
+      "predicted": 278.64942857142853,
+      "actual": 273,
+      "source": "Garchomp",
+      "target": "Salamence",
+      "move": "dragonclaw",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.636548223350246,
+      "predicted": 861.6365482233502,
+      "actual": 856,
+      "source": "Volcarona",
+      "target": "Scizor",
+      "move": "flamethrower",
+      "roll": 1,
+      "weather": ""
+    },
+    {
+      "error": 5.636363636363626,
+      "predicted": 241.63636363636363,
+      "actual": 236,
+      "source": "Lapras",
+      "target": "Dragapult",
+      "move": "freezedry",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.636363636363626,
+      "predicted": 241.63636363636363,
+      "actual": 236,
+      "source": "Lapras",
+      "target": "Dragapult",
+      "move": "freezedry",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.636345177664907,
+      "predicted": 841.6363451776649,
+      "actual": 836,
+      "source": "Hydreigon",
+      "target": "Scizor",
+      "move": "fireblast",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.634090909090901,
+      "predicted": 437.6340909090909,
+      "actual": 432,
+      "source": "Blastoise",
+      "target": "Salamence",
+      "move": "icebeam",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.605714285714157,
+      "predicted": 533.6057142857142,
+      "actual": 528,
+      "source": "Dragonite",
+      "target": "Salamence",
+      "move": "outrage",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.567584158415855,
+      "predicted": 413.56758415841585,
+      "actual": 408,
+      "source": "Alakazam",
+      "target": "Venusaur",
+      "move": "psyshock",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.565217391304316,
+      "predicted": 437.5652173913043,
+      "actual": 432,
+      "source": "Lapras",
+      "target": "Garchomp",
+      "move": "freezedry",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.544442477876089,
+      "predicted": 460.5444424778761,
+      "actual": 455,
+      "source": "Salamence",
+      "target": "Garchomp",
+      "move": "outrage",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.521428571428544,
+      "predicted": 445.52142857142854,
+      "actual": 440,
+      "source": "Tyranitar",
+      "target": "Lapras",
+      "move": "stoneedge",
+      "roll": 0.85,
+      "weather": "sandstorm"
+    },
+    {
+      "error": 5.484014869888483,
+      "predicted": 369.4840148698885,
+      "actual": 364,
+      "source": "Arcanine",
+      "target": "Ferrothorn",
+      "move": "flamethrower",
+      "roll": 1,
+      "weather": ""
+    },
+    {
+      "error": 5.484014869888483,
+      "predicted": 369.4840148698885,
+      "actual": 364,
+      "source": "Arcanine",
+      "target": "Ferrothorn",
+      "move": "flamethrower",
+      "roll": 1,
+      "weather": ""
+    },
+    {
+      "error": 5.479999999999848,
+      "predicted": 449.47999999999985,
+      "actual": 444,
+      "source": "Dragonite",
+      "target": "Gyarados",
+      "move": "thunderpunch",
+      "roll": 0.85,
+      "weather": ""
+    },
+    {
+      "error": 5.468571428571408,
+      "predicted": 281.4685714285714,
+      "actual": 276,
+      "source": "Salamence",
+      "target": "Salamence",
+      "move": "dragonclaw",
+      "roll": 1,
+      "weather": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+Dragonite @ Choice Band
+Ability: Multiscale
+EVs: 252 Atk / 252 Spe / 4 SpD
+Adamant Nature
+- Extreme Speed
+- Earthquake
+- Ice Spinner
+- Fire Punch
+
+Dragapult @ Choice Scarf
+Ability: Infiltrator
+EVs: 252 SpA / 252 Spe / 4 SpD
+Timid Nature
+- Shadow Ball
+- Draco Meteor
+- Flamethrower
+- Thunderbolt
+
+Togekiss @ Choice Scarf
+Ability: Serene Grace
+EVs: 252 SpA / 252 Spe / 4 SpD
+Timid Nature
+- Air Slash
+- Dazzling Gleam
+- Flamethrower
+- Aura Sphere

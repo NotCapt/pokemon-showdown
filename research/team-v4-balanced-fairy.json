@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Dragonite",
+    "ability": "Multiscale",
+    "item": "Choice Band",
+    "nature": "Adamant",
+    "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+    "moves": [
+      "Extreme Speed",
+      "Earthquake",
+      "Ice Spinner",
+      "Fire Punch"
+    ]
+  },
+  {
+    "name": "Togekiss",
+    "item": "Choice Scarf",
+    "ability": "Serene Grace",
+    "nature": "Timid",
+    "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+    "moves": [
+      "Air Slash",
+      "Dazzling Gleam",
+      "Flamethrower",
+      "Aura Sphere"
+    ]
+  },
+  {
+    "name": "Corviknight",
+    "ability": "Mirror Armor",
+    "item": "Leftovers",
+    "nature": "Impish",
+    "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+    "moves": [
+      "Body Press",
+      "Iron Defense",
+      "Roost",
+      "Brave Bird"
+    ]
+  }
+]

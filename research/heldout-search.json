@@ -1,0 +1,778 @@
+{
+  "games": 40,
+  "wins": 34,
+  "losses": 6,
+  "draws": 0,
+  "winRate": 0.85,
+  "wilson95": [
+    0.7092737396097997,
+    0.9293890829149256
+  ],
+  "latencyMs": {
+    "median": 21.78280000225641,
+    "p95": 55.923199994140305,
+    "max": 92.68989998963661
+  },
+  "results": [
+    {
+      "game": 0,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Garchomp",
+        "Metagross",
+        "Volcarona"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        1,
+        22741
+      ]
+    },
+    {
+      "game": 1,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Garchomp",
+        "Metagross",
+        "Volcarona"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        1,
+        22741
+      ]
+    },
+    {
+      "game": 2,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Tyranitar",
+        "Scizor"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        2,
+        22741
+      ]
+    },
+    {
+      "game": 3,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Tyranitar",
+        "Scizor"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        2,
+        22741
+      ]
+    },
+    {
+      "game": 4,
+      "winner": "agent",
+      "turns": 24,
+      "opponent": [
+        "Dragapult",
+        "Togekiss",
+        "Excadrill"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        3,
+        22741
+      ]
+    },
+    {
+      "game": 5,
+      "winner": "baseline",
+      "turns": 42,
+      "opponent": [
+        "Dragapult",
+        "Togekiss",
+        "Excadrill"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        3,
+        22741
+      ]
+    },
+    {
+      "game": 6,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Corviknight",
+        "Snorlax",
+        "Ferrothorn"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        4,
+        22741
+      ]
+    },
+    {
+      "game": 7,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Corviknight",
+        "Snorlax",
+        "Ferrothorn"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        4,
+        22741
+      ]
+    },
+    {
+      "game": 8,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Scizor",
+        "Garchomp",
+        "Gyarados"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        5,
+        22741
+      ]
+    },
+    {
+      "game": 9,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Scizor",
+        "Garchomp",
+        "Gyarados"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        5,
+        22741
+      ]
+    },
+    {
+      "game": 10,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Ferrothorn",
+        "Excadrill",
+        "Dragapult"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        6,
+        22741
+      ]
+    },
+    {
+      "game": 11,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Ferrothorn",
+        "Excadrill",
+        "Dragapult"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        6,
+        22741
+      ]
+    },
+    {
+      "game": 12,
+      "winner": "baseline",
+      "turns": 20,
+      "opponent": [
+        "Greninja",
+        "Arcanine",
+        "Garchomp"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        7,
+        22741
+      ]
+    },
+    {
+      "game": 13,
+      "winner": "baseline",
+      "turns": 20,
+      "opponent": [
+        "Greninja",
+        "Arcanine",
+        "Garchomp"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        7,
+        22741
+      ]
+    },
+    {
+      "game": 14,
+      "winner": "agent",
+      "turns": 18,
+      "opponent": [
+        "Excadrill",
+        "Salamence",
+        "Snorlax"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        8,
+        22741
+      ]
+    },
+    {
+      "game": 15,
+      "winner": "agent",
+      "turns": 18,
+      "opponent": [
+        "Excadrill",
+        "Salamence",
+        "Snorlax"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        8,
+        22741
+      ]
+    },
+    {
+      "game": 16,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Gengar",
+        "Tyranitar",
+        "Volcarona"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        9,
+        22741
+      ]
+    },
+    {
+      "game": 17,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Gengar",
+        "Tyranitar",
+        "Volcarona"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        9,
+        22741
+      ]
+    },
+    {
+      "game": 18,
+      "winner": "agent",
+      "turns": 83,
+      "opponent": [
+        "Tyranitar",
+        "Corviknight",
+        "Lapras"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        10,
+        22741
+      ]
+    },
+    {
+      "game": 19,
+      "winner": "agent",
+      "turns": 85,
+      "opponent": [
+        "Tyranitar",
+        "Corviknight",
+        "Lapras"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        10,
+        22741
+      ]
+    },
+    {
+      "game": 20,
+      "winner": "baseline",
+      "turns": 9,
+      "opponent": [
+        "Dragapult",
+        "Greninja",
+        "Hydreigon"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        11,
+        22741
+      ]
+    },
+    {
+      "game": 21,
+      "winner": "baseline",
+      "turns": 5,
+      "opponent": [
+        "Dragapult",
+        "Greninja",
+        "Hydreigon"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        11,
+        22741
+      ]
+    },
+    {
+      "game": 22,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Metagross",
+        "Alakazam",
+        "Snorlax"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        12,
+        22741
+      ]
+    },
+    {
+      "game": 23,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Metagross",
+        "Alakazam",
+        "Snorlax"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        12,
+        22741
+      ]
+    },
+    {
+      "game": 24,
+      "winner": "agent",
+      "turns": 11,
+      "opponent": [
+        "Greninja",
+        "Ferrothorn",
+        "Alakazam"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        13,
+        22741
+      ]
+    },
+    {
+      "game": 25,
+      "winner": "agent",
+      "turns": 11,
+      "opponent": [
+        "Greninja",
+        "Ferrothorn",
+        "Alakazam"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        13,
+        22741
+      ]
+    },
+    {
+      "game": 26,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Garchomp",
+        "Arcanine",
+        "Dragonite"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        14,
+        22741
+      ]
+    },
+    {
+      "game": 27,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Garchomp",
+        "Arcanine",
+        "Dragonite"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        14,
+        22741
+      ]
+    },
+    {
+      "game": 28,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Garchomp",
+        "Arcanine",
+        "Ferrothorn"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        15,
+        22741
+      ]
+    },
+    {
+      "game": 29,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Garchomp",
+        "Arcanine",
+        "Ferrothorn"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        15,
+        22741
+      ]
+    },
+    {
+      "game": 30,
+      "winner": "agent",
+      "turns": 12,
+      "opponent": [
+        "Greninja",
+        "Gengar",
+        "Tyranitar"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        16,
+        22741
+      ]
+    },
+    {
+      "game": 31,
+      "winner": "agent",
+      "turns": 12,
+      "opponent": [
+        "Greninja",
+        "Gengar",
+        "Tyranitar"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        16,
+        22741
+      ]
+    },
+    {
+      "game": 32,
+      "winner": "agent",
+      "turns": 16,
+      "opponent": [
+        "Gyarados",
+        "Salamence",
+        "Snorlax"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        17,
+        22741
+      ]
+    },
+    {
+      "game": 33,
+      "winner": "agent",
+      "turns": 16,
+      "opponent": [
+        "Gyarados",
+        "Salamence",
+        "Snorlax"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        17,
+        22741
+      ]
+    },
+    {
+      "game": 34,
+      "winner": "agent",
+      "turns": 35,
+      "opponent": [
+        "Greninja",
+        "Dragapult",
+        "Togekiss"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        18,
+        22741
+      ]
+    },
+    {
+      "game": 35,
+      "winner": "baseline",
+      "turns": 37,
+      "opponent": [
+        "Greninja",
+        "Dragapult",
+        "Togekiss"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        18,
+        22741
+      ]
+    },
+    {
+      "game": 36,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Metagross",
+        "Corviknight",
+        "Lucario"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        19,
+        22741
+      ]
+    },
+    {
+      "game": 37,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Metagross",
+        "Corviknight",
+        "Lucario"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        19,
+        22741
+      ]
+    },
+    {
+      "game": 38,
+      "winner": "agent",
+      "turns": 21,
+      "opponent": [
+        "Blastoise",
+        "Venusaur",
+        "Excadrill"
+      ],
+      "baseline": "search",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        20,
+        22741
+      ]
+    },
+    {
+      "game": 39,
+      "winner": "agent",
+      "turns": 21,
+      "opponent": [
+        "Blastoise",
+        "Venusaur",
+        "Excadrill"
+      ],
+      "baseline": "search",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        20,
+        22741
+      ]
+    }
+  ]
+}

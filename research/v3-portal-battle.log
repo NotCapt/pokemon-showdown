@@ -1,0 +1,103 @@
+|t:|1792073295
+|gametype|singles
+|player|p1|REDLINE Search||
+|player|p2|Sample Baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Corviknight, F|
+|poke|p2|Garchomp, F|
+|poke|p2|Metagross|
+|poke|p2|Volcarona, M|
+|teampreview
+|
+|t:|1792073295
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p2a: Garchomp|Garchomp, F|357/357
+|turn|1
+|
+|t:|1792073296
+|move|p2a: Garchomp|Outrage|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|-damage|p1a: Dragonite|46/323
+|-damage|p2a: Garchomp|322/357|[from] item: Life Orb
+|move|p1a: Dragonite|Ice Spinner|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Dragonite|6/323|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1792073296
+|switch|p2a: Metagross|Metagross|301/301
+|turn|2
+|
+|t:|1792073296
+|switch|p1a: Corviknight|Corviknight, F|400/400
+|move|p2a: Metagross|Meteor Mash|p1a: Corviknight|[miss]
+|-miss|p2a: Metagross|p1a: Corviknight
+|
+|upkeep
+|turn|3
+|
+|t:|1792073297
+|move|p2a: Metagross|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|upkeep
+|turn|4
+|
+|t:|1792073297
+|move|p2a: Metagross|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|Body Press|p2a: Metagross
+|-damage|p2a: Metagross|157/301
+|
+|upkeep
+|turn|5
+|
+|t:|1792073297
+|move|p2a: Metagross|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|Body Press|p2a: Metagross
+|-damage|p2a: Metagross|21/301
+|
+|upkeep
+|turn|6
+|
+|t:|1792073298
+|move|p2a: Metagross|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|Body Press|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|upkeep
+|
+|t:|1792073298
+|switch|p2a: Volcarona|Volcarona, M|311/311
+|turn|7
+|
+|t:|1792073298
+|move|p2a: Volcarona|Fiery Dance|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|44/400
+|-boost|p2a: Volcarona|spa|1
+|move|p1a: Corviknight|Brave Bird|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|-damage|p1a: Corviknight|0 fnt|[from] Recoil
+|faint|p1a: Corviknight
+|
+|win|REDLINE Search

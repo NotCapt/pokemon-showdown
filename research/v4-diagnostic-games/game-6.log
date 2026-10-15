@@ -1,0 +1,168 @@
+|t:|1792074674
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Togekiss, F|
+|poke|p2|Snorlax, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Ferrothorn, F|
+|teampreview
+|
+|t:|1792074674
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Snorlax|Snorlax, M|524/524
+|switch|p2a: Snorlax|Snorlax, M|524/524
+|turn|1
+|
+|t:|1792074674
+|move|p1a: Dragonite|Earthquake|p2a: Snorlax
+|-crit|p2a: Snorlax
+|split|p2
+|-damage|p2a: Snorlax|104/524
+|-damage|p2a: Snorlax|104/524
+|move|p2a: Snorlax|Body Slam|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|263/323
+|-damage|p1a: Dragonite|263/323
+|-status|p1a: Dragonite|par
+|
+|split|p2
+|-heal|p2a: Snorlax|136/524|[from] item: Leftovers
+|-heal|p2a: Snorlax|136/524|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1792074674
+|move|p1a: Dragonite|Earthquake|p2a: Snorlax
+|split|p2
+|-damage|p2a: Snorlax|0 fnt
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|upkeep
+|
+|t:|1792074674
+|split|p2
+|switch|p2a: Corviknight|Corviknight, F|400/400
+|switch|p2a: Corviknight|Corviknight, F|400/400
+|turn|3
+|
+|t:|1792074674
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|move|p2a: Corviknight|Brave Bird|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|145/317
+|-damage|p1a: Dragapult|145/317
+|split|p2
+|-damage|p2a: Corviknight|343/400|[from] Recoil
+|-damage|p2a: Corviknight|343/400|[from] Recoil
+|
+|split|p2
+|-heal|p2a: Corviknight|368/400|[from] item: Leftovers
+|-heal|p2a: Corviknight|368/400|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1792074674
+|move|p1a: Dragapult|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|split|p2
+|-damage|p2a: Corviknight|68/400
+|-damage|p2a: Corviknight|68/400
+|move|p2a: Corviknight|Brave Bird|p1a: Dragapult
+|-crit|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|split|p2
+|-damage|p2a: Corviknight|20/400|[from] Recoil
+|-damage|p2a: Corviknight|20/400|[from] Recoil
+|
+|split|p2
+|-heal|p2a: Corviknight|45/400|[from] item: Leftovers
+|-heal|p2a: Corviknight|45/400|[from] item: Leftovers
+|upkeep
+|
+|t:|1792074674
+|split|p1
+|switch|p1a: Togekiss|Togekiss, F|311/311
+|switch|p1a: Togekiss|Togekiss, F|311/311
+|turn|5
+|
+|t:|1792074674
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|split|p2
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1792074674
+|split|p2
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|switch|p2a: Ferrothorn|Ferrothorn, F|352/352
+|turn|6
+|
+|t:|1792074674
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|263/323 par
+|switch|p1a: Dragonite|Dragonite, M|263/323 par
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Dragonite
+|debug|BP: 48
+|split|p1
+|-damage|p1a: Dragonite|209/323 par
+|-damage|p1a: Dragonite|209/323 par
+|
+|upkeep
+|turn|7
+|
+|t:|1792074674
+|move|p1a: Dragonite|Fire Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|split|p2
+|-damage|p2a: Ferrothorn|16/352
+|-damage|p2a: Ferrothorn|16/352
+|split|p1
+|-damage|p1a: Dragonite|169/323 par|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Dragonite|169/323 par|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Dragonite
+|debug|BP: 48
+|split|p1
+|-damage|p1a: Dragonite|112/323 par
+|-damage|p1a: Dragonite|112/323 par
+|
+|split|p2
+|-heal|p2a: Ferrothorn|38/352|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|38/352|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1792074674
+|move|p1a: Dragonite|Fire Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|split|p2
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p2a: Ferrothorn|0 fnt
+|split|p1
+|-damage|p1a: Dragonite|72/323 par|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Dragonite|72/323 par|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|win|agent

@@ -1,0 +1,10 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Reproducible 8 MB fixture corpus; regenerate with tools/damage_oracle.js.
+research/damage-oracle.json

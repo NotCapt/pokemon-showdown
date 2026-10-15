@@ -1,0 +1,125 @@
+|t:|1792074674
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Metagross|
+|poke|p2|Dragonite, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Togekiss, M|
+|teampreview
+|
+|t:|1792074674
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|turn|1
+|
+|t:|1792074674
+|move|p1a: Dragonite|Ice Spinner|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|109/323
+|-damage|p2a: Dragonite|109/323
+|move|p2a: Dragonite|Ice Spinner|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|1/323
+|-damage|p1a: Dragonite|1/323
+|-enditem|p1a: Dragonite|Weakness Policy
+|-boost|p1a: Dragonite|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Dragonite|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|2
+|
+|t:|1792074674
+|move|p1a: Dragonite|Extreme Speed|p2a: Dragonite
+|-crit|p2a: Dragonite
+|split|p2
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1792074674
+|split|p2
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|turn|3
+|
+|t:|1792074674
+|move|p2a: Dragapult|Shadow Ball|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1792074674
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|turn|4
+|
+|t:|1792074674
+|move|p1a: Dragapult|Draco Meteor|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2a: Dragapult|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1792074674
+|split|p2
+|switch|p2a: Togekiss|Togekiss, M|311/311
+|switch|p2a: Togekiss|Togekiss, M|311/311
+|turn|5
+|
+|t:|1792074674
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1792074674
+|split|p1
+|switch|p1a: Metagross|Metagross|364/364
+|switch|p1a: Metagross|Metagross|364/364
+|turn|6
+|
+|t:|1792074674
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Metagross
+|-resisted|p1a: Metagross
+|split|p1
+|-damage|p1a: Metagross|319/364
+|-damage|p1a: Metagross|319/364
+|move|p1a: Metagross|Meteor Mash|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|split|p2
+|-damage|p2a: Togekiss|0 fnt
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|win|baseline

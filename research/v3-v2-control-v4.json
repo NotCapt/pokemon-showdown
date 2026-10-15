@@ -1,0 +1,6064 @@
+{
+  "agentFile": "archive/v3/agent.py",
+  "agentSha256": "5dc79a92175da53e428f58b4c6e9733b8f6183ff4e69dc50930f4ca8a4dc009e",
+  "sparseBoosts": true,
+  "stateless": false,
+  "simulatorVersion": "0.11.11",
+  "team": [
+    {
+      "name": "Dragonite",
+      "ability": "Multiscale",
+      "item": "Choice Band",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Extreme Speed",
+        "Earthquake",
+        "Ice Spinner",
+        "Fire Punch"
+      ]
+    },
+    {
+      "name": "Dragapult",
+      "ability": "Infiltrator",
+      "item": "Choice Specs",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Shadow Ball",
+        "Draco Meteor",
+        "Flamethrower",
+        "Thunderbolt"
+      ]
+    },
+    {
+      "name": "Corviknight",
+      "ability": "Mirror Armor",
+      "item": "Leftovers",
+      "nature": "Impish",
+      "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+      "moves": [
+        "Body Press",
+        "Iron Defense",
+        "Roost",
+        "Brave Bird"
+      ]
+    }
+  ],
+  "games": 100,
+  "wins": 69,
+  "losses": 31,
+  "draws": 0,
+  "winRate": 0.69,
+  "wilson95": [
+    0.5937376052204429,
+    0.7722043679386762
+  ],
+  "latencyMs": {
+    "median": 12.319100002059713,
+    "p95": 33.76089999801479,
+    "max": 65.54650000180118
+  },
+  "results": [
+    {
+      "game": 0,
+      "winner": "baseline",
+      "turns": 13,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        1,
+        57119
+      ]
+    },
+    {
+      "game": 1,
+      "winner": "agent",
+      "turns": 15,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        1,
+        57119
+      ]
+    },
+    {
+      "game": 2,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        2,
+        57119
+      ]
+    },
+    {
+      "game": 3,
+      "winner": "baseline",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        2,
+        57119
+      ]
+    },
+    {
+      "game": 4,
+      "winner": "agent",
+      "turns": 17,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        3,
+        57119
+      ]
+    },
+    {
+      "game": 5,
+      "winner": "baseline",
+      "turns": 5,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        3,
+        57119
+      ]
+    },
+    {
+      "game": 6,
+      "winner": "agent",
+      "turns": 17,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        4,
+        57119
+      ]
+    },
+    {
+      "game": 7,
+      "winner": "agent",
+      "turns": 13,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        4,
+        57119
+      ]
+    },
+    {
+      "game": 8,
+      "winner": "agent",
+      "turns": 6,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        5,
+        57119
+      ]
+    },
+    {
+      "game": 9,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        5,
+        57119
+      ]
+    },
+    {
+      "game": 10,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        6,
+        57119
+      ]
+    },
+    {
+      "game": 11,
+      "winner": "baseline",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        6,
+        57119
+      ]
+    },
+    {
+      "game": 12,
+      "winner": "agent",
+      "turns": 12,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        7,
+        57119
+      ]
+    },
+    {
+      "game": 13,
+      "winner": "agent",
+      "turns": 14,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        7,
+        57119
+      ]
+    },
+    {
+      "game": 14,
+      "winner": "agent",
+      "turns": 17,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        8,
+        57119
+      ]
+    },
+    {
+      "game": 15,
+      "winner": "baseline",
+      "turns": 17,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        8,
+        57119
+      ]
+    },
+    {
+      "game": 16,
+      "winner": "baseline",
+      "turns": 11,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        9,
+        57119
+      ]
+    },
+    {
+      "game": 17,
+      "winner": "agent",
+      "turns": 13,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        9,
+        57119
+      ]
+    },
+    {
+      "game": 18,
+      "winner": "agent",
+      "turns": 15,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        10,
+        57119
+      ]
+    },
+    {
+      "game": 19,
+      "winner": "agent",
+      "turns": 14,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        10,
+        57119
+      ]
+    },
+    {
+      "game": 20,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        11,
+        57119
+      ]
+    },
+    {
+      "game": 21,
+      "winner": "baseline",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        11,
+        57119
+      ]
+    },
+    {
+      "game": 22,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        12,
+        57119
+      ]
+    },
+    {
+      "game": 23,
+      "winner": "agent",
+      "turns": 14,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        12,
+        57119
+      ]
+    },
+    {
+      "game": 24,
+      "winner": "agent",
+      "turns": 15,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        13,
+        57119
+      ]
+    },
+    {
+      "game": 25,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        13,
+        57119
+      ]
+    },
+    {
+      "game": 26,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        14,
+        57119
+      ]
+    },
+    {
+      "game": 27,
+      "winner": "baseline",
+      "turns": 14,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        14,
+        57119
+      ]
+    },
+    {
+      "game": 28,
+      "winner": "agent",
+      "turns": 11,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        15,
+        57119
+      ]
+    },
+    {
+      "game": 29,
+      "winner": "agent",
+      "turns": 14,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        15,
+        57119
+      ]
+    },
+    {
+      "game": 30,
+      "winner": "baseline",
+      "turns": 17,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        16,
+        57119
+      ]
+    },
+    {
+      "game": 31,
+      "winner": "agent",
+      "turns": 14,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        16,
+        57119
+      ]
+    },
+    {
+      "game": 32,
+      "winner": "agent",
+      "turns": 13,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        17,
+        57119
+      ]
+    },
+    {
+      "game": 33,
+      "winner": "agent",
+      "turns": 16,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        17,
+        57119
+      ]
+    },
+    {
+      "game": 34,
+      "winner": "baseline",
+      "turns": 12,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        18,
+        57119
+      ]
+    },
+    {
+      "game": 35,
+      "winner": "agent",
+      "turns": 16,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        18,
+        57119
+      ]
+    },
+    {
+      "game": 36,
+      "winner": "baseline",
+      "turns": 14,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        19,
+        57119
+      ]
+    },
+    {
+      "game": 37,
+      "winner": "agent",
+      "turns": 15,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        19,
+        57119
+      ]
+    },
+    {
+      "game": 38,
+      "winner": "agent",
+      "turns": 15,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        20,
+        57119
+      ]
+    },
+    {
+      "game": 39,
+      "winner": "baseline",
+      "turns": 13,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        20,
+        57119
+      ]
+    },
+    {
+      "game": 40,
+      "winner": "baseline",
+      "turns": 14,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        21,
+        57119
+      ]
+    },
+    {
+      "game": 41,
+      "winner": "agent",
+      "turns": 16,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        21,
+        57119
+      ]
+    },
+    {
+      "game": 42,
+      "winner": "agent",
+      "turns": 13,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        22,
+        57119
+      ]
+    },
+    {
+      "game": 43,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        22,
+        57119
+      ]
+    },
+    {
+      "game": 44,
+      "winner": "baseline",
+      "turns": 11,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        23,
+        57119
+      ]
+    },
+    {
+      "game": 45,
+      "winner": "agent",
+      "turns": 15,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        23,
+        57119
+      ]
+    },
+    {
+      "game": 46,
+      "winner": "agent",
+      "turns": 15,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        24,
+        57119
+      ]
+    },
+    {
+      "game": 47,
+      "winner": "agent",
+      "turns": 14,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        24,
+        57119
+      ]
+    },
+    {
+      "game": 48,
+      "winner": "baseline",
+      "turns": 5,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        25,
+        57119
+      ]
+    },
+    {
+      "game": 49,
+      "winner": "agent",
+      "turns": 17,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        25,
+        57119
+      ]
+    },
+    {
+      "game": 50,
+      "winner": "agent",
+      "turns": 15,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        26,
+        57119
+      ]
+    },
+    {
+      "game": 51,
+      "winner": "agent",
+      "turns": 17,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        26,
+        57119
+      ]
+    },
+    {
+      "game": 52,
+      "winner": "baseline",
+      "turns": 14,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        27,
+        57119
+      ]
+    },
+    {
+      "game": 53,
+      "winner": "agent",
+      "turns": 16,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        27,
+        57119
+      ]
+    },
+    {
+      "game": 54,
+      "winner": "agent",
+      "turns": 18,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        28,
+        57119
+      ]
+    },
+    {
+      "game": 55,
+      "winner": "agent",
+      "turns": 13,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        28,
+        57119
+      ]
+    },
+    {
+      "game": 56,
+      "winner": "agent",
+      "turns": 17,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        29,
+        57119
+      ]
+    },
+    {
+      "game": 57,
+      "winner": "agent",
+      "turns": 14,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        29,
+        57119
+      ]
+    },
+    {
+      "game": 58,
+      "winner": "baseline",
+      "turns": 5,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        30,
+        57119
+      ]
+    },
+    {
+      "game": 59,
+      "winner": "agent",
+      "turns": 11,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        30,
+        57119
+      ]
+    },
+    {
+      "game": 60,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        31,
+        57119
+      ]
+    },
+    {
+      "game": 61,
+      "winner": "baseline",
+      "turns": 18,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        31,
+        57119
+      ]
+    },
+    {
+      "game": 62,
+      "winner": "agent",
+      "turns": 15,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        32,
+        57119
+      ]
+    },
+    {
+      "game": 63,
+      "winner": "agent",
+      "turns": 15,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        32,
+        57119
+      ]
+    },
+    {
+      "game": 64,
+      "winner": "agent",
+      "turns": 16,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        33,
+        57119
+      ]
+    },
+    {
+      "game": 65,
+      "winner": "baseline",
+      "turns": 19,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        33,
+        57119
+      ]
+    },
+    {
+      "game": 66,
+      "winner": "agent",
+      "turns": 6,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        34,
+        57119
+      ]
+    },
+    {
+      "game": 67,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        34,
+        57119
+      ]
+    },
+    {
+      "game": 68,
+      "winner": "baseline",
+      "turns": 14,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        35,
+        57119
+      ]
+    },
+    {
+      "game": 69,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        35,
+        57119
+      ]
+    },
+    {
+      "game": 70,
+      "winner": "agent",
+      "turns": 16,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        36,
+        57119
+      ]
+    },
+    {
+      "game": 71,
+      "winner": "baseline",
+      "turns": 14,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        36,
+        57119
+      ]
+    },
+    {
+      "game": 72,
+      "winner": "agent",
+      "turns": 16,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        37,
+        57119
+      ]
+    },
+    {
+      "game": 73,
+      "winner": "baseline",
+      "turns": 5,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        37,
+        57119
+      ]
+    },
+    {
+      "game": 74,
+      "winner": "baseline",
+      "turns": 11,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        38,
+        57119
+      ]
+    },
+    {
+      "game": 75,
+      "winner": "agent",
+      "turns": 11,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        38,
+        57119
+      ]
+    },
+    {
+      "game": 76,
+      "winner": "baseline",
+      "turns": 5,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        39,
+        57119
+      ]
+    },
+    {
+      "game": 77,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        39,
+        57119
+      ]
+    },
+    {
+      "game": 78,
+      "winner": "agent",
+      "turns": 16,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        40,
+        57119
+      ]
+    },
+    {
+      "game": 79,
+      "winner": "baseline",
+      "turns": 5,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        40,
+        57119
+      ]
+    },
+    {
+      "game": 80,
+      "winner": "agent",
+      "turns": 18,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        41,
+        57119
+      ]
+    },
+    {
+      "game": 81,
+      "winner": "baseline",
+      "turns": 14,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        41,
+        57119
+      ]
+    },
+    {
+      "game": 82,
+      "winner": "agent",
+      "turns": 15,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        42,
+        57119
+      ]
+    },
+    {
+      "game": 83,
+      "winner": "baseline",
+      "turns": 16,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        42,
+        57119
+      ]
+    },
+    {
+      "game": 84,
+      "winner": "agent",
+      "turns": 18,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        43,
+        57119
+      ]
+    },
+    {
+      "game": 85,
+      "winner": "agent",
+      "turns": 15,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        43,
+        57119
+      ]
+    },
+    {
+      "game": 86,
+      "winner": "baseline",
+      "turns": 16,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        44,
+        57119
+      ]
+    },
+    {
+      "game": 87,
+      "winner": "baseline",
+      "turns": 5,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        44,
+        57119
+      ]
+    },
+    {
+      "game": 88,
+      "winner": "agent",
+      "turns": 16,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        45,
+        57119
+      ]
+    },
+    {
+      "game": 89,
+      "winner": "agent",
+      "turns": 13,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        45,
+        57119
+      ]
+    },
+    {
+      "game": 90,
+      "winner": "agent",
+      "turns": 16,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        46,
+        57119
+      ]
+    },
+    {
+      "game": 91,
+      "winner": "baseline",
+      "turns": 14,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        46,
+        57119
+      ]
+    },
+    {
+      "game": 92,
+      "winner": "agent",
+      "turns": 11,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        47,
+        57119
+      ]
+    },
+    {
+      "game": 93,
+      "winner": "baseline",
+      "turns": 11,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        47,
+        57119
+      ]
+    },
+    {
+      "game": 94,
+      "winner": "agent",
+      "turns": 14,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        48,
+        57119
+      ]
+    },
+    {
+      "game": 95,
+      "winner": "agent",
+      "turns": 13,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        48,
+        57119
+      ]
+    },
+    {
+      "game": 96,
+      "winner": "agent",
+      "turns": 13,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        49,
+        57119
+      ]
+    },
+    {
+      "game": 97,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        49,
+        57119
+      ]
+    },
+    {
+      "game": 98,
+      "winner": "agent",
+      "turns": 12,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        50,
+        57119
+      ]
+    },
+    {
+      "game": 99,
+      "winner": "agent",
+      "turns": 15,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Lum Berry",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Dance",
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "ability": "Mirror Armor",
+          "item": "Leftovers",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Body Press",
+            "Iron Defense",
+            "Roost",
+            "Brave Bird"
+          ]
+        }
+      ],
+      "baseline": "v2",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        50,
+        57119
+      ]
+    }
+  ]
+}

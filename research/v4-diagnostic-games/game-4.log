@@ -1,0 +1,110 @@
+|t:|1792074674
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Togekiss, M|
+|poke|p2|Togekiss, F|
+|poke|p2|Alakazam, F|
+|poke|p2|Greninja-*, M|
+|teampreview
+|
+|t:|1792074674
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Togekiss|Togekiss, F|311/311
+|switch|p2a: Togekiss|Togekiss, F|311/311
+|turn|1
+|
+|t:|1792074674
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|169/323
+|-damage|p1a: Dragonite|169/323
+|move|p1a: Dragonite|Ice Spinner|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|split|p2
+|-damage|p2a: Togekiss|0 fnt
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|t:|1792074674
+|split|p2
+|switch|p2a: Greninja|Greninja, M|286/286
+|switch|p2a: Greninja|Greninja, M|286/286
+|turn|2
+|
+|t:|1792074674
+|split|p1
+|switch|p1a: Togekiss|Togekiss, M|311/311
+|switch|p1a: Togekiss|Togekiss, M|311/311
+|move|p2a: Greninja|Ice Beam|p1a: Togekiss
+|-start|p2a: Greninja|typechange|Ice|[from] ability: Protean
+|-supereffective|p1a: Togekiss
+|split|p1
+|-damage|p1a: Togekiss|0 fnt
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|split|p2
+|-damage|p2a: Greninja|258/286|[from] item: Life Orb
+|-damage|p2a: Greninja|258/286|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1792074674
+|split|p1
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|turn|3
+|
+|t:|1792074674
+|move|p1a: Dragapult|Flamethrower|p2a: Greninja
+|-supereffective|p2a: Greninja
+|split|p2
+|-damage|p2a: Greninja|0 fnt
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|upkeep
+|
+|t:|1792074674
+|split|p2
+|switch|p2a: Alakazam|Alakazam, F|252/252
+|switch|p2a: Alakazam|Alakazam, F|252/252
+|turn|4
+|
+|t:|1792074674
+|move|p1a: Dragapult|Flamethrower|p2a: Alakazam
+|split|p2
+|-damage|p2a: Alakazam|105/252
+|-damage|p2a: Alakazam|105/252
+|move|p2a: Alakazam|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|67/317
+|-damage|p1a: Dragapult|67/317
+|
+|upkeep
+|turn|5
+|
+|t:|1792074674
+|move|p1a: Dragapult|Flamethrower|p2a: Alakazam
+|split|p2
+|-damage|p2a: Alakazam|0 fnt
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|win|agent

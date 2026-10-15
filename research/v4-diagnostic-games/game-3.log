@@ -1,0 +1,158 @@
+|t:|1792074673
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Volcarona, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Scizor, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Togekiss, M|
+|teampreview
+|
+|t:|1792074673
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Volcarona|Volcarona, F|311/311
+|switch|p1a: Volcarona|Volcarona, F|311/311
+|split|p2
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|turn|1
+|
+|t:|1792074673
+|move|p2a: Dragonite|Extreme Speed|p1a: Volcarona
+|split|p1
+|-damage|p1a: Volcarona|83/311
+|-damage|p1a: Volcarona|83/311
+|-status|p2a: Dragonite|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|move|p1a: Volcarona|Bug Buzz|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|284/323 brn
+|-damage|p2a: Dragonite|284/323 brn
+|-unboost|p2a: Dragonite|spd|1
+|
+|split|p2
+|-damage|p2a: Dragonite|264/323 brn|[from] brn
+|-damage|p2a: Dragonite|264/323 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1792074673
+|move|p2a: Dragonite|Extreme Speed|p1a: Volcarona
+|split|p1
+|-damage|p1a: Volcarona|0 fnt
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|split|p2
+|-damage|p2a: Dragonite|244/323 brn|[from] brn
+|-damage|p2a: Dragonite|244/323 brn|[from] brn
+|upkeep
+|
+|t:|1792074673
+|split|p1
+|switch|p1a: Gyarados|Gyarados, F|331/331
+|switch|p1a: Gyarados|Gyarados, F|331/331
+|turn|3
+|
+|t:|1792074673
+|split|p2
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|move|p1a: Gyarados|Ice Fang|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|139/317
+|-damage|p2a: Dragapult|139/317
+|
+|upkeep
+|turn|4
+|
+|t:|1792074673
+|move|p2a: Dragapult|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|split|p1
+|-damage|p1a: Gyarados|0 fnt
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|t:|1792074673
+|split|p1
+|switch|p1a: Scizor|Scizor, F|344/344
+|switch|p1a: Scizor|Scizor, F|344/344
+|turn|5
+|
+|t:|1792074673
+|move|p1a: Scizor|Bullet Punch|p2a: Dragapult
+|debug|Base Power: 40
+|debug|Technician boost
+|split|p2
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1792074673
+|split|p2
+|switch|p2a: Dragonite|Dragonite, F|244/323 brn
+|switch|p2a: Dragonite|Dragonite, F|244/323 brn
+|turn|6
+|
+|t:|1792074674
+|move|p1a: Scizor|Bullet Punch|p2a: Dragonite
+|debug|Base Power: 40
+|debug|Technician boost
+|split|p2
+|-damage|p2a: Dragonite|45/323 brn
+|-damage|p2a: Dragonite|45/323 brn
+|move|p2a: Dragonite|Fire Punch|p1a: Scizor
+|-supereffective|p1a: Scizor
+|split|p1
+|-damage|p1a: Scizor|52/344
+|-damage|p1a: Scizor|52/344
+|
+|split|p2
+|-damage|p2a: Dragonite|25/323 brn|[from] brn
+|-damage|p2a: Dragonite|25/323 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1792074674
+|move|p1a: Scizor|Bullet Punch|p2a: Dragonite
+|debug|Base Power: 40
+|debug|Technician boost
+|split|p2
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1792074674
+|split|p2
+|switch|p2a: Togekiss|Togekiss, M|311/311
+|switch|p2a: Togekiss|Togekiss, M|311/311
+|turn|8
+|
+|t:|1792074674
+|move|p1a: Scizor|Bullet Punch|p2a: Togekiss
+|debug|Base Power: 40
+|debug|Technician boost
+|-supereffective|p2a: Togekiss
+|split|p2
+|-damage|p2a: Togekiss|0 fnt
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|win|baseline

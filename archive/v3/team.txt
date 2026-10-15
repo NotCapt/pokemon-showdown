@@ -1,0 +1,26 @@
+Dragonite @ Choice Band
+Ability: Multiscale
+EVs: 252 Atk / 252 Spe / 4 SpD
+Adamant Nature
+- Extreme Speed
+- Earthquake
+- Ice Spinner
+- Fire Punch
+
+Dragapult @ Choice Specs
+Ability: Infiltrator
+EVs: 252 SpA / 252 Spe / 4 SpD
+Timid Nature
+- Shadow Ball
+- Draco Meteor
+- Flamethrower
+- Thunderbolt
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Body Press
+- Iron Defense
+- Roost
+- Brave Bird

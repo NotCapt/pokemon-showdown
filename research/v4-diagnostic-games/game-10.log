@@ -1,0 +1,116 @@
+|t:|1792074674
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Togekiss, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Arcanine, F|
+|teampreview
+|
+|t:|1792074674
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Garchomp|Garchomp, M|357/357
+|switch|p2a: Garchomp|Garchomp, M|357/357
+|turn|1
+|
+|t:|1792074674
+|move|p2a: Garchomp|Outrage|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|100/323
+|-damage|p1a: Dragonite|100/323
+|move|p1a: Dragonite|Ice Spinner|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|split|p2
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p2a: Garchomp|0 fnt
+|split|p1
+|-damage|p1a: Dragonite|60/323|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Dragonite|60/323|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1792074674
+|split|p2
+|switch|p2a: Hydreigon|Hydreigon, M|325/325
+|switch|p2a: Hydreigon|Hydreigon, M|325/325
+|turn|2
+|
+|t:|1792074674
+|split|p1
+|switch|p1a: Togekiss|Togekiss, M|311/311
+|switch|p1a: Togekiss|Togekiss, M|311/311
+|move|p2a: Hydreigon|Dark Pulse|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|split|p1
+|-damage|p1a: Togekiss|219/311
+|-damage|p1a: Togekiss|219/311
+|
+|upkeep
+|turn|3
+|
+|t:|1792074674
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|split|p2
+|-damage|p2a: Hydreigon|0 fnt
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|t:|1792074674
+|split|p2
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Togekiss|atk|1
+|turn|4
+|
+|t:|1792074674
+|split|p1
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|move|p2a: Arcanine|Wild Charge|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|254/317
+|-damage|p1a: Dragapult|254/317
+|split|p2
+|-damage|p2a: Arcanine|368/384|[from] Recoil
+|-damage|p2a: Arcanine|368/384|[from] Recoil
+|
+|upkeep
+|turn|5
+|
+|t:|1792074674
+|move|p1a: Dragapult|Draco Meteor|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|4/384
+|-damage|p2a: Arcanine|4/384
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Arcanine|Flare Blitz|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|125/317
+|-damage|p1a: Dragapult|125/317
+|split|p2
+|-damage|p2a: Arcanine|0 fnt|[from] Recoil
+|-damage|p2a: Arcanine|0 fnt|[from] Recoil
+|faint|p2a: Arcanine
+|
+|win|agent
