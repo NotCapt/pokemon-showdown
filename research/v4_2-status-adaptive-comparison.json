@@ -1,0 +1,18 @@
+{
+  "candidate": "research/v4_2-status-adaptive-holdout.json",
+  "control": "research/v4_1-adaptive-holdout.json",
+  "candidateSha256": "d19843bb5ec4f4ae60517887bc998eba9021053be1f23de55aa17c42ad3cb033",
+  "controlSha256": "872624e2c86fb677b5aceeed825fca629156582a100116dca967bcccaded1ccf",
+  "games": 192,
+  "opposingTeamClusters": 24,
+  "candidateWins": 151,
+  "controlWins": 151,
+  "gainPP": 0.0,
+  "improvedGames": 0,
+  "regressedGames": 0,
+  "clusterBootstrap95GainPP": [
+    0.0,
+    0.0
+  ],
+  "method": "5000 replicates, seed 9187; resample entire ordered opposing-team/set clusters to retain repeated-team and side-pair dependence. Descriptive, no adjustment for candidate selection."
+}

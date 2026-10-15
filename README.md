@@ -1,5 +1,7 @@
 # REDLINE Search — v4.1
 
+GitHub: [NotCapt/pokemon-showdown](https://github.com/NotCapt/pokemon-showdown).
+
 The recommended release is `dist/REDLINE_Search.zip` (v4.1). Rename the ZIP to
 your registered team name before submission. It contains exactly `agent.py` and
 `team.txt`. The same release is also available as `dist/REDLINE_Search_v4_1.zip`.
@@ -9,6 +11,13 @@ describe this release. Prior versions are preserved in `archive/v1` and
 `archive/v2`, `archive/v3` and `archive/v4`. V3 and v4 remain available as versioned ZIPs.
 
 ## What improved
+
+The latest research pass adds an independent switching opponent, 48 generated
+custom-set teams split between development and holdout suites, checks against
+hidden enemy information leaks, and comparisons that bootstrap entire opposing
+team configurations. New lead-order, reserve-preservation and status-memory
+experiments did not earn promotion across all regression suites. The recommended
+v4.1 ZIP is preserved. See `research/IMPROVEMENT_PASS_2026_10_15.md`.
 
 V4.1 tracks opposing Intimidate entries when the portal omits boosts, avoids
 counting the same entry again, and respects explicit boost observations.
@@ -110,6 +119,22 @@ environment variables. `AGENT_FILE` selects an archived agent, `TEAM_FILE` its
 team, `OPP_TEAM_FILE` a fixed opposing team, and `CUSTOM` a JSON list of opposing
 teams. `OPPONENT` supports `v1`, `v2`, `v3`, `v4`, `tactical`, `search`, `power`, `stab` and
 `random`. `SPARSE=1` removes boosts; `STATELESS=1` discards agent memory.
+
+For reproducible evaluation without inherited environment settings:
+
+```powershell
+npm.cmd test
+python tools/verify_release.py
+python tools/run_eval.py --seed 44017 --games 192 --suite research/eval-holdout-teams.json --report research/my-holdout.json
+python tools/compare_reports.py --candidate research/my-holdout.json --control research/v4_1-adaptive-holdout.json --out research/my-comparison.json
+```
+
+The independent `adaptive` opponent knows its own exact set and state. It uses
+only public enemy species, types and rounded HP, with curated defaults for the
+enemy's hidden set. It can switch, set up and recover, but remains a heuristic
+baseline, not a proven strong tournament opponent. `--policy mixed` runs the
+earlier power/STAB/tactical schedule; `--stateless` disables instance memory.
+GitHub Actions runs release tests, opponent isolation checks and ZIP verification.
 
 `tools/build_agent.py --team research/team-v4-arcanine.json --out research/test-build`
 builds a separate candidate without overwriting the main submission.

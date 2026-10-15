@@ -1,0 +1,18 @@
+{
+  "candidate": "research/v5-pult-lead-custom.json",
+  "control": "research/v5-memory-custom.json",
+  "candidateSha256": "049278abfb590412136fbbab94bc5c98b94c4e57d5d7b425ad6a2dfe4b411b6e",
+  "controlSha256": "872624e2c86fb677b5aceeed825fca629156582a100116dca967bcccaded1ccf",
+  "games": 60,
+  "opposingTeamClusters": 6,
+  "candidateWins": 37,
+  "controlWins": 59,
+  "gainPP": -36.666666666666664,
+  "improvedGames": 1,
+  "regressedGames": 23,
+  "clusterBootstrap95GainPP": [
+    -66.66666666666667,
+    -10.0
+  ],
+  "method": "5000 replicates, seed 9187; resample entire ordered opposing-team/set clusters to retain repeated-team and side-pair dependence. Descriptive, no adjustment for candidate selection."
+}

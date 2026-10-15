@@ -6,6 +6,7 @@ const {spawn}=require('child_process');
 const readline=require('readline');
 const crypto=require('crypto');
 const {Battle,Dex}=require('pokemon-showdown');
+const {adaptive}=require('./opponents');
 const options=JSON.parse(fs.readFileSync('research/options.json'));
 const configs=JSON.parse(fs.readFileSync(process.env.TEAM_FILE||'team.json'));
 const opponentConfigs=process.env.OPP_TEAM_FILE?JSON.parse(fs.readFileSync(process.env.OPP_TEAM_FILE)):null;
@@ -59,7 +60,7 @@ async function run(){
     const p1=reverse?opponent:configs,p2=reverse?configs:opponent;
     const seed=[1,2,Math.floor(g/2)+1,Number(process.env.SEED||8191)%65536];
     const b=new Battle({formatid:'gen9customgame',seed,p1:{name:reverse?'baseline':'agent',team:p1.map(convert)},p2:{name:reverse?'agent':'baseline',team:p2.map(convert)}});
-    let steps=0,errors=0;
+    let steps=0,errors=0,baselineVoluntarySwitches=0;
     while(!b.ended&&b.turn<=100&&steps++<400){
       const requests=b.sides.map(s=>s.requestState?observation(b,s):null);
       const choices=[];
@@ -69,6 +70,8 @@ async function run(){
           const reply=await ask({key:'agent',reset:steps===1,observation:requests[i]});
           if(reply.error)throw Error(reply.error);
           choices.push(reply.action);times.push(reply.ms);
+        }else if(kind==='adaptive'){
+          choices.push(adaptive(b,b.sides[i],requests[i]));
         }else if(['tactical','search','v1','v2','v3','v4'].includes(kind)){
           const reply=await ask({key:kind,policy:kind,reset:steps===1,observation:requests[i]});
           if(reply.error)throw Error(reply.error);choices.push(reply.action);
@@ -77,10 +80,11 @@ async function run(){
       for(let i=0;i<2;i++)if(choices[i]&&!b.choose('p'+(i+1),choices[i])){
         errors++;throw Error('Illegal action '+choices[i]+' '+JSON.stringify(requests[i])+' '+b.log.slice(-5));
       }
+      for(let i=0;i<2;i++)if(b.sides[i].name==='baseline'&&choices[i]?.startsWith('switch')&&!requests[i].force_switch)baselineVoluntarySwitches++;
     }
     if(!b.ended&&steps>=400&&b.turn<=100)throw Error('Battle failed to progress within 400 decisions');
     if(!b.ended){const totals=b.sides.map(s=>s.pokemon.reduce((sum,p)=>sum+p.hp/p.maxhp,0));b.win(totals[0]===totals[1]?null:b.sides[totals[0]>totals[1]?0:1]);}
-    const record={game:g,winner:b.winner,turns:b.turn,opponent:opponent.map(p=>p.name),opponentSets:opponent,baseline:kind,side:reverse?2:1,errors,seed};
+    const record={game:g,winner:b.winner,turns:b.turn,opponent:opponent.map(p=>p.name),opponentSets:opponent,baseline:kind,side:reverse?2:1,errors,seed,baselineVoluntarySwitches};
     results.push(record);
     if(process.env.SAVE_LOGS){
       fs.mkdirSync(process.env.SAVE_LOGS,{recursive:true});
@@ -94,6 +98,8 @@ async function run(){
   const wins=results.filter(r=>r.winner==='agent').length,p=wins/games,z=1.96,den=1+z*z/games;
   const center=(p+z*z/(2*games))/den,half=z*Math.sqrt(p*(1-p)/games+z*z/(4*games*games))/den;
   const report={agentFile,agentSha256,sparseBoosts:process.env.SPARSE==='1',stateless:process.env.STATELESS==='1',
+    opponentPolicySha256:crypto.createHash('sha256').update(fs.readFileSync('tools/opponents.js')).digest('hex'),
+    opponentInformation:'adaptive uses its own exact state plus public enemy species/types/rounded HP; curated defaults for hidden enemy set; no enemy bench',
     simulatorVersion:require('pokemon-showdown/package.json').version,team:configs,games,wins,losses:results.filter(r=>r.winner==='baseline').length,draws:results.filter(r=>!r.winner).length,
     winRate:p,wilson95:[center-half,center+half],latencyMs:{median:times[Math.floor(times.length*.5)],p95:times[Math.floor(times.length*.95)],max:times.at(-1)},results};
   const output=process.env.REPORT||'research/benchmark.json';fs.writeFileSync(output,JSON.stringify(report,null,2));

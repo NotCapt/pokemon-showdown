@@ -8,3 +8,4 @@ __pycache__/
 *.key
 # Reproducible 8 MB fixture corpus; regenerate with tools/damage_oracle.js.
 research/damage-oracle.json
+research/last-loss.log
