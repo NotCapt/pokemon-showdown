@@ -1,0 +1,18 @@
+{
+  "candidate": "research/v6-release-mixed-holdout.json",
+  "control": "research/v5-memory-holdout.json",
+  "candidateSha256": "fa5a610184afc286d600b728c8e167cdb4d05b5a05d06564c9012d66d9ff31ac",
+  "controlSha256": "872624e2c86fb677b5aceeed825fca629156582a100116dca967bcccaded1ccf",
+  "games": 200,
+  "opposingTeamClusters": 100,
+  "candidateWins": 153,
+  "controlWins": 151,
+  "gainPP": 1.0,
+  "improvedGames": 15,
+  "regressedGames": 13,
+  "clusterBootstrap95GainPP": [
+    -6.0,
+    7.5
+  ],
+  "method": "5000 replicates, seed 9187; resample entire ordered opposing-team/set clusters to retain repeated-team and side-pair dependence. Descriptive, no adjustment for candidate selection."
+}

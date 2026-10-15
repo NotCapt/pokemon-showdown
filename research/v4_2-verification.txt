@@ -1,0 +1,51 @@
+{
+  "agentSha256": "65f866cf17ace2330e8856434706839320cf43338d70203348163679ea9f2457",
+  "controlSha256": "872624e2c86fb677b5aceeed825fca629156582a100116dca967bcccaded1ccf",
+  "games": 492,
+  "reports": {
+    "mixed": {
+      "games": 200,
+      "releaseWins": 151,
+      "v4_1Wins": 151,
+      "latencyMs": {
+        "median": 36.427599989110604,
+        "p95": 112.72550000285264,
+        "max": 303.1124999979511
+      },
+      "identicalGameOutcomes": true
+    },
+    "adaptive": {
+      "games": 192,
+      "releaseWins": 151,
+      "v4_1Wins": 151,
+      "latencyMs": {
+        "median": 36.987500003306195,
+        "p95": 101.14939999766648,
+        "max": 156.06619999743998
+      },
+      "identicalGameOutcomes": true
+    },
+    "custom": {
+      "games": 60,
+      "releaseWins": 59,
+      "v4_1Wins": 59,
+      "latencyMs": {
+        "median": 36.18070000084117,
+        "p95": 103.44200000690762,
+        "max": 146.52850000129547
+      },
+      "identicalGameOutcomes": true
+    },
+    "stateless": {
+      "games": 40,
+      "releaseWins": 31,
+      "v4_1Wins": 31,
+      "latencyMs": {
+        "median": 35.1888000004692,
+        "p95": 113.66340001404751,
+        "max": 176.9652000075439
+      },
+      "identicalGameOutcomes": true
+    }
+  }
+}

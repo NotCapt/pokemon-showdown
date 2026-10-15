@@ -16,13 +16,15 @@ v3spec=importlib.util.spec_from_file_location('v3',root/'archive/v3/agent.py')
 v3=importlib.util.module_from_spec(v3spec);v3spec.loader.exec_module(v3)
 v4spec=importlib.util.spec_from_file_location('v4',root/'archive/v4/agent.py')
 v4=importlib.util.module_from_spec(v4spec);v4spec.loader.exec_module(v4)
+v41spec=importlib.util.spec_from_file_location('v4_1',root/'archive/v4_1/agent.py')
+v41=importlib.util.module_from_spec(v41spec);v41spec.loader.exec_module(v41)
 agents={}
 for line in sys.stdin:
     try:
         req=json.loads(line); key=req.get('key','default')
         if req.get('reset') or os.environ.get('STATELESS')=='1': agents.pop(key,None)
         if key not in agents:
-            impl={'v1':old,'v2':v2,'v3':v3,'v4':v4}.get(req.get('policy'),module)
+            impl={'v1':old,'v2':v2,'v3':v3,'v4':v4,'v4_1':v41}.get(req.get('policy'),module)
             agents[key]=impl.PokemonAgent()
         start=time.perf_counter()
         if req.get('policy')=='tactical':

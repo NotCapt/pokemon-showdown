@@ -1,0 +1,18 @@
+{
+  "candidate": "research/v6-revenge-fast-adaptive-dev.json",
+  "control": "research/v4_1-adaptive-dev.json",
+  "candidateSha256": "ff320faa23ae461948213de99a92744b7e7359a4347225c0a675f177bc3e3fd0",
+  "controlSha256": "872624e2c86fb677b5aceeed825fca629156582a100116dca967bcccaded1ccf",
+  "games": 96,
+  "opposingTeamClusters": 24,
+  "candidateWins": 82,
+  "controlWins": 80,
+  "gainPP": 2.0833333333333335,
+  "improvedGames": 5,
+  "regressedGames": 3,
+  "clusterBootstrap95GainPP": [
+    -5.208333333333333,
+    9.375
+  ],
+  "method": "5000 replicates, seed 9187; resample entire ordered opposing-team/set clusters to retain repeated-team and side-pair dependence. Descriptive, no adjustment for candidate selection."
+}

@@ -361,6 +361,7 @@ class PokemonAgent:
         if not actions:
             return 'move '+str(legal[0]['index']) if legal else 'pass'
         scored=[]
+        continuation_turn=turn_no if o.get('force_switch') else turn_no+1
         for command,m,s in actions:
             outcomes=[]
             for enemy in candidates:
@@ -395,6 +396,7 @@ class PokemonAgent:
                         enemy_move['_flinch']=flinched
                     x=build_mon(s,True) if s else clone_mon(a)
                     y=clone_mon(b)
+                    starting_hp=x['hp']
                     initial=value(x,y)
                     if s:
                         x['boosts']={}
@@ -402,10 +404,10 @@ class PokemonAgent:
                         if not o.get('force_switch'): apply_move(y,x,enemy_move,weather,roll); end_turn(x,y,weather)
                     else: turn(x,y,own_move,enemy_move,weather,roll,tie_first=tie_first)
                     first=value(x,y)
-                    if x['hp']>0 and y['hp']>0:
+                    if continuation_turn<=100 and x['hp']>0 and y['hp']>0:
                         turn(x,y,best_attack(x,y,weather),best_attack(y,x,weather),weather,roll)
                     second=value(x,y)
-                    if x['hp']>0 and y['hp']>0:
+                    if continuation_turn<100 and x['hp']>0 and y['hp']>0:
                         turn(x,y,best_attack(x,y,weather),best_attack(y,x,weather),weather,roll)
                     # Evaluate progress plus future matchup, rather than sacrificing
                     # healthy reserves just to increase the active HP display.
@@ -414,7 +416,11 @@ class PokemonAgent:
                         score-=9+(18 if turn_no-self.last_switch_turn<=2 else 0)
                     if m and m.get('id') in ('stealthrock','spikes','toxicspikes'): score+=4 if turn_no<=3 else -15
                     if m and m.get('id') in ('uturn','teleport'): score-=3 if not switches else 0
-                    if turn_no>=98: score=(first-initial)+.05*value(x,y)
+                    if turn_no>=98:
+                        # Unchanged reserves cancel from the summed-HP
+                        # tiebreak. There is no extra reward for a KO or for
+                        # the number left alive when the turn cap is reached.
+                        score=x['hp']-starting_hp-(y['hp']-b['hp'])
                     vals.append(score*probability)
                 outcomes.append(sum(vals)/3)
             expected=sum(v*w for v,w in zip(outcomes,weights))/sum(weights)

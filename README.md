@@ -1,23 +1,36 @@
-# REDLINE Search — v4.1
+# REDLINE Search — v4.2
 
 GitHub: [NotCapt/pokemon-showdown](https://github.com/NotCapt/pokemon-showdown).
 
-The recommended release is `dist/REDLINE_Search.zip` (v4.1). Rename the ZIP to
+The recommended release is `dist/REDLINE_Search.zip` (v4.2). Rename the ZIP to
 your registered team name before submission. It contains exactly `agent.py` and
-`team.txt`. The same release is also available as `dist/REDLINE_Search_v4_1.zip`.
+`team.txt`. The same release is also available as `dist/REDLINE_Search_v4_2.zip`.
 
 `submission/agent.py`, `submission/team.txt`, `agent_core.py` and `team.json` all
 describe this release. Prior versions are preserved in `archive/v1` and
-`archive/v2`, `archive/v3` and `archive/v4`. V3 and v4 remain available as versioned ZIPs.
+`archive/v2`, `archive/v3`, `archive/v4` and `archive/v4_1`. Earlier release ZIPs remain available.
 
 ## What improved
+
+V4.2 corrects the last-turn objective: from turn 98 it scores predicted changes
+in summed HP percentages, without an extra KO/survivor bonus. It clips rollout
+at turn 100 and treats a forced replacement as a free entry before that turn's
+action. Before turn 98, v4.1's policy is preserved.
+
+In a crafted legal Corviknight/Tyranitar endgame, the actual simulator confirms
+that v4.1's knockout loses the HP tiebreak while v4.2's Roost wins it. All 492
+ordinary regression games matched v4.1 exactly. This is a targeted correctness
+improvement, not a measured increase in average tournament wins. See
+`research/V4_2_REPORT.md`.
 
 The latest research pass adds an independent switching opponent, 48 generated
 custom-set teams split between development and holdout suites, checks against
 hidden enemy information leaks, and comparisons that bootstrap entire opposing
 team configurations. New lead-order, reserve-preservation and status-memory
 experiments did not earn promotion across all regression suites. The recommended
-v4.1 ZIP is preserved. See `research/IMPROVEMENT_PASS_2026_10_15.md`.
+v4.1 ZIP is preserved. See `research/IMPROVEMENT_PASS_2026_10_15.md` for that
+earlier pass. Newer team-continuation and Choice Scarf experiments were also
+tested and preserved in research; neither is included in v4.2.
 
 V4.1 tracks opposing Intimidate entries when the portal omits boosts, avoids
 counting the same entry again, and respects explicit boost observations.
@@ -52,32 +65,32 @@ After changing `team.json`, rebuild the agent so its own-team knowledge matches.
 
 ## Results
 
-| Matched test | V4.1 wins | V4 wins |
+| Matched v4.2 regression | V4.2 wins | V4.1 wins |
 | --- | ---: | ---: |
-| Mixed simple policies, development seed | 125/160 | 123/160 |
-| Mixed simple policies, fresh holdout seed | 151/200 | 145/200 |
+| Mixed simple policies, holdout seed | 151/200 | 151/200 |
+| Independent switching policy, 24 holdout custom teams | 151/192 | 151/192 |
 | Six customized teams, tactical policy | 59/60 | 59/60 |
 | Fresh agent each decision, missing boosts | 31/40 | 31/40 |
 
-All 460 v4.1 games completed with legal actions. Twenty-three release tests passed.
-Local median decision time was approximately 8–18 ms; p95 was 34–57 ms across
-these runs. The latest actual portal smoke test won in six turns. Local timing
-depends on hardware and concurrent load.
+All 492 v4.2 regression games completed with legal actions and identical outcomes
+to v4.1. Twenty-seven Python tests and one JavaScript opponent isolation test
+passed. The latest portal smoke test won in six turns. Local timing depends on
+hardware and concurrent load; these runs had medians of 35–37 ms.
 
-The holdout gain is modest: +3 percentage points, with a paired bootstrap 95%
+The earlier v4.1 holdout gain over v4 was modest: +3 percentage points, with a paired bootstrap 95%
 interval of 0 to +7 points. Development includes one regressed game. These
 simple opponents do not establish performance against strong independent bots.
 
 V3 scored 56/60 on the same custom suite but 38/40 on the same stateless schedule.
-V4 is preferred for the tested portal, which preserved agent instances. If the
+V4.2 is preferred for the tested portal, which preserved agent instances. If the
 organizers change execution to create a fresh instance every turn, v3 is the
-better tested fallback. V4 is not uniformly better across all conditions.
+better tested fallback. V4.2 is not uniformly better across all conditions.
 
 This is evidence of improvement over our saved submissions, not a tournament
 win probability. The saved agents share our modeling assumptions, and the
 tactical policy is simpler than a strong independent competitor. See
-`research/V4_1_REPORT.md` for current evidence and `research/V4_REPORT.md` for
-historical v4 benchmarks against the saved agents.
+`research/V4_2_REPORT.md` for current evidence. Earlier reports retain their
+historical comparisons against the saved agents.
 
 ## Interface and strategy
 
@@ -109,7 +122,7 @@ python tools/build_agent.py
 python -m unittest discover -s tests -v
 $env:SEED='61979'
 $env:SPARSE='1'
-$env:REPORT='research/reproduction-v4_1-mixed.json'
+$env:REPORT='research/reproduction-v4_2-mixed.json'
 node tools/benchmark.js 200
 python tools/package_submission.py
 ```
@@ -117,7 +130,7 @@ python tools/package_submission.py
 Use a fresh terminal for each benchmark configuration, or clear previous test
 environment variables. `AGENT_FILE` selects an archived agent, `TEAM_FILE` its
 team, `OPP_TEAM_FILE` a fixed opposing team, and `CUSTOM` a JSON list of opposing
-teams. `OPPONENT` supports `v1`, `v2`, `v3`, `v4`, `tactical`, `search`, `power`, `stab` and
+teams. `OPPONENT` supports `v1`, `v2`, `v3`, `v4`, `v4_1`, `tactical`, `search`, `power`, `stab` and
 `random`. `SPARSE=1` removes boosts; `STATELESS=1` discards agent memory.
 
 For reproducible evaluation without inherited environment settings:
@@ -125,6 +138,7 @@ For reproducible evaluation without inherited environment settings:
 ```powershell
 npm.cmd test
 python tools/verify_release.py
+node tools/check_cap_scenario.js
 python tools/run_eval.py --seed 44017 --games 192 --suite research/eval-holdout-teams.json --report research/my-holdout.json
 python tools/compare_reports.py --candidate research/my-holdout.json --control research/v4_1-adaptive-holdout.json --out research/my-comparison.json
 ```
@@ -172,4 +186,4 @@ Public starter files and options are saved under `research/`.
 
 Battle mechanics data derive from Pokémon Showdown 0.11.11. Its MIT license is
 embedded in the agent and saved in `research/SHOWDOWN_LICENSE.txt`. Experimental
-`enemy_sets` data in the generated file are not used as live inference by v4.1.
+`enemy_sets` data in the generated file are not used as live inference by v4.2.

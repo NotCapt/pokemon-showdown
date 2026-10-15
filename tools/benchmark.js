@@ -72,7 +72,7 @@ async function run(){
           choices.push(reply.action);times.push(reply.ms);
         }else if(kind==='adaptive'){
           choices.push(adaptive(b,b.sides[i],requests[i]));
-        }else if(['tactical','search','v1','v2','v3','v4'].includes(kind)){
+        }else if(['tactical','search','v1','v2','v3','v4','v4_1'].includes(kind)){
           const reply=await ask({key:kind,policy:kind,reset:steps===1,observation:requests[i]});
           if(reply.error)throw Error(reply.error);choices.push(reply.action);
         }else choices.push(baseline(requests[i],kind));
@@ -99,6 +99,7 @@ async function run(){
   const center=(p+z*z/(2*games))/den,half=z*Math.sqrt(p*(1-p)/games+z*z/(4*games*games))/den;
   const report={agentFile,agentSha256,sparseBoosts:process.env.SPARSE==='1',stateless:process.env.STATELESS==='1',
     opponentPolicySha256:crypto.createHash('sha256').update(fs.readFileSync('tools/opponents.js')).digest('hex'),
+    archivedOpponentSha256:process.env.OPPONENT==='v4_1'?crypto.createHash('sha256').update(fs.readFileSync('archive/v4_1/agent.py')).digest('hex'):null,
     opponentInformation:'adaptive uses its own exact state plus public enemy species/types/rounded HP; curated defaults for hidden enemy set; no enemy bench',
     simulatorVersion:require('pokemon-showdown/package.json').version,team:configs,games,wins,losses:results.filter(r=>r.winner==='baseline').length,draws:results.filter(r=>!r.winner).length,
     winRate:p,wilson95:[center-half,center+half],latencyMs:{median:times[Math.floor(times.length*.5)],p95:times[Math.floor(times.length*.95)],max:times.at(-1)},results};

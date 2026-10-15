@@ -1,0 +1,18 @@
+{
+  "candidate": "research/v6-revenge-fast-mixed-dev.json",
+  "control": "research/v5-memory-mixed.json",
+  "candidateSha256": "ff320faa23ae461948213de99a92744b7e7359a4347225c0a675f177bc3e3fd0",
+  "controlSha256": "872624e2c86fb677b5aceeed825fca629156582a100116dca967bcccaded1ccf",
+  "games": 160,
+  "opposingTeamClusters": 80,
+  "candidateWins": 129,
+  "controlWins": 125,
+  "gainPP": 2.5,
+  "improvedGames": 7,
+  "regressedGames": 3,
+  "clusterBootstrap95GainPP": [
+    -1.875,
+    6.875
+  ],
+  "method": "5000 replicates, seed 9187; resample entire ordered opposing-team/set clusters to retain repeated-team and side-pair dependence. Descriptive, no adjustment for candidate selection."
+}

@@ -1,0 +1,45 @@
+{
+  "agentSha256": "65f866cf17ace2330e8856434706839320cf43338d70203348163679ea9f2457",
+  "team": [
+    {
+      "name": "Dragonite",
+      "ability": "Multiscale",
+      "item": "Choice Band",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Extreme Speed",
+        "Earthquake",
+        "Ice Spinner",
+        "Fire Punch"
+      ]
+    },
+    {
+      "name": "Dragapult",
+      "ability": "Infiltrator",
+      "item": "Choice Specs",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Shadow Ball",
+        "Draco Meteor",
+        "Flamethrower",
+        "Thunderbolt"
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "item": "Assault Vest",
+      "ability": "Intimidate",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Flare Blitz",
+        "Extreme Speed",
+        "Crunch",
+        "Play Rough"
+      ]
+    }
+  ],
+  "battleId": "sim-1792080357662"
+}

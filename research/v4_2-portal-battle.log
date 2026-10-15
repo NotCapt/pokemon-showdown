@@ -1,0 +1,99 @@
+|t:|1792080358
+|gametype|singles
+|player|p1|REDLINE Search||
+|player|p2|Sample Baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Arcanine, M|
+|poke|p2|Garchomp, F|
+|poke|p2|Metagross|
+|poke|p2|Volcarona, M|
+|teampreview
+|
+|t:|1792080358
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p2a: Garchomp|Garchomp, F|357/357
+|turn|1
+|
+|t:|1792080358
+|move|p2a: Garchomp|Outrage|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|-damage|p1a: Dragonite|37/323
+|-damage|p2a: Garchomp|322/357|[from] item: Life Orb
+|move|p1a: Dragonite|Ice Spinner|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Dragonite|0 fnt|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1792080358
+|switch|p2a: Metagross|Metagross|301/301
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|turn|2
+|
+|t:|1792080358
+|move|p1a: Dragapult|Shadow Ball|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|19/301
+|move|p2a: Metagross|Meteor Mash|p1a: Dragapult
+|-damage|p1a: Dragapult|98/317
+|-boost|p2a: Metagross|atk|1
+|
+|upkeep
+|turn|3
+|
+|t:|1792080358
+|move|p1a: Dragapult|Shadow Ball|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|upkeep
+|
+|t:|1792080358
+|switch|p2a: Volcarona|Volcarona, M|311/311
+|turn|4
+|
+|t:|1792080358
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|move|p2a: Volcarona|Bug Buzz|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|318/384
+|
+|upkeep
+|turn|5
+|
+|t:|1792080359
+|move|p2a: Volcarona|Bug Buzz|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|250/384
+|-unboost|p1a: Arcanine|spd|1
+|move|p1a: Arcanine|Flare Blitz|p2a: Volcarona
+|-damage|p2a: Volcarona|23/311
+|-damage|p1a: Arcanine|155/384|[from] Recoil
+|
+|upkeep
+|turn|6
+|
+|t:|1792080359
+|move|p2a: Volcarona|Bug Buzz|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|59/384
+|move|p1a: Arcanine|Flare Blitz|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|-damage|p1a: Arcanine|51/384|[from] Recoil
+|
+|win|REDLINE Search
