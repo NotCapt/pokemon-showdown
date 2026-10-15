@@ -1,0 +1,157 @@
+|t:|1792093257
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Togekiss, M|
+|poke|p1|Arcanine, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Arcanine, F|
+|teampreview
+|
+|t:|1792093257
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Togekiss|Togekiss, M|374/374
+|switch|p1a: Togekiss|Togekiss, M|374/374
+|split|p2
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|turn|1
+|
+|t:|1792093257
+|move|p2a: Dragonite|Ice Spinner|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|split|p1
+|-damage|p1a: Togekiss|12/374
+|-damage|p1a: Togekiss|12/374
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|136/323
+|-damage|p2a: Dragonite|136/323
+|
+|upkeep
+|turn|2
+|
+|t:|1792093257
+|split|p2
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|split|p1
+|switch|p1a: Corviknight|Corviknight, M|337/337
+|switch|p1a: Corviknight|Corviknight, M|337/337
+|-ability|p1a: Corviknight|Pressure
+|
+|upkeep
+|turn|3
+|
+|t:|1792093257
+|move|p2a: Dragapult|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|split|p1
+|-damage|p1a: Corviknight|45/337
+|-damage|p1a: Corviknight|45/337
+|move|p1a: Corviknight|Brave Bird|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|split|p1
+|-damage|p1a: Corviknight|0 fnt|[from] Recoil
+|-damage|p1a: Corviknight|0 fnt|[from] Recoil
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1792093257
+|split|p2
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|split|p1
+|switch|p1a: Togekiss|Togekiss, M|12/374
+|switch|p1a: Togekiss|Togekiss, M|12/374
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Togekiss|atk|1
+|turn|4
+|
+|t:|1792093257
+|split|p1
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Arcanine|atk|1
+|move|p2a: Arcanine|Extreme Speed|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|316/384
+|-damage|p1a: Arcanine|316/384
+|
+|upkeep
+|turn|5
+|
+|t:|1792093257
+|move|p1a: Arcanine|Close Combat|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|176/384
+|-damage|p2a: Arcanine|176/384
+|-unboost|p1a: Arcanine|def|1
+|-unboost|p1a: Arcanine|spd|1
+|split|p1
+|-damage|p1a: Arcanine|278/384|[from] item: Life Orb
+|-damage|p1a: Arcanine|278/384|[from] item: Life Orb
+|move|p2a: Arcanine|Crunch|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|163/384
+|-damage|p1a: Arcanine|163/384
+|
+|upkeep
+|turn|6
+|
+|t:|1792093257
+|split|p2
+|switch|p2a: Dragonite|Dragonite, F|136/323
+|switch|p2a: Dragonite|Dragonite, F|136/323
+|move|p1a: Arcanine|Close Combat|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|split|p2
+|-damage|p2a: Dragonite|37/323
+|-damage|p2a: Dragonite|37/323
+|-unboost|p1a: Arcanine|def|1
+|-unboost|p1a: Arcanine|spd|1
+|split|p1
+|-damage|p1a: Arcanine|125/384|[from] item: Life Orb
+|-damage|p1a: Arcanine|125/384|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1792093257
+|move|p2a: Dragonite|Extreme Speed|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|t:|1792093257
+|split|p1
+|switch|p1a: Togekiss|Togekiss, M|12/374
+|switch|p1a: Togekiss|Togekiss, M|12/374
+|turn|8
+|
+|t:|1792093257
+|move|p2a: Dragonite|Extreme Speed|p1a: Togekiss
+|split|p1
+|-damage|p1a: Togekiss|0 fnt
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|win|agent

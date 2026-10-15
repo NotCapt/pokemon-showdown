@@ -1,0 +1,115 @@
+|t:|1792092894
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Arcanine, M|
+|poke|p2|Togekiss, F|
+|poke|p2|Lapras, M|
+|poke|p2|Scizor, M|
+|teampreview
+|
+|t:|1792092894
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Togekiss|Togekiss, F|311/311
+|switch|p2a: Togekiss|Togekiss, F|311/311
+|turn|1
+|
+|t:|1792092894
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|127/323
+|-damage|p1a: Dragonite|127/323
+|move|p1a: Dragonite|Ice Spinner|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|split|p2
+|-damage|p2a: Togekiss|0 fnt
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|t:|1792092894
+|split|p2
+|switch|p2a: Lapras|Lapras, M|401/401
+|switch|p2a: Lapras|Lapras, M|401/401
+|turn|2
+|
+|t:|1792092895
+|split|p1
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Lapras|atk|1
+|move|p2a: Lapras|Ice Shard|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|354/384
+|-damage|p1a: Arcanine|354/384
+|split|p2
+|-damage|p2a: Lapras|361/401|[from] item: Life Orb
+|-damage|p2a: Lapras|361/401|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1792092895
+|move|p1a: Arcanine|Flare Blitz|p2a: Lapras
+|split|p2
+|-damage|p2a: Lapras|88/401
+|-damage|p2a: Lapras|88/401
+|split|p1
+|-damage|p1a: Arcanine|264/384|[from] Recoil
+|-damage|p1a: Arcanine|264/384|[from] Recoil
+|move|p2a: Lapras|Hydro Pump|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|46/384
+|-damage|p1a: Arcanine|46/384
+|split|p2
+|-damage|p2a: Lapras|48/401|[from] item: Life Orb
+|-damage|p2a: Lapras|48/401|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1792092895
+|move|p1a: Arcanine|Extreme Speed|p2a: Lapras
+|split|p2
+|-damage|p2a: Lapras|0 fnt
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|upkeep
+|
+|t:|1792092895
+|split|p2
+|switch|p2a: Scizor|Scizor, M|344/344
+|switch|p2a: Scizor|Scizor, M|344/344
+|turn|5
+|
+|t:|1792092895
+|move|p1a: Arcanine|Flare Blitz|p2a: Scizor
+|-supereffective|p2a: Scizor
+|split|p2
+|-damage|p2a: Scizor|0 fnt
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|split|p1
+|-damage|p1a: Arcanine|0 fnt|[from] Recoil
+|-damage|p1a: Arcanine|0 fnt|[from] Recoil
+|faint|p1a: Arcanine
+|
+|win|agent

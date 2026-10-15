@@ -1,0 +1,118 @@
+|t:|1792092876
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Snorlax, M|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|t:|1792092876
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Ferrothorn|Ferrothorn, F|289/289
+|switch|p2a: Ferrothorn|Ferrothorn, F|289/289
+|turn|1
+|
+|t:|1792092877
+|split|p2
+|switch|p2a: Snorlax|Snorlax, M|461/461
+|switch|p2a: Snorlax|Snorlax, M|461/461
+|move|p1a: Dragonite|Fire Punch|p2a: Snorlax
+|split|p2
+|-damage|p2a: Snorlax|242/461
+|-damage|p2a: Snorlax|242/461
+|
+|upkeep
+|turn|2
+|
+|t:|1792092877
+|split|p2
+|switch|p2a: Corviknight|Corviknight, M|400/400
+|switch|p2a: Corviknight|Corviknight, M|400/400
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dragonite|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|split|p2
+|-damage|p2a: Corviknight|96/400
+|-damage|p2a: Corviknight|96/400
+|
+|upkeep
+|turn|3
+|
+|t:|1792092877
+|move|p1a: Dragonite|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|split|p2
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1792092877
+|split|p2
+|switch|p2a: Ferrothorn|Ferrothorn, F|289/289
+|switch|p2a: Ferrothorn|Ferrothorn, F|289/289
+|turn|4
+|
+|t:|1792092877
+|move|p1a: Dragonite|Fire Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|split|p2
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p2a: Ferrothorn|0 fnt
+|split|p1
+|-damage|p1a: Dragonite|283/323|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Dragonite|283/323|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|t:|1792092877
+|split|p2
+|switch|p2a: Snorlax|Snorlax, M|242/461
+|switch|p2a: Snorlax|Snorlax, M|242/461
+|turn|5
+|
+|t:|1792092877
+|move|p1a: Dragonite|Fire Punch|p2a: Snorlax
+|split|p2
+|-damage|p2a: Snorlax|11/461
+|-damage|p2a: Snorlax|11/461
+|move|p2a: Snorlax|Ice Punch|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1792092877
+|split|p1
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Snorlax|atk|1
+|turn|6
+|
+|t:|1792092877
+|move|p1a: Arcanine|Extreme Speed|p2a: Snorlax
+|split|p2
+|-damage|p2a: Snorlax|0 fnt
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|win|agent

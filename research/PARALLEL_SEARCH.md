@@ -6,6 +6,11 @@ processes, a six-hour time limit and a 30,000-game budget. The final comparison
 has a 10,000-game budget and is saved without execution. No notebook submits a
 competition entry or overwrites the recommended agent.
 
+The recommended release is now v4.4, while this campaign remains frozen at
+`archive/v4_3_2`. Notebook generation deliberately uses that archived core and
+team. Recompile any campaign winner with the latest recommended agent and run a
+new paired comparison before promoting it.
+
 ## Workflow
 
 1. Screens 1, 2 and 3 run independently. Their default species-trio partitions

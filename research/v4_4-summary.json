@@ -1,0 +1,55 @@
+{
+  "agentSha256": "480295eec4620074c6665f4aab1ea8ea9773ee42a01f6797d930c5a017fed923",
+  "controlSha256": "e26bad6fa8cf2d27d3e7f21a297d6465323994bf6056fc52f249c56ebe6e0975",
+  "experimentSourceReportsVerified": 19,
+  "selectedArtifactGames": 432,
+  "selected": {
+    "confirm": {
+      "games": 192,
+      "wins": 146,
+      "controlWins": 146,
+      "changedOutcomes": 0,
+      "latencyMs": {
+        "median": 16.5143000003809,
+        "p95": 49.07490000005055,
+        "max": 134.2701000003217
+      }
+    },
+    "confirm-mixed": {
+      "games": 200,
+      "wins": 150,
+      "controlWins": 150,
+      "changedOutcomes": 0,
+      "latencyMs": {
+        "median": 16.56230000025971,
+        "p95": 48.72309999973368,
+        "max": 90.76379999987694
+      }
+    },
+    "stateless": {
+      "games": 40,
+      "wins": 30,
+      "controlWins": 30,
+      "changedOutcomes": 0,
+      "latencyMs": {
+        "median": 17.79850000002625,
+        "p95": 47.68979999971634,
+        "max": 61.9077000001198
+      }
+    }
+  },
+  "hazardScenario": {
+    "controlOwnHP": 4.953560371517028,
+    "candidateOwnHP": 53.6796955624355,
+    "hpPreserved": 48.72613519091847,
+    "controlWinner": "enemy",
+    "candidateWinner": "enemy",
+    "caveat": "Controlled losing position: better HP margin, not a loss-to-win conversion."
+  },
+  "portal": {
+    "battleId": "sim-1792095027235",
+    "turns": 6,
+    "winner": "REDLINE Search"
+  },
+  "caveat": "Scoped hazard-model improvement; matched broad outcomes do not establish an overall win-rate gain. Kaggle search stays pinned to v4.3.2."
+}

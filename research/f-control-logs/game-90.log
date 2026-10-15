@@ -1,0 +1,165 @@
+|t:|1792092898
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Tyranitar, F|
+|teampreview
+|
+|t:|1792092898
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|split|p2
+|switch|p2a: Excadrill|Excadrill, F|361/361
+|switch|p2a: Excadrill|Excadrill, F|361/361
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|t:|1792092898
+|split|p2
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|move|p1a: Dragonite|Earthquake|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|79/317
+|-damage|p2a: Dragapult|79/317
+|
+|split|p2
+|-heal|p2a: Dragapult|98/317|[from] item: Leftovers
+|-heal|p2a: Dragapult|98/317|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1792092898
+|move|p2a: Dragapult|Dragon Darts|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|221/323
+|-damage|p1a: Dragonite|221/323
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|33/323
+|-damage|p1a: Dragonite|33/323
+|move|p1a: Dragonite|Earthquake|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1792092898
+|split|p2
+|switch|p2a: Excadrill|Excadrill, F|361/361
+|switch|p2a: Excadrill|Excadrill, F|361/361
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|3
+|
+|t:|1792092898
+|move|p2a: Excadrill|Iron Head|p1a: Dragonite
+|debug|ModifyDamage handler suppressed by Mold Breaker
+|split|p1
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|split|p2
+|-damage|p2a: Excadrill|325/361|[from] item: Life Orb
+|-damage|p2a: Excadrill|325/361|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1792092898
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|turn|4
+|
+|t:|1792092899
+|move|p1a: Dragapult|Flamethrower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|split|p2
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p2a: Excadrill|0 fnt
+|debug|move failed because it did nothing
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1792092899
+|split|p2
+|switch|p2a: Tyranitar|Tyranitar, F|341/341
+|switch|p2a: Tyranitar|Tyranitar, F|341/341
+|-ability|p2a: Tyranitar|Unnerve
+|turn|5
+|
+|t:|1792092899
+|split|p1
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Crunch|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|276/384
+|-damage|p1a: Arcanine|276/384
+|-unboost|p1a: Arcanine|def|1
+|
+|upkeep
+|turn|6
+|
+|t:|1792092899
+|move|p2a: Tyranitar|Stone Edge|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|t:|1792092899
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|turn|7
+|
+|t:|1792092899
+|move|p1a: Dragapult|Draco Meteor|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Focus Sash
+|split|p2
+|-damage|p2a: Tyranitar|1/341
+|-damage|p2a: Tyranitar|1/341
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Tyranitar|Crunch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|63/317
+|-damage|p1a: Dragapult|63/317
+|-unboost|p1a: Dragapult|def|1
+|
+|upkeep
+|turn|8
+|
+|t:|1792092899
+|move|p1a: Dragapult|Draco Meteor|p2a: Tyranitar
+|split|p2
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Tyranitar
+|
+|win|agent

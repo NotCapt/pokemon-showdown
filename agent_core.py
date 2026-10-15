@@ -257,6 +257,17 @@ def value(a,b):
     return v
 
 
+def entry_damage(mon,state):
+    """Exact floor damage for one plausible (Stealth Rock, Spikes) state."""
+    if mon['item']=='heavydutyboots' or mon['ability']=='magicguard': return 0.
+    rock,layers=state
+    hp=max(1,mon['stats']['hp'])
+    loss=max(1,math.floor(hp*effectiveness('Rock',mon['types'])/8)) if rock else 0
+    if layers and 'Flying' not in mon['types'] and mon['ability']!='levitate':
+        loss+=max(1,math.floor(hp/(8 if layers==1 else 6 if layers==2 else 4)))
+    return 100*loss/hp
+
+
 class PokemonAgent:
     def __init__(self):
         self.last_switch_turn=-100
@@ -268,6 +279,34 @@ class PokemonAgent:
         self.last_foe_key=None
         self.foe_boost_est={}
         self.entry_boosts={}
+        self.hazard_states=None
+        self.forced_entry=None
+
+    def observe_entry(self,mon,turn_no):
+        pending=self.forced_entry
+        self.forced_entry=None
+        if not pending or mon['key']!=pending[0] or turn_no not in (pending[2],pending[2]+1): return
+        lost=max(0,pending[1]-mon['hp'])
+        tolerance=105/max(1,mon['stats']['hp'])
+        possible=[]
+        for rock in (False,True):
+            for layers in range(4):
+                state=(rock,layers);damage=entry_damage(mon,state)
+                if (damage>=lost-tolerance if mon['hp']<=0 else abs(damage-lost)<=tolerance):
+                    possible.append(state)
+        if not possible:
+            self.hazard_states=None
+            return
+        prior=set(self.hazard_states or [])
+        narrowed=[state for state in possible if state in prior]
+        # A changed field can invalidate earlier observations. Restart from the
+        # newly compatible states rather than retaining a contradicted estimate.
+        self.hazard_states=narrowed or possible
+
+    def entry_loss(self,mon):
+        # Infer only damage shared by every compatible field state. A Flying
+        # entry cannot establish that Spikes exist beneath it.
+        return min((entry_damage(mon,state) for state in self.hazard_states),default=0.) if self.hazard_states else 0.
 
     def decide(self, observation):
         o=observation or {}
@@ -282,6 +321,8 @@ class PokemonAgent:
         if not legal and not switches: return 'pass'
         a=build_mon(o.get('my_active') or {},True)
         b=build_mon(o.get('foe') or {})
+        if 'hp_percent' in (o.get('my_active') or {}): self.observe_entry(a,turn_no)
+        else: self.forced_entry=None
         if a['key']!=self.active_key:
             self.active_key=a['key']; self.estimated_boosts=dict(self.entry_boosts); self.entry_boosts={}; self.setup_attempts={}; self.pending=None
         reported=(o.get('my_active') or {}).get('boosts')
@@ -381,8 +422,12 @@ class PokemonAgent:
                     if s:
                         x['boosts']={}
                         x['using_status']=True  # Switching is not an attacking move.
-                        enter_intimidate(x,y)
-                        if not o.get('force_switch'): apply_move(y,x,enemy_move,weather,roll); end_turn(x,y,weather)
+                        x['hp']=max(0,x['hp']-self.entry_loss(x))
+                        if x['hp']>0:
+                            enter_intimidate(x,y)
+                        if not o.get('force_switch'):
+                            if x['hp']>0: apply_move(y,x,enemy_move,weather,roll)
+                            end_turn(x,y,weather)
                     else: turn(x,y,own_move,enemy_move,weather,roll,tie_first=tie_first)
                     first=value(x,y)
                     switch_faint=bool(s) and not o.get('force_switch') and x['hp']<=0
@@ -417,8 +462,12 @@ class PokemonAgent:
             self.active_key=None; self.pending=None
             target=next(s for cmd,m,s in actions if cmd==command)
             entering=build_mon(target,True)
+            # A pivot can leave attacks queued for the entering Pokemon; only
+            # a faint replacement gives a clean before/after entry observation.
+            if o.get('force_switch') and a['hp']<=0 and target.get('hp_percent') is not None: self.forced_entry=(entering['key'],entering['hp'],turn_no)
+            entering['hp']=max(0,entering['hp']-self.entry_loss(entering))
             defender=clone_mon(b)
-            enter_intimidate(entering,defender)
+            if entering['hp']>0: enter_intimidate(entering,defender)
             self.entry_boosts=dict(entering['boosts'])
             self.foe_boost_est=dict(defender['boosts'])
         else:

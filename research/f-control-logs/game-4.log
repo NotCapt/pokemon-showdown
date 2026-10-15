@@ -1,0 +1,165 @@
+|t:|1792092877
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Arcanine, M|
+|poke|p2|Arcanine, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Venusaur, M|
+|teampreview
+|
+|t:|1792092877
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Arcanine|Arcanine, F|321/321
+|switch|p2a: Arcanine|Arcanine, F|321/321
+|turn|1
+|
+|t:|1792092877
+|split|p2
+|switch|p2a: Tyranitar|Tyranitar, F|404/404
+|switch|p2a: Tyranitar|Tyranitar, F|404/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragonite|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|split|p2
+|-damage|p2a: Tyranitar|28/404
+|-damage|p2a: Tyranitar|28/404
+|
+|-weather|Sandstorm|[upkeep]
+|split|p1
+|-damage|p1a: Dragonite|303/323|[from] Sandstorm
+|-damage|p1a: Dragonite|303/323|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|2
+|
+|t:|1792092877
+|move|p1a: Dragonite|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|split|p2
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|split|p1
+|-damage|p1a: Dragonite|283/323|[from] Sandstorm
+|-damage|p1a: Dragonite|283/323|[from] Sandstorm
+|upkeep
+|
+|t:|1792092877
+|split|p2
+|switch|p2a: Venusaur|Venusaur, M|364/364
+|switch|p2a: Venusaur|Venusaur, M|364/364
+|turn|3
+|
+|t:|1792092877
+|split|p1
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Venusaur|atk|1
+|move|p2a: Venusaur|Sludge Bomb|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|231/384
+|-damage|p1a: Arcanine|231/384
+|split|p2
+|-damage|p2a: Venusaur|328/364|[from] item: Life Orb
+|-damage|p2a: Venusaur|328/364|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|split|p1
+|-damage|p1a: Arcanine|207/384|[from] Sandstorm
+|-damage|p1a: Arcanine|207/384|[from] Sandstorm
+|split|p2
+|-damage|p2a: Venusaur|306/364|[from] Sandstorm
+|-damage|p2a: Venusaur|306/364|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1792092877
+|split|p2
+|switch|p2a: Arcanine|Arcanine, F|321/321
+|switch|p2a: Arcanine|Arcanine, F|321/321
+|move|p1a: Arcanine|Flare Blitz|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|186/321
+|-damage|p2a: Arcanine|186/321
+|split|p1
+|-damage|p1a: Arcanine|162/384|[from] Recoil
+|-damage|p1a: Arcanine|162/384|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|split|p2
+|-damage|p2a: Arcanine|166/321|[from] Sandstorm
+|-damage|p2a: Arcanine|166/321|[from] Sandstorm
+|split|p1
+|-damage|p1a: Arcanine|138/384|[from] Sandstorm
+|-damage|p1a: Arcanine|138/384|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1792092877
+|split|p1
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|move|p2a: Arcanine|Close Combat|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1792092877
+|move|p1a: Dragapult|Shadow Ball|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|0 fnt
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1792092877
+|split|p2
+|switch|p2a: Venusaur|Venusaur, M|306/364
+|switch|p2a: Venusaur|Venusaur, M|306/364
+|turn|7
+|
+|t:|1792092877
+|move|p1a: Dragapult|Shadow Ball|p2a: Venusaur
+|split|p2
+|-damage|p2a: Venusaur|116/364
+|-damage|p2a: Venusaur|116/364
+|move|p2a: Venusaur|Earth Power|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|166/317
+|-damage|p1a: Dragapult|166/317
+|-unboost|p1a: Dragapult|spd|1
+|split|p2
+|-damage|p2a: Venusaur|80/364|[from] item: Life Orb
+|-damage|p2a: Venusaur|80/364|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|t:|1792092877
+|move|p1a: Dragapult|Shadow Ball|p2a: Venusaur
+|split|p2
+|-damage|p2a: Venusaur|0 fnt
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|win|agent

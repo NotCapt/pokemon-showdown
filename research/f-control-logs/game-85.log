@@ -1,0 +1,138 @@
+|t:|1792092897
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Arcanine, F|
+|poke|p1|Alakazam, F|
+|poke|p1|Salamence, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Arcanine, M|
+|teampreview
+|
+|t:|1792092897
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Arcanine|Arcanine, F|321/321
+|switch|p1a: Arcanine|Arcanine, F|321/321
+|split|p2
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|turn|1
+|
+|t:|1792092897
+|split|p1
+|switch|p1a: Salamence|Salamence, M|331/331
+|switch|p1a: Salamence|Salamence, M|331/331
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|move|p2a: Dragonite|Earthquake|p1a: Salamence
+|-immune|p1a: Salamence
+|
+|upkeep
+|turn|2
+|
+|t:|1792092897
+|split|p2
+|switch|p2a: Arcanine|Arcanine, M|384/384
+|switch|p2a: Arcanine|Arcanine, M|384/384
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Outrage|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|123/384
+|-damage|p2a: Arcanine|123/384
+|split|p1
+|-damage|p1a: Salamence|298/331|[from] item: Life Orb
+|-damage|p1a: Salamence|298/331|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1792092897
+|move|p1a: Salamence|Outrage|p2a: Arcanine|[from] lockedmove
+|split|p2
+|-damage|p2a: Arcanine|0 fnt
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|split|p1
+|-damage|p1a: Salamence|265/331|[from] item: Life Orb
+|-damage|p1a: Salamence|265/331|[from] item: Life Orb
+|-start|p1a: Salamence|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1792092897
+|split|p2
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|turn|4
+|
+|t:|1792092897
+|split|p1
+|switch|p1a: Arcanine|Arcanine, F|321/321
+|switch|p1a: Arcanine|Arcanine, F|321/321
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Dragapult|atk|1
+|move|p2a: Dragapult|Draco Meteor|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p1a: Arcanine|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|t:|1792092897
+|split|p1
+|switch|p1a: Salamence|Salamence, M|265/331
+|switch|p1a: Salamence|Salamence, M|265/331
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Dragapult|atk|1
+|turn|5
+|
+|t:|1792092897
+|move|p2a: Dragapult|Draco Meteor|p1a: Salamence
+|-supereffective|p1a: Salamence
+|split|p1
+|-damage|p1a: Salamence|0 fnt
+|-damage|p1a: Salamence|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1792092897
+|split|p1
+|switch|p1a: Alakazam|Alakazam, F|251/251
+|switch|p1a: Alakazam|Alakazam, F|251/251
+|turn|6
+|
+|t:|1792092897
+|split|p2
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|move|p1a: Alakazam|Psychic|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|245/323
+|-damage|p2a: Dragonite|245/323
+|
+|upkeep
+|turn|7
+|
+|t:|1792092897
+|move|p2a: Dragonite|Extreme Speed|p1a: Alakazam
+|split|p1
+|-damage|p1a: Alakazam|0 fnt
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|win|agent

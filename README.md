@@ -1,16 +1,32 @@
-# REDLINE Search — v4.3.2
+# REDLINE Search — v4.4
 
 GitHub: [NotCapt/pokemon-showdown](https://github.com/NotCapt/pokemon-showdown).
 
-The recommended release is `dist/REDLINE_Search.zip` (v4.3.2), also available as
-`dist/REDLINE_Search_v4_3_2.zip`. Rename the ZIP to your registered team name
+The recommended release is `dist/REDLINE_Search.zip` (v4.4), also available as
+`dist/REDLINE_Search_v4_4.zip`. Rename the ZIP to your registered team name
 before submission. It contains exactly `agent.py` and `team.txt`.
 
 `submission/agent.py`, `submission/team.txt`, `agent_core.py` and `team.json`
 all describe this release. V4.2 is preserved in `archive/v4_2` and its versioned
 ZIP; earlier releases and experiments remain available.
 
-## Parallel Kaggle search and v4.3.2
+## V4.4: entry damage from public observations
+
+V4.4 learns plausible Stealth Rock and Spikes states from HP changes immediately
+after a faint replacement. It then charges entry damage to switch forecasts,
+including entries that faint before they can act. Pivot entries are excluded
+because another attack can still be queued. Ambiguous observations retain
+multiple possible field states and use the minimum shared damage estimate.
+
+The model matches 384 official-simulator entry-damage fixtures. A controlled
+last-turn position now avoids a lethal Arcanine entry and preserves 48.73 more
+summed HP points; that position still loses. Across 432 matched ordinary and
+stateless battles, all outcomes matched v4.3.2. The exact packaged source won
+its practice test in six turns. This is a scoped forecasting improvement, with
+no measured aggregate win-rate gain. See `research/V4_4_REPORT.md` and
+`research/v4_4-summary.json` for evidence, rejected experiments and limitations.
+
+## Parallel Kaggle campaign: frozen v4.3.2
 
 Three private CPU notebooks screen disjoint portions of all 2,024 species trios:
 [screen 1](https://www.kaggle.com/code/faaizhussain/redline-pokemon-screen-1-v4-3-2),
@@ -21,6 +37,11 @@ combines completed screen outputs and evaluates finalists together. Each screen
 uses a six-hour checkpoint limit and 30,000-game budget. The first screening
 round uses eight games per policy; remaining HP breaks tied scores. See
 `research/PARALLEL_SEARCH.md` for running, resuming and merging results.
+
+This campaign remains pinned to `archive/v4_3_2` and its original bundle hash
+while the recommended release advances. Regenerating its notebooks preserves
+that source. Any team emerging from the campaign needs a new comparison using
+the latest agent before promotion.
 
 V4.3.2 corrects Sucker Punch forecasts on switches and after earlier actions.
 Three official-simulator fixtures confirm the mechanics. Across 488 matched

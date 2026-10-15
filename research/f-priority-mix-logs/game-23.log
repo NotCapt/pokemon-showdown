@@ -1,0 +1,137 @@
+|t:|1792093249
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Lucario, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Arcanine, F|
+|teampreview
+|
+|t:|1792093249
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Tyranitar|Tyranitar, M|404/404
+|switch|p1a: Tyranitar|Tyranitar, M|404/404
+|split|p2
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|-ability|p1a: Tyranitar|Unnerve
+|turn|1
+|
+|t:|1792093249
+|move|p2a: Dragonite|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|split|p1
+|-damage|p1a: Tyranitar|8/404
+|-damage|p1a: Tyranitar|8/404
+|move|p1a: Tyranitar|Stone Edge|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|122/323
+|-damage|p2a: Dragonite|122/323
+|
+|upkeep
+|turn|2
+|
+|t:|1792093249
+|move|p2a: Dragonite|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|split|p1
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|upkeep
+|
+|t:|1792093249
+|split|p1
+|switch|p1a: Lucario|Lucario, F|281/281
+|switch|p1a: Lucario|Lucario, F|281/281
+|turn|3
+|
+|t:|1792093249
+|split|p2
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|move|p1a: Lucario|Flash Cannon|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|133/317
+|-damage|p2a: Dragapult|133/317
+|
+|upkeep
+|turn|4
+|
+|t:|1792093249
+|move|p2a: Dragapult|Flamethrower|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-enditem|p1a: Lucario|Focus Sash
+|split|p1
+|-damage|p1a: Lucario|1/281
+|-damage|p1a: Lucario|1/281
+|move|p1a: Lucario|Flash Cannon|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1792093249
+|split|p2
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|-ability|p2a: Arcanine|Intimidate|boost
+|-fail|p1a: Lucario|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Lucario
+|turn|5
+|
+|t:|1792093249
+|split|p1
+|switch|p1a: Hydreigon|Hydreigon, F|388/388
+|switch|p1a: Hydreigon|Hydreigon, F|388/388
+|move|p2a: Arcanine|Extreme Speed|p1a: Hydreigon
+|split|p1
+|-damage|p1a: Hydreigon|280/388
+|-damage|p1a: Hydreigon|280/388
+|
+|upkeep
+|turn|6
+|
+|t:|1792093249
+|move|p1a: Hydreigon|Draco Meteor|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|201/384
+|-damage|p2a: Arcanine|201/384
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: Arcanine|Play Rough|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|split|p1
+|-damage|p1a: Hydreigon|0 fnt
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|t:|1792093249
+|split|p1
+|switch|p1a: Lucario|Lucario, F|1/281
+|switch|p1a: Lucario|Lucario, F|1/281
+|turn|7
+|
+|t:|1792093249
+|move|p2a: Arcanine|Extreme Speed|p1a: Lucario
+|-resisted|p1a: Lucario
+|split|p1
+|-damage|p1a: Lucario|0 fnt
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|win|agent

@@ -1,0 +1,153 @@
+|t:|1792093261
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Arcanine, F|
+|poke|p2|Scizor, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Tyranitar, M|
+|teampreview
+|
+|t:|1792093261
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Scizor|Scizor, F|281/281
+|switch|p2a: Scizor|Scizor, F|281/281
+|turn|1
+|
+|t:|1792093261
+|split|p2
+|switch|p2a: Corviknight|Corviknight, M|337/337
+|switch|p2a: Corviknight|Corviknight, M|337/337
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dragonite|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|split|p2
+|-damage|p2a: Corviknight|61/337
+|-damage|p2a: Corviknight|61/337
+|
+|upkeep
+|turn|2
+|
+|t:|1792093261
+|move|p1a: Dragonite|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-crit|p2a: Corviknight
+|split|p2
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p2a: Corviknight|0 fnt
+|debug|move failed because it did nothing
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1792093261
+|split|p2
+|switch|p2a: Tyranitar|Tyranitar, M|341/341
+|switch|p2a: Tyranitar|Tyranitar, M|341/341
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|3
+|
+|t:|1792093261
+|split|p1
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Stone Edge|p1a: Arcanine|[miss]
+|-miss|p2a: Tyranitar|p1a: Arcanine
+|
+|-weather|Sandstorm|[upkeep]
+|split|p1
+|-damage|p1a: Arcanine|360/384|[from] Sandstorm
+|-damage|p1a: Arcanine|360/384|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|4
+|
+|t:|1792093261
+|move|p1a: Arcanine|Play Rough|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|split|p2
+|-damage|p2a: Tyranitar|135/341
+|-damage|p2a: Tyranitar|135/341
+|move|p2a: Tyranitar|Stone Edge|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|split|p2
+|-damage|p2a: Tyranitar|101/341|[from] item: Life Orb
+|-damage|p2a: Tyranitar|101/341|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|
+|t:|1792093261
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|turn|5
+|
+|t:|1792093261
+|move|p1a: Dragonite|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|split|p2
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|split|p1
+|-damage|p1a: Dragonite|303/323|[from] Sandstorm
+|-damage|p1a: Dragonite|303/323|[from] Sandstorm
+|upkeep
+|
+|t:|1792093261
+|split|p2
+|switch|p2a: Scizor|Scizor, F|281/281
+|switch|p2a: Scizor|Scizor, F|281/281
+|turn|6
+|
+|t:|1792093261
+|move|p1a: Dragonite|Earthquake|p2a: Scizor
+|split|p2
+|-damage|p2a: Scizor|91/281
+|-damage|p2a: Scizor|91/281
+|move|p2a: Scizor|Iron Head|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|147/323
+|-damage|p1a: Dragonite|147/323
+|
+|-weather|Sandstorm|[upkeep]
+|split|p1
+|-damage|p1a: Dragonite|127/323|[from] Sandstorm
+|-damage|p1a: Dragonite|127/323|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|7
+|
+|t:|1792093261
+|move|p1a: Dragonite|Earthquake|p2a: Scizor
+|-crit|p2a: Scizor
+|split|p2
+|-damage|p2a: Scizor|0 fnt
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|win|agent

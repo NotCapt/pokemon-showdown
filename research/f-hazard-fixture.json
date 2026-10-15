@@ -1,0 +1,48 @@
+{
+  "observation": {
+    "turn": 100,
+    "force_switch": false,
+    "my_active": {
+      "name": "Dragonite",
+      "hp_percent": 30
+    },
+    "foe": {
+      "name": "Corviknight",
+      "hp_percent": 60
+    },
+    "valid_moves": [
+      {
+        "id": "earthquake",
+        "name": "Earthquake",
+        "type": "Ground",
+        "category": "Physical",
+        "base_power": 100,
+        "accuracy": 100,
+        "priority": 0,
+        "target": "allAdjacent",
+        "flags": {
+          "protect": 1,
+          "mirror": 1,
+          "nonsky": 1,
+          "metronome": 1
+        },
+        "index": 2
+      }
+    ],
+    "valid_switches": [
+      {
+        "name": "Arcanine",
+        "hp_percent": 24,
+        "index": 3
+      }
+    ]
+  },
+  "reference": "switch 3",
+  "candidate": "move 2",
+  "priorPublicEntry": {
+    "name": "Dragonite",
+    "beforeHP": 100,
+    "afterHP": 75.23219814241486,
+    "turn": 90
+  }
+}

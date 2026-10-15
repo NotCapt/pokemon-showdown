@@ -1,0 +1,26 @@
+Dragapult @ Choice Specs
+Ability: Infiltrator
+EVs: 252 SpA / 252 Spe / 4 SpD
+Timid Nature
+- Shadow Ball
+- Draco Meteor
+- Flamethrower
+- Thunderbolt
+
+Dragonite @ Choice Band
+Ability: Multiscale
+EVs: 252 Atk / 252 Spe / 4 SpD
+Adamant Nature
+- Extreme Speed
+- Earthquake
+- Ice Spinner
+- Fire Punch
+
+Arcanine @ Assault Vest
+Ability: Intimidate
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Flare Blitz
+- Extreme Speed
+- Crunch
+- Play Rough

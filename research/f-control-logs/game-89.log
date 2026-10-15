@@ -1,0 +1,104 @@
+|t:|1792092898
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Charizard, F|
+|poke|p1|Salamence, M|
+|poke|p1|Excadrill, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Arcanine, F|
+|teampreview
+|
+|t:|1792092898
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Charizard|Charizard, F|360/360
+|switch|p1a: Charizard|Charizard, F|360/360
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|turn|1
+|
+|t:|1792092898
+|move|p2a: Dragonite|Extreme Speed|p1a: Charizard
+|split|p1
+|-damage|p1a: Charizard|156/360
+|-damage|p1a: Charizard|156/360
+|move|p1a: Charizard|Air Slash|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|260/323
+|-damage|p2a: Dragonite|260/323
+|
+|upkeep
+|turn|2
+|
+|t:|1792092898
+|split|p1
+|switch|p1a: Salamence|Salamence, M|331/331
+|switch|p1a: Salamence|Salamence, M|331/331
+|move|p2a: Dragonite|Extreme Speed|p1a: Salamence
+|split|p1
+|-damage|p1a: Salamence|137/331
+|-damage|p1a: Salamence|137/331
+|
+|upkeep
+|turn|3
+|
+|t:|1792092898
+|move|p2a: Dragonite|Extreme Speed|p1a: Salamence
+|split|p1
+|-damage|p1a: Salamence|0 fnt
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1792092898
+|split|p1
+|switch|p1a: Charizard|Charizard, F|156/360
+|switch|p1a: Charizard|Charizard, F|156/360
+|turn|4
+|
+|t:|1792092898
+|move|p2a: Dragonite|Extreme Speed|p1a: Charizard
+|split|p1
+|-damage|p1a: Charizard|0 fnt
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1792092898
+|split|p1
+|switch|p1a: Excadrill|Excadrill, F|361/361
+|switch|p1a: Excadrill|Excadrill, F|361/361
+|turn|5
+|
+|t:|1792092898
+|split|p2
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|move|p1a: Excadrill|Iron Head|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|124/317
+|-damage|p2a: Dragapult|124/317
+|
+|upkeep
+|turn|6
+|
+|t:|1792092898
+|move|p2a: Dragapult|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|split|p1
+|-damage|p1a: Excadrill|0 fnt
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|win|agent

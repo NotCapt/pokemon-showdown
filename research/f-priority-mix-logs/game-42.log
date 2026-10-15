@@ -1,0 +1,111 @@
+|t:|1792093253
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Arcanine, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Tyranitar, M|
+|teampreview
+|
+|t:|1792093253
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Excadrill|Excadrill, M|361/361
+|switch|p2a: Excadrill|Excadrill, M|361/361
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|t:|1792093253
+|split|p2
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|move|p1a: Dragonite|Earthquake|p2a: Dragapult
+|-crit|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1792093253
+|split|p2
+|switch|p2a: Tyranitar|Tyranitar, M|341/341
+|switch|p2a: Tyranitar|Tyranitar, M|341/341
+|-ability|p2a: Tyranitar|Unnerve
+|turn|2
+|
+|t:|1792093253
+|move|p1a: Dragonite|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Focus Sash
+|split|p2
+|-damage|p2a: Tyranitar|1/341
+|-damage|p2a: Tyranitar|1/341
+|move|p2a: Tyranitar|Ice Punch|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|129/323
+|-damage|p1a: Dragonite|129/323
+|
+|upkeep
+|turn|3
+|
+|t:|1792093253
+|move|p1a: Dragonite|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|split|p2
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|upkeep
+|
+|t:|1792093253
+|split|p2
+|switch|p2a: Excadrill|Excadrill, M|361/361
+|switch|p2a: Excadrill|Excadrill, M|361/361
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|4
+|
+|t:|1792093253
+|move|p2a: Excadrill|Iron Head|p1a: Dragonite
+|debug|ModifyDamage handler suppressed by Mold Breaker
+|split|p1
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1a: Dragonite|0 fnt
+|debug|move failed because it did nothing
+|faint|p1a: Dragonite
+|split|p2
+|-damage|p2a: Excadrill|325/361|[from] item: Life Orb
+|-damage|p2a: Excadrill|325/361|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1792093253
+|split|p1
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|turn|5
+|
+|t:|1792093253
+|move|p1a: Dragapult|Flamethrower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|split|p2
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|agent

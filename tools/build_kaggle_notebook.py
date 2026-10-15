@@ -7,6 +7,9 @@ from pathlib import Path
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
+# Preserve the running distributed campaign when the recommended policy changes.
+# Every notebook in that campaign must keep compiling the same frozen policy.
+CAMPAIGN = ROOT/'archive/v4_3_2'
 files = ['agent_core.py', 'team.json', 'package.json', 'package-lock.json',
          'tools/build_agent.py', 'tools/benchmark.js', 'tools/worker.py', 'tools/opponents.js',
          'tools/make_eval_teams.py', 'tools/team_search.py', 'research/options.json',
@@ -17,10 +20,12 @@ with zipfile.ZipFile(buffer, 'w', zipfile.ZIP_DEFLATED) as z:
     for name in files:
         info = zipfile.ZipInfo(name, date_time=(2026, 10, 16, 0, 0, 0))
         info.compress_type = zipfile.ZIP_DEFLATED
-        z.writestr(info, (ROOT/name).read_bytes())
+        source=CAMPAIGN/Path(name).name if name in ('agent_core.py','team.json') else ROOT/name
+        z.writestr(info, source.read_bytes())
 payload = buffer.getvalue()
 sha = hashlib.sha256(payload).hexdigest()
 (ROOT/'dist/REDLINE_Kaggle_Project.zip').write_bytes(payload)
+(ROOT/'dist/REDLINE_Kaggle_Project_v4_3_2.zip').write_bytes(payload)
 cells = []
 def markdown(text): cells.append(dict(cell_type='markdown', metadata={}, source=text.splitlines(True)))
 def code(text): cells.append(dict(cell_type='code', metadata={}, execution_count=None, outputs=[], source=text.splitlines(True)))

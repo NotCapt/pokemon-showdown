@@ -1,0 +1,128 @@
+|t:|1792092884
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Salamence, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Arcanine, F|
+|teampreview
+|
+|t:|1792092884
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|380/380
+|switch|p1a: Dragapult|Dragapult, F|380/380
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|turn|1
+|
+|t:|1792092884
+|move|p1a: Dragapult|Dragon Darts|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-crit|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|182/323
+|-damage|p2a: Dragonite|182/323
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|split|p2
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1792092884
+|split|p2
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|turn|2
+|
+|t:|1792092884
+|move|p2a: Dragapult|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1792092884
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|turn|3
+|
+|t:|1792092884
+|move|p2a: Dragapult|Shadow Ball|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|149/323
+|-damage|p1a: Dragonite|149/323
+|move|p1a: Dragonite|Outrage|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|split|p1
+|-damage|p1a: Dragonite|117/323|[from] item: Life Orb
+|-damage|p1a: Dragonite|117/323|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1792092884
+|split|p2
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|-ability|p2a: Arcanine|Intimidate|boost
+|-fail|p1a: Dragonite|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Dragonite
+|turn|4
+|
+|t:|1792092884
+|move|p1a: Dragonite|Outrage|p2a: Arcanine|[from] lockedmove
+|split|p2
+|-damage|p2a: Arcanine|51/384
+|-damage|p2a: Arcanine|51/384
+|split|p1
+|-damage|p1a: Dragonite|85/323|[from] item: Life Orb
+|-damage|p1a: Dragonite|85/323|[from] item: Life Orb
+|move|p2a: Arcanine|Play Rough|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1792092884
+|split|p1
+|switch|p1a: Salamence|Salamence, M|331/331
+|switch|p1a: Salamence|Salamence, M|331/331
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Arcanine|atk|1
+|turn|5
+|
+|t:|1792092884
+|move|p2a: Arcanine|Extreme Speed|p1a: Salamence
+|split|p1
+|-damage|p1a: Salamence|255/331
+|-damage|p1a: Salamence|255/331
+|move|p1a: Salamence|Outrage|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|0 fnt
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|win|baseline

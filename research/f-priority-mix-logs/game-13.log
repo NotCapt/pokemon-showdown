@@ -1,0 +1,143 @@
+|t:|1792093247
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Alakazam, M|
+|poke|p1|Blastoise, M|
+|poke|p1|Scizor, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Arcanine, M|
+|teampreview
+|
+|t:|1792093247
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Alakazam|Alakazam, M|251/251
+|switch|p1a: Alakazam|Alakazam, M|251/251
+|split|p2
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|turn|1
+|
+|t:|1792093248
+|split|p1
+|switch|p1a: Blastoise|Blastoise, M|362/362
+|switch|p1a: Blastoise|Blastoise, M|362/362
+|move|p2a: Dragonite|Extreme Speed|p1a: Blastoise
+|split|p1
+|-damage|p1a: Blastoise|202/362
+|-damage|p1a: Blastoise|202/362
+|
+|upkeep
+|turn|2
+|
+|t:|1792093248
+|move|p2a: Dragonite|Extreme Speed|p1a: Blastoise
+|split|p1
+|-damage|p1a: Blastoise|29/362
+|-damage|p1a: Blastoise|29/362
+|move|p1a: Blastoise|Rapid Spin|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|299/323
+|-damage|p2a: Dragonite|299/323
+|-boost|p1a: Blastoise|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1792093248
+|move|p2a: Dragonite|Extreme Speed|p1a: Blastoise
+|split|p1
+|-damage|p1a: Blastoise|0 fnt
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|upkeep
+|
+|t:|1792093248
+|split|p1
+|switch|p1a: Alakazam|Alakazam, M|251/251
+|switch|p1a: Alakazam|Alakazam, M|251/251
+|turn|4
+|
+|t:|1792093248
+|move|p2a: Dragonite|Extreme Speed|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|split|p1
+|-damage|p1a: Alakazam|1/251
+|-damage|p1a: Alakazam|1/251
+|move|p1a: Alakazam|Dazzling Gleam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|split|p2
+|-damage|p2a: Dragonite|93/323
+|-damage|p2a: Dragonite|93/323
+|
+|upkeep
+|turn|5
+|
+|t:|1792093248
+|move|p2a: Dragonite|Extreme Speed|p1a: Alakazam
+|split|p1
+|-damage|p1a: Alakazam|0 fnt
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|upkeep
+|
+|t:|1792093248
+|split|p1
+|switch|p1a: Scizor|Scizor, F|281/281
+|switch|p1a: Scizor|Scizor, F|281/281
+|turn|6
+|
+|t:|1792093248
+|split|p2
+|switch|p2a: Arcanine|Arcanine, M|384/384
+|switch|p2a: Arcanine|Arcanine, M|384/384
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|Iron Head|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|327/384
+|-damage|p2a: Arcanine|327/384
+|
+|upkeep
+|turn|7
+|
+|t:|1792093248
+|move|p1a: Scizor|Close Combat|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|206/384
+|-damage|p2a: Arcanine|206/384
+|-unboost|p1a: Scizor|def|1
+|-unboost|p1a: Scizor|spd|1
+|move|p2a: Arcanine|Flare Blitz|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-enditem|p1a: Scizor|Focus Sash
+|split|p1
+|-damage|p1a: Scizor|1/281
+|-damage|p1a: Scizor|1/281
+|split|p2
+|-damage|p2a: Arcanine|114/384|[from] Recoil
+|-damage|p2a: Arcanine|114/384|[from] Recoil
+|
+|upkeep
+|turn|8
+|
+|t:|1792093248
+|move|p2a: Arcanine|Extreme Speed|p1a: Scizor
+|-resisted|p1a: Scizor
+|split|p1
+|-damage|p1a: Scizor|0 fnt
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|win|agent

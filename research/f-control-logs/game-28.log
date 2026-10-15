@@ -1,0 +1,114 @@
+|t:|1792092883
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine, F|
+|poke|p2|Garchomp, F|
+|poke|p2|Charizard, M|
+|poke|p2|Alakazam, F|
+|teampreview
+|
+|t:|1792092883
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|split|p2
+|switch|p2a: Garchomp|Garchomp, F|357/357
+|switch|p2a: Garchomp|Garchomp, F|357/357
+|turn|1
+|
+|t:|1792092883
+|split|p2
+|switch|p2a: Charizard|Charizard, M|360/360
+|switch|p2a: Charizard|Charizard, M|360/360
+|move|p1a: Dragonite|Ice Spinner|p2a: Charizard
+|split|p2
+|-damage|p2a: Charizard|169/360
+|-damage|p2a: Charizard|169/360
+|
+|upkeep
+|turn|2
+|
+|t:|1792092883
+|move|p1a: Dragonite|Ice Spinner|p2a: Charizard
+|split|p2
+|-damage|p2a: Charizard|0 fnt
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|upkeep
+|
+|t:|1792092883
+|split|p2
+|switch|p2a: Garchomp|Garchomp, F|357/357
+|switch|p2a: Garchomp|Garchomp, F|357/357
+|turn|3
+|
+|t:|1792092883
+|move|p2a: Garchomp|Outrage|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|21/323
+|-damage|p1a: Dragonite|21/323
+|move|p1a: Dragonite|Ice Spinner|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|split|p2
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1792092883
+|split|p2
+|switch|p2a: Alakazam|Alakazam, F|314/314
+|switch|p2a: Alakazam|Alakazam, F|314/314
+|turn|4
+|
+|t:|1792092883
+|split|p1
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Alakazam|atk|1
+|move|p2a: Alakazam|Psyshock|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|174/384
+|-damage|p1a: Arcanine|174/384
+|
+|upkeep
+|turn|5
+|
+|t:|1792092883
+|move|p2a: Alakazam|Psyshock|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|t:|1792092883
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|turn|6
+|
+|t:|1792092883
+|move|p1a: Dragapult|Shadow Ball|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|split|p2
+|-damage|p2a: Alakazam|0 fnt
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|win|agent

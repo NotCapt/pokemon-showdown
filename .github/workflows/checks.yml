@@ -15,5 +15,9 @@ jobs:
       - run: npm ci --omit=optional
       - run: npm test
       - run: python tools/verify_release.py
+      - run: python tools/verify_parallel.py
       - run: node tools/check_cap_scenario.js submission/agent.py research/ci-cap-scenario.json
       - run: node tools/check_sucker_showdown.js research/ci-sucker-scenario.json
+      - run: node tools/hazard_oracle.js
+      - run: python tools/check_hazard_oracle.py submission/agent.py
+      - run: node tools/check_hazard_scenario.js submission/agent.py research/ci-hazard-scenario.json

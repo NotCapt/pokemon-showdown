@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Dragapult",
+    "ability": "Infiltrator",
+    "item": "Choice Specs",
+    "nature": "Timid",
+    "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+    "moves": [
+      "Shadow Ball",
+      "Draco Meteor",
+      "Flamethrower",
+      "Thunderbolt"
+    ]
+  },
+  {
+    "name": "Dragonite",
+    "ability": "Multiscale",
+    "item": "Choice Band",
+    "nature": "Adamant",
+    "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+    "moves": [
+      "Extreme Speed",
+      "Earthquake",
+      "Ice Spinner",
+      "Fire Punch"
+    ]
+  },
+  {
+    "name": "Arcanine",
+    "item": "Assault Vest",
+    "ability": "Intimidate",
+    "nature": "Adamant",
+    "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+    "moves": [
+      "Flare Blitz",
+      "Extreme Speed",
+      "Crunch",
+      "Play Rough"
+    ]
+  }
+]

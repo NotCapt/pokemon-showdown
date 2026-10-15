@@ -1,0 +1,140 @@
+|t:|1792092881
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Charizard, F|
+|poke|p1|Lucario, F|
+|poke|p1|Corviknight, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Arcanine, F|
+|teampreview
+|
+|t:|1792092881
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Charizard|Charizard, F|297/297
+|switch|p1a: Charizard|Charizard, F|297/297
+|split|p2
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|turn|1
+|
+|t:|1792092881
+|split|p1
+|switch|p1a: Corviknight|Corviknight, F|400/400
+|switch|p1a: Corviknight|Corviknight, F|400/400
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Dragonite|Extreme Speed|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|split|p1
+|-damage|p1a: Corviknight|317/400
+|-damage|p1a: Corviknight|317/400
+|
+|split|p1
+|-heal|p1a: Corviknight|342/400|[from] item: Leftovers
+|-heal|p1a: Corviknight|342/400|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1792092881
+|split|p2
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|move|p1a: Corviknight|Brave Bird|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|97/317
+|-damage|p2a: Dragapult|97/317
+|split|p1
+|-damage|p1a: Corviknight|269/400|[from] Recoil
+|-damage|p1a: Corviknight|269/400|[from] Recoil
+|
+|split|p1
+|-heal|p1a: Corviknight|294/400|[from] item: Leftovers
+|-heal|p1a: Corviknight|294/400|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1792092881
+|move|p2a: Dragapult|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|split|p1
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1792092881
+|split|p1
+|switch|p1a: Lucario|Lucario, F|344/344
+|switch|p1a: Lucario|Lucario, F|344/344
+|turn|4
+|
+|t:|1792092881
+|move|p2a: Dragapult|Flamethrower|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-enditem|p1a: Lucario|Focus Sash
+|split|p1
+|-damage|p1a: Lucario|1/344
+|-damage|p1a: Lucario|1/344
+|move|p1a: Lucario|Flash Cannon|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1792092881
+|split|p2
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|turn|5
+|
+|t:|1792092881
+|move|p2a: Dragonite|Extreme Speed|p1a: Lucario
+|-resisted|p1a: Lucario
+|split|p1
+|-damage|p1a: Lucario|0 fnt
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|upkeep
+|
+|t:|1792092881
+|split|p1
+|switch|p1a: Charizard|Charizard, F|297/297
+|switch|p1a: Charizard|Charizard, F|297/297
+|turn|6
+|
+|t:|1792092881
+|move|p2a: Dragonite|Extreme Speed|p1a: Charizard
+|split|p1
+|-damage|p1a: Charizard|104/297
+|-damage|p1a: Charizard|104/297
+|move|p1a: Charizard|Air Slash|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|262/323
+|-damage|p2a: Dragonite|262/323
+|
+|split|p1
+|-heal|p1a: Charizard|122/297|[from] item: Leftovers
+|-heal|p1a: Charizard|122/297|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1792092881
+|move|p2a: Dragonite|Extreme Speed|p1a: Charizard
+|split|p1
+|-damage|p1a: Charizard|0 fnt
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|win|agent

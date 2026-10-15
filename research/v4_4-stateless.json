@@ -1,0 +1,2668 @@
+{
+  "agentFile": "submission/agent.py",
+  "agentSha256": "480295eec4620074c6665f4aab1ea8ea9773ee42a01f6797d930c5a017fed923",
+  "sparseBoosts": true,
+  "stateless": true,
+  "opponentPolicySha256": "16c398e12f1d77d318a0283bfd219d4e59664e58efef5497a9d02b68ac3efa57",
+  "archivedOpponentSha256": null,
+  "opponentAgentSha256": null,
+  "opponentInformation": "adaptive uses its own exact state plus public enemy species/types/rounded HP; curated defaults for hidden enemy set; no enemy bench",
+  "simulatorVersion": "0.11.11",
+  "team": [
+    {
+      "name": "Dragonite",
+      "ability": "Multiscale",
+      "item": "Choice Band",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Extreme Speed",
+        "Earthquake",
+        "Ice Spinner",
+        "Fire Punch"
+      ]
+    },
+    {
+      "name": "Dragapult",
+      "ability": "Infiltrator",
+      "item": "Choice Specs",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Shadow Ball",
+        "Draco Meteor",
+        "Flamethrower",
+        "Thunderbolt"
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "item": "Assault Vest",
+      "ability": "Intimidate",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Flare Blitz",
+        "Extreme Speed",
+        "Crunch",
+        "Play Rough"
+      ]
+    }
+  ],
+  "games": 40,
+  "wins": 30,
+  "losses": 10,
+  "draws": 0,
+  "winRate": 0.75,
+  "wilson95": [
+    0.598057409330299,
+    0.8581303210445048
+  ],
+  "latencyMs": {
+    "median": 17.79850000002625,
+    "p95": 47.68979999971634,
+    "max": 61.9077000001198
+  },
+  "results": [
+    {
+      "game": 0,
+      "winner": "agent",
+      "turns": 6,
+      "opponent": [
+        "Garchomp",
+        "Metagross",
+        "Volcarona"
+      ],
+      "opponentSets": [
+        {
+          "name": "Garchomp",
+          "item": "Life Orb",
+          "ability": "Rough Skin",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Outrage",
+            "Stone Edge",
+            "Swords Dance"
+          ]
+        },
+        {
+          "name": "Metagross",
+          "item": "Assault Vest",
+          "ability": "Clear Body",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+          "moves": [
+            "Meteor Mash",
+            "Bullet Punch",
+            "Earthquake",
+            "Zen Headbutt"
+          ]
+        },
+        {
+          "name": "Volcarona",
+          "item": "Heavy-Duty Boots",
+          "ability": "Flame Body",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Fiery Dance",
+            "Bug Buzz",
+            "Giga Drain",
+            "Quiver Dance"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        1,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 57.552083333333336,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 1,
+      "winner": "agent",
+      "turns": 6,
+      "opponent": [
+        "Garchomp",
+        "Metagross",
+        "Volcarona"
+      ],
+      "opponentSets": [
+        {
+          "name": "Garchomp",
+          "item": "Life Orb",
+          "ability": "Rough Skin",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Outrage",
+            "Stone Edge",
+            "Swords Dance"
+          ]
+        },
+        {
+          "name": "Metagross",
+          "item": "Assault Vest",
+          "ability": "Clear Body",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+          "moves": [
+            "Meteor Mash",
+            "Bullet Punch",
+            "Earthquake",
+            "Zen Headbutt"
+          ]
+        },
+        {
+          "name": "Volcarona",
+          "item": "Heavy-Duty Boots",
+          "ability": "Flame Body",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Fiery Dance",
+            "Bug Buzz",
+            "Giga Drain",
+            "Quiver Dance"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        1,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 57.552083333333336,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 2,
+      "winner": "agent",
+      "turns": 5,
+      "opponent": [
+        "Dragonite",
+        "Tyranitar",
+        "Scizor"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "item": "Lum Berry",
+          "ability": "Multiscale",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Outrage",
+            "Earthquake",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Tyranitar",
+          "item": "Leftovers",
+          "ability": "Sand Stream",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Stone Edge",
+            "Crunch",
+            "Earthquake",
+            "Ice Punch"
+          ]
+        },
+        {
+          "name": "Scizor",
+          "item": "Metal Coat",
+          "ability": "Technician",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Bullet Punch",
+            "Close Combat",
+            "Swords Dance",
+            "U-turn"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        2,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 164.0625,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 3,
+      "winner": "agent",
+      "turns": 5,
+      "opponent": [
+        "Dragonite",
+        "Tyranitar",
+        "Scizor"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "item": "Lum Berry",
+          "ability": "Multiscale",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Outrage",
+            "Earthquake",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Tyranitar",
+          "item": "Leftovers",
+          "ability": "Sand Stream",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Stone Edge",
+            "Crunch",
+            "Earthquake",
+            "Ice Punch"
+          ]
+        },
+        {
+          "name": "Scizor",
+          "item": "Metal Coat",
+          "ability": "Technician",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Bullet Punch",
+            "Close Combat",
+            "Swords Dance",
+            "U-turn"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        2,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 154.16666666666666,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 4,
+      "winner": "baseline",
+      "turns": 9,
+      "opponent": [
+        "Dragapult",
+        "Togekiss",
+        "Excadrill"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragapult",
+          "item": "Choice Band",
+          "ability": "Infiltrator",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Darts",
+            "Phantom Force",
+            "Flamethrower",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Togekiss",
+          "item": "Leftovers",
+          "ability": "Serene Grace",
+          "nature": "Timid",
+          "evs": "Bulky Special (252 HP / 252 Spe / 4 SpA)",
+          "moves": [
+            "Air Slash",
+            "Dazzling Gleam",
+            "Aura Sphere",
+            "Roost"
+          ]
+        },
+        {
+          "name": "Excadrill",
+          "item": "Focus Sash",
+          "ability": "Mold Breaker",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Iron Head",
+            "Rock Slide",
+            "Swords Dance"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        3,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 79.22437673130194
+      }
+    },
+    {
+      "game": 5,
+      "winner": "baseline",
+      "turns": 4,
+      "opponent": [
+        "Dragapult",
+        "Togekiss",
+        "Excadrill"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragapult",
+          "item": "Choice Band",
+          "ability": "Infiltrator",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Darts",
+            "Phantom Force",
+            "Flamethrower",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Togekiss",
+          "item": "Leftovers",
+          "ability": "Serene Grace",
+          "nature": "Timid",
+          "evs": "Bulky Special (252 HP / 252 Spe / 4 SpA)",
+          "moves": [
+            "Air Slash",
+            "Dazzling Gleam",
+            "Aura Sphere",
+            "Roost"
+          ]
+        },
+        {
+          "name": "Excadrill",
+          "item": "Focus Sash",
+          "ability": "Mold Breaker",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Iron Head",
+            "Rock Slide",
+            "Swords Dance"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        3,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 219.24290220820188
+      }
+    },
+    {
+      "game": 6,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Corviknight",
+        "Snorlax",
+        "Ferrothorn"
+      ],
+      "opponentSets": [
+        {
+          "name": "Corviknight",
+          "item": "Leftovers",
+          "ability": "Mirror Armor",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Brave Bird",
+            "Body Press",
+            "Roost",
+            "Iron Defense"
+          ]
+        },
+        {
+          "name": "Snorlax",
+          "item": "Leftovers",
+          "ability": "Thick Fat",
+          "nature": "Careful",
+          "evs": "Special Wall (252 HP / 4 Def / 252 SpD)",
+          "moves": [
+            "Body Slam",
+            "Earthquake",
+            "Crunch",
+            "Rest"
+          ]
+        },
+        {
+          "name": "Ferrothorn",
+          "item": "Leftovers",
+          "ability": "Iron Barbs",
+          "nature": "Relaxed",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Power Whip",
+            "Gyro Ball",
+            "Leech Seed",
+            "Protect"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        4,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 125.26041666666667,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 7,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Corviknight",
+        "Snorlax",
+        "Ferrothorn"
+      ],
+      "opponentSets": [
+        {
+          "name": "Corviknight",
+          "item": "Leftovers",
+          "ability": "Mirror Armor",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Brave Bird",
+            "Body Press",
+            "Roost",
+            "Iron Defense"
+          ]
+        },
+        {
+          "name": "Snorlax",
+          "item": "Leftovers",
+          "ability": "Thick Fat",
+          "nature": "Careful",
+          "evs": "Special Wall (252 HP / 4 Def / 252 SpD)",
+          "moves": [
+            "Body Slam",
+            "Earthquake",
+            "Crunch",
+            "Rest"
+          ]
+        },
+        {
+          "name": "Ferrothorn",
+          "item": "Leftovers",
+          "ability": "Iron Barbs",
+          "nature": "Relaxed",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Power Whip",
+            "Gyro Ball",
+            "Leech Seed",
+            "Protect"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        4,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 125.26041666666667,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 8,
+      "winner": "baseline",
+      "turns": 11,
+      "opponent": [
+        "Metagross",
+        "Togekiss",
+        "Excadrill"
+      ],
+      "opponentSets": [
+        {
+          "name": "Metagross",
+          "item": "Assault Vest",
+          "ability": "Clear Body",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+          "moves": [
+            "Meteor Mash",
+            "Bullet Punch",
+            "Earthquake",
+            "Zen Headbutt"
+          ]
+        },
+        {
+          "name": "Togekiss",
+          "item": "Leftovers",
+          "ability": "Serene Grace",
+          "nature": "Timid",
+          "evs": "Bulky Special (252 HP / 252 Spe / 4 SpA)",
+          "moves": [
+            "Air Slash",
+            "Dazzling Gleam",
+            "Aura Sphere",
+            "Roost"
+          ]
+        },
+        {
+          "name": "Excadrill",
+          "item": "Focus Sash",
+          "ability": "Mold Breaker",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Iron Head",
+            "Rock Slide",
+            "Swords Dance"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        5,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 36.28808864265928
+      }
+    },
+    {
+      "game": 9,
+      "winner": "baseline",
+      "turns": 11,
+      "opponent": [
+        "Metagross",
+        "Togekiss",
+        "Excadrill"
+      ],
+      "opponentSets": [
+        {
+          "name": "Metagross",
+          "item": "Assault Vest",
+          "ability": "Clear Body",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+          "moves": [
+            "Meteor Mash",
+            "Bullet Punch",
+            "Earthquake",
+            "Zen Headbutt"
+          ]
+        },
+        {
+          "name": "Togekiss",
+          "item": "Leftovers",
+          "ability": "Serene Grace",
+          "nature": "Timid",
+          "evs": "Bulky Special (252 HP / 252 Spe / 4 SpA)",
+          "moves": [
+            "Air Slash",
+            "Dazzling Gleam",
+            "Aura Sphere",
+            "Roost"
+          ]
+        },
+        {
+          "name": "Excadrill",
+          "item": "Focus Sash",
+          "ability": "Mold Breaker",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Iron Head",
+            "Rock Slide",
+            "Swords Dance"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        5,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 36.28808864265928
+      }
+    },
+    {
+      "game": 10,
+      "winner": "agent",
+      "turns": 6,
+      "opponent": [
+        "Scizor",
+        "Venusaur",
+        "Tyranitar"
+      ],
+      "opponentSets": [
+        {
+          "name": "Scizor",
+          "item": "Metal Coat",
+          "ability": "Technician",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Bullet Punch",
+            "Close Combat",
+            "Swords Dance",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Venusaur",
+          "item": "Black Sludge",
+          "ability": "Overgrow",
+          "nature": "Modest",
+          "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+          "moves": [
+            "Giga Drain",
+            "Sludge Bomb",
+            "Earth Power",
+            "Sleep Powder"
+          ]
+        },
+        {
+          "name": "Tyranitar",
+          "item": "Leftovers",
+          "ability": "Sand Stream",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Stone Edge",
+            "Crunch",
+            "Earthquake",
+            "Ice Punch"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        6,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 121.9814241486068,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 11,
+      "winner": "agent",
+      "turns": 6,
+      "opponent": [
+        "Scizor",
+        "Venusaur",
+        "Tyranitar"
+      ],
+      "opponentSets": [
+        {
+          "name": "Scizor",
+          "item": "Metal Coat",
+          "ability": "Technician",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Bullet Punch",
+            "Close Combat",
+            "Swords Dance",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Venusaur",
+          "item": "Black Sludge",
+          "ability": "Overgrow",
+          "nature": "Modest",
+          "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+          "moves": [
+            "Giga Drain",
+            "Sludge Bomb",
+            "Earth Power",
+            "Sleep Powder"
+          ]
+        },
+        {
+          "name": "Tyranitar",
+          "item": "Leftovers",
+          "ability": "Sand Stream",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Stone Edge",
+            "Crunch",
+            "Earthquake",
+            "Ice Punch"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        6,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 121.9814241486068,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 12,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Arcanine",
+        "Greninja",
+        "Excadrill"
+      ],
+      "opponentSets": [
+        {
+          "name": "Arcanine",
+          "item": "Heavy-Duty Boots",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Wild Charge",
+            "Will-O-Wisp"
+          ]
+        },
+        {
+          "name": "Greninja",
+          "item": "Life Orb",
+          "ability": "Protean",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 HP)",
+          "moves": [
+            "Hydro Pump",
+            "Dark Pulse",
+            "Ice Beam",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Excadrill",
+          "item": "Focus Sash",
+          "ability": "Mold Breaker",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Iron Head",
+            "Rock Slide",
+            "Swords Dance"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        7,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 167.02302631578948,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 13,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Arcanine",
+        "Greninja",
+        "Excadrill"
+      ],
+      "opponentSets": [
+        {
+          "name": "Arcanine",
+          "item": "Heavy-Duty Boots",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Wild Charge",
+            "Will-O-Wisp"
+          ]
+        },
+        {
+          "name": "Greninja",
+          "item": "Life Orb",
+          "ability": "Protean",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 HP)",
+          "moves": [
+            "Hydro Pump",
+            "Dark Pulse",
+            "Ice Beam",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Excadrill",
+          "item": "Focus Sash",
+          "ability": "Mold Breaker",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Iron Head",
+            "Rock Slide",
+            "Swords Dance"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        7,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 167.02302631578948,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 14,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Greninja",
+        "Dragapult",
+        "Volcarona"
+      ],
+      "opponentSets": [
+        {
+          "name": "Greninja",
+          "item": "Life Orb",
+          "ability": "Protean",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 HP)",
+          "moves": [
+            "Hydro Pump",
+            "Dark Pulse",
+            "Ice Beam",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "item": "Choice Band",
+          "ability": "Infiltrator",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Darts",
+            "Phantom Force",
+            "Flamethrower",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Volcarona",
+          "item": "Heavy-Duty Boots",
+          "ability": "Flame Body",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Fiery Dance",
+            "Bug Buzz",
+            "Giga Drain",
+            "Quiver Dance"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        8,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 65.61514195583597,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 15,
+      "winner": "baseline",
+      "turns": 5,
+      "opponent": [
+        "Greninja",
+        "Dragapult",
+        "Volcarona"
+      ],
+      "opponentSets": [
+        {
+          "name": "Greninja",
+          "item": "Life Orb",
+          "ability": "Protean",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 HP)",
+          "moves": [
+            "Hydro Pump",
+            "Dark Pulse",
+            "Ice Beam",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "item": "Choice Band",
+          "ability": "Infiltrator",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Darts",
+            "Phantom Force",
+            "Flamethrower",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Volcarona",
+          "item": "Heavy-Duty Boots",
+          "ability": "Flame Body",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Fiery Dance",
+            "Bug Buzz",
+            "Giga Drain",
+            "Quiver Dance"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        8,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 119.2429022082019
+      }
+    },
+    {
+      "game": 16,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Gyarados",
+        "Scizor",
+        "Hydreigon"
+      ],
+      "opponentSets": [
+        {
+          "name": "Gyarados",
+          "item": "Leftovers",
+          "ability": "Intimidate",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 Def)",
+          "moves": [
+            "Waterfall",
+            "Earthquake",
+            "Ice Fang",
+            "Dragon Dance"
+          ]
+        },
+        {
+          "name": "Scizor",
+          "item": "Metal Coat",
+          "ability": "Technician",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Bullet Punch",
+            "Close Combat",
+            "Swords Dance",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Hydreigon",
+          "item": "Choice Specs",
+          "ability": "Levitate",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dark Pulse",
+            "Draco Meteor",
+            "Flamethrower",
+            "Flash Cannon"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        9,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 39.67145549901847,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 17,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Gyarados",
+        "Scizor",
+        "Hydreigon"
+      ],
+      "opponentSets": [
+        {
+          "name": "Gyarados",
+          "item": "Leftovers",
+          "ability": "Intimidate",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 Def)",
+          "moves": [
+            "Waterfall",
+            "Earthquake",
+            "Ice Fang",
+            "Dragon Dance"
+          ]
+        },
+        {
+          "name": "Scizor",
+          "item": "Metal Coat",
+          "ability": "Technician",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Bullet Punch",
+            "Close Combat",
+            "Swords Dance",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Hydreigon",
+          "item": "Choice Specs",
+          "ability": "Levitate",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dark Pulse",
+            "Draco Meteor",
+            "Flamethrower",
+            "Flash Cannon"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        9,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 39.67145549901847,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 18,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Corviknight",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Corviknight",
+          "item": "Leftovers",
+          "ability": "Mirror Armor",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Brave Bird",
+            "Body Press",
+            "Roost",
+            "Iron Defense"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "item": "Choice Band",
+          "ability": "Infiltrator",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Darts",
+            "Phantom Force",
+            "Flamethrower",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Heavy-Duty Boots",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Wild Charge",
+            "Will-O-Wisp"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        10,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 139.80134972800346,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 19,
+      "winner": "baseline",
+      "turns": 6,
+      "opponent": [
+        "Corviknight",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Corviknight",
+          "item": "Leftovers",
+          "ability": "Mirror Armor",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Brave Bird",
+            "Body Press",
+            "Roost",
+            "Iron Defense"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "item": "Choice Band",
+          "ability": "Infiltrator",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Darts",
+            "Phantom Force",
+            "Flamethrower",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Heavy-Duty Boots",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Wild Charge",
+            "Will-O-Wisp"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        10,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 200
+      }
+    },
+    {
+      "game": 20,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Corviknight",
+        "Arcanine",
+        "Tyranitar"
+      ],
+      "opponentSets": [
+        {
+          "name": "Corviknight",
+          "item": "Leftovers",
+          "ability": "Mirror Armor",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Brave Bird",
+            "Body Press",
+            "Roost",
+            "Iron Defense"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Heavy-Duty Boots",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Wild Charge",
+            "Will-O-Wisp"
+          ]
+        },
+        {
+          "name": "Tyranitar",
+          "item": "Leftovers",
+          "ability": "Sand Stream",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Stone Edge",
+            "Crunch",
+            "Earthquake",
+            "Ice Punch"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        11,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 98.79440392710298,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 21,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Corviknight",
+        "Arcanine",
+        "Tyranitar"
+      ],
+      "opponentSets": [
+        {
+          "name": "Corviknight",
+          "item": "Leftovers",
+          "ability": "Mirror Armor",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Brave Bird",
+            "Body Press",
+            "Roost",
+            "Iron Defense"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Heavy-Duty Boots",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Wild Charge",
+            "Will-O-Wisp"
+          ]
+        },
+        {
+          "name": "Tyranitar",
+          "item": "Leftovers",
+          "ability": "Sand Stream",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Stone Edge",
+            "Crunch",
+            "Earthquake",
+            "Ice Punch"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        11,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 98.79440392710298,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 22,
+      "winner": "agent",
+      "turns": 6,
+      "opponent": [
+        "Greninja",
+        "Dragonite",
+        "Garchomp"
+      ],
+      "opponentSets": [
+        {
+          "name": "Greninja",
+          "item": "Life Orb",
+          "ability": "Protean",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 HP)",
+          "moves": [
+            "Hydro Pump",
+            "Dark Pulse",
+            "Ice Beam",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Dragonite",
+          "item": "Lum Berry",
+          "ability": "Multiscale",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Outrage",
+            "Earthquake",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Garchomp",
+          "item": "Life Orb",
+          "ability": "Rough Skin",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Outrage",
+            "Stone Edge",
+            "Swords Dance"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        12,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 52.083333333333336,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 23,
+      "winner": "agent",
+      "turns": 6,
+      "opponent": [
+        "Greninja",
+        "Dragonite",
+        "Garchomp"
+      ],
+      "opponentSets": [
+        {
+          "name": "Greninja",
+          "item": "Life Orb",
+          "ability": "Protean",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 HP)",
+          "moves": [
+            "Hydro Pump",
+            "Dark Pulse",
+            "Ice Beam",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Dragonite",
+          "item": "Lum Berry",
+          "ability": "Multiscale",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Outrage",
+            "Earthquake",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Garchomp",
+          "item": "Life Orb",
+          "ability": "Rough Skin",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Outrage",
+            "Stone Edge",
+            "Swords Dance"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        12,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 52.083333333333336,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 24,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Snorlax",
+        "Metagross",
+        "Lapras"
+      ],
+      "opponentSets": [
+        {
+          "name": "Snorlax",
+          "item": "Leftovers",
+          "ability": "Thick Fat",
+          "nature": "Careful",
+          "evs": "Special Wall (252 HP / 4 Def / 252 SpD)",
+          "moves": [
+            "Body Slam",
+            "Earthquake",
+            "Crunch",
+            "Rest"
+          ]
+        },
+        {
+          "name": "Metagross",
+          "item": "Assault Vest",
+          "ability": "Clear Body",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+          "moves": [
+            "Meteor Mash",
+            "Bullet Punch",
+            "Earthquake",
+            "Zen Headbutt"
+          ]
+        },
+        {
+          "name": "Lapras",
+          "item": "Leftovers",
+          "ability": "Water Absorb",
+          "nature": "Modest",
+          "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+          "moves": [
+            "Freeze-Dry",
+            "Hydro Pump",
+            "Thunderbolt",
+            "Ice Beam"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        13,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 183.28173374613004,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 25,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Snorlax",
+        "Metagross",
+        "Lapras"
+      ],
+      "opponentSets": [
+        {
+          "name": "Snorlax",
+          "item": "Leftovers",
+          "ability": "Thick Fat",
+          "nature": "Careful",
+          "evs": "Special Wall (252 HP / 4 Def / 252 SpD)",
+          "moves": [
+            "Body Slam",
+            "Earthquake",
+            "Crunch",
+            "Rest"
+          ]
+        },
+        {
+          "name": "Metagross",
+          "item": "Assault Vest",
+          "ability": "Clear Body",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+          "moves": [
+            "Meteor Mash",
+            "Bullet Punch",
+            "Earthquake",
+            "Zen Headbutt"
+          ]
+        },
+        {
+          "name": "Lapras",
+          "item": "Leftovers",
+          "ability": "Water Absorb",
+          "nature": "Modest",
+          "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+          "moves": [
+            "Freeze-Dry",
+            "Hydro Pump",
+            "Thunderbolt",
+            "Ice Beam"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        13,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 183.28173374613004,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 26,
+      "winner": "agent",
+      "turns": 6,
+      "opponent": [
+        "Snorlax",
+        "Volcarona",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Snorlax",
+          "item": "Leftovers",
+          "ability": "Thick Fat",
+          "nature": "Careful",
+          "evs": "Special Wall (252 HP / 4 Def / 252 SpD)",
+          "moves": [
+            "Body Slam",
+            "Earthquake",
+            "Crunch",
+            "Rest"
+          ]
+        },
+        {
+          "name": "Volcarona",
+          "item": "Heavy-Duty Boots",
+          "ability": "Flame Body",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Fiery Dance",
+            "Bug Buzz",
+            "Giga Drain",
+            "Quiver Dance"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "item": "Leftovers",
+          "ability": "Mirror Armor",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Brave Bird",
+            "Body Press",
+            "Roost",
+            "Iron Defense"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        14,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 138.75048374613004,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 27,
+      "winner": "agent",
+      "turns": 6,
+      "opponent": [
+        "Snorlax",
+        "Volcarona",
+        "Corviknight"
+      ],
+      "opponentSets": [
+        {
+          "name": "Snorlax",
+          "item": "Leftovers",
+          "ability": "Thick Fat",
+          "nature": "Careful",
+          "evs": "Special Wall (252 HP / 4 Def / 252 SpD)",
+          "moves": [
+            "Body Slam",
+            "Earthquake",
+            "Crunch",
+            "Rest"
+          ]
+        },
+        {
+          "name": "Volcarona",
+          "item": "Heavy-Duty Boots",
+          "ability": "Flame Body",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Fiery Dance",
+            "Bug Buzz",
+            "Giga Drain",
+            "Quiver Dance"
+          ]
+        },
+        {
+          "name": "Corviknight",
+          "item": "Leftovers",
+          "ability": "Mirror Armor",
+          "nature": "Impish",
+          "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+          "moves": [
+            "Brave Bird",
+            "Body Press",
+            "Roost",
+            "Iron Defense"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        14,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 138.75048374613004,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 28,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Venusaur",
+        "Dragapult",
+        "Excadrill"
+      ],
+      "opponentSets": [
+        {
+          "name": "Venusaur",
+          "item": "Black Sludge",
+          "ability": "Overgrow",
+          "nature": "Modest",
+          "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+          "moves": [
+            "Giga Drain",
+            "Sludge Bomb",
+            "Earth Power",
+            "Sleep Powder"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "item": "Choice Band",
+          "ability": "Infiltrator",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Darts",
+            "Phantom Force",
+            "Flamethrower",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Excadrill",
+          "item": "Focus Sash",
+          "ability": "Mold Breaker",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Iron Head",
+            "Rock Slide",
+            "Swords Dance"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        15,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 20.50473186119874
+      }
+    },
+    {
+      "game": 29,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Venusaur",
+        "Dragapult",
+        "Excadrill"
+      ],
+      "opponentSets": [
+        {
+          "name": "Venusaur",
+          "item": "Black Sludge",
+          "ability": "Overgrow",
+          "nature": "Modest",
+          "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+          "moves": [
+            "Giga Drain",
+            "Sludge Bomb",
+            "Earth Power",
+            "Sleep Powder"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "item": "Choice Band",
+          "ability": "Infiltrator",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dragon Darts",
+            "Phantom Force",
+            "Flamethrower",
+            "U-turn"
+          ]
+        },
+        {
+          "name": "Excadrill",
+          "item": "Focus Sash",
+          "ability": "Mold Breaker",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Iron Head",
+            "Rock Slide",
+            "Swords Dance"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        15,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 20.50473186119874
+      }
+    },
+    {
+      "game": 30,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Metagross",
+        "Volcarona",
+        "Lapras"
+      ],
+      "opponentSets": [
+        {
+          "name": "Metagross",
+          "item": "Assault Vest",
+          "ability": "Clear Body",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+          "moves": [
+            "Meteor Mash",
+            "Bullet Punch",
+            "Earthquake",
+            "Zen Headbutt"
+          ]
+        },
+        {
+          "name": "Volcarona",
+          "item": "Heavy-Duty Boots",
+          "ability": "Flame Body",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Fiery Dance",
+            "Bug Buzz",
+            "Giga Drain",
+            "Quiver Dance"
+          ]
+        },
+        {
+          "name": "Lapras",
+          "item": "Leftovers",
+          "ability": "Water Absorb",
+          "nature": "Modest",
+          "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+          "moves": [
+            "Freeze-Dry",
+            "Hydro Pump",
+            "Thunderbolt",
+            "Ice Beam"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        16,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 140.8883593284566,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 31,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Metagross",
+        "Volcarona",
+        "Lapras"
+      ],
+      "opponentSets": [
+        {
+          "name": "Metagross",
+          "item": "Assault Vest",
+          "ability": "Clear Body",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+          "moves": [
+            "Meteor Mash",
+            "Bullet Punch",
+            "Earthquake",
+            "Zen Headbutt"
+          ]
+        },
+        {
+          "name": "Volcarona",
+          "item": "Heavy-Duty Boots",
+          "ability": "Flame Body",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Fiery Dance",
+            "Bug Buzz",
+            "Giga Drain",
+            "Quiver Dance"
+          ]
+        },
+        {
+          "name": "Lapras",
+          "item": "Leftovers",
+          "ability": "Water Absorb",
+          "nature": "Modest",
+          "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+          "moves": [
+            "Freeze-Dry",
+            "Hydro Pump",
+            "Thunderbolt",
+            "Ice Beam"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        16,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 140.8883593284566,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 32,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Excadrill",
+        "Metagross",
+        "Lucario"
+      ],
+      "opponentSets": [
+        {
+          "name": "Excadrill",
+          "item": "Focus Sash",
+          "ability": "Mold Breaker",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Iron Head",
+            "Rock Slide",
+            "Swords Dance"
+          ]
+        },
+        {
+          "name": "Metagross",
+          "item": "Assault Vest",
+          "ability": "Clear Body",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+          "moves": [
+            "Meteor Mash",
+            "Bullet Punch",
+            "Earthquake",
+            "Zen Headbutt"
+          ]
+        },
+        {
+          "name": "Lucario",
+          "item": "Life Orb",
+          "ability": "Inner Focus",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpA)",
+          "moves": [
+            "Close Combat",
+            "Meteor Mash",
+            "Extreme Speed",
+            "Flash Cannon"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        17,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 33,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Excadrill",
+        "Metagross",
+        "Lucario"
+      ],
+      "opponentSets": [
+        {
+          "name": "Excadrill",
+          "item": "Focus Sash",
+          "ability": "Mold Breaker",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Iron Head",
+            "Rock Slide",
+            "Swords Dance"
+          ]
+        },
+        {
+          "name": "Metagross",
+          "item": "Assault Vest",
+          "ability": "Clear Body",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+          "moves": [
+            "Meteor Mash",
+            "Bullet Punch",
+            "Earthquake",
+            "Zen Headbutt"
+          ]
+        },
+        {
+          "name": "Lucario",
+          "item": "Life Orb",
+          "ability": "Inner Focus",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpA)",
+          "moves": [
+            "Close Combat",
+            "Meteor Mash",
+            "Extreme Speed",
+            "Flash Cannon"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        17,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 34,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Garchomp",
+        "Snorlax",
+        "Venusaur"
+      ],
+      "opponentSets": [
+        {
+          "name": "Garchomp",
+          "item": "Life Orb",
+          "ability": "Rough Skin",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Outrage",
+            "Stone Edge",
+            "Swords Dance"
+          ]
+        },
+        {
+          "name": "Snorlax",
+          "item": "Leftovers",
+          "ability": "Thick Fat",
+          "nature": "Careful",
+          "evs": "Special Wall (252 HP / 4 Def / 252 SpD)",
+          "moves": [
+            "Body Slam",
+            "Earthquake",
+            "Crunch",
+            "Rest"
+          ]
+        },
+        {
+          "name": "Venusaur",
+          "item": "Black Sludge",
+          "ability": "Overgrow",
+          "nature": "Modest",
+          "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+          "moves": [
+            "Giga Drain",
+            "Sludge Bomb",
+            "Earth Power",
+            "Sleep Powder"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        18,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 101.5625,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 35,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Garchomp",
+        "Snorlax",
+        "Venusaur"
+      ],
+      "opponentSets": [
+        {
+          "name": "Garchomp",
+          "item": "Life Orb",
+          "ability": "Rough Skin",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Outrage",
+            "Stone Edge",
+            "Swords Dance"
+          ]
+        },
+        {
+          "name": "Snorlax",
+          "item": "Leftovers",
+          "ability": "Thick Fat",
+          "nature": "Careful",
+          "evs": "Special Wall (252 HP / 4 Def / 252 SpD)",
+          "moves": [
+            "Body Slam",
+            "Earthquake",
+            "Crunch",
+            "Rest"
+          ]
+        },
+        {
+          "name": "Venusaur",
+          "item": "Black Sludge",
+          "ability": "Overgrow",
+          "nature": "Modest",
+          "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+          "moves": [
+            "Giga Drain",
+            "Sludge Bomb",
+            "Earth Power",
+            "Sleep Powder"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        18,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 101.5625,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 36,
+      "winner": "baseline",
+      "turns": 5,
+      "opponent": [
+        "Garchomp",
+        "Salamence",
+        "Lapras"
+      ],
+      "opponentSets": [
+        {
+          "name": "Garchomp",
+          "item": "Life Orb",
+          "ability": "Rough Skin",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Outrage",
+            "Stone Edge",
+            "Swords Dance"
+          ]
+        },
+        {
+          "name": "Salamence",
+          "item": "Life Orb",
+          "ability": "Intimidate",
+          "nature": "Naive",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 Atk)",
+          "moves": [
+            "Draco Meteor",
+            "Flamethrower",
+            "Earthquake",
+            "Roost"
+          ]
+        },
+        {
+          "name": "Lapras",
+          "item": "Leftovers",
+          "ability": "Water Absorb",
+          "nature": "Modest",
+          "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+          "moves": [
+            "Freeze-Dry",
+            "Hydro Pump",
+            "Thunderbolt",
+            "Ice Beam"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        19,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 3.0211480362537766
+      }
+    },
+    {
+      "game": 37,
+      "winner": "baseline",
+      "turns": 5,
+      "opponent": [
+        "Garchomp",
+        "Salamence",
+        "Lapras"
+      ],
+      "opponentSets": [
+        {
+          "name": "Garchomp",
+          "item": "Life Orb",
+          "ability": "Rough Skin",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Earthquake",
+            "Outrage",
+            "Stone Edge",
+            "Swords Dance"
+          ]
+        },
+        {
+          "name": "Salamence",
+          "item": "Life Orb",
+          "ability": "Intimidate",
+          "nature": "Naive",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 Atk)",
+          "moves": [
+            "Draco Meteor",
+            "Flamethrower",
+            "Earthquake",
+            "Roost"
+          ]
+        },
+        {
+          "name": "Lapras",
+          "item": "Leftovers",
+          "ability": "Water Absorb",
+          "nature": "Modest",
+          "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+          "moves": [
+            "Freeze-Dry",
+            "Hydro Pump",
+            "Thunderbolt",
+            "Ice Beam"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        19,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 3.0211480362537766
+      }
+    },
+    {
+      "game": 38,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Salamence",
+        "Tyranitar",
+        "Hydreigon"
+      ],
+      "opponentSets": [
+        {
+          "name": "Salamence",
+          "item": "Life Orb",
+          "ability": "Intimidate",
+          "nature": "Naive",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 Atk)",
+          "moves": [
+            "Draco Meteor",
+            "Flamethrower",
+            "Earthquake",
+            "Roost"
+          ]
+        },
+        {
+          "name": "Tyranitar",
+          "item": "Leftovers",
+          "ability": "Sand Stream",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Stone Edge",
+            "Crunch",
+            "Earthquake",
+            "Ice Punch"
+          ]
+        },
+        {
+          "name": "Hydreigon",
+          "item": "Choice Specs",
+          "ability": "Levitate",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dark Pulse",
+            "Draco Meteor",
+            "Flamethrower",
+            "Flash Cannon"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        20,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 100,
+        "opponent": 0
+      }
+    },
+    {
+      "game": 39,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Salamence",
+        "Tyranitar",
+        "Hydreigon"
+      ],
+      "opponentSets": [
+        {
+          "name": "Salamence",
+          "item": "Life Orb",
+          "ability": "Intimidate",
+          "nature": "Naive",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 Atk)",
+          "moves": [
+            "Draco Meteor",
+            "Flamethrower",
+            "Earthquake",
+            "Roost"
+          ]
+        },
+        {
+          "name": "Tyranitar",
+          "item": "Leftovers",
+          "ability": "Sand Stream",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Stone Edge",
+            "Crunch",
+            "Earthquake",
+            "Ice Punch"
+          ]
+        },
+        {
+          "name": "Hydreigon",
+          "item": "Choice Specs",
+          "ability": "Levitate",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Dark Pulse",
+            "Draco Meteor",
+            "Flamethrower",
+            "Flash Cannon"
+          ]
+        }
+      ],
+      "baseline": "tactical",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        20,
+        18193
+      ],
+      "baselineVoluntarySwitches": 0,
+      "finalHP": {
+        "agent": 100,
+        "opponent": 0
+      }
+    }
+  ]
+}

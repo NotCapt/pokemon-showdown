@@ -1,0 +1,144 @@
+|t:|1792093257
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine, M|
+|poke|p2|Salamence, M|
+|poke|p2|Gengar, F|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|t:|1792093257
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|split|p2
+|switch|p2a: Salamence|Salamence, M|394/394
+|switch|p2a: Salamence|Salamence, M|394/394
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|turn|1
+|
+|t:|1792093257
+|move|p2a: Salamence|Outrage|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|53/323
+|-damage|p1a: Dragonite|53/323
+|move|p1a: Dragonite|Ice Spinner|p2a: Salamence
+|-supereffective|p2a: Salamence
+|split|p2
+|-damage|p2a: Salamence|0 fnt
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|upkeep
+|
+|t:|1792093257
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|386/386
+|switch|p2a: Dragonite|Dragonite, M|386/386
+|turn|2
+|
+|t:|1792093257
+|move|p2a: Dragonite|Outrage|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1792093257
+|split|p1
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|turn|3
+|
+|t:|1792093258
+|move|p2a: Dragonite|Outrage|p1a: Arcanine|[from] lockedmove
+|split|p1
+|-damage|p1a: Arcanine|195/384
+|-damage|p1a: Arcanine|195/384
+|-start|p2a: Dragonite|confusion|[fatigue]
+|move|p1a: Arcanine|Play Rough|p2a: Dragonite|[miss]
+|-miss|p1a: Arcanine|p2a: Dragonite
+|
+|upkeep
+|turn|4
+|
+|t:|1792093258
+|split|p2
+|switch|p2a: Gengar|Gengar, F|324/324
+|switch|p2a: Gengar|Gengar, F|324/324
+|move|p1a: Arcanine|Play Rough|p2a: Gengar
+|-resisted|p2a: Gengar
+|split|p2
+|-damage|p2a: Gengar|246/324
+|-damage|p2a: Gengar|246/324
+|
+|upkeep
+|turn|5
+|
+|t:|1792093258
+|move|p2a: Gengar|Sludge Bomb|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|63/384
+|-damage|p1a: Arcanine|63/384
+|move|p1a: Arcanine|Crunch|p2a: Gengar
+|-supereffective|p2a: Gengar
+|split|p2
+|-damage|p2a: Gengar|0 fnt
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|t:|1792093258
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|386/386
+|switch|p2a: Dragonite|Dragonite, M|386/386
+|turn|6
+|
+|t:|1792093258
+|move|p1a: Arcanine|Extreme Speed|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|341/386
+|-damage|p2a: Dragonite|341/386
+|move|p2a: Dragonite|Outrage|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|t:|1792093258
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|turn|7
+|
+|t:|1792093258
+|move|p1a: Dragapult|Draco Meteor|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|split|p2
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p2a: Dragonite|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Dragonite
+|
+|win|agent

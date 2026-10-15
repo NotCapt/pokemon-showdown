@@ -1,0 +1,125 @@
+|t:|1792093256
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Gengar, F|
+|poke|p1|Scizor, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Arcanine, F|
+|teampreview
+|
+|t:|1792093256
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Gengar|Gengar, F|261/261
+|switch|p1a: Gengar|Gengar, F|261/261
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|turn|1
+|
+|t:|1792093257
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|move|p2a: Dragonite|Earthquake|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|65/317
+|-damage|p1a: Dragapult|65/317
+|
+|upkeep
+|turn|2
+|
+|t:|1792093257
+|move|p1a: Dragapult|Dragon Darts|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|227/323
+|-damage|p2a: Dragonite|227/323
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|split|p2
+|-damage|p2a: Dragonite|23/323
+|-damage|p2a: Dragonite|23/323
+|move|p2a: Dragonite|Earthquake|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1792093257
+|split|p1
+|switch|p1a: Gengar|Gengar, F|261/261
+|switch|p1a: Gengar|Gengar, F|261/261
+|turn|3
+|
+|t:|1792093257
+|split|p2
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|move|p1a: Gengar|Sludge Bomb|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|243/384
+|-damage|p2a: Arcanine|243/384
+|
+|upkeep
+|turn|4
+|
+|t:|1792093257
+|move|p1a: Gengar|Sludge Bomb|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|98/384
+|-damage|p2a: Arcanine|98/384
+|-status|p2a: Arcanine|psn
+|move|p2a: Arcanine|Crunch|p1a: Gengar
+|-supereffective|p1a: Gengar
+|split|p1
+|-damage|p1a: Gengar|0 fnt
+|-damage|p1a: Gengar|0 fnt
+|-start|p2a: Arcanine|Disable|Crunch|[from] ability: Cursed Body|[of] p1a: Gengar
+|faint|p1a: Gengar
+|
+|split|p2
+|-damage|p2a: Arcanine|50/384 psn|[from] psn
+|-damage|p2a: Arcanine|50/384 psn|[from] psn
+|upkeep
+|
+|t:|1792093257
+|split|p1
+|switch|p1a: Scizor|Scizor, F|344/344
+|switch|p1a: Scizor|Scizor, F|344/344
+|turn|5
+|
+|t:|1792093257
+|move|p2a: Arcanine|Flare Blitz|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-enditem|p1a: Scizor|Focus Sash
+|split|p1
+|-damage|p1a: Scizor|1/344
+|-damage|p1a: Scizor|1/344
+|-status|p1a: Scizor|brn
+|split|p2
+|-damage|p2a: Arcanine|0 fnt|[from] Recoil
+|-damage|p2a: Arcanine|0 fnt|[from] Recoil
+|faint|p2a: Arcanine
+|move|p1a: Scizor|U-turn|p2: Arcanine|[notarget]
+|-fail|p1a: Scizor
+|
+|split|p1
+|-damage|p1a: Scizor|0 fnt|[from] brn
+|-damage|p1a: Scizor|0 fnt|[from] brn
+|faint|p1a: Scizor
+|
+|win|agent

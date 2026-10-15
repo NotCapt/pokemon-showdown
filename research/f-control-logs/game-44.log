@@ -1,0 +1,131 @@
+|t:|1792092887
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|t:|1792092887
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|split|p2
+|switch|p2a: Ferrothorn|Ferrothorn, M|289/289
+|switch|p2a: Ferrothorn|Ferrothorn, M|289/289
+|turn|1
+|
+|t:|1792092887
+|move|p1a: Dragonite|Fire Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|split|p2
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p2a: Ferrothorn|0 fnt
+|split|p1
+|-damage|p1a: Dragonite|283/323|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Dragonite|283/323|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|t:|1792092887
+|split|p2
+|switch|p2a: Hydreigon|Hydreigon, M|325/325
+|switch|p2a: Hydreigon|Hydreigon, M|325/325
+|turn|2
+|
+|t:|1792092887
+|split|p1
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Hydreigon|atk|1
+|move|p2a: Hydreigon|Draco Meteor|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|92/384
+|-damage|p1a: Arcanine|92/384
+|-unboost|p2a: Hydreigon|spa|2
+|
+|upkeep
+|turn|3
+|
+|t:|1792092887
+|move|p2a: Hydreigon|Draco Meteor|p1a: Arcanine|[miss]
+|-miss|p2a: Hydreigon|p1a: Arcanine
+|move|p1a: Arcanine|Play Rough|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|split|p2
+|-damage|p2a: Hydreigon|0 fnt
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|t:|1792092887
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|turn|4
+|
+|t:|1792092887
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|283/323
+|switch|p1a: Dragonite|Dragonite, F|283/323
+|move|p2a: Dragonite|Outrage|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1792092887
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|turn|5
+|
+|t:|1792092887
+|move|p2a: Dragonite|Outrage|p1a: Dragapult|[from] lockedmove
+|-supereffective|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-start|p2a: Dragonite|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1792092887
+|split|p1
+|switch|p1a: Arcanine|Arcanine, F|92/384
+|switch|p1a: Arcanine|Arcanine, F|92/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|turn|6
+|
+|t:|1792092887
+|move|p1a: Arcanine|Extreme Speed|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|277/323
+|-damage|p2a: Dragonite|277/323
+|-activate|p2a: Dragonite|confusion
+|move|p2a: Dragonite|Outrage|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|win|baseline

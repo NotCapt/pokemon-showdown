@@ -1,0 +1,7 @@
+{
+  "referenceSha256": "e26bad6fa8cf2d27d3e7f21a297d6465323994bf6056fc52f249c56ebe6e0975",
+  "candidateSha256": "bc535bc89ba66843b4264c00cd25d08cc842e95a2138ec00523039f9a555bd2a",
+  "decisions": 42,
+  "differences": [],
+  "caveat": "Same public observation and reference history; does not estimate the outcome of playing the alternative action."
+}

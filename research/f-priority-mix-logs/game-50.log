@@ -1,0 +1,160 @@
+|t:|1792093254
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine, F|
+|poke|p2|Lapras, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Gyarados, M|
+|teampreview
+|
+|t:|1792093254
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|split|p2
+|switch|p2a: Lapras|Lapras, M|401/401
+|switch|p2a: Lapras|Lapras, M|401/401
+|turn|1
+|
+|t:|1792093254
+|move|p1a: Dragonite|Earthquake|p2a: Lapras
+|split|p2
+|-damage|p2a: Lapras|157/401
+|-damage|p2a: Lapras|157/401
+|move|p2a: Lapras|Freeze-Dry|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|191/323
+|-damage|p1a: Dragonite|191/323
+|
+|upkeep
+|turn|2
+|
+|t:|1792093254
+|split|p1
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Lapras|atk|1
+|move|p2a: Lapras|Ice Shard|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|364/384
+|-damage|p1a: Arcanine|364/384
+|
+|upkeep
+|turn|3
+|
+|t:|1792093254
+|split|p2
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|move|p1a: Arcanine|Flare Blitz|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|268/323
+|-damage|p2a: Dragonite|268/323
+|split|p1
+|-damage|p1a: Arcanine|346/384|[from] Recoil
+|-damage|p1a: Arcanine|346/384|[from] Recoil
+|
+|upkeep
+|turn|4
+|
+|t:|1792093254
+|move|p2a: Dragonite|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|34/384
+|-damage|p1a: Arcanine|34/384
+|move|p1a: Arcanine|Play Rough|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|split|p2
+|-damage|p2a: Dragonite|52/323
+|-damage|p2a: Dragonite|52/323
+|
+|upkeep
+|turn|5
+|
+|t:|1792093254
+|move|p1a: Arcanine|Extreme Speed|p2a: Dragonite
+|split|p2
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1792093254
+|split|p2
+|switch|p2a: Lapras|Lapras, M|157/401
+|switch|p2a: Lapras|Lapras, M|157/401
+|turn|6
+|
+|t:|1792093254
+|move|p2a: Lapras|Body Slam|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p1a: Arcanine|0 fnt
+|debug|move failed because it did nothing
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|t:|1792093254
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|turn|7
+|
+|t:|1792093254
+|split|p2
+|switch|p2a: Gyarados|Gyarados, M|331/331
+|switch|p2a: Gyarados|Gyarados, M|331/331
+|move|p1a: Dragapult|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-enditem|p2a: Gyarados|Focus Sash
+|split|p2
+|-damage|p2a: Gyarados|1/331
+|-damage|p2a: Gyarados|1/331
+|
+|upkeep
+|turn|8
+|
+|t:|1792093254
+|move|p1a: Dragapult|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|split|p2
+|-damage|p2a: Gyarados|0 fnt
+|-damage|p2a: Gyarados|0 fnt
+|debug|move failed because it did nothing
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|t:|1792093254
+|split|p2
+|switch|p2a: Lapras|Lapras, M|157/401
+|switch|p2a: Lapras|Lapras, M|157/401
+|turn|9
+|
+|t:|1792093254
+|move|p1a: Dragapult|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|split|p2
+|-damage|p2a: Lapras|0 fnt
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|win|agent

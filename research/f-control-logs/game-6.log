@@ -1,0 +1,101 @@
+|t:|1792092878
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine, F|
+|poke|p2|Lucario, M|
+|poke|p2|Metagross|
+|poke|p2|Snorlax, F|
+|teampreview
+|
+|t:|1792092878
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|split|p2
+|switch|p2a: Lucario|Lucario, M|281/281
+|switch|p2a: Lucario|Lucario, M|281/281
+|turn|1
+|
+|t:|1792092878
+|split|p2
+|switch|p2a: Metagross|Metagross|301/301
+|switch|p2a: Metagross|Metagross|301/301
+|move|p1a: Dragonite|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|split|p2
+|-damage|p2a: Metagross|0 fnt
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|upkeep
+|
+|t:|1792092878
+|split|p2
+|switch|p2a: Snorlax|Snorlax, F|524/524
+|switch|p2a: Snorlax|Snorlax, F|524/524
+|turn|2
+|
+|t:|1792092878
+|move|p1a: Dragonite|Earthquake|p2a: Snorlax
+|split|p2
+|-damage|p2a: Snorlax|236/524
+|-damage|p2a: Snorlax|236/524
+|move|p2a: Snorlax|Giga Impact|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|185/323
+|-damage|p1a: Dragonite|185/323
+|-mustrecharge|p2a: Snorlax
+|
+|upkeep
+|turn|3
+|
+|t:|1792092878
+|move|p1a: Dragonite|Earthquake|p2a: Snorlax
+|-crit|p2a: Snorlax
+|split|p2
+|-damage|p2a: Snorlax|0 fnt
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|upkeep
+|
+|t:|1792092878
+|split|p2
+|switch|p2a: Lucario|Lucario, M|281/281
+|switch|p2a: Lucario|Lucario, M|281/281
+|turn|4
+|
+|t:|1792092878
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|move|p2a: Lucario|Flash Cannon|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|83/317
+|-damage|p1a: Dragapult|83/317
+|split|p2
+|-damage|p2a: Lucario|253/281|[from] item: Life Orb
+|-damage|p2a: Lucario|253/281|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1792092878
+|move|p1a: Dragapult|Flamethrower|p2a: Lucario
+|-supereffective|p2a: Lucario
+|split|p2
+|-damage|p2a: Lucario|0 fnt
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|win|agent

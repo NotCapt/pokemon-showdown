@@ -1,0 +1,18 @@
+{
+  "candidate": "research/f-priority-mix-validation.json",
+  "control": "research/f-control-validation.json",
+  "candidateSha256": "d175d0008c37c02186d2b8b8830f0946ca717f264c8a5319b11dd197f8b762fe",
+  "controlSha256": "e26bad6fa8cf2d27d3e7f21a297d6465323994bf6056fc52f249c56ebe6e0975",
+  "games": 192,
+  "opposingTeamClusters": 32,
+  "candidateWins": 170,
+  "controlWins": 172,
+  "gainPP": -1.0416666666666667,
+  "improvedGames": 0,
+  "regressedGames": 2,
+  "clusterBootstrap95GainPP": [
+    -3.125,
+    0.0
+  ],
+  "method": "5000 replicates, seed 9187; resample entire ordered opposing-team/set clusters to retain repeated-team and side-pair dependence. Descriptive, no adjustment for candidate selection."
+}

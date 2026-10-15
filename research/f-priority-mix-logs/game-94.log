@@ -1,0 +1,90 @@
+|t:|1792093263
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Togekiss, M|
+|poke|p2|Alakazam, F|
+|teampreview
+|
+|t:|1792093263
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|split|p2
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|turn|1
+|
+|t:|1792093263
+|split|p2
+|switch|p2a: Togekiss|Togekiss, M|374/374
+|switch|p2a: Togekiss|Togekiss, M|374/374
+|move|p1a: Dragonite|Ice Spinner|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|split|p2
+|-damage|p2a: Togekiss|60/374
+|-damage|p2a: Togekiss|60/374
+|
+|upkeep
+|turn|2
+|
+|t:|1792093263
+|move|p1a: Dragonite|Ice Spinner|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|split|p2
+|-damage|p2a: Togekiss|0 fnt
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|t:|1792093263
+|split|p2
+|switch|p2a: Alakazam|Alakazam, F|314/314
+|switch|p2a: Alakazam|Alakazam, F|314/314
+|turn|3
+|
+|t:|1792093263
+|move|p2a: Alakazam|Psyshock|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|237/323
+|-damage|p1a: Dragonite|237/323
+|move|p1a: Dragonite|Ice Spinner|p2a: Alakazam
+|-crit|p2a: Alakazam
+|split|p2
+|-damage|p2a: Alakazam|0 fnt
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|upkeep
+|
+|t:|1792093263
+|split|p2
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|turn|4
+|
+|t:|1792093263
+|move|p2a: Dragapult|Psychic Fangs|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|136/323
+|-damage|p1a: Dragonite|136/323
+|move|p1a: Dragonite|Ice Spinner|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|win|agent

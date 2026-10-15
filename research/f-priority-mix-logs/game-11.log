@@ -1,0 +1,131 @@
+|t:|1792093247
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Alakazam, F|
+|poke|p1|Gengar, F|
+|poke|p1|Snorlax, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Arcanine, M|
+|teampreview
+|
+|t:|1792093247
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Alakazam|Alakazam, F|251/251
+|switch|p1a: Alakazam|Alakazam, F|251/251
+|split|p2
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|turn|1
+|
+|t:|1792093247
+|split|p1
+|switch|p1a: Snorlax|Snorlax, M|524/524
+|switch|p1a: Snorlax|Snorlax, M|524/524
+|move|p2a: Dragonite|Extreme Speed|p1a: Snorlax
+|split|p1
+|-damage|p1a: Snorlax|315/524
+|-damage|p1a: Snorlax|315/524
+|
+|upkeep
+|turn|2
+|
+|t:|1792093247
+|move|p2a: Dragonite|Extreme Speed|p1a: Snorlax
+|split|p1
+|-damage|p1a: Snorlax|87/524
+|-damage|p1a: Snorlax|87/524
+|move|p1a: Snorlax|Giga Impact|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|110/323
+|-damage|p2a: Dragonite|110/323
+|-mustrecharge|p1a: Snorlax
+|
+|upkeep
+|turn|3
+|
+|t:|1792093247
+|move|p2a: Dragonite|Extreme Speed|p1a: Snorlax
+|split|p1
+|-damage|p1a: Snorlax|0 fnt
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|upkeep
+|
+|t:|1792093247
+|split|p1
+|switch|p1a: Gengar|Gengar, F|261/261
+|switch|p1a: Gengar|Gengar, F|261/261
+|turn|4
+|
+|t:|1792093247
+|split|p2
+|switch|p2a: Arcanine|Arcanine, M|384/384
+|switch|p2a: Arcanine|Arcanine, M|384/384
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|move|p1a: Gengar|Sludge Bomb|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|240/384
+|-damage|p2a: Arcanine|240/384
+|
+|upkeep
+|turn|5
+|
+|t:|1792093247
+|move|p1a: Gengar|Sludge Bomb|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|111/384
+|-damage|p2a: Arcanine|111/384
+|move|p2a: Arcanine|Crunch|p1a: Gengar
+|-supereffective|p1a: Gengar
+|split|p1
+|-damage|p1a: Gengar|0 fnt
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|upkeep
+|
+|t:|1792093247
+|split|p1
+|switch|p1a: Alakazam|Alakazam, F|251/251
+|switch|p1a: Alakazam|Alakazam, F|251/251
+|turn|6
+|
+|t:|1792093247
+|move|p2a: Arcanine|Extreme Speed|p1a: Alakazam
+|split|p1
+|-damage|p1a: Alakazam|92/251
+|-damage|p1a: Alakazam|92/251
+|move|p1a: Alakazam|Focus Blast|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|0 fnt
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1792093247
+|split|p2
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|turn|7
+|
+|t:|1792093247
+|move|p2a: Dragapult|Shadow Ball|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|split|p1
+|-damage|p1a: Alakazam|0 fnt
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|win|agent

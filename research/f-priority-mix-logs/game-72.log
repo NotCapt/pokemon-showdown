@@ -1,0 +1,142 @@
+|t:|1792093258
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine, F|
+|poke|p2|Snorlax, F|
+|poke|p2|Gengar, F|
+|poke|p2|Gyarados, M|
+|teampreview
+|
+|t:|1792093258
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|split|p2
+|switch|p2a: Snorlax|Snorlax, F|461/461
+|switch|p2a: Snorlax|Snorlax, F|461/461
+|turn|1
+|
+|t:|1792093258
+|move|p1a: Dragonite|Earthquake|p2a: Snorlax
+|split|p2
+|-damage|p2a: Snorlax|161/461
+|-damage|p2a: Snorlax|161/461
+|move|p2a: Snorlax|Giga Impact|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|183/323
+|-damage|p1a: Dragonite|183/323
+|-mustrecharge|p2a: Snorlax
+|
+|upkeep
+|turn|2
+|
+|t:|1792093258
+|move|p1a: Dragonite|Earthquake|p2a: Snorlax
+|split|p2
+|-damage|p2a: Snorlax|0 fnt
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|upkeep
+|
+|t:|1792093258
+|split|p2
+|switch|p2a: Gyarados|Gyarados, M|394/394
+|switch|p2a: Gyarados|Gyarados, M|394/394
+|turn|3
+|
+|t:|1792093258
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|move|p2a: Gyarados|Waterfall|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|180/317
+|-damage|p1a: Dragapult|180/317
+|
+|upkeep
+|turn|4
+|
+|t:|1792093258
+|split|p2
+|switch|p2a: Gengar|Gengar, F|261/261
+|switch|p2a: Gengar|Gengar, F|261/261
+|move|p1a: Dragapult|Thunderbolt|p2a: Gengar
+|split|p2
+|-damage|p2a: Gengar|104/261
+|-damage|p2a: Gengar|104/261
+|
+|upkeep
+|turn|5
+|
+|t:|1792093258
+|move|p1a: Dragapult|Thunderbolt|p2a: Gengar
+|split|p2
+|-damage|p2a: Gengar|0 fnt
+|-damage|p2a: Gengar|0 fnt
+|-start|p1a: Dragapult|Disable|Thunderbolt|[from] ability: Cursed Body|[of] p2a: Gengar
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|t:|1792093258
+|split|p2
+|switch|p2a: Gyarados|Gyarados, M|394/394
+|switch|p2a: Gyarados|Gyarados, M|394/394
+|turn|6
+|
+|t:|1792093259
+|-activate|p1a: Dragapult|move: Struggle
+|move|p1a: Dragapult|Struggle|p2a: Gyarados
+|split|p2
+|-damage|p2a: Gyarados|345/394
+|-damage|p2a: Gyarados|345/394
+|split|p1
+|-damage|p1a: Dragapult|101/317|[from] recoil
+|-damage|p1a: Dragapult|101/317|[from] recoil
+|move|p2a: Gyarados|Earthquake|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|t:|1792093259
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|183/323
+|switch|p1a: Dragonite|Dragonite, F|183/323
+|turn|7
+|
+|t:|1792093259
+|move|p1a: Dragonite|Extreme Speed|p2a: Gyarados
+|split|p2
+|-damage|p2a: Gyarados|145/394
+|-damage|p2a: Gyarados|145/394
+|move|p2a: Gyarados|Earthquake|p1a: Dragonite
+|-immune|p1a: Dragonite
+|
+|upkeep
+|turn|8
+|
+|t:|1792093259
+|move|p1a: Dragonite|Extreme Speed|p2a: Gyarados
+|split|p2
+|-damage|p2a: Gyarados|0 fnt
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|win|agent

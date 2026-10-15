@@ -24,10 +24,14 @@ for index,name in enumerate(['REDLINE_Screen_1.ipynb','REDLINE_Screen_2.ipynb','
     assert hashlib.sha256(binary).hexdigest()==values['BUNDLE_SHA256']
     hashes.append(values['BUNDLE_SHA256'])
     with zipfile.ZipFile(io.BytesIO(binary)) as z:
-        for path in z.namelist():assert z.read(path)==(root/path).read_bytes(), 'Stale embedded source: '+path
+        for path in z.namelist():
+            reference=root/'archive/v4_3_2'/Path(path).name if path in ('agent_core.py','team.json') else root/path
+            assert z.read(path)==reference.read_bytes(), 'Stale campaign source: '+path
     for cell in notebook['cells']:
         if cell['cell_type']=='code':compile(''.join(cell['source']),name,'exec')
 assert len(set(hashes))==1
+recorded=json.loads((root/'research/kaggle-parallel-notebooks.json').read_text())['bundleSha256']
+assert hashes[0]==recorded, 'Running campaign was changed; use separate notebooks for a new campaign'
 print('Four notebooks: matching source bundles, correct shard identities, all code cells compile.')
 
 # Simulate Kaggle mounting both root outputs and their results-folder copies.
