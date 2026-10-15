@@ -363,10 +363,14 @@ class PokemonAgent:
         scored=[]
         continuation_turn=turn_no if o.get('force_switch') else turn_no+1
         for command,m,s in actions:
+            # Entry stats and configuration are immutable across chance branches.
+            entry=build_mon(s,True) if s else a
             outcomes=[]
             for enemy in candidates:
                 # Three deterministic damage quantiles, no expensive random rollouts.
                 vals=[]
+                own_p=accuracy(m) if m else 1.
+                enemy_p=accuracy(enemy)
                 # Enumerate independent first-turn hit/miss outcomes exactly,
                 # averaged over three damage quantiles.
                 tied=bool(m) and m.get('priority',0)==enemy.get('priority',0) and stat(a,'spe',weather)==stat(b,'spe',weather)
@@ -376,8 +380,6 @@ class PokemonAgent:
                     roll=(.85,.925,1.0)[sample%3]
                     branch=(sample//3)%4
                     own_hit=bool(branch&1); enemy_hit=bool(branch&2)
-                    own_p=accuracy(m) if m else 1.
-                    enemy_p=accuracy(enemy)
                     probability=(own_p if own_hit else 1-own_p)*(enemy_p if enemy_hit else 1-enemy_p)
                     if tied: probability*=.5
                     tie_first=(sample//12)%order_count==0
@@ -394,7 +396,7 @@ class PokemonAgent:
                     if flinch_count==2:
                         own_move['_flinch']=flinched
                         enemy_move['_flinch']=flinched
-                    x=build_mon(s,True) if s else clone_mon(a)
+                    x=clone_mon(entry)
                     y=clone_mon(b)
                     starting_hp=x['hp']
                     initial=value(x,y)

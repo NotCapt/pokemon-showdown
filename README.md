@@ -1,14 +1,27 @@
-# REDLINE Search â€” v4.3
+# REDLINE Search â€” v4.3.1
 
 GitHub: [NotCapt/pokemon-showdown](https://github.com/NotCapt/pokemon-showdown).
 
-The recommended release is `dist/REDLINE_Search.zip` (v4.3), also available as
-`dist/REDLINE_Search_v4_3.zip`. Rename the ZIP to your registered team name
+The recommended release is `dist/REDLINE_Search.zip` (v4.3.1), also available as
+`dist/REDLINE_Search_v4_3_1.zip`. Rename the ZIP to your registered team name
 before submission. It contains exactly `agent.py` and `team.txt`.
 
 `submission/agent.py`, `submission/team.txt`, `agent_core.py` and `team.json`
 all describe this release. V4.2 is preserved in `archive/v4_2` and its versioned
 ZIP; earlier releases and experiments remain available.
+
+## Kaggle search and v4.3.1
+
+[Open the private Kaggle notebook](https://www.kaggle.com/code/faaizhussain/redline-pokemon-team-search-v4-3-1).
+Use CPU, enable Internet and Run All. Quick mode is the default; full mode screens
+all 2,024 species trios before mutating survivor sets. Checkpoints support resume.
+The local notebook is `notebooks/REDLINE_Team_Search.ipynb`.
+
+V4.3.1 reduces repeated stat construction in chance branches. A paired local check
+measured 1.10x throughput with identical actions and memory on 960 observations;
+392 benchmark battles retained v4.3 results. This is a speed improvement, not a
+proven win-rate increase. See `research/V4_3_1_REPORT.md`. V4.3 is archived in
+`archive/v4_3`; the historical results below describe v4.3.
 
 ## What improved
 

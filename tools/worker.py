@@ -8,26 +8,26 @@ import os
 root=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('agent',root/os.environ.get('AGENT_FILE','submission/agent.py'))
 module=importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
-oldspec=importlib.util.spec_from_file_location('old',root/'archive/v1/agent.py')
-old=importlib.util.module_from_spec(oldspec);oldspec.loader.exec_module(old)
-v2spec=importlib.util.spec_from_file_location('v2',root/'archive/v2/agent.py')
-v2=importlib.util.module_from_spec(v2spec);v2spec.loader.exec_module(v2)
-v3spec=importlib.util.spec_from_file_location('v3',root/'archive/v3/agent.py')
-v3=importlib.util.module_from_spec(v3spec);v3spec.loader.exec_module(v3)
-v4spec=importlib.util.spec_from_file_location('v4',root/'archive/v4/agent.py')
-v4=importlib.util.module_from_spec(v4spec);v4spec.loader.exec_module(v4)
-v41spec=importlib.util.spec_from_file_location('v4_1',root/'archive/v4_1/agent.py')
-v41=importlib.util.module_from_spec(v41spec);v41spec.loader.exec_module(v41)
+policies={}
+def policy_module(name):
+    if name not in ('v1','v2','v3','v4','v4_1','frozen'): return module
+    if name not in policies:
+        path=root/(os.environ['OPP_AGENT_FILE'] if name=='frozen' else 'archive/'+name+'/agent.py')
+        spec=importlib.util.spec_from_file_location('policy_'+name,path)
+        impl=importlib.util.module_from_spec(spec);spec.loader.exec_module(impl)
+        policies[name]=impl
+    return policies[name]
 agents={}
 for line in sys.stdin:
     try:
         req=json.loads(line); key=req.get('key','default')
         if req.get('reset') or os.environ.get('STATELESS')=='1': agents.pop(key,None)
         if key not in agents:
-            impl={'v1':old,'v2':v2,'v3':v3,'v4':v4,'v4_1':v41}.get(req.get('policy'),module)
+            impl=policy_module(req.get('policy'))
             agents[key]=impl.PokemonAgent()
         start=time.perf_counter()
         if req.get('policy')=='tactical':
+            old=policy_module('v1')
             o=req['observation']; switches=o.get('valid_switches',[])
             a=old.build_mon(o.get('my_active',{})); b=old.build_mon(o.get('foe',{}))
             if o.get('team_preview'): action='team 123'
