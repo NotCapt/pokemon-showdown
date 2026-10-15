@@ -1,14 +1,35 @@
-# REDLINE Search — v4.4
+# REDLINE Search — v4.5
 
 GitHub: [NotCapt/pokemon-showdown](https://github.com/NotCapt/pokemon-showdown).
 
-The recommended release is `dist/REDLINE_Search.zip` (v4.4), also available as
-`dist/REDLINE_Search_v4_4.zip`. Rename the ZIP to your registered team name
+The recommended release is `dist/REDLINE_Search.zip` (v4.5), also available as
+`dist/REDLINE_Search_v4_5.zip`. Rename the ZIP to your registered team name
 before submission. It contains exactly `agent.py` and `team.txt`.
 
 `submission/agent.py`, `submission/team.txt`, `agent_core.py` and `team.json`
 all describe this release. V4.2 is preserved in `archive/v4_2` and its versioned
 ZIP; earlier releases and experiments remain available.
+
+## V4.5: combined policy and physical Dragapult
+
+V4.5 uses the teammate's Choice Band / Clear Body / Adamant Dragapult set and
+keeps v4.4's hazard, Choice-lock, reserve-preservation and turn-cap mechanics.
+Read-only move definitions, cached item multipliers, speed/accuracy hoisting
+and a preview memory reset incorporate the teammate's implementation improvements.
+
+In a frozen, fresh 4,512-battle comparison, the combined bot scored 770/960
+against common opponents, versus teammate 758/960 and original v4.4 718/960.
+It beat v4.4 directly 163-93 and tied the teammate 128-128. The paired league
+gain versus the teammate was 1.25 percentage points, with a descriptive clustered
+95% interval of +0.21 to +2.50 points. These are local league results, not a
+tournament win probability. Original v4.4 still won more games on the mixed
+schedule (143/192 versus 138/192), so the change has matchup tradeoffs.
+
+The exact packaged source won its authorized practice smoke test in five turns.
+All 52 Python tests and both JavaScript tests pass. Historical policy fixtures
+explicitly retain their archived team config. V4.4 is preserved in
+`archive/v4_4`. See `research/V4_5_REPORT.md` for the aggregate comparison,
+validation results and exact release hashes.
 
 ## V4.4: entry damage from public observations
 
@@ -21,7 +42,7 @@ multiple possible field states and use the minimum shared damage estimate.
 The model matches 384 official-simulator entry-damage fixtures. A controlled
 last-turn position now avoids a lethal Arcanine entry and preserves 48.73 more
 summed HP points; that position still loses. Across 432 matched ordinary and
-stateless battles, all outcomes matched v4.3.2. The exact packaged source won
+stateless battles, all outcomes matched v4.3.2. The exact v4.4 source won
 its practice test in six turns. This is a scoped forecasting improvement, with
 no measured aggregate win-rate gain. See `research/V4_4_REPORT.md` and
 `research/v4_4-summary.json` for evidence, rejected experiments and limitations.

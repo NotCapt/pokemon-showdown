@@ -7,14 +7,14 @@ Adamant Nature
 - Ice Spinner
 - Fire Punch
 
-Dragapult @ Choice Specs
-Ability: Infiltrator
-EVs: 252 SpA / 252 Spe / 4 SpD
-Timid Nature
-- Shadow Ball
-- Draco Meteor
+Dragapult @ Choice Band
+Ability: Clear Body
+EVs: 252 Atk / 252 Spe / 4 SpD
+Adamant Nature
+- Dragon Darts
+- Sucker Punch
+- Psychic Fangs
 - Flamethrower
-- Thunderbolt
 
 Arcanine @ Assault Vest
 Ability: Intimidate

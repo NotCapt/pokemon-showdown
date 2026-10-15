@@ -5,10 +5,11 @@ from pathlib import Path
 import re
 
 root=Path(__file__).resolve().parents[1]
+release=root/'archive/v4_4'
 sha=lambda path:hashlib.sha256(path.read_bytes()).hexdigest()
-source=sha(root/'submission/agent.py')
+source=sha(release/'agent.py')
 control=sha(root/'archive/v4_3_2/agent.py')
-team=json.loads((root/'team.json').read_text())
+team=json.loads((release/'team.json').read_text())
 experiment_sources=0
 for path in sorted((root/'research').glob('f-*.json')):
     report=json.loads(path.read_text())
@@ -45,7 +46,7 @@ assert cap['results'][1]['agentSha256']==source and cap['results'][1]['capWinner
 
 portal=json.loads((root/'research/v4_4-portal-result.json').read_text())
 proof=json.loads((root/'research/v4_4-portal-result.tested.json').read_text())
-assert proof['agentSha256']==source and proof['teamSha256']==sha(root/'team.json') and not proof['probe']
+assert proof['agentSha256']==source and proof['teamSha256']==sha(release/'team.json') and not proof['probe']
 assert portal['success'] and portal['winnerSlot']=='p1'
 match=re.search(r'<script[^>]*class="battle-log-data"[^>]*>(.*?)</script>',portal['replayHtml'],re.S)
 assert match

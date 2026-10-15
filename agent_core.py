@@ -7,6 +7,9 @@ priors, never privileged information. No network, subprocesses or file reads.
 import math
 import re
 
+_CHOICE_STATS = {'atk': 'choiceband', 'spa': 'choicespecs',
+                 'spe': 'choicescarf', 'spd': 'assaultvest'}
+
 
 def clone_mon(mon):
     result=mon.copy()
@@ -77,7 +80,7 @@ def build_mon(obs, own=False):
 def stat(mon, k, weather=''):
     result = mon['stats'].get(k,100)*stage(mon['boosts'].get(k,0))
     item = mon['item']
-    if (k,item) in [('atk','choiceband'),('spa','choicespecs'),('spe','choicescarf'),('spd','assaultvest')]: result *= 1.5
+    if item and item == _CHOICE_STATS.get(k): result *= 1.5
     if k == 'spe':
         if mon['status']=='par': result *= .5
         if (weather in ('sand','sandstorm') and mon['ability']=='sandrush') or (weather in ('sun','sunnyday') and mon['ability']=='chlorophyll'): result *= 2
@@ -132,7 +135,8 @@ def moves_for(mon, coverage=False):
     names=mon['moves'][:]
     if coverage:
         names += [ident(x) for x in base.get('legalMoves',[]) if ident(x) not in names]
-    return [dict(DATA['moves'][n]) for n in names if n in DATA['moves']]
+    # Move definitions stay read-only; chance annotations use branch copies.
+    return [DATA['moves'][n] for n in names if n in DATA['moves']]
 
 
 def accuracy(m):
@@ -149,11 +153,12 @@ def flinch_chance(mon,move,target):
 
 def best_attack(a,b,weather):
     choices=moves_for(a)
-    if a.get('locked') in DATA['moves']: choices=[dict(DATA['moves'][a['locked']])]
+    if a.get('locked') in DATA['moves']: choices=[DATA['moves'][a['locked']]]
+    faster=stat(a,'spe',weather)>stat(b,'spe',weather)
     def utility(m):
         d=damage(a,b,m,weather)
         priority=m.get('priority',0)
-        first=priority>0 or (priority==0 and stat(a,'spe',weather)>stat(b,'spe',weather))
+        first=priority>0 or (priority==0 and faster)
         ko=sum(d*r/.925>=b['hp'] for r in (.85,.925,1.0))/3
         return accuracy(m)*(min(d,b['hp'])+ko*(65 if first else 30))
     return max(choices, key=utility, default={'id':'splash','category':'Status','base_power':0})
@@ -310,7 +315,9 @@ class PokemonAgent:
 
     def decide(self, observation):
         o=observation or {}
-        if o.get('team_preview'): return 'team 123'
+        if o.get('team_preview'):
+            self.__init__()
+            return 'team 123'
         turn_no=o.get('turn',0)
         cold_start=self.last_turn==0 and turn_no>1
         if turn_no<self.last_turn:
@@ -384,11 +391,11 @@ class PokemonAgent:
         for command,m,s in actions:
             # Entry stats and configuration are immutable across chance branches.
             entry=build_mon(s,True) if s else a
+            own_p=accuracy(m) if m else 1.
             outcomes=[]
             for enemy in candidates:
                 # Three deterministic damage quantiles, no expensive random rollouts.
                 vals=[]
-                own_p=accuracy(m) if m else 1.
                 enemy_p=accuracy(enemy)
                 # Enumerate independent first-turn hit/miss outcomes exactly,
                 # averaged over three damage quantiles.

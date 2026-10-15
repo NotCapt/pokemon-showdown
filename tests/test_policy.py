@@ -5,6 +5,7 @@ import os
 from pathlib import Path
 import random
 import unittest
+from unittest.mock import patch
 
 ROOT=Path(__file__).resolve().parents[1]
 def load(path,name):
@@ -15,6 +16,9 @@ agent=load(os.environ.get('AGENT_FILE','submission/agent.py'),'candidate')
 old=load('archive/v4_2/agent.py','reference')
 
 class PolicyTests(unittest.TestCase):
+    # These archived positions encode the original Specs Dragapult team.
+    # Hold that team fixed when testing policy mechanics across new releases.
+    @patch.object(agent,'OWN',old.OWN)
     def test_preserves_full_health_dragapult_in_saved_loss(self):
         fixture=json.loads((ROOT/'research/c-switch-fixture.json').read_text())
         candidate=agent.PokemonAgent();reference=old.PokemonAgent()
@@ -33,6 +37,7 @@ class PolicyTests(unittest.TestCase):
         self.assertEqual(agent.damage(a,c,agent.best_attack(a,c,'')),0)
         self.assertNotIn('locked',agent.build_mon({'name':'Metagross','item':'Choice Band'}))
 
+    @patch.object(agent,'OWN',old.OWN)
     def test_weak_reserve_sacrifice_stays_available(self):
         moves=[dict(agent.DATA['moves'][m],index=i+1) for i,m in enumerate(('flareblitz','extremespeed','crunch','playrough'))]
         obs=dict(turn=97,my_active=dict(name='Arcanine',hp_percent=66),
@@ -40,6 +45,7 @@ class PolicyTests(unittest.TestCase):
                  valid_switches=[dict(name='Dragonite',hp_percent=6,index=1),dict(name='Dragapult',hp_percent=10,index=2)])
         self.assertEqual(agent.PokemonAgent().decide(obs),'switch 1')
 
+    @patch.object(agent,'OWN',old.OWN)
     def test_last_turn_actions_preserve_hp_objective(self):
         rng=random.Random(11747)
         own=list(agent.OWN.values());names=list(agent.DATA['species'])
