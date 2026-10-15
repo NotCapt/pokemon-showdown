@@ -22,6 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OPTIONS = json.loads((ROOT/'research/options.json').read_text())
 INCUMBENT = json.loads((ROOT/'team.json').read_text())
 POLICIES = ('adaptive', 'tactical', 'frozen')
+METHOD_VERSION = 2
 
 def digest(value):
     return hashlib.sha256(json.dumps(value, sort_keys=True).encode()).hexdigest()
@@ -69,19 +70,89 @@ def mutate(team, rng):
 def unique(teams):
     return list({digest(t): t for t in teams}.values())
 
+def population(profile, seed):
+    pool = [[default(n) for n in trio] for trio in itertools.combinations(OPTIONS['pokemon'], 3)]
+    if profile != 'full': pool = random.Random(seed).sample(pool, 6 if profile == 'smoke' else 47)
+    return pool
+
+def shard_indices(size, index, count):
+    assert 0 <= index < count
+    return list(range(index, size, count))
+
+def ranking_key(record):
+    return (record['score'], record['hpMargin'], record['incumbent'], record['id'])
+
+def read_screenings(paths, campaign, pool, count):
+    """Read compact data only; never execute or extract code from other runs."""
+    seen=set(); teams=[INCUMBENT]; covered=set()
+    for path in paths:
+        with zipfile.ZipFile(path) as z:
+            assert z.namelist() == ['screening.json'], 'Unexpected screening archive contents'
+            assert z.getinfo('screening.json').file_size < 10_000_000
+            payload=json.loads(z.read('screening.json'))
+        assert payload['status']=='complete' and payload['campaign']==campaign, 'Mismatched or incomplete search'
+        index=payload['shardIndex']
+        assert payload['shardCount']==count and index not in seen, 'Duplicate or mismatched shard'
+        expected=shard_indices(len(pool), index, count)
+        assert payload['populationIndices']==expected and payload['populationSha256']==digest(pool), 'Incorrect shard coverage'
+        assert not covered.intersection(expected)
+        covered.update(expected);seen.add(index)
+        assert payload['finalists'], 'Missing finalists'
+        for team in payload['finalists']:
+            validate(team);teams.append(team)
+    assert seen==set(range(count)) and covered==set(range(len(pool))), 'All completed shards are required'
+    return unique(teams)
+
+def compare_confirmation(control, challenger):
+    """Matched outcomes with a descriptive interval conditional on this league."""
+    rng=random.Random(61273); strata=[]; policies={}
+    improved=regressed=0
+    for policy, a, b in zip(POLICIES,control,challenger):
+        assert a['games']==b['games'] and a['team']==INCUMBENT
+        groups={};deltas=[]
+        for x,y in zip(a['results'],b['results']):
+            for key in ('seed','side','opponentSets','baseline'):assert x[key]==y[key]
+            score=lambda r:1. if r['winner']=='agent' else .5 if not r['winner'] else 0.
+            delta=score(y)-score(x);deltas.append(delta)
+            improved+=delta>0;regressed+=delta<0
+            # Frozen opponent is one fixed team: resample its side-reversed
+            # seed pairs. Other policies resample complete opposing-set clusters.
+            cluster=x['seed'] if policy=='frozen' else x['opponentSets']
+            groups.setdefault(digest(cluster),[]).append(delta)
+        strata.append(list(groups.values()))
+        policies[policy]=dict(controlWins=a['wins'],challengerWins=b['wins'],games=a['games'],
+                              scoreGainPP=100*sum(deltas)/len(deltas))
+    boot=[]
+    for _ in range(2000):
+        values=[]
+        for groups in strata:
+            sample=[rng.choice(groups) for _ in groups]
+            values.append(sum(map(sum,sample))/sum(map(len,sample)))
+        boot.append(100*sum(values)/len(values))
+    boot.sort()
+    return dict(policies=policies,improvedGames=improved,regressedGames=regressed,
+                meanScoreGainPP=sum(p['scoreGainPP'] for p in policies.values())/len(policies),
+                pairedScoreInterval95=[boot[50],boot[1949]],
+                method='2000 stratified paired bootstrap replicates, seed 61273; opposing-set clusters for adaptive/tactical, seed pairs for fixed frozen team. Conditional on this experimental league; not a tournament win probability.')
+
 def run(args):
     out = Path(args.out).resolve(); out.mkdir(parents=True, exist_ok=True)
-    config = {k: v for k, v in vars(args).items() if k not in ('out', 'hours', 'max_games', 'workers')}
+    config = {k: v for k, v in vars(args).items() if k not in ('out', 'hours', 'max_games', 'workers', 'screening')}
+    config['screeningSha256']=sorted(hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in args.screening)
     files = ['agent_core.py', 'team.json', 'tools/team_search.py', 'tools/build_agent.py', 'tools/benchmark.js',
              'tools/worker.py', 'tools/opponents.js', 'tools/make_eval_teams.py', 'package-lock.json',
              'research/options.json', 'research/battle_data.json', 'research/enemy_sets.json', 'research/SHOWDOWN_LICENSE.txt',
              'archive/v4_3/agent.py', 'archive/v4_3/team.json', 'archive/v1/agent.py']
     provenance = dict(config=config, hashes={f: hashlib.sha256((ROOT/f).read_bytes()).hexdigest() for f in files})
+    campaign=dict(methodVersion=METHOD_VERSION, profile=args.profile, seed=args.seed, hashes=provenance['hashes'])
+    pool=population(args.profile,args.seed)
+    merged=read_screenings(args.screening,campaign,pool,args.shard_count) if args.mode=='finalize' else None
     manifest = out/'manifest.json'
     if manifest.exists():
         assert json.loads(manifest.read_text()) == provenance, 'Inputs changed. Use a new output directory.'
     else: write(manifest, provenance)
     deadline = time.monotonic() + args.hours*3600
+    evidence={}
     completed = sum(json.loads(p.read_text())['games'] for p in (out/'jobs').glob('*.json')) if (out/'jobs').exists() else 0
     suites = {}
     for phase, offset in [('development', 0), ('validation', 10000), ('confirmation', 20000)]:
@@ -142,40 +213,57 @@ def run(args):
             # Compilation happens once here; each policy gets a separate immutable copy path.
             with ThreadPoolExecutor(max_workers=args.workers) as executor:
                 reports = list(executor.map(job, specs))
+            evidence[digest(team)]=reports
             completed += missing*games
             rates = [(r['wins']+.5*r['draws'])/r['games'] for r in reports]
             record = dict(id=digest(team)[:20], team=team, score=.7*sum(rates)/len(rates)+.3*min(rates),
                           rates=dict(zip(POLICIES, rates)), games=sum(r['games'] for r in reports),
+                          hpMargin=sum(x['finalHP']['agent']-x['finalHP']['opponent'] for r in reports for x in r['results'])/sum(r['games'] for r in reports),
                           incumbent=team == INCUMBENT)
             ranked.append(record)
             write(out/'progress.json', dict(phase=phase, round=round_id, candidatesDone=index+1,
                                           candidatesTotal=len(teams), completedGames=completed))
             print(f'{phase}/{round_id} {index+1}/{len(teams)} score={record["score"]:.3f} total_games={completed}', flush=True)
-        ranked.sort(key=lambda r: (r['score'], r['incumbent']), reverse=True)
+        ranked.sort(key=ranking_key, reverse=True)
         write(out/f'{phase}-{round_id}-ranking.json', ranked)
         return ranked
 
     rng = random.Random(args.seed)
-    pool = [[default(n) for n in trio] for trio in itertools.combinations(OPTIONS['pokemon'], 3)]
-    if args.profile != 'full': pool = rng.sample(pool, 3 if args.profile == 'smoke' else 47)
-    teams = unique([INCUMBENT]+pool)
+    indices=shard_indices(len(pool),args.shard_index,args.shard_count) if args.mode=='screen' else list(range(len(pool)))
+    teams = unique([INCUMBENT]+[pool[i] for i in indices])
     schedule = [2] if args.profile == 'smoke' else ([4, 12, 48] if args.profile == 'full' else [4, 12])
+    if args.mode=='screen' and args.profile!='smoke':schedule[0]=8
     try:
-        for round_id, games in enumerate(schedule):
-            ranking = evaluate(teams, 'development', games, round_id)
-            keep = max(2, len(ranking)//(8 if args.profile == 'full' and round_id == 0 else 4))
-            teams = unique([INCUMBENT]+[r['team'] for r in ranking[:keep]])
-        children = [mutate(t, rng) for t in teams[:12] for _ in range(1 if args.profile == 'smoke' else 8)]
-        ranking = evaluate(unique(teams+children), 'development', 2 if args.profile == 'smoke' else 24, 4)
+        if args.mode=='finalize':
+            ranking=evaluate(merged,'development',2 if args.profile=='smoke' else 48,5)
+        else:
+            for round_id, games in enumerate(schedule):
+                ranking = evaluate(teams, 'development', games, round_id)
+                keep = max(2, len(ranking)//(8 if args.profile == 'full' and round_id == 0 else 4))
+                teams = unique([INCUMBENT]+[r['team'] for r in ranking[:keep]])
+            rng=random.Random(args.seed+args.shard_index*7919)
+            children = [mutate(t, rng) for t in teams[:12] for _ in range(1 if args.profile == 'smoke' else 8)]
+            ranking = evaluate(unique(teams+children), 'development', 2 if args.profile == 'smoke' else 24, 4)
+            if args.mode=='screen':
+                payload=dict(status='complete',campaign=campaign,shardIndex=args.shard_index,shardCount=args.shard_count,
+                             populationIndices=indices,populationSha256=digest(pool),
+                             finalists=[r['team'] for r in ranking if not r['incumbent']][:6],
+                             ranking=ranking,completedGames=completed)
+                write(out/'screening.json',payload)
+                with zipfile.ZipFile(out/f'redline-screen-{args.shard_index+1}.zip','w',zipfile.ZIP_DEFLATED) as z:
+                    z.write(out/'screening.json','screening.json')
+                print('Screening complete. Run the final comparison after all shards complete.',flush=True)
+                return
         finalists = unique([INCUMBENT]+[r['team'] for r in ranking[:3]])
         ranking = evaluate(finalists, 'validation', 2 if args.profile == 'smoke' else 96, 0)
         challenger = next(r['team'] for r in ranking if not r['incumbent'])
         confirmation = evaluate([INCUMBENT, challenger], 'confirmation', 2 if args.profile == 'smoke' else 192, 0)
+        comparison=compare_confirmation(evidence[digest(INCUMBENT)],evidence[digest(challenger)])
         selected = confirmation[0]
         folder = prepare(selected['team'])
         with zipfile.ZipFile(out/'best_candidate.zip', 'w', zipfile.ZIP_DEFLATED) as z:
             for name in ('agent.py', 'team.txt'): z.write(folder/name, name)
-        write(out/'result.json', dict(status='complete', selected=selected, confirmation=confirmation,
+        write(out/'result.json', dict(status='complete', selected=selected, confirmation=confirmation,comparison=comparison,
                                     warning='Exploratory league result, not proof of tournament superiority. Review paired held-out results before promotion.',
                                     completedGames=completed, provenance=provenance))
     except (TimeoutError, subprocess.TimeoutExpired) as exc:
@@ -190,6 +278,12 @@ if __name__ == '__main__':
     parser.add_argument('--hours', type=float, default=6)
     parser.add_argument('--max-games', type=int, default=60000)
     parser.add_argument('--workers', type=int, default=2)
+    parser.add_argument('--mode',choices=['search','screen','finalize'],default='search')
+    parser.add_argument('--shard-index',type=int,default=0,help='Zero-based screen partition')
+    parser.add_argument('--shard-count',type=int,default=3)
+    parser.add_argument('--screening',nargs='*',default=[],help='Completed compact screening ZIPs for finalize')
     args = parser.parse_args()
     assert args.hours > 0 and args.max_games > 0 and 1 <= args.workers <= 3
+    assert 1 <= args.shard_count <= 16 and 0 <= args.shard_index < args.shard_count
+    if args.mode=='finalize':assert len(args.screening)==args.shard_count, 'Provide every completed screening ZIP'
     run(args)

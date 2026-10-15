@@ -27,7 +27,7 @@ def code(text): cells.append(dict(cell_type='code', metadata={}, execution_count
 
 markdown('''# REDLINE: resumable Pokémon team search
 
-CPU experiment for the current v4.3.1 agent. Enable **Internet**, choose **CPU**, edit the configuration, then Run All.
+CPU experiment for the current v4.3.2 agent. Enable **Internet**, choose **CPU**, edit the configuration, then Run All.
 The source is embedded and checksummed: no GitHub checkout or credentials are required.
 
 **Quick** screens 48 starting teams. **Full** screens all 2,024 species trios with one legal default build per trio, then mutates surviving sets and order. Neither enumerates every possible moveset or proves a globally optimal team. Defaults with non-allowed EV labels/natures are normalized to the contest's allowed choices.

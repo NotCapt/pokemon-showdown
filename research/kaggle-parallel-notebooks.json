@@ -1,0 +1,43 @@
+{
+  "created": "2026-10-16",
+  "bundleSha256": "a6ac61f80989e32d6d2319476718c4019a5af66d3c25564a375aa695a41652af",
+  "notebooks": [
+    {
+      "file": "REDLINE_Screen_1.ipynb",
+      "ref": "/code/faaizhussain/redline-pokemon-screen-1-v4-3-2",
+      "url": "https://www.kaggle.com/code/faaizhussain/redline-pokemon-screen-1-v4-3-2",
+      "version_number": 2,
+      "kernel_id": 138906638,
+      "statusAtLastCheck": "RUNNING"
+    },
+    {
+      "file": "REDLINE_Screen_2.ipynb",
+      "ref": "/code/faaizhussain/redline-pokemon-screen-2-v4-3-2",
+      "url": "https://www.kaggle.com/code/faaizhussain/redline-pokemon-screen-2-v4-3-2",
+      "version_number": 2,
+      "kernel_id": 138906648,
+      "statusAtLastCheck": "RUNNING"
+    },
+    {
+      "file": "REDLINE_Screen_3.ipynb",
+      "ref": "/code/faaizhussain/redline-pokemon-screen-3-v4-3-2",
+      "url": "https://www.kaggle.com/code/faaizhussain/redline-pokemon-screen-3-v4-3-2",
+      "version_number": 2,
+      "kernel_id": 138906667,
+      "statusAtLastCheck": "RUNNING"
+    },
+    {
+      "file": "REDLINE_Final_Comparison.ipynb",
+      "ref": "/code/faaizhussain/redline-pokemon-final-comparison-v4-3-2",
+      "url": "https://www.kaggle.com/code/faaizhussain/redline-pokemon-final-comparison-v4-3-2",
+      "version_number": 3,
+      "kernel_id": 138906683,
+      "statusAtLastCheck": "SAVED_NOT_EXECUTED"
+    }
+  ],
+  "finalInputNotebooks": [
+    "faaizhussain/redline-pokemon-screen-1-v4-3-2",
+    "faaizhussain/redline-pokemon-screen-2-v4-3-2",
+    "faaizhussain/redline-pokemon-screen-3-v4-3-2"
+  ]
+}

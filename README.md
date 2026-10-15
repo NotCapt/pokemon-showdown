@@ -1,18 +1,37 @@
-# REDLINE Search â€” v4.3.1
+# REDLINE Search — v4.3.2
 
 GitHub: [NotCapt/pokemon-showdown](https://github.com/NotCapt/pokemon-showdown).
 
-The recommended release is `dist/REDLINE_Search.zip` (v4.3.1), also available as
-`dist/REDLINE_Search_v4_3_1.zip`. Rename the ZIP to your registered team name
+The recommended release is `dist/REDLINE_Search.zip` (v4.3.2), also available as
+`dist/REDLINE_Search_v4_3_2.zip`. Rename the ZIP to your registered team name
 before submission. It contains exactly `agent.py` and `team.txt`.
 
 `submission/agent.py`, `submission/team.txt`, `agent_core.py` and `team.json`
 all describe this release. V4.2 is preserved in `archive/v4_2` and its versioned
 ZIP; earlier releases and experiments remain available.
 
-## Kaggle search and v4.3.1
+## Parallel Kaggle search and v4.3.2
 
-[Open the private Kaggle notebook](https://www.kaggle.com/code/faaizhussain/redline-pokemon-team-search-v4-3-1).
+Three private CPU notebooks screen disjoint portions of all 2,024 species trios:
+[screen 1](https://www.kaggle.com/code/faaizhussain/redline-pokemon-screen-1-v4-3-2),
+[screen 2](https://www.kaggle.com/code/faaizhussain/redline-pokemon-screen-2-v4-3-2),
+[screen 3](https://www.kaggle.com/code/faaizhussain/redline-pokemon-screen-3-v4-3-2).
+The [final comparison](https://www.kaggle.com/code/faaizhussain/redline-pokemon-final-comparison-v4-3-2)
+combines completed screen outputs and evaluates finalists together. Each screen
+uses a six-hour checkpoint limit and 30,000-game budget. The first screening
+round uses eight games per policy; remaining HP breaks tied scores. See
+`research/PARALLEL_SEARCH.md` for running, resuming and merging results.
+
+V4.3.2 corrects Sucker Punch forecasts on switches and after earlier actions.
+Three official-simulator fixtures confirm the mechanics. Across 488 matched
+benchmark battles it retained v4.3.1 outcomes; this is a correctness improvement,
+with no measured overall win-rate gain. The exact artifact won its practice
+test in five turns. See `research/V4_3_2_REPORT.md`. V4.3.1 is archived in
+`archive/v4_3_1` and remains available as a versioned ZIP.
+
+## Previous single-notebook search and v4.3.1
+
+[Open the previous private Kaggle notebook](https://www.kaggle.com/code/faaizhussain/redline-pokemon-team-search-v4-3-1).
 Use CPU, enable Internet and Run All. Quick mode is the default; full mode screens
 all 2,024 species trios before mutating survivor sets. Checkpoints support resume.
 The local notebook is `notebooks/REDLINE_Team_Search.ipynb`.
@@ -42,7 +61,7 @@ results, tradeoffs and reproduction details.
 
 ## Selected team
 
-| PokÃ©mon | Item / ability | Nature / EVs | Moves |
+| Pokémon | Item / ability | Nature / EVs | Moves |
 | --- | --- | --- | --- |
 | Dragonite | Choice Band / Multiscale | Adamant, 252 Atk / 252 Spe / 4 SpD | Extreme Speed, Earthquake, Ice Spinner, Fire Punch |
 | Dragapult | Choice Specs / Infiltrator | Timid, 252 SpA / 252 Spe / 4 SpD | Shadow Ball, Draco Meteor, Flamethrower, Thunderbolt |
@@ -153,15 +172,15 @@ and speed ties are approximate. The 100-turn HP objective is evaluated locally,
 not with a complete future team model. No numerical service response-time limit
 was found in the reviewed public rules; local timings are not a service SLA.
 
-Reviewed 15 October 2026: Gen 9 singles, exactly three PokÃƒÂ©mon from the curated
+Reviewed 15 October 2026: Gen 9 singles, exactly three PokÃ©mon from the curated
 24-species roster, up to four permitted moves with item/ability/nature/EV
 customization. Maximum 100 turns, then summed remaining HP-percentage tiebreak.
 One or two people per team; autonomous legal decisions, no manual intervention
 during a match. Heuristics are permitted; ML is not mandatory. Submit a ZIP named
-after the registered team containing PokÃƒÂ©mon `.txt` and algorithm `.py` files.
+after the registered team containing PokÃ©mon `.txt` and algorithm `.py` files.
 
 Registration closes **16 October 2026, 12:59 PM IST**. Phase 1 submissions close
-**16 October 2026, 11:59 PM IST**. Offline round: **17 October 2026, noonÃ¢â‚¬â€œ5 PM
+**16 October 2026, 11:59 PM IST**. Offline round: **17 October 2026, noonâ€“5 PM
 IST**, APJ Lecture Theatre, NSUT main campus, Dwarka. Check organizer updates for
 any later restrictions or format changes.
 
@@ -171,6 +190,6 @@ Sources: [event listing](https://unstop.com/hackathons/redline-ares-netaji-subha
 [live options](https://redline-aresxshunya.netlify.app/api/pokemon-options).
 Public starter files and options are saved under `research/`.
 
-Battle mechanics data derive from PokÃƒÂ©mon Showdown 0.11.11. Its MIT license is
+Battle mechanics data derive from PokÃ©mon Showdown 0.11.11. Its MIT license is
 embedded in the agent and saved in `research/SHOWDOWN_LICENSE.txt`. Experimental
 `enemy_sets` data in the generated file are not used as live inference by v4.3.

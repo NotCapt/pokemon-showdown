@@ -212,7 +212,7 @@ def apply_move(a,b,m,weather,roll):
         if b['item']=='lumberry': b['status']=''; b['item']=''
     d=damage(a,b,m,weather,roll)*(1 if m.get('_hit') else accuracy(m))
     if mid in ('phantomforce','bounce','solarbeam','gigaimpact'): d *= .55
-    if mid=='suckerpunch' and b.get('using_status'): d=0
+    if mid=='suckerpunch' and (b.get('using_status') or b.get('acted')): d=0
     if d<=0: return
     before=b['hp']
     if b['item']=='focussash' and before>=99.9 and d>=before and not m.get('multihit') and mid!='dragondarts':
@@ -248,6 +248,7 @@ def end_turn(a,b,weather):
 
 def turn(a,b,ma,mb,weather,roll,tie_first=True):
     a['using_status']=ma.get('category')=='Status'; b['using_status']=mb.get('category')=='Status'
+    a['acted']=b['acted']=False
     pa,pb=ma.get('priority',0),mb.get('priority',0)
     sa,sb=stat(a,'spe',weather),stat(b,'spe',weather)
     faster=pa>pb or (pa==pb and (sa>sb or (sa==sb and tie_first)))
@@ -257,6 +258,7 @@ def turn(a,b,ma,mb,weather,roll,tie_first=True):
         if p['hp']<=0 or q['hp']<=0: continue
         if i==1 and flinch==1: continue
         before=q['hp']
+        p['acted']=True
         apply_move(p,q,m,weather,roll)
         # Expected-value flinch approximation, not a full chance tree.
         if i==1 and flinch: q['hp']+=max(0,before-q['hp'])*flinch
@@ -402,6 +404,7 @@ class PokemonAgent:
                     initial=value(x,y)
                     if s:
                         x['boosts']={}
+                        x['using_status']=True  # Switching is not an attacking move.
                         enter_intimidate(x,y)
                         if not o.get('force_switch'): apply_move(y,x,enemy_move,weather,roll); end_turn(x,y,weather)
                     else: turn(x,y,own_move,enemy_move,weather,roll,tie_first=tie_first)

@@ -1,0 +1,18 @@
+{
+  "candidate": "research/e-sucker-dev.json",
+  "control": "research/e-control-dev.json",
+  "candidateSha256": "e26bad6fa8cf2d27d3e7f21a297d6465323994bf6056fc52f249c56ebe6e0975",
+  "controlSha256": "eb72fe28329b3bb377ccefcb908a3778f003b51c0ecd4adc88365d368d362037",
+  "games": 96,
+  "opposingTeamClusters": 24,
+  "candidateWins": 72,
+  "controlWins": 72,
+  "gainPP": 0.0,
+  "improvedGames": 0,
+  "regressedGames": 0,
+  "clusterBootstrap95GainPP": [
+    0.0,
+    0.0
+  ],
+  "method": "5000 replicates, seed 9187; resample entire ordered opposing-team/set clusters to retain repeated-team and side-pair dependence. Descriptive, no adjustment for candidate selection."
+}
