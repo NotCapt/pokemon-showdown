@@ -2,7 +2,7 @@
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
-source = (root / 'submission/agent.py').read_text()
+source = (root / 'archive/v4_2/agent.py').read_text()
 changes = {
     "if m.get('_hit') is False: return": "if m.get('_hit') is False:\n        if mid=='explosion': a['hp']=0\n        return",
     "if b['protect'] and m.get('target') not in ('self','allySide'): return": "if b['protect'] and m.get('target') not in ('self','allySide'):\n        if mid=='explosion': a['hp']=0\n        return",

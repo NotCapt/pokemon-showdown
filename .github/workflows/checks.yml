@@ -15,4 +15,4 @@ jobs:
       - run: npm ci --omit=optional
       - run: npm test
       - run: python tools/verify_release.py
-      - run: node tools/check_cap_scenario.js
+      - run: node tools/check_cap_scenario.js submission/agent.py research/v4_3-cap-scenario.json

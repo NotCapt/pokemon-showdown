@@ -5,7 +5,7 @@ from pathlib import Path
 import re
 
 root=Path(__file__).resolve().parents[1]
-digest=hashlib.sha256((root/'submission/agent.py').read_bytes()).hexdigest()
+digest=hashlib.sha256((root/'archive/v4_2/agent.py').read_bytes()).hexdigest()
 old=hashlib.sha256((root/'archive/v4_1/agent.py').read_bytes()).hexdigest()
 summaries={}
 for label,new,control in [
@@ -26,7 +26,9 @@ assert case['results'][0]['agentSha256']==old and case['results'][1]['agentSha25
 assert case['results'][0]['capWinner']=='enemy' and case['results'][1]['capWinner']=='agent'
 result=dict(agentSha256=digest,controlSha256=old,games=sum(r['games'] for r in summaries.values()),reports=summaries,capScenario=case)
 (root/'research/v4_2-summary.json').write_text(json.dumps(result,indent=2))
-portal=json.loads((root/'research/portal-result.json').read_text())
+portal=json.loads((root/'research/v4_2-portal-result.json').read_text())
+proof=json.loads((root/'research/v4_2-portal-tested.json').read_text())
+assert proof['agentSha256']==digest and proof['battleId']==portal['battleId']
 assert portal['success'] and portal['winnerSlot']=='p1'
 (root/'research/v4_2-portal-result.json').write_text(json.dumps(portal,indent=2))
 (root/'research/v4_2-portal-replay.html').write_text(portal['replayHtml'],encoding='utf-8')

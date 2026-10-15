@@ -149,7 +149,7 @@ def flinch_chance(mon,move,target):
 
 def best_attack(a,b,weather):
     choices=moves_for(a)
-    if a.get('locked'): choices=[m for m in choices if m['id']==a['locked']] or choices
+    if a.get('locked') in DATA['moves']: choices=[dict(DATA['moves'][a['locked']])]
     def utility(m):
         d=damage(a,b,m,weather)
         priority=m.get('priority',0)
@@ -380,6 +380,7 @@ class PokemonAgent:
                         if not o.get('force_switch'): apply_move(y,x,enemy_move,weather,roll); end_turn(x,y,weather)
                     else: turn(x,y,own_move,enemy_move,weather,roll,tie_first=tie_first)
                     first=value(x,y)
+                    switch_faint=bool(s) and not o.get('force_switch') and x['hp']<=0
                     if continuation_turn<=100 and x['hp']>0 and y['hp']>0:
                         turn(x,y,best_attack(x,y,weather),best_attack(y,x,weather),weather,roll)
                     second=value(x,y)
@@ -388,6 +389,9 @@ class PokemonAgent:
                     # Evaluate progress plus future matchup, rather than sacrificing
                     # healthy reserves just to increase the active HP display.
                     score=(first-initial)+.65*(second-first)+.40*(value(x,y)-second)+.12*value(x,y)
+                    # Losing a reserve before it acts also loses its future options.
+                    # Scale that cost with HP so a weak sacrifice stays possible.
+                    if switch_faint and turn_no<98: score-=.5*starting_hp
                     if s and not o.get('force_switch'):
                         score-=9+(18 if turn_no-self.last_switch_turn<=2 else 0)
                     if m and m.get('id') in ('stealthrock','spikes','toxicspikes'): score+=4 if turn_no<=3 else -15

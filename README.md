@@ -1,103 +1,70 @@
-# REDLINE Search — v4.2
+# REDLINE Search â€” v4.3
 
 GitHub: [NotCapt/pokemon-showdown](https://github.com/NotCapt/pokemon-showdown).
 
-The recommended release is `dist/REDLINE_Search.zip` (v4.2). Rename the ZIP to
-your registered team name before submission. It contains exactly `agent.py` and
-`team.txt`. The same release is also available as `dist/REDLINE_Search_v4_2.zip`.
+The recommended release is `dist/REDLINE_Search.zip` (v4.3), also available as
+`dist/REDLINE_Search_v4_3.zip`. Rename the ZIP to your registered team name
+before submission. It contains exactly `agent.py` and `team.txt`.
 
-`submission/agent.py`, `submission/team.txt`, `agent_core.py` and `team.json` all
-describe this release. Prior versions are preserved in `archive/v1` and
-`archive/v2`, `archive/v3`, `archive/v4` and `archive/v4_1`. Earlier release ZIPs remain available.
+`submission/agent.py`, `submission/team.txt`, `agent_core.py` and `team.json`
+all describe this release. V4.2 is preserved in `archive/v4_2` and its versioned
+ZIP; earlier releases and experiments remain available.
 
 ## What improved
 
-The latest research pass ran 2,544 games, saved a loss catalogue and tested
-four team variants plus an Explosion mechanics correction. Close Combat on
-Arcanine improved some schedules, but tied fresh adaptive validation and did
-not beat our saved agent directly. These candidates remain experimental;
-the recommended release remains v4.2. See
-`research/IMPROVEMENT_PASS_2026_10_15_B.md` for results and reproduction details.
+V4.3 adds a cost when a voluntary switch is predicted to lose a reserve before
+it acts. The cost scales with remaining HP, preserving weak-reserve sacrifice
+plays. Forced replacements and the final summed-HP objective are unaffected.
+It also fixes continuation forecasts that could escape a Choice lock when the
+locked move was absent from the enemy's default set.
 
-V4.2 corrects the last-turn objective: from turn 98 it scores predicted changes
-in summed HP percentages, without an extra KO/survivor bonus. It clips rollout
-at turn 100 and treats a forced replacement as a free entry before that turn's
-action. Before turn 98, v4.1's policy is preserved.
+A saved loss demonstrates the change: Arcanine stays in and uses Play Rough
+against Salamence, preserving a full-health Dragapult. The associated
+side-reversed development pair changes from two losses to two wins.
 
-In a crafted legal Corviknight/Tyranitar endgame, the actual simulator confirms
-that v4.1's knockout loses the HP tiebreak while v4.2's Roost wins it. All 492
-ordinary regression games matched v4.1 exactly. This is a targeted correctness
-improvement, not a measured increase in average tournament wins. See
-`research/V4_2_REPORT.md`.
-
-The latest research pass adds an independent switching opponent, 48 generated
-custom-set teams split between development and holdout suites, checks against
-hidden enemy information leaks, and comparisons that bootstrap entire opposing
-team configurations. New lead-order, reserve-preservation and status-memory
-experiments did not earn promotion across all regression suites. The recommended
-v4.1 ZIP is preserved. See `research/IMPROVEMENT_PASS_2026_10_15.md` for that
-earlier pass. Newer team-continuation and Choice Scarf experiments were also
-tested and preserved in research; neither is included in v4.2.
-
-V4.1 tracks opposing Intimidate entries when the portal omits boosts, avoids
-counting the same entry again, and respects explicit boost observations.
-It also models Protean's once-per-switch type change in continuation search,
-using observed types to recognize an already transformed Greninja.
-
-The same team and bounded search remain in use. More exact damage arithmetic
-and a sixteen-roll search were investigated but did not improve the tested
-battle results enough to include. See `research/V4_1_REPORT.md`.
-
-V4 replaces Corviknight with **Assault Vest Arcanine**, combining special bulk,
-Intimidate, Fire resistance and strong physical coverage. Choice Band Dragonite
-and Choice Specs Dragapult retain their previous configurations.
-
-V4 retains the previous search and additionally branches on first-turn flinches,
-so a flinch cancels the entire reply, including healing, setup and recoil. It
-models Intimidate immunities and Mirror Armor reflection, and remembers expected
-entry effects when the portal omits boost telemetry. Enemy-belief and switch
-prediction experiments were tested but were not selected for this release.
+The broader post-knockout forecast was slower and did not improve development
+results, so it remains in research. The previous Close Combat team and Explosion
+experiments remain experimental. See `research/V4_3_REPORT.md` for current
+results, tradeoffs and reproduction details.
 
 ## Selected team
 
-| Pokémon | Item / ability | Nature / EVs | Moves |
+| PokÃ©mon | Item / ability | Nature / EVs | Moves |
 | --- | --- | --- | --- |
 | Dragonite | Choice Band / Multiscale | Adamant, 252 Atk / 252 Spe / 4 SpD | Extreme Speed, Earthquake, Ice Spinner, Fire Punch |
 | Dragapult | Choice Specs / Infiltrator | Timid, 252 SpA / 252 Spe / 4 SpD | Shadow Ball, Draco Meteor, Flamethrower, Thunderbolt |
 | Arcanine | Assault Vest / Intimidate | Adamant, 252 HP / 252 Atk / 4 SpD | Flare Blitz, Extreme Speed, Crunch, Play Rough |
 
 Configure this exact team in the practice portal. Uploading the Python file
-does not configure Pokémon, moves or items. This release is tuned to this team.
-After changing `team.json`, rebuild the agent so its own-team knowledge matches.
+does not configure the team. Rebuild after changing `team.json` so the agent's
+own-team knowledge matches.
 
-## Results
+## Results and limits of the evidence
 
-| Matched v4.2 regression | V4.2 wins | V4.1 wins |
+| Matched schedule | V4.3 | V4.2 |
 | --- | ---: | ---: |
-| Mixed simple policies, holdout seed | 151/200 | 151/200 |
-| Independent switching policy, 24 holdout custom teams | 151/192 | 151/192 |
-| Six customized teams, tactical policy | 59/60 | 59/60 |
-| Fresh agent each decision, missing boosts | 31/40 | 31/40 |
+| Fresh adaptive opponent, 32 custom teams | 166/192 | 160/192 |
+| Fresh mixed simple policies | 167/200 | 169/200 |
+| Original six customized tactical teams | 59/60 | 59/60 |
+| Fresh instance each turn, missing boosts | 31/40 | 31/40 |
 
-All 492 v4.2 regression games completed with legal actions and identical outcomes
-to v4.1. Twenty-seven Python tests and one JavaScript opponent isolation test
-passed. The latest portal smoke test won in six turns. Local timing depends on
-hardware and concurrent load; these runs had medians of 35–37 ms.
+V4.3 also tied archived v4.1 directly, 40-40. Its exact source completed 572
+simulator games with legal actions and no worker exceptions. The improvement
+is modest and varies by opponent mix: the fresh adaptive gain is +3.125 points
+with a team-cluster 95% interval of -2.08 to +8.33, while fresh mixed play lost
+two games. These results do not establish statistical or tournament-wide
+superiority. V4.2 remains a fallback.
 
-The earlier v4.1 holdout gain over v4 was modest: +3 percentage points, with a paired bootstrap 95%
-interval of 0 to +7 points. Development includes one regressed game. These
-simple opponents do not establish performance against strong independent bots.
+All 31 Python tests and two JavaScript checks pass. The authorized v4.3 portal
+smoke test won in seven turns. The packaged source is byte-for-byte identical
+to the tested candidate. Local timings depend on hardware and concurrent load;
+selected runs had medians around 30-37 ms.
 
-V3 scored 56/60 on the same custom suite but 38/40 on the same stateless schedule.
-V4.2 is preferred for the tested portal, which preserved agent instances. If the
-organizers change execution to create a fresh instance every turn, v3 is the
-better tested fallback. V4.2 is not uniformly better across all conditions.
-
-This is evidence of improvement over our saved submissions, not a tournament
-win probability. The saved agents share our modeling assumptions, and the
-tactical policy is simpler than a strong independent competitor. See
-`research/V4_2_REPORT.md` for current evidence. Earlier reports retain their
-historical comparisons against the saved agents.
+The full research pass includes 3,384 games across candidates and controls,
+with repeated teams and reused schedules. That total must not be treated as
+independent evidence or a tournament win probability. Earlier reports retain
+their historical comparisons. If execution changes to create a fresh instance
+every turn, v3 remains the better tested fallback on the old stateless suite.
 
 ## Interface and strategy
 
@@ -145,7 +112,7 @@ For reproducible evaluation without inherited environment settings:
 ```powershell
 npm.cmd test
 python tools/verify_release.py
-node tools/check_cap_scenario.js
+node tools/check_cap_scenario.js submission/agent.py research/v4_3-cap-scenario.json
 python tools/run_eval.py --seed 44017 --games 192 --suite research/eval-holdout-teams.json --report research/my-holdout.json
 python tools/compare_reports.py --candidate research/my-holdout.json --control research/v4_1-adaptive-holdout.json --out research/my-comparison.json
 ```
@@ -173,15 +140,15 @@ and speed ties are approximate. The 100-turn HP objective is evaluated locally,
 not with a complete future team model. No numerical service response-time limit
 was found in the reviewed public rules; local timings are not a service SLA.
 
-Reviewed 15 October 2026: Gen 9 singles, exactly three Pokémon from the curated
+Reviewed 15 October 2026: Gen 9 singles, exactly three PokÃƒÂ©mon from the curated
 24-species roster, up to four permitted moves with item/ability/nature/EV
 customization. Maximum 100 turns, then summed remaining HP-percentage tiebreak.
 One or two people per team; autonomous legal decisions, no manual intervention
 during a match. Heuristics are permitted; ML is not mandatory. Submit a ZIP named
-after the registered team containing Pokémon `.txt` and algorithm `.py` files.
+after the registered team containing PokÃƒÂ©mon `.txt` and algorithm `.py` files.
 
 Registration closes **16 October 2026, 12:59 PM IST**. Phase 1 submissions close
-**16 October 2026, 11:59 PM IST**. Offline round: **17 October 2026, noon–5 PM
+**16 October 2026, 11:59 PM IST**. Offline round: **17 October 2026, noonÃ¢â‚¬â€œ5 PM
 IST**, APJ Lecture Theatre, NSUT main campus, Dwarka. Check organizer updates for
 any later restrictions or format changes.
 
@@ -191,6 +158,6 @@ Sources: [event listing](https://unstop.com/hackathons/redline-ares-netaji-subha
 [live options](https://redline-aresxshunya.netlify.app/api/pokemon-options).
 Public starter files and options are saved under `research/`.
 
-Battle mechanics data derive from Pokémon Showdown 0.11.11. Its MIT license is
+Battle mechanics data derive from PokÃƒÂ©mon Showdown 0.11.11. Its MIT license is
 embedded in the agent and saved in `research/SHOWDOWN_LICENSE.txt`. Experimental
-`enemy_sets` data in the generated file are not used as live inference by v4.2.
+`enemy_sets` data in the generated file are not used as live inference by v4.3.

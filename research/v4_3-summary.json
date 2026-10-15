@@ -1,0 +1,59 @@
+{
+  "agentSha256": "f44eb69614d6b551e008c3023b8a0d7a1ca93c94b63bd5ed5ed2fefa16a81067",
+  "selectedArtifactGames": 572,
+  "selected": {
+    "adaptive": {
+      "games": 192,
+      "wins": 166,
+      "latencyMs": {
+        "median": 31.105500005651265,
+        "p95": 93.2769999926677,
+        "max": 192.36149999778718
+      }
+    },
+    "mixed": {
+      "games": 200,
+      "wins": 167,
+      "latencyMs": {
+        "median": 32.41189999971539,
+        "p95": 95.1883999950951,
+        "max": 243.26839999412186
+      }
+    },
+    "custom": {
+      "games": 60,
+      "wins": 59,
+      "latencyMs": {
+        "median": 36.47439999622293,
+        "p95": 96.23609999835026,
+        "max": 139.19499999610707
+      }
+    },
+    "stateless": {
+      "games": 40,
+      "wins": 31,
+      "latencyMs": {
+        "median": 36.704600002849475,
+        "p95": 110.06419999466743,
+        "max": 163.38030000042636
+      }
+    },
+    "direct": {
+      "games": 80,
+      "wins": 40,
+      "latencyMs": {
+        "median": 29.946499998914078,
+        "p95": 86.3493000069866,
+        "max": 138.22330000402872
+      }
+    }
+  },
+  "researchPassGames": 3384,
+  "illegalActions": 0,
+  "portal": {
+    "battleId": "sim-1792089334996",
+    "winner": "REDLINE Search",
+    "turns": 7
+  },
+  "caveat": "Small mixed changes with wide intervals; no established tournament or universal advantage. No final entry submitted."
+}

@@ -1,0 +1,18 @@
+{
+  "candidate": "research/c-switch-adaptive.json",
+  "control": "research/v5-validation-control.json",
+  "candidateSha256": "d17e6e4de21b785cc97ecee11b615aab080f4715e58d2e6b58b63ac0b41ceaee",
+  "controlSha256": "65f866cf17ace2330e8856434706839320cf43338d70203348163679ea9f2457",
+  "games": 192,
+  "opposingTeamClusters": 32,
+  "candidateWins": 137,
+  "controlWins": 133,
+  "gainPP": 2.0833333333333335,
+  "improvedGames": 4,
+  "regressedGames": 0,
+  "clusterBootstrap95GainPP": [
+    0.0,
+    5.208333333333333
+  ],
+  "method": "5000 replicates, seed 9187; resample entire ordered opposing-team/set clusters to retain repeated-team and side-pair dependence. Descriptive, no adjustment for candidate selection."
+}

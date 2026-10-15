@@ -1,0 +1,18 @@
+{
+  "candidate": "research/c-final-mixed.json",
+  "control": "research/c-final-control-mixed.json",
+  "candidateSha256": "f44eb69614d6b551e008c3023b8a0d7a1ca93c94b63bd5ed5ed2fefa16a81067",
+  "controlSha256": "65f866cf17ace2330e8856434706839320cf43338d70203348163679ea9f2457",
+  "games": 200,
+  "opposingTeamClusters": 100,
+  "candidateWins": 167,
+  "controlWins": 169,
+  "gainPP": -1.0,
+  "improvedGames": 0,
+  "regressedGames": 2,
+  "clusterBootstrap95GainPP": [
+    -2.5,
+    0.0
+  ],
+  "method": "5000 replicates, seed 9187; resample entire ordered opposing-team/set clusters to retain repeated-team and side-pair dependence. Descriptive, no adjustment for candidate selection."
+}

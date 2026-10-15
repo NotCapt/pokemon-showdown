@@ -4,7 +4,7 @@
   "description": "REDLINE Pokemon battle agent, submission artifacts and reproducible Showdown benchmarks",
   "private": true,
   "scripts": {
-    "test": "python -m unittest discover -s tests && node --test tests/opponents.test.js",
+    "test": "python -m unittest discover -s tests && node --test tests/opponents.test.js tests/choice.test.js",
     "benchmark": "node tools/benchmark.js",
     "build:agent": "python tools/build_agent.py"
   },

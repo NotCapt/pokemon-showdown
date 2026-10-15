@@ -1,0 +1,1314 @@
+[
+  [
+    {
+      "name": "Dragapult",
+      "ability": "Clear Body",
+      "item": "Focus Sash",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Phantom Force",
+        "Sucker Punch",
+        "Psychic Fangs",
+        "Dragon Dance"
+      ]
+    },
+    {
+      "name": "Garchomp",
+      "ability": "Rough Skin",
+      "item": "Life Orb",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Outrage",
+        "Earthquake",
+        "Stone Edge",
+        "Crunch"
+      ]
+    },
+    {
+      "name": "Venusaur",
+      "ability": "Overgrow",
+      "item": "Expert Belt",
+      "nature": "Modest",
+      "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+      "moves": [
+        "Leaf Storm",
+        "Sludge Bomb",
+        "Earth Power",
+        "Growth"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Metagross",
+      "ability": "Clear Body",
+      "item": "Choice Band",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Explosion",
+        "Psychic Fangs",
+        "Meteor Mash",
+        "Hammer Arm"
+      ]
+    },
+    {
+      "name": "Excadrill",
+      "ability": "Mold Breaker",
+      "item": "Leftovers",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Earthquake",
+        "Iron Head",
+        "X-Scissor",
+        "Brick Break"
+      ]
+    },
+    {
+      "name": "Charizard",
+      "ability": "Blaze",
+      "item": "Expert Belt",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Overheat",
+        "Solar Beam",
+        "Focus Blast",
+        "Air Slash"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Lucario",
+      "ability": "Steadfast",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Close Combat",
+        "Meteor Mash",
+        "Extreme Speed",
+        "Stone Edge"
+      ]
+    },
+    {
+      "name": "Scizor",
+      "ability": "Swarm",
+      "item": "Focus Sash",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Close Combat",
+        "Iron Head",
+        "U-turn",
+        "Knock Off"
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "ability": "Justified",
+      "item": "Focus Sash",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Flare Blitz",
+        "Close Combat",
+        "Extreme Speed",
+        "Psychic Fangs"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Gengar",
+      "ability": "Cursed Body",
+      "item": "Lum Berry",
+      "nature": "Modest",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Shadow Ball",
+        "Sludge Bomb",
+        "Focus Blast",
+        "Energy Ball"
+      ]
+    },
+    {
+      "name": "Tyranitar",
+      "ability": "Sand Stream",
+      "item": "Life Orb",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Stone Edge",
+        "Crunch",
+        "Earthquake",
+        "Dragon Dance"
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "ability": "Justified",
+      "item": "Expert Belt",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Flamethrower",
+        "Snarl",
+        "Flare Blitz",
+        "Extreme Speed"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Venusaur",
+      "ability": "Overgrow",
+      "item": "Assault Vest",
+      "nature": "Modest",
+      "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+      "moves": [
+        "Leaf Storm",
+        "Sludge Bomb",
+        "Earth Power",
+        "Weather Ball"
+      ]
+    },
+    {
+      "name": "Togekiss",
+      "ability": "Serene Grace",
+      "item": "Life Orb",
+      "nature": "Modest",
+      "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+      "moves": [
+        "Air Slash",
+        "Dazzling Gleam",
+        "Shadow Ball",
+        "Psychic"
+      ]
+    },
+    {
+      "name": "Lapras",
+      "ability": "Water Absorb",
+      "item": "Lum Berry",
+      "nature": "Modest",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Hydro Pump",
+        "Ice Beam",
+        "Thunderbolt",
+        "Psychic"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Arcanine",
+      "ability": "Justified",
+      "item": "Expert Belt",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Flare Blitz",
+        "Extreme Speed",
+        "Close Combat",
+        "Wild Charge"
+      ]
+    },
+    {
+      "name": "Excadrill",
+      "ability": "Sand Force",
+      "item": "Assault Vest",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Earthquake",
+        "Iron Head",
+        "Poison Jab",
+        "X-Scissor"
+      ]
+    },
+    {
+      "name": "Metagross",
+      "ability": "Light Metal",
+      "item": "Leftovers",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Explosion",
+        "Zen Headbutt",
+        "Meteor Mash",
+        "Hammer Arm"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Lucario",
+      "ability": "Inner Focus",
+      "item": "Choice Scarf",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Flash Cannon",
+        "Aura Sphere",
+        "Dragon Pulse",
+        "Close Combat"
+      ]
+    },
+    {
+      "name": "Excadrill",
+      "ability": "Mold Breaker",
+      "item": "Choice Band",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Earthquake",
+        "Iron Head",
+        "Brick Break",
+        "Rock Slide"
+      ]
+    },
+    {
+      "name": "Venusaur",
+      "ability": "Overgrow",
+      "item": "Focus Sash",
+      "nature": "Modest",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Leaf Storm",
+        "Sludge Bomb",
+        "Earth Power",
+        "Growth"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Ferrothorn",
+      "ability": "Iron Barbs",
+      "item": "Focus Sash",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Power Whip",
+        "Iron Head",
+        "Body Press",
+        "Knock Off"
+      ]
+    },
+    {
+      "name": "Greninja",
+      "ability": "Torrent",
+      "item": "Assault Vest",
+      "nature": "Modest",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Hydro Pump",
+        "Dark Pulse",
+        "Ice Beam",
+        "Extrasensory"
+      ]
+    },
+    {
+      "name": "Alakazam",
+      "ability": "Synchronize",
+      "item": "Assault Vest",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Focus Blast",
+        "Psychic",
+        "Energy Ball",
+        "Shadow Ball"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Salamence",
+      "ability": "Moxie",
+      "item": "Focus Sash",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Outrage",
+        "Stone Edge",
+        "Iron Head",
+        "Dragon Dance"
+      ]
+    },
+    {
+      "name": "Greninja",
+      "ability": "Protean",
+      "item": "Assault Vest",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Hydro Pump",
+        "Ice Beam",
+        "Dark Pulse",
+        "Extrasensory"
+      ]
+    },
+    {
+      "name": "Lapras",
+      "ability": "Shell Armor",
+      "item": "Choice Band",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Body Slam",
+        "Ice Shard",
+        "Freeze-Dry",
+        "Hydro Pump"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Tyranitar",
+      "ability": "Sand Stream",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Stone Edge",
+        "Crunch",
+        "Earthquake",
+        "Body Slam"
+      ]
+    },
+    {
+      "name": "Ferrothorn",
+      "ability": "Iron Barbs",
+      "item": "Choice Band",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Power Whip",
+        "Iron Head",
+        "Body Press",
+        "Knock Off"
+      ]
+    },
+    {
+      "name": "Garchomp",
+      "ability": "Sand Veil",
+      "item": "Expert Belt",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Outrage",
+        "Earthquake",
+        "Stone Edge",
+        "Swords Dance"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Snorlax",
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Giga Impact",
+        "Earthquake",
+        "Darkest Lariat",
+        "Ice Punch"
+      ]
+    },
+    {
+      "name": "Greninja",
+      "ability": "Torrent",
+      "item": "Assault Vest",
+      "nature": "Modest",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Hydro Pump",
+        "Dark Pulse",
+        "Ice Beam",
+        "Grass Knot"
+      ]
+    },
+    {
+      "name": "Dragapult",
+      "ability": "Clear Body",
+      "item": "Assault Vest",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Phantom Force",
+        "Sucker Punch",
+        "Psychic Fangs",
+        "Dragon Darts"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Corviknight",
+      "ability": "Pressure",
+      "item": "Focus Sash",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Brave Bird",
+        "Iron Head",
+        "Body Press",
+        "Bulk Up"
+      ]
+    },
+    {
+      "name": "Snorlax",
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Giga Impact",
+        "Earthquake",
+        "Fire Punch",
+        "Crunch"
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "ability": "Justified",
+      "item": "Assault Vest",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Flare Blitz",
+        "Extreme Speed",
+        "Close Combat",
+        "Play Rough"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Greninja",
+      "ability": "Protean",
+      "item": "Lum Berry",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Hydro Pump",
+        "Dark Pulse",
+        "Ice Beam",
+        "Extrasensory"
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "ability": "Intimidate",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Flare Blitz",
+        "Close Combat",
+        "Extreme Speed",
+        "Psychic Fangs"
+      ]
+    },
+    {
+      "name": "Charizard",
+      "ability": "Blaze",
+      "item": "Leftovers",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Overheat",
+        "Solar Beam",
+        "Air Slash",
+        "Roost"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Gyarados",
+      "ability": "Moxie",
+      "item": "Assault Vest",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Outrage",
+        "Waterfall",
+        "Bounce",
+        "Power Whip"
+      ]
+    },
+    {
+      "name": "Hydreigon",
+      "ability": "Levitate",
+      "item": "Assault Vest",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Draco Meteor",
+        "Dark Pulse",
+        "Focus Blast",
+        "Fire Blast"
+      ]
+    },
+    {
+      "name": "Dragonite",
+      "ability": "Multiscale",
+      "item": "Choice Scarf",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Outrage",
+        "Extreme Speed",
+        "Superpower",
+        "Earthquake"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Hydreigon",
+      "ability": "Levitate",
+      "item": "Choice Specs",
+      "nature": "Modest",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Draco Meteor",
+        "Fire Blast",
+        "Dark Pulse",
+        "Earth Power"
+      ]
+    },
+    {
+      "name": "Alakazam",
+      "ability": "Synchronize",
+      "item": "Lum Berry",
+      "nature": "Modest",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Psyshock",
+        "Focus Blast",
+        "Energy Ball",
+        "Shadow Ball"
+      ]
+    },
+    {
+      "name": "Ferrothorn",
+      "ability": "Iron Barbs",
+      "item": "Lum Berry",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Power Whip",
+        "Iron Head",
+        "Body Press",
+        "Knock Off"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Salamence",
+      "ability": "Moxie",
+      "item": "Choice Specs",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Hurricane",
+        "Draco Meteor",
+        "Flamethrower",
+        "Hydro Pump"
+      ]
+    },
+    {
+      "name": "Gengar",
+      "ability": "Cursed Body",
+      "item": "Leftovers",
+      "nature": "Modest",
+      "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+      "moves": [
+        "Sludge Bomb",
+        "Focus Blast",
+        "Energy Ball",
+        "Nasty Plot"
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "ability": "Intimidate",
+      "item": "Focus Sash",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Flare Blitz",
+        "Extreme Speed",
+        "Close Combat",
+        "Psychic Fangs"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Charizard",
+      "ability": "Blaze",
+      "item": "Lum Berry",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Flare Blitz",
+        "Earthquake",
+        "Dragon Dance",
+        "Flamethrower"
+      ]
+    },
+    {
+      "name": "Blastoise",
+      "ability": "Rain Dish",
+      "item": "Focus Sash",
+      "nature": "Modest",
+      "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+      "moves": [
+        "Hydro Pump",
+        "Dark Pulse",
+        "Dragon Pulse",
+        "Ice Beam"
+      ]
+    },
+    {
+      "name": "Salamence",
+      "ability": "Moxie",
+      "item": "Focus Sash",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Outrage",
+        "Stone Edge",
+        "Iron Head",
+        "Dragon Dance"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Charizard",
+      "ability": "Blaze",
+      "item": "Focus Sash",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Flare Blitz",
+        "Earthquake",
+        "Roost",
+        "Flamethrower"
+      ]
+    },
+    {
+      "name": "Venusaur",
+      "ability": "Chlorophyll",
+      "item": "Expert Belt",
+      "nature": "Modest",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Leaf Storm",
+        "Sludge Bomb",
+        "Earth Power",
+        "Growth"
+      ]
+    },
+    {
+      "name": "Garchomp",
+      "ability": "Rough Skin",
+      "item": "Assault Vest",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Outrage",
+        "Earthquake",
+        "Stone Edge",
+        "Iron Head"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Excadrill",
+      "ability": "Sand Rush",
+      "item": "Leftovers",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "High Horsepower",
+        "Iron Head",
+        "Poison Jab",
+        "Swords Dance"
+      ]
+    },
+    {
+      "name": "Lapras",
+      "ability": "Shell Armor",
+      "item": "Choice Band",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Body Slam",
+        "Ice Shard",
+        "Freeze-Dry",
+        "Hydro Pump"
+      ]
+    },
+    {
+      "name": "Scizor",
+      "ability": "Technician",
+      "item": "Lum Berry",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Iron Head",
+        "X-Scissor",
+        "Close Combat",
+        "Roost"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Metagross",
+      "ability": "Light Metal",
+      "item": "Assault Vest",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Explosion",
+        "Psychic Fangs",
+        "Meteor Mash",
+        "Hammer Arm"
+      ]
+    },
+    {
+      "name": "Snorlax",
+      "ability": "Thick Fat",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Giga Impact",
+        "Earthquake",
+        "Darkest Lariat",
+        "Body Press"
+      ]
+    },
+    {
+      "name": "Tyranitar",
+      "ability": "Sand Stream",
+      "item": "Choice Band",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Stone Edge",
+        "Crunch",
+        "Earthquake",
+        "Body Slam"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Charizard",
+      "ability": "Solar Power",
+      "item": "Assault Vest",
+      "nature": "Modest",
+      "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+      "moves": [
+        "Overheat",
+        "Focus Blast",
+        "Air Slash",
+        "Solar Beam"
+      ]
+    },
+    {
+      "name": "Salamence",
+      "ability": "Moxie",
+      "item": "Life Orb",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Outrage",
+        "Earthquake",
+        "Stone Edge",
+        "Roost"
+      ]
+    },
+    {
+      "name": "Lucario",
+      "ability": "Inner Focus",
+      "item": "Expert Belt",
+      "nature": "Modest",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Flash Cannon",
+        "Aura Sphere",
+        "Dragon Pulse",
+        "Close Combat"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Venusaur",
+      "ability": "Overgrow",
+      "item": "Leftovers",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Leaf Storm",
+        "Sludge Bomb",
+        "Earth Power",
+        "Weather Ball"
+      ]
+    },
+    {
+      "name": "Gyarados",
+      "ability": "Moxie",
+      "item": "Leftovers",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Bounce",
+        "Waterfall",
+        "Outrage",
+        "Dragon Dance"
+      ]
+    },
+    {
+      "name": "Blastoise",
+      "ability": "Rain Dish",
+      "item": "Focus Sash",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Surf",
+        "Ice Beam",
+        "Dragon Pulse",
+        "Aura Sphere"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Hydreigon",
+      "ability": "Levitate",
+      "item": "Life Orb",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Draco Meteor",
+        "Focus Blast",
+        "Dark Pulse",
+        "Nasty Plot"
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "ability": "Justified",
+      "item": "Expert Belt",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Flamethrower",
+        "Snarl",
+        "Flare Blitz",
+        "Extreme Speed"
+      ]
+    },
+    {
+      "name": "Scizor",
+      "ability": "Technician",
+      "item": "Choice Band",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Iron Head",
+        "X-Scissor",
+        "Close Combat",
+        "Knock Off"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Scizor",
+      "ability": "Technician",
+      "item": "Lum Berry",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Iron Head",
+        "U-turn",
+        "Close Combat",
+        "Knock Off"
+      ]
+    },
+    {
+      "name": "Volcarona",
+      "ability": "Flame Body",
+      "item": "Focus Sash",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Fire Blast",
+        "Bug Buzz",
+        "Hurricane",
+        "Roost"
+      ]
+    },
+    {
+      "name": "Gengar",
+      "ability": "Cursed Body",
+      "item": "Lum Berry",
+      "nature": "Modest",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Sludge Bomb",
+        "Energy Ball",
+        "Shadow Ball",
+        "Nasty Plot"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Lapras",
+      "ability": "Shell Armor",
+      "item": "Leftovers",
+      "nature": "Modest",
+      "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+      "moves": [
+        "Hydro Pump",
+        "Freeze-Dry",
+        "Thunderbolt",
+        "Psychic"
+      ]
+    },
+    {
+      "name": "Tyranitar",
+      "ability": "Sand Stream",
+      "item": "Lum Berry",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Stone Edge",
+        "Crunch",
+        "Body Slam",
+        "Dragon Dance"
+      ]
+    },
+    {
+      "name": "Snorlax",
+      "ability": "Immunity",
+      "item": "Assault Vest",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Giga Impact",
+        "Earthquake",
+        "Darkest Lariat",
+        "Body Press"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Scizor",
+      "ability": "Technician",
+      "item": "Choice Scarf",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "X-Scissor",
+        "Close Combat",
+        "Iron Head",
+        "Knock Off"
+      ]
+    },
+    {
+      "name": "Dragonite",
+      "ability": "Multiscale",
+      "item": "Lum Berry",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Outrage",
+        "Extreme Speed",
+        "Earthquake",
+        "Superpower"
+      ]
+    },
+    {
+      "name": "Corviknight",
+      "ability": "Pressure",
+      "item": "Lum Berry",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Brave Bird",
+        "Iron Head",
+        "Body Press",
+        "Roost"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Snorlax",
+      "ability": "Thick Fat",
+      "item": "Focus Sash",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Giga Impact",
+        "Darkest Lariat",
+        "Earthquake",
+        "Body Press"
+      ]
+    },
+    {
+      "name": "Tyranitar",
+      "ability": "Unnerve",
+      "item": "Expert Belt",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Stone Edge",
+        "Crunch",
+        "Earthquake",
+        "Dragon Dance"
+      ]
+    },
+    {
+      "name": "Charizard",
+      "ability": "Solar Power",
+      "item": "Choice Specs",
+      "nature": "Modest",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Overheat",
+        "Air Slash",
+        "Focus Blast",
+        "Solar Beam"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Gyarados",
+      "ability": "Moxie",
+      "item": "Lum Berry",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Power Whip",
+        "Waterfall",
+        "Stone Edge",
+        "Dragon Dance"
+      ]
+    },
+    {
+      "name": "Salamence",
+      "ability": "Intimidate",
+      "item": "Expert Belt",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Outrage",
+        "Earthquake",
+        "Iron Head",
+        "Roost"
+      ]
+    },
+    {
+      "name": "Charizard",
+      "ability": "Solar Power",
+      "item": "Expert Belt",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Overheat",
+        "Focus Blast",
+        "Solar Beam",
+        "Roost"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Garchomp",
+      "ability": "Sand Veil",
+      "item": "Expert Belt",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Outrage",
+        "Earthquake",
+        "Stone Edge",
+        "Swords Dance"
+      ]
+    },
+    {
+      "name": "Ferrothorn",
+      "ability": "Iron Barbs",
+      "item": "Focus Sash",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Power Whip",
+        "Iron Head",
+        "Knock Off",
+        "Body Press"
+      ]
+    },
+    {
+      "name": "Scizor",
+      "ability": "Technician",
+      "item": "Life Orb",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Close Combat",
+        "X-Scissor",
+        "Iron Head",
+        "Quick Attack"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Gyarados",
+      "ability": "Moxie",
+      "item": "Leftovers",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Bounce",
+        "Waterfall",
+        "Power Whip",
+        "Outrage"
+      ]
+    },
+    {
+      "name": "Lucario",
+      "ability": "Inner Focus",
+      "item": "Focus Sash",
+      "nature": "Modest",
+      "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+      "moves": [
+        "Flash Cannon",
+        "Aura Sphere",
+        "Dragon Pulse",
+        "Close Combat"
+      ]
+    },
+    {
+      "name": "Tyranitar",
+      "ability": "Sand Stream",
+      "item": "Leftovers",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Crunch",
+        "Stone Edge",
+        "Body Slam",
+        "Dragon Dance"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Lucario",
+      "ability": "Inner Focus",
+      "item": "Choice Scarf",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Flash Cannon",
+        "Aura Sphere",
+        "Dragon Pulse",
+        "Close Combat"
+      ]
+    },
+    {
+      "name": "Garchomp",
+      "ability": "Rough Skin",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Outrage",
+        "Earthquake",
+        "Iron Head",
+        "Crunch"
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "ability": "Justified",
+      "item": "Assault Vest",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Flare Blitz",
+        "Extreme Speed",
+        "Close Combat",
+        "Psychic Fangs"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Gengar",
+      "ability": "Cursed Body",
+      "item": "Lum Berry",
+      "nature": "Modest",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Sludge Bomb",
+        "Shadow Ball",
+        "Focus Blast",
+        "Thunderbolt"
+      ]
+    },
+    {
+      "name": "Alakazam",
+      "ability": "Magic Guard",
+      "item": "Life Orb",
+      "nature": "Modest",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Psychic",
+        "Focus Blast",
+        "Dazzling Gleam",
+        "Nasty Plot"
+      ]
+    },
+    {
+      "name": "Salamence",
+      "ability": "Intimidate",
+      "item": "Focus Sash",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Outrage",
+        "Earthquake",
+        "Stone Edge",
+        "Iron Head"
+      ]
+    }
+  ]
+]

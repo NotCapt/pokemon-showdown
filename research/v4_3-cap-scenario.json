@@ -1,0 +1,23 @@
+{
+  "scenario": "Corviknight at 1%, Tyranitar at 1%, own reserve Dragonite at 70%, enemy reserve Arcanine at 80%, one fainted member each, turn 100; enemy Stone Edge.",
+  "results": [
+    {
+      "path": "archive/v4_1/agent.py",
+      "agentSha256": "872624e2c86fb677b5aceeed825fca629156582a100116dca967bcccaded1ccf",
+      "action": "move 1",
+      "ownHP": 77.21904024767802,
+      "enemyHP": 79.94791666666667,
+      "capWinner": "enemy",
+      "turn": 101
+    },
+    {
+      "path": "submission/agent.py",
+      "agentSha256": "f44eb69614d6b551e008c3023b8a0d7a1ca93c94b63bd5ed5ed2fefa16a81067",
+      "action": "move 2",
+      "ownHP": 99.96904024767802,
+      "enemyHP": 87.12613448844886,
+      "capWinner": "agent",
+      "turn": 101
+    }
+  ]
+}

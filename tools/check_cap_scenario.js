@@ -40,6 +40,6 @@ function run(path){
   b.destroy();return result;
 }
 const results=[run('archive/v4_1/agent.py'),run(process.argv[2]||'submission/agent.py')];
-fs.writeFileSync('research/cap-scenario.json',JSON.stringify({scenario:'Corviknight at 1%, Tyranitar at 1%, own reserve Dragonite at 70%, enemy reserve Arcanine at 80%, one fainted member each, turn 100; enemy Stone Edge.',results},null,2));
+fs.writeFileSync(process.argv[3]||'research/cap-scenario.json',JSON.stringify({scenario:'Corviknight at 1%, Tyranitar at 1%, own reserve Dragonite at 70%, enemy reserve Arcanine at 80%, one fainted member each, turn 100; enemy Stone Edge.',results},null,2));
 console.log(JSON.stringify(results,null,2));
 if(results[0].capWinner!=='enemy'||results[1].capWinner!=='agent')process.exitCode=1;

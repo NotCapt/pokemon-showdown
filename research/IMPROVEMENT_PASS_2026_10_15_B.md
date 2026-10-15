@@ -34,10 +34,15 @@ Arcanine.
 | Development, adaptive opponent, 96 games | Wins |
 | --- | ---: |
 | V4.2 control | 73 |
-| HP investment instead of Speed on Dragonite | 74 |
+| HP investment instead of Speed on Dragonite (invalid EV label; excluded) | 74 |
 | Close Combat instead of Crunch on Arcanine | 81 |
 | Close Combat and Wild Charge instead of Crunch and Play Rough | 77 |
 | Close Combat instead of Play Rough | 81 |
+
+The HP experiment used a `4 Spe` EV label absent from the curated presets,
+which require `4 SpD` for Bulky Attacker. It was not packaged or selected;
+its battle count is retained for provenance but is not eligible submission
+evidence. The packager rejects this mismatch with the curated options.
 
 The first Close Combat candidate gained eight games with no regressions in
 development, across three opposing team configurations. Its broader results:

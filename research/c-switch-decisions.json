@@ -1,0 +1,766 @@
+{
+  "referenceSha256": "65f866cf17ace2330e8856434706839320cf43338d70203348163679ea9f2457",
+  "candidateSha256": "d17e6e4de21b785cc97ecee11b615aab080f4715e58d2e6b58b63ac0b41ceaee",
+  "decisions": 960,
+  "differences": [
+    {
+      "game": 38,
+      "winner": "baseline",
+      "reference": "switch 2",
+      "candidate": "move 4",
+      "observation": {
+        "turn": 4,
+        "weather": "",
+        "team_preview": false,
+        "force_switch": false,
+        "my_active": {
+          "name": "Arcanine",
+          "types": [
+            "Fire"
+          ],
+          "hp_percent": 75.78125,
+          "fainted": false,
+          "active": true,
+          "condition": "291/384",
+          "boosts": {}
+        },
+        "foe": {
+          "name": "Salamence",
+          "types": [
+            "Dragon",
+            "Flying"
+          ],
+          "hp_percent": 68
+        },
+        "my_team": [
+          {
+            "name": "Arcanine",
+            "types": [
+              "Fire"
+            ],
+            "hp_percent": 75.78125,
+            "fainted": false,
+            "active": true
+          },
+          {
+            "name": "Dragapult",
+            "types": [
+              "Dragon",
+              "Ghost"
+            ],
+            "hp_percent": 100,
+            "fainted": false,
+            "active": false
+          },
+          {
+            "name": "Dragonite",
+            "types": [
+              "Dragon",
+              "Flying"
+            ],
+            "hp_percent": 87.61609907120743,
+            "fainted": false,
+            "active": false
+          }
+        ],
+        "valid_moves": [
+          {
+            "index": 1,
+            "id": "flareblitz",
+            "name": "Flare Blitz",
+            "type": "Fire",
+            "category": "Physical",
+            "base_power": 120,
+            "accuracy": 100,
+            "type_multiplier": 0.5,
+            "stab": true,
+            "disabled": false,
+            "pp": 23
+          },
+          {
+            "index": 2,
+            "id": "extremespeed",
+            "name": "Extreme Speed",
+            "type": "Normal",
+            "category": "Physical",
+            "base_power": 80,
+            "accuracy": 100,
+            "type_multiplier": 1,
+            "stab": false,
+            "disabled": false,
+            "pp": 8
+          },
+          {
+            "index": 3,
+            "id": "crunch",
+            "name": "Crunch",
+            "type": "Dark",
+            "category": "Physical",
+            "base_power": 80,
+            "accuracy": 100,
+            "type_multiplier": 1,
+            "stab": false,
+            "disabled": false,
+            "pp": 24
+          },
+          {
+            "index": 4,
+            "id": "playrough",
+            "name": "Play Rough",
+            "type": "Fairy",
+            "category": "Physical",
+            "base_power": 90,
+            "accuracy": 90,
+            "type_multiplier": 2,
+            "stab": false,
+            "disabled": false,
+            "pp": 16
+          }
+        ],
+        "valid_switches": [
+          {
+            "name": "Dragapult",
+            "types": [
+              "Dragon",
+              "Ghost"
+            ],
+            "hp_percent": 100,
+            "fainted": false,
+            "active": false,
+            "index": 2
+          },
+          {
+            "name": "Dragonite",
+            "types": [
+              "Dragon",
+              "Flying"
+            ],
+            "hp_percent": 87.61609907120743,
+            "fainted": false,
+            "active": false,
+            "index": 3
+          }
+        ]
+      }
+    },
+    {
+      "game": 38,
+      "winner": "baseline",
+      "reference": "switch 3",
+      "candidate": "switch 2",
+      "observation": {
+        "turn": 8,
+        "weather": "",
+        "team_preview": false,
+        "force_switch": false,
+        "my_active": {
+          "name": "Dragonite",
+          "types": [
+            "Dragon",
+            "Flying"
+          ],
+          "hp_percent": 10.21671826625387,
+          "fainted": false,
+          "active": true,
+          "condition": "33/323",
+          "boosts": {}
+        },
+        "foe": {
+          "name": "Alakazam",
+          "types": [
+            "Psychic"
+          ],
+          "hp_percent": 100
+        },
+        "my_team": [
+          {
+            "name": "Dragonite",
+            "types": [
+              "Dragon",
+              "Flying"
+            ],
+            "hp_percent": 10.21671826625387,
+            "fainted": false,
+            "active": true
+          },
+          {
+            "name": "Arcanine",
+            "types": [
+              "Fire"
+            ],
+            "hp_percent": 75.78125,
+            "fainted": false,
+            "active": false
+          },
+          {
+            "name": "Dragapult",
+            "types": [
+              "Dragon",
+              "Ghost"
+            ],
+            "hp_percent": 41.95583596214511,
+            "fainted": false,
+            "active": false
+          }
+        ],
+        "valid_moves": [
+          {
+            "index": 4,
+            "id": "firepunch",
+            "name": "Fire Punch",
+            "type": "Fire",
+            "category": "Physical",
+            "base_power": 75,
+            "accuracy": 100,
+            "type_multiplier": 1,
+            "stab": false,
+            "disabled": false,
+            "pp": 23
+          }
+        ],
+        "valid_switches": [
+          {
+            "name": "Arcanine",
+            "types": [
+              "Fire"
+            ],
+            "hp_percent": 75.78125,
+            "fainted": false,
+            "active": false,
+            "index": 2
+          },
+          {
+            "name": "Dragapult",
+            "types": [
+              "Dragon",
+              "Ghost"
+            ],
+            "hp_percent": 41.95583596214511,
+            "fainted": false,
+            "active": false,
+            "index": 3
+          }
+        ]
+      }
+    },
+    {
+      "game": 39,
+      "winner": "baseline",
+      "reference": "switch 2",
+      "candidate": "move 4",
+      "observation": {
+        "turn": 4,
+        "weather": "",
+        "team_preview": false,
+        "force_switch": false,
+        "my_active": {
+          "name": "Arcanine",
+          "types": [
+            "Fire"
+          ],
+          "hp_percent": 75.78125,
+          "fainted": false,
+          "active": true,
+          "condition": "291/384",
+          "boosts": {}
+        },
+        "foe": {
+          "name": "Salamence",
+          "types": [
+            "Dragon",
+            "Flying"
+          ],
+          "hp_percent": 68
+        },
+        "my_team": [
+          {
+            "name": "Arcanine",
+            "types": [
+              "Fire"
+            ],
+            "hp_percent": 75.78125,
+            "fainted": false,
+            "active": true
+          },
+          {
+            "name": "Dragapult",
+            "types": [
+              "Dragon",
+              "Ghost"
+            ],
+            "hp_percent": 100,
+            "fainted": false,
+            "active": false
+          },
+          {
+            "name": "Dragonite",
+            "types": [
+              "Dragon",
+              "Flying"
+            ],
+            "hp_percent": 87.61609907120743,
+            "fainted": false,
+            "active": false
+          }
+        ],
+        "valid_moves": [
+          {
+            "index": 1,
+            "id": "flareblitz",
+            "name": "Flare Blitz",
+            "type": "Fire",
+            "category": "Physical",
+            "base_power": 120,
+            "accuracy": 100,
+            "type_multiplier": 0.5,
+            "stab": true,
+            "disabled": false,
+            "pp": 23
+          },
+          {
+            "index": 2,
+            "id": "extremespeed",
+            "name": "Extreme Speed",
+            "type": "Normal",
+            "category": "Physical",
+            "base_power": 80,
+            "accuracy": 100,
+            "type_multiplier": 1,
+            "stab": false,
+            "disabled": false,
+            "pp": 8
+          },
+          {
+            "index": 3,
+            "id": "crunch",
+            "name": "Crunch",
+            "type": "Dark",
+            "category": "Physical",
+            "base_power": 80,
+            "accuracy": 100,
+            "type_multiplier": 1,
+            "stab": false,
+            "disabled": false,
+            "pp": 24
+          },
+          {
+            "index": 4,
+            "id": "playrough",
+            "name": "Play Rough",
+            "type": "Fairy",
+            "category": "Physical",
+            "base_power": 90,
+            "accuracy": 90,
+            "type_multiplier": 2,
+            "stab": false,
+            "disabled": false,
+            "pp": 16
+          }
+        ],
+        "valid_switches": [
+          {
+            "name": "Dragapult",
+            "types": [
+              "Dragon",
+              "Ghost"
+            ],
+            "hp_percent": 100,
+            "fainted": false,
+            "active": false,
+            "index": 2
+          },
+          {
+            "name": "Dragonite",
+            "types": [
+              "Dragon",
+              "Flying"
+            ],
+            "hp_percent": 87.61609907120743,
+            "fainted": false,
+            "active": false,
+            "index": 3
+          }
+        ]
+      }
+    },
+    {
+      "game": 39,
+      "winner": "baseline",
+      "reference": "switch 3",
+      "candidate": "switch 2",
+      "observation": {
+        "turn": 8,
+        "weather": "",
+        "team_preview": false,
+        "force_switch": false,
+        "my_active": {
+          "name": "Dragonite",
+          "types": [
+            "Dragon",
+            "Flying"
+          ],
+          "hp_percent": 10.21671826625387,
+          "fainted": false,
+          "active": true,
+          "condition": "33/323",
+          "boosts": {}
+        },
+        "foe": {
+          "name": "Alakazam",
+          "types": [
+            "Psychic"
+          ],
+          "hp_percent": 100
+        },
+        "my_team": [
+          {
+            "name": "Dragonite",
+            "types": [
+              "Dragon",
+              "Flying"
+            ],
+            "hp_percent": 10.21671826625387,
+            "fainted": false,
+            "active": true
+          },
+          {
+            "name": "Arcanine",
+            "types": [
+              "Fire"
+            ],
+            "hp_percent": 75.78125,
+            "fainted": false,
+            "active": false
+          },
+          {
+            "name": "Dragapult",
+            "types": [
+              "Dragon",
+              "Ghost"
+            ],
+            "hp_percent": 41.95583596214511,
+            "fainted": false,
+            "active": false
+          }
+        ],
+        "valid_moves": [
+          {
+            "index": 4,
+            "id": "firepunch",
+            "name": "Fire Punch",
+            "type": "Fire",
+            "category": "Physical",
+            "base_power": 75,
+            "accuracy": 100,
+            "type_multiplier": 1,
+            "stab": false,
+            "disabled": false,
+            "pp": 23
+          }
+        ],
+        "valid_switches": [
+          {
+            "name": "Arcanine",
+            "types": [
+              "Fire"
+            ],
+            "hp_percent": 75.78125,
+            "fainted": false,
+            "active": false,
+            "index": 2
+          },
+          {
+            "name": "Dragapult",
+            "types": [
+              "Dragon",
+              "Ghost"
+            ],
+            "hp_percent": 41.95583596214511,
+            "fainted": false,
+            "active": false,
+            "index": 3
+          }
+        ]
+      }
+    },
+    {
+      "game": 68,
+      "winner": "agent",
+      "reference": "switch 3",
+      "candidate": "switch 2",
+      "observation": {
+        "turn": 6,
+        "weather": "",
+        "team_preview": false,
+        "force_switch": false,
+        "my_active": {
+          "name": "Arcanine",
+          "types": [
+            "Fire"
+          ],
+          "hp_percent": 67.70833333333334,
+          "fainted": false,
+          "active": true,
+          "condition": "260/384",
+          "boosts": {}
+        },
+        "foe": {
+          "name": "Blastoise",
+          "types": [
+            "Water"
+          ],
+          "hp_percent": 52
+        },
+        "my_team": [
+          {
+            "name": "Arcanine",
+            "types": [
+              "Fire"
+            ],
+            "hp_percent": 67.70833333333334,
+            "fainted": false,
+            "active": true
+          },
+          {
+            "name": "Dragonite",
+            "types": [
+              "Dragon",
+              "Flying"
+            ],
+            "hp_percent": 100,
+            "fainted": false,
+            "active": false
+          },
+          {
+            "name": "Dragapult",
+            "types": [
+              "Dragon",
+              "Ghost"
+            ],
+            "hp_percent": 34.38485804416404,
+            "fainted": false,
+            "active": false
+          }
+        ],
+        "valid_moves": [
+          {
+            "index": 1,
+            "id": "flareblitz",
+            "name": "Flare Blitz",
+            "type": "Fire",
+            "category": "Physical",
+            "base_power": 120,
+            "accuracy": 100,
+            "type_multiplier": 0.5,
+            "stab": true,
+            "disabled": false,
+            "pp": 23
+          },
+          {
+            "index": 2,
+            "id": "extremespeed",
+            "name": "Extreme Speed",
+            "type": "Normal",
+            "category": "Physical",
+            "base_power": 80,
+            "accuracy": 100,
+            "type_multiplier": 1,
+            "stab": false,
+            "disabled": false,
+            "pp": 8
+          },
+          {
+            "index": 3,
+            "id": "crunch",
+            "name": "Crunch",
+            "type": "Dark",
+            "category": "Physical",
+            "base_power": 80,
+            "accuracy": 100,
+            "type_multiplier": 1,
+            "stab": false,
+            "disabled": false,
+            "pp": 24
+          },
+          {
+            "index": 4,
+            "id": "playrough",
+            "name": "Play Rough",
+            "type": "Fairy",
+            "category": "Physical",
+            "base_power": 90,
+            "accuracy": 90,
+            "type_multiplier": 1,
+            "stab": false,
+            "disabled": false,
+            "pp": 16
+          }
+        ],
+        "valid_switches": [
+          {
+            "name": "Dragonite",
+            "types": [
+              "Dragon",
+              "Flying"
+            ],
+            "hp_percent": 100,
+            "fainted": false,
+            "active": false,
+            "index": 2
+          },
+          {
+            "name": "Dragapult",
+            "types": [
+              "Dragon",
+              "Ghost"
+            ],
+            "hp_percent": 34.38485804416404,
+            "fainted": false,
+            "active": false,
+            "index": 3
+          }
+        ]
+      }
+    },
+    {
+      "game": 69,
+      "winner": "agent",
+      "reference": "switch 3",
+      "candidate": "switch 2",
+      "observation": {
+        "turn": 6,
+        "weather": "",
+        "team_preview": false,
+        "force_switch": false,
+        "my_active": {
+          "name": "Arcanine",
+          "types": [
+            "Fire"
+          ],
+          "hp_percent": 67.70833333333334,
+          "fainted": false,
+          "active": true,
+          "condition": "260/384",
+          "boosts": {}
+        },
+        "foe": {
+          "name": "Blastoise",
+          "types": [
+            "Water"
+          ],
+          "hp_percent": 52
+        },
+        "my_team": [
+          {
+            "name": "Arcanine",
+            "types": [
+              "Fire"
+            ],
+            "hp_percent": 67.70833333333334,
+            "fainted": false,
+            "active": true
+          },
+          {
+            "name": "Dragonite",
+            "types": [
+              "Dragon",
+              "Flying"
+            ],
+            "hp_percent": 100,
+            "fainted": false,
+            "active": false
+          },
+          {
+            "name": "Dragapult",
+            "types": [
+              "Dragon",
+              "Ghost"
+            ],
+            "hp_percent": 34.38485804416404,
+            "fainted": false,
+            "active": false
+          }
+        ],
+        "valid_moves": [
+          {
+            "index": 1,
+            "id": "flareblitz",
+            "name": "Flare Blitz",
+            "type": "Fire",
+            "category": "Physical",
+            "base_power": 120,
+            "accuracy": 100,
+            "type_multiplier": 0.5,
+            "stab": true,
+            "disabled": false,
+            "pp": 23
+          },
+          {
+            "index": 2,
+            "id": "extremespeed",
+            "name": "Extreme Speed",
+            "type": "Normal",
+            "category": "Physical",
+            "base_power": 80,
+            "accuracy": 100,
+            "type_multiplier": 1,
+            "stab": false,
+            "disabled": false,
+            "pp": 8
+          },
+          {
+            "index": 3,
+            "id": "crunch",
+            "name": "Crunch",
+            "type": "Dark",
+            "category": "Physical",
+            "base_power": 80,
+            "accuracy": 100,
+            "type_multiplier": 1,
+            "stab": false,
+            "disabled": false,
+            "pp": 24
+          },
+          {
+            "index": 4,
+            "id": "playrough",
+            "name": "Play Rough",
+            "type": "Fairy",
+            "category": "Physical",
+            "base_power": 90,
+            "accuracy": 90,
+            "type_multiplier": 1,
+            "stab": false,
+            "disabled": false,
+            "pp": 16
+          }
+        ],
+        "valid_switches": [
+          {
+            "name": "Dragonite",
+            "types": [
+              "Dragon",
+              "Flying"
+            ],
+            "hp_percent": 100,
+            "fainted": false,
+            "active": false,
+            "index": 2
+          },
+          {
+            "name": "Dragapult",
+            "types": [
+              "Dragon",
+              "Ghost"
+            ],
+            "hp_percent": 34.38485804416404,
+            "fainted": false,
+            "active": false,
+            "index": 3
+          }
+        ]
+      }
+    }
+  ],
+  "caveat": "Same public observation and reference history; does not estimate the outcome of playing the alternative action."
+}

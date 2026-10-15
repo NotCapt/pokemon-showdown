@@ -11,14 +11,17 @@ paths += [root/'research'/n for n in (
 rows=[]
 for path in paths:
     report=json.loads(path.read_text())
-    if 'results' not in report:
+    if 'results' not in report or 'games' not in report:
         continue
     assert report['games']==len(report['results'])
     assert all(r['errors']==0 for r in report['results'])
-    assert hashlib.sha256((root/report['agentFile']).read_bytes()).hexdigest()==report['agentSha256']
+    source=root/report['agentFile']
+    if hashlib.sha256(source.read_bytes()).hexdigest()!=report['agentSha256']:
+        source=next(p for p in (root/'archive').glob('*/agent.py') if hashlib.sha256(p.read_bytes()).hexdigest()==report['agentSha256'])
+    assert hashlib.sha256(source.read_bytes()).hexdigest()==report['agentSha256']
     rows.append(dict(report=path.name, games=report['games'], wins=report['wins'],
                      agentSha256=report['agentSha256'], latencyMs=report['latencyMs']))
-summary=dict(recommended='dist/REDLINE_Search.zip (unchanged v4.2)',
+summary=dict(recommendedAtTimeOfPass='dist/REDLINE_Search_v4_2.zip',
              totalGames=sum(r['games'] for r in rows), illegalActions=0, reports=rows,
              candidateStatus='Coverage and Explosion candidates remain experimental; no release promotion.')
 (root/'research/improvement-b-summary.json').write_text(json.dumps(summary,indent=2))

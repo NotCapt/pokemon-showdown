@@ -1,0 +1,18 @@
+{
+  "candidate": "research/c-switch-mixed.json",
+  "control": "research/v4_3-fresh-mixed-control.json",
+  "candidateSha256": "d17e6e4de21b785cc97ecee11b615aab080f4715e58d2e6b58b63ac0b41ceaee",
+  "controlSha256": "65f866cf17ace2330e8856434706839320cf43338d70203348163679ea9f2457",
+  "games": 200,
+  "opposingTeamClusters": 100,
+  "candidateWins": 163,
+  "controlWins": 158,
+  "gainPP": 2.5,
+  "improvedGames": 5,
+  "regressedGames": 0,
+  "clusterBootstrap95GainPP": [
+    0.5,
+    5.5
+  ],
+  "method": "5000 replicates, seed 9187; resample entire ordered opposing-team/set clusters to retain repeated-team and side-pair dependence. Descriptive, no adjustment for candidate selection."
+}

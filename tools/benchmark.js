@@ -61,6 +61,7 @@ async function run(){
     const seed=[1,2,Math.floor(g/2)+1,Number(process.env.SEED||8191)%65536];
     const b=new Battle({formatid:'gen9customgame',seed,p1:{name:reverse?'baseline':'agent',team:p1.map(convert)},p2:{name:reverse?'agent':'baseline',team:p2.map(convert)}});
     let steps=0,errors=0,baselineVoluntarySwitches=0;
+    const agentTrace=[];
     while(!b.ended&&b.turn<=100&&steps++<400){
       const requests=b.sides.map(s=>s.requestState?observation(b,s):null);
       const choices=[];
@@ -70,6 +71,7 @@ async function run(){
           const reply=await ask({key:'agent',reset:steps===1,observation:requests[i]});
           if(reply.error)throw Error(reply.error);
           choices.push(reply.action);times.push(reply.ms);
+          if(process.env.TRACE_DIR)agentTrace.push({observation:requests[i],action:reply.action});
         }else if(kind==='adaptive'){
           choices.push(adaptive(b,b.sides[i],requests[i]));
         }else if(['tactical','search','v1','v2','v3','v4','v4_1'].includes(kind)){
@@ -89,6 +91,10 @@ async function run(){
     if(process.env.SAVE_LOGS){
       fs.mkdirSync(process.env.SAVE_LOGS,{recursive:true});
       fs.writeFileSync(process.env.SAVE_LOGS+'/game-'+g+'.log',b.log.join('\n'));
+    }
+    if(process.env.TRACE_DIR){
+      fs.mkdirSync(process.env.TRACE_DIR,{recursive:true});
+      fs.writeFileSync(process.env.TRACE_DIR+'/game-'+g+'.json',JSON.stringify({agentSha256,game:g,side:record.side,winner:b.winner,decisions:agentTrace}));
     }
     if(b.winner!=='agent')fs.writeFileSync('research/last-loss.log',b.log.join('\n'));
     if((g+1)%10===0)console.log(JSON.stringify({completed:g+1,wins:results.filter(r=>r.winner==='agent').length}));

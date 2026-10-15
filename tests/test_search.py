@@ -46,7 +46,11 @@ class SearchTests(unittest.TestCase):
             self.assertTrue(depths);self.assertEqual(max(depths),1)
         finally:agent.turn=original
 
-    def test_decisions_match_v4_1_before_turn_98(self):
+    def test_archived_v4_2_matches_v4_1_before_turn_98(self):
+        # Preserve the historical compatibility check. The current policy now
+        # intentionally changes some pre-cap switches; its fixtures are separate.
+        spec=importlib.util.spec_from_file_location('v4_2',ROOT/'archive/v4_2/agent.py')
+        frozen=importlib.util.module_from_spec(spec);spec.loader.exec_module(frozen)
         spec=importlib.util.spec_from_file_location('reference',ROOT/'archive/v4_1/agent.py')
         old=importlib.util.module_from_spec(spec);spec.loader.exec_module(old)
         rng=random.Random(5611);names=[p['name'] for p in agent.DATA['species'].values()]
@@ -57,6 +61,6 @@ class SearchTests(unittest.TestCase):
             o={'turn':rng.choice([1,2,40,97]),'my_active':{'name':p['name'],'hp_percent':rng.randrange(1,101)},
                'foe':{'name':rng.choice(names),'hp_percent':rng.randrange(1,101)},'valid_moves':moves,
                'valid_switches':[{'name':q['name'],'hp_percent':rng.randrange(1,101),'index':j+1} for j,q in enumerate(own) if q!=p]}
-            self.assertEqual(agent.PokemonAgent().decide(o),old.PokemonAgent().decide(o),msg=str(o))
+            self.assertEqual(frozen.PokemonAgent().decide(o),old.PokemonAgent().decide(o),msg=str(o))
 
 if __name__=='__main__':unittest.main()
