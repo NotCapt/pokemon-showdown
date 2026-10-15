@@ -1,0 +1,175 @@
+|t:|1792087572
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Metagross|
+|poke|p1|Snorlax, F|
+|poke|p1|Greninja-*, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Arcanine, M|
+|teampreview
+|
+|t:|1792087572
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Metagross|Metagross|364/364
+|switch|p1a: Metagross|Metagross|364/364
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|turn|1
+|
+|t:|1792087573
+|move|p2a: Dragonite|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|split|p1
+|-damage|p1a: Metagross|50/364
+|-damage|p1a: Metagross|50/364
+|move|p1a: Metagross|Explosion|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|157/323
+|-damage|p2a: Dragonite|157/323
+|faint|p1a: Metagross
+|
+|upkeep
+|
+|t:|1792087573
+|split|p1
+|switch|p1a: Greninja|Greninja, M|348/348
+|switch|p1a: Greninja|Greninja, M|348/348
+|turn|2
+|
+|t:|1792087573
+|split|p2
+|switch|p2a: Arcanine|Arcanine, M|384/384
+|switch|p2a: Arcanine|Arcanine, M|384/384
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Greninja|atk|1
+|move|p1a: Greninja|Ice Beam|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|344/384
+|-damage|p2a: Arcanine|344/384
+|
+|upkeep
+|turn|3
+|
+|t:|1792087573
+|move|p1a: Greninja|Hydro Pump|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|36/384
+|-damage|p2a: Arcanine|36/384
+|move|p2a: Arcanine|Play Rough|p1a: Greninja
+|-supereffective|p1a: Greninja
+|split|p1
+|-damage|p1a: Greninja|64/348
+|-damage|p1a: Greninja|64/348
+|
+|upkeep
+|turn|4
+|
+|t:|1792087573
+|move|p2a: Arcanine|Extreme Speed|p1a: Greninja
+|split|p1
+|-damage|p1a: Greninja|0 fnt
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|upkeep
+|
+|t:|1792087573
+|split|p1
+|switch|p1a: Snorlax|Snorlax, F|461/461
+|switch|p1a: Snorlax|Snorlax, F|461/461
+|turn|5
+|
+|t:|1792087573
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|157/323
+|switch|p2a: Dragonite|Dragonite, M|157/323
+|move|p1a: Snorlax|Giga Impact|p2a: Dragonite
+|split|p2
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p2a: Dragonite|0 fnt
+|-mustrecharge|p1a: Snorlax
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1792087573
+|split|p2
+|switch|p2a: Arcanine|Arcanine, M|36/384
+|switch|p2a: Arcanine|Arcanine, M|36/384
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Snorlax|atk|1
+|turn|6
+|
+|t:|1792087573
+|split|p2
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|cant|p1a: Snorlax|recharge
+|
+|upkeep
+|turn|7
+|
+|t:|1792087573
+|move|p2a: Dragapult|Thunderbolt|p1a: Snorlax
+|split|p1
+|-damage|p1a: Snorlax|346/461
+|-damage|p1a: Snorlax|346/461
+|move|p1a: Snorlax|Darkest Lariat|p2a: Dragapult
+|debug|Negating (sp)def boost/penalty.
+|-supereffective|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|141/317
+|-damage|p2a: Dragapult|141/317
+|
+|upkeep
+|turn|8
+|
+|t:|1792087573
+|move|p2a: Dragapult|Thunderbolt|p1a: Snorlax
+|split|p1
+|-damage|p1a: Snorlax|217/461
+|-damage|p1a: Snorlax|217/461
+|move|p1a: Snorlax|Darkest Lariat|p2a: Dragapult
+|debug|Negating (sp)atk boost/penalty.
+|debug|Negating (sp)def boost/penalty.
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1792087573
+|split|p2
+|switch|p2a: Arcanine|Arcanine, M|36/384
+|switch|p2a: Arcanine|Arcanine, M|36/384
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Snorlax|atk|1
+|turn|9
+|
+|t:|1792087573
+|move|p2a: Arcanine|Flare Blitz|p1a: Snorlax
+|debug|Thick Fat weaken
+|split|p1
+|-damage|p1a: Snorlax|67/461
+|-damage|p1a: Snorlax|67/461
+|split|p2
+|-damage|p2a: Arcanine|0 fnt|[from] Recoil
+|-damage|p2a: Arcanine|0 fnt|[from] Recoil
+|faint|p2a: Arcanine
+|
+|win|baseline

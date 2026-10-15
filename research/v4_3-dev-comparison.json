@@ -1,0 +1,18 @@
+{
+  "candidate": "research/v5-dev-coverage.json",
+  "control": "research/v5-dev-control.json",
+  "candidateSha256": "eb18fa72c8284070025fba9242a46da21b3d68511a0144abc10923befa862ef1",
+  "controlSha256": "65f866cf17ace2330e8856434706839320cf43338d70203348163679ea9f2457",
+  "games": 96,
+  "opposingTeamClusters": 24,
+  "candidateWins": 81,
+  "controlWins": 73,
+  "gainPP": 8.333333333333334,
+  "improvedGames": 8,
+  "regressedGames": 0,
+  "clusterBootstrap95GainPP": [
+    0.0,
+    18.75
+  ],
+  "method": "5000 replicates, seed 9187; resample entire ordered opposing-team/set clusters to retain repeated-team and side-pair dependence. Descriptive, no adjustment for candidate selection."
+}

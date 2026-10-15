@@ -12,6 +12,13 @@ describe this release. Prior versions are preserved in `archive/v1` and
 
 ## What improved
 
+The latest research pass ran 2,544 games, saved a loss catalogue and tested
+four team variants plus an Explosion mechanics correction. Close Combat on
+Arcanine improved some schedules, but tied fresh adaptive validation and did
+not beat our saved agent directly. These candidates remain experimental;
+the recommended release remains v4.2. See
+`research/IMPROVEMENT_PASS_2026_10_15_B.md` for results and reproduction details.
+
 V4.2 corrects the last-turn objective: from turn 98 it scores predicted changes
 in summed HP percentages, without an extra KO/survivor bonus. It clips rollout
 at turn 100 and treats a forced replacement as a free entry before that turn's

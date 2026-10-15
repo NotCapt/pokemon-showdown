@@ -1,0 +1,165 @@
+|t:|1792087546
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Lucario, F|
+|poke|p1|Togekiss, F|
+|poke|p1|Lapras, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Arcanine, M|
+|teampreview
+|
+|t:|1792087546
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Lucario|Lucario, F|344/344
+|switch|p1a: Lucario|Lucario, F|344/344
+|split|p2
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|turn|1
+|
+|t:|1792087546
+|split|p1
+|switch|p1a: Togekiss|Togekiss, F|311/311
+|switch|p1a: Togekiss|Togekiss, F|311/311
+|move|p2a: Dragonite|Earthquake|p1a: Togekiss
+|-immune|p1a: Togekiss
+|
+|upkeep
+|turn|2
+|
+|t:|1792087546
+|split|p2
+|switch|p2a: Arcanine|Arcanine, M|384/384
+|switch|p2a: Arcanine|Arcanine, M|384/384
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Togekiss|atk|1
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|330/384
+|-damage|p2a: Arcanine|330/384
+|
+|upkeep
+|turn|3
+|
+|t:|1792087547
+|debug|doubling secondary chance
+|move|p1a: Togekiss|Psychic|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|244/384
+|-damage|p2a: Arcanine|244/384
+|move|p2a: Arcanine|Flare Blitz|p1a: Togekiss
+|split|p1
+|-damage|p1a: Togekiss|85/311
+|-damage|p1a: Togekiss|85/311
+|-status|p1a: Togekiss|brn
+|-enditem|p1a: Togekiss|Lum Berry|[eat]
+|-curestatus|p1a: Togekiss|brn|[msg]
+|split|p2
+|-damage|p2a: Arcanine|169/384|[from] Recoil
+|-damage|p2a: Arcanine|169/384|[from] Recoil
+|
+|upkeep
+|turn|4
+|
+|t:|1792087547
+|split|p1
+|switch|p1a: Lapras|Lapras, F|401/401
+|switch|p1a: Lapras|Lapras, F|401/401
+|move|p2a: Arcanine|Extreme Speed|p1a: Lapras
+|split|p1
+|-damage|p1a: Lapras|283/401
+|-damage|p1a: Lapras|283/401
+|
+|upkeep
+|turn|5
+|
+|t:|1792087547
+|move|p1a: Lapras|Hydro Pump|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|1/384
+|-damage|p2a: Arcanine|1/384
+|move|p2a: Arcanine|Flare Blitz|p1a: Lapras
+|split|p1
+|-damage|p1a: Lapras|49/401
+|-damage|p1a: Lapras|49/401
+|split|p2
+|-damage|p2a: Arcanine|0 fnt|[from] Recoil
+|-damage|p2a: Arcanine|0 fnt|[from] Recoil
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1792087547
+|split|p2
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|turn|6
+|
+|t:|1792087547
+|split|p1
+|switch|p1a: Togekiss|Togekiss, F|85/311
+|switch|p1a: Togekiss|Togekiss, F|85/311
+|move|p2a: Dragapult|Shadow Ball|p1a: Togekiss
+|split|p1
+|-damage|p1a: Togekiss|0 fnt
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|t:|1792087547
+|split|p1
+|switch|p1a: Lucario|Lucario, F|344/344
+|switch|p1a: Lucario|Lucario, F|344/344
+|turn|7
+|
+|t:|1792087547
+|move|p2a: Dragapult|Shadow Ball|p1a: Lucario
+|split|p1
+|-damage|p1a: Lucario|106/344
+|-damage|p1a: Lucario|106/344
+|move|p1a: Lucario|Dragon Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|73/317
+|-damage|p2a: Dragapult|73/317
+|
+|upkeep
+|turn|8
+|
+|t:|1792087547
+|split|p1
+|switch|p1a: Lapras|Lapras, F|49/401
+|switch|p1a: Lapras|Lapras, F|49/401
+|move|p2a: Dragapult|Shadow Ball|p1a: Lapras
+|split|p1
+|-damage|p1a: Lapras|0 fnt
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|upkeep
+|
+|t:|1792087547
+|split|p1
+|switch|p1a: Lucario|Lucario, F|106/344
+|switch|p1a: Lucario|Lucario, F|106/344
+|turn|9
+|
+|t:|1792087547
+|move|p2a: Dragapult|Shadow Ball|p1a: Lucario
+|split|p1
+|-damage|p1a: Lucario|0 fnt
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|win|agent

@@ -1,0 +1,172 @@
+|t:|1792087576
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Arcanine, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Blastoise, F|
+|teampreview
+|
+|t:|1792087576
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Tyranitar|Tyranitar, F|404/404
+|switch|p2a: Tyranitar|Tyranitar, F|404/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1792087576
+|move|p1a: Dragonite|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|split|p2
+|-damage|p2a: Tyranitar|40/404
+|-damage|p2a: Tyranitar|40/404
+|move|p2a: Tyranitar|Stone Edge|p1a: Dragonite|[miss]
+|-miss|p2a: Tyranitar|p1a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|split|p1
+|-damage|p1a: Dragonite|303/323|[from] Sandstorm
+|-damage|p1a: Dragonite|303/323|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|2
+|
+|t:|1792087576
+|split|p2
+|switch|p2a: Blastoise|Blastoise, F|362/362
+|switch|p2a: Blastoise|Blastoise, F|362/362
+|move|p1a: Dragonite|Earthquake|p2a: Blastoise
+|split|p2
+|-damage|p2a: Blastoise|151/362
+|-damage|p2a: Blastoise|151/362
+|
+|-weather|Sandstorm|[upkeep]
+|split|p1
+|-damage|p1a: Dragonite|283/323|[from] Sandstorm
+|-damage|p1a: Dragonite|283/323|[from] Sandstorm
+|split|p2
+|-damage|p2a: Blastoise|129/362|[from] Sandstorm
+|-damage|p2a: Blastoise|129/362|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1792087576
+|move|p1a: Dragonite|Earthquake|p2a: Blastoise
+|split|p2
+|-damage|p2a: Blastoise|0 fnt
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|-weather|Sandstorm|[upkeep]
+|split|p1
+|-damage|p1a: Dragonite|263/323|[from] Sandstorm
+|-damage|p1a: Dragonite|263/323|[from] Sandstorm
+|upkeep
+|
+|t:|1792087576
+|split|p2
+|switch|p2a: Hydreigon|Hydreigon, F|325/325
+|switch|p2a: Hydreigon|Hydreigon, F|325/325
+|turn|4
+|
+|t:|1792087576
+|split|p1
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Hydreigon|atk|1
+|move|p2a: Hydreigon|Draco Meteor|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|204/384
+|-damage|p1a: Arcanine|204/384
+|-unboost|p2a: Hydreigon|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|split|p2
+|-damage|p2a: Hydreigon|305/325|[from] Sandstorm
+|-damage|p2a: Hydreigon|305/325|[from] Sandstorm
+|split|p1
+|-damage|p1a: Arcanine|180/384|[from] Sandstorm
+|-damage|p1a: Arcanine|180/384|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1792087576
+|move|p2a: Hydreigon|Draco Meteor|p1a: Arcanine
+|debug|Negating (sp)atk boost/penalty.
+|-crit|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p1a: Arcanine|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Arcanine
+|
+|-weather|none
+|upkeep
+|
+|t:|1792087576
+|split|p1
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|turn|6
+|
+|t:|1792087576
+|split|p2
+|switch|p2a: Tyranitar|Tyranitar, F|40/404
+|switch|p2a: Tyranitar|Tyranitar, F|40/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragapult|Draco Meteor|p2a: Tyranitar|[miss]
+|-miss|p1a: Dragapult|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|split|p1
+|-damage|p1a: Dragapult|298/317|[from] Sandstorm
+|-damage|p1a: Dragapult|298/317|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|7
+|
+|t:|1792087576
+|move|p1a: Dragapult|Draco Meteor|p2a: Tyranitar
+|split|p2
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|split|p1
+|-damage|p1a: Dragapult|279/317|[from] Sandstorm
+|-damage|p1a: Dragapult|279/317|[from] Sandstorm
+|upkeep
+|
+|t:|1792087576
+|split|p2
+|switch|p2a: Hydreigon|Hydreigon, F|305/325
+|switch|p2a: Hydreigon|Hydreigon, F|305/325
+|turn|8
+|
+|t:|1792087576
+|move|p1a: Dragapult|Draco Meteor|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|split|p2
+|-damage|p2a: Hydreigon|0 fnt
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Hydreigon
+|
+|win|agent

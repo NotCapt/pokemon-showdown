@@ -1,0 +1,228 @@
+{
+  "recommended": "dist/REDLINE_Search.zip (unchanged v4.2)",
+  "totalGames": 2544,
+  "illegalActions": 0,
+  "reports": [
+    {
+      "report": "v4_3-coverage-adaptive.json",
+      "games": 192,
+      "wins": 154,
+      "agentSha256": "eb18fa72c8284070025fba9242a46da21b3d68511a0144abc10923befa862ef1",
+      "latencyMs": {
+        "median": 20.316199996159412,
+        "p95": 66.18789999629371,
+        "max": 151.20290000049863
+      }
+    },
+    {
+      "report": "v4_3-coverage-custom.json",
+      "games": 60,
+      "wins": 58,
+      "agentSha256": "eb18fa72c8284070025fba9242a46da21b3d68511a0144abc10923befa862ef1",
+      "latencyMs": {
+        "median": 30.921400000806898,
+        "p95": 107.40690000238828,
+        "max": 154.65530000801664
+      }
+    },
+    {
+      "report": "v4_3-coverage-direct.json",
+      "games": 80,
+      "wins": 35,
+      "agentSha256": "eb18fa72c8284070025fba9242a46da21b3d68511a0144abc10923befa862ef1",
+      "latencyMs": {
+        "median": 22.637500005657785,
+        "p95": 83.74679999542423,
+        "max": 155.77029999985825
+      }
+    },
+    {
+      "report": "v4_3-coverage-mixed.json",
+      "games": 200,
+      "wins": 165,
+      "agentSha256": "eb18fa72c8284070025fba9242a46da21b3d68511a0144abc10923befa862ef1",
+      "latencyMs": {
+        "median": 31.15799999795854,
+        "p95": 105.33830001077149,
+        "max": 197.91829999303445
+      }
+    },
+    {
+      "report": "v4_3-explosion-custom.json",
+      "games": 60,
+      "wins": 59,
+      "agentSha256": "bf6c8704faff9a733fc5b6387a40fd5b531c1c0ebd5945c6dad6c9b41a502fd0",
+      "latencyMs": {
+        "median": 35.71289998944849,
+        "p95": 100.55149999971036,
+        "max": 141.82619999337476
+      }
+    },
+    {
+      "report": "v4_3-explosion-dev.json",
+      "games": 96,
+      "wins": 73,
+      "agentSha256": "bf6c8704faff9a733fc5b6387a40fd5b531c1c0ebd5945c6dad6c9b41a502fd0",
+      "latencyMs": {
+        "median": 26.392900006612763,
+        "p95": 93.43539999099448,
+        "max": 276.9773000036366
+      }
+    },
+    {
+      "report": "v4_3-explosion-direct.json",
+      "games": 80,
+      "wins": 40,
+      "agentSha256": "bf6c8704faff9a733fc5b6387a40fd5b531c1c0ebd5945c6dad6c9b41a502fd0",
+      "latencyMs": {
+        "median": 35.852700006216764,
+        "p95": 108.17079999833368,
+        "max": 389.973800003645
+      }
+    },
+    {
+      "report": "v4_3-explosion-mixed.json",
+      "games": 200,
+      "wins": 156,
+      "agentSha256": "bf6c8704faff9a733fc5b6387a40fd5b531c1c0ebd5945c6dad6c9b41a502fd0",
+      "latencyMs": {
+        "median": 39.112200000090525,
+        "p95": 107.6284000009764,
+        "max": 833.0094999982975
+      }
+    },
+    {
+      "report": "v4_3-explosion-stateless.json",
+      "games": 40,
+      "wins": 31,
+      "agentSha256": "bf6c8704faff9a733fc5b6387a40fd5b531c1c0ebd5945c6dad6c9b41a502fd0",
+      "latencyMs": {
+        "median": 34.82919999805745,
+        "p95": 99.90359999937937,
+        "max": 174.93399999511894
+      }
+    },
+    {
+      "report": "v4_3-explosion-validation.json",
+      "games": 192,
+      "wins": 133,
+      "agentSha256": "bf6c8704faff9a733fc5b6387a40fd5b531c1c0ebd5945c6dad6c9b41a502fd0",
+      "latencyMs": {
+        "median": 35.6342000013683,
+        "p95": 102.82400000141934,
+        "max": 766.2896999972872
+      }
+    },
+    {
+      "report": "v4_3-fighting-dev.json",
+      "games": 96,
+      "wins": 81,
+      "agentSha256": "a661f288d569c8710a376c8b120da3c4c0c0170e0d85da6b4cd9c96cee7aa2f1",
+      "latencyMs": {
+        "median": 18.62309999705758,
+        "p95": 61.33820000104606,
+        "max": 213.6441000038758
+      }
+    },
+    {
+      "report": "v4_3-fighting-direct.json",
+      "games": 80,
+      "wins": 34,
+      "agentSha256": "a661f288d569c8710a376c8b120da3c4c0c0170e0d85da6b4cd9c96cee7aa2f1",
+      "latencyMs": {
+        "median": 15.398599993204698,
+        "p95": 56.29509998834692,
+        "max": 119.464399991557
+      }
+    },
+    {
+      "report": "v4_3-fresh-mixed-control.json",
+      "games": 200,
+      "wins": 158,
+      "agentSha256": "65f866cf17ace2330e8856434706839320cf43338d70203348163679ea9f2457",
+      "latencyMs": {
+        "median": 19.247799995355308,
+        "p95": 61.3829999929294,
+        "max": 169.6086000010837
+      }
+    },
+    {
+      "report": "v4_3-fresh-mixed-coverage.json",
+      "games": 200,
+      "wins": 162,
+      "agentSha256": "eb18fa72c8284070025fba9242a46da21b3d68511a0144abc10923befa862ef1",
+      "latencyMs": {
+        "median": 20.145100002991967,
+        "p95": 59.21769999258686,
+        "max": 156.28139999171253
+      }
+    },
+    {
+      "report": "v5-dev-control.json",
+      "games": 96,
+      "wins": 73,
+      "agentSha256": "65f866cf17ace2330e8856434706839320cf43338d70203348163679ea9f2457",
+      "latencyMs": {
+        "median": 30.80969999427907,
+        "p95": 89.35799999744631,
+        "max": 173.13959999592043
+      }
+    },
+    {
+      "report": "v5-dev-bulky.json",
+      "games": 96,
+      "wins": 74,
+      "agentSha256": "10c18ca7e2bff761143c0f66a3ad9fceba2b59b26dcedad84f48a54bd0e7dfc8",
+      "latencyMs": {
+        "median": 30.25530000741128,
+        "p95": 88.13409999129362,
+        "max": 193.45950000570156
+      }
+    },
+    {
+      "report": "v5-dev-coverage.json",
+      "games": 96,
+      "wins": 81,
+      "agentSha256": "eb18fa72c8284070025fba9242a46da21b3d68511a0144abc10923befa862ef1",
+      "latencyMs": {
+        "median": 33.7195000029169,
+        "p95": 95.7975999917835,
+        "max": 175.42859999230132
+      }
+    },
+    {
+      "report": "v5-dev-water.json",
+      "games": 96,
+      "wins": 77,
+      "agentSha256": "52ee91d0d77ce46df6ffae15f75bba192e868d5267565374bc7b1e23572d99f7",
+      "latencyMs": {
+        "median": 36.10820000176318,
+        "p95": 101.84730000037234,
+        "max": 170.38080000202172
+      }
+    },
+    {
+      "report": "v5-validation-control.json",
+      "games": 192,
+      "wins": 133,
+      "agentSha256": "65f866cf17ace2330e8856434706839320cf43338d70203348163679ea9f2457",
+      "latencyMs": {
+        "median": 38.58590000891127,
+        "p95": 108.1523000029847,
+        "max": 177.8619999968214
+      }
+    },
+    {
+      "report": "v5-validation-coverage.json",
+      "games": 192,
+      "wins": 133,
+      "agentSha256": "eb18fa72c8284070025fba9242a46da21b3d68511a0144abc10923befa862ef1",
+      "latencyMs": {
+        "median": 33.83479999320116,
+        "p95": 106.8989000050351,
+        "max": 180.54670000856277
+      }
+    }
+  ],
+  "candidateStatus": "Coverage and Explosion candidates remain experimental; no release promotion."
+}

@@ -1,0 +1,112 @@
+|t:|1792087539
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Arcanine, M|
+|poke|p2|Scizor, M|
+|teampreview
+|
+|t:|1792087539
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|split|p2
+|switch|p2a: Ferrothorn|Ferrothorn, F|289/289
+|switch|p2a: Ferrothorn|Ferrothorn, F|289/289
+|turn|1
+|
+|t:|1792087539
+|move|p1a: Dragonite|Fire Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|split|p2
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p2a: Ferrothorn|0 fnt
+|split|p1
+|-damage|p1a: Dragonite|283/323|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Dragonite|283/323|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|t:|1792087539
+|split|p2
+|switch|p2a: Arcanine|Arcanine, M|321/321
+|switch|p2a: Arcanine|Arcanine, M|321/321
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|turn|2
+|
+|t:|1792087539
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|move|p2a: Arcanine|Play Rough|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|75/317
+|-damage|p1a: Dragapult|75/317
+|
+|upkeep
+|turn|3
+|
+|t:|1792087539
+|move|p1a: Dragapult|Draco Meteor|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|0 fnt
+|-damage|p2a: Arcanine|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1792087539
+|split|p2
+|switch|p2a: Scizor|Scizor, M|281/281
+|switch|p2a: Scizor|Scizor, M|281/281
+|turn|4
+|
+|t:|1792087539
+|split|p1
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|move|p2a: Scizor|Iron Head|p1a: Arcanine
+|debug|Base Power: 80
+|-resisted|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|328/384
+|-damage|p1a: Arcanine|328/384
+|
+|upkeep
+|turn|5
+|
+|t:|1792087539
+|move|p2a: Scizor|Close Combat|p1a: Arcanine
+|debug|Base Power: 120
+|split|p1
+|-damage|p1a: Arcanine|207/384
+|-damage|p1a: Arcanine|207/384
+|-unboost|p2a: Scizor|def|1
+|-unboost|p2a: Scizor|spd|1
+|move|p1a: Arcanine|Flare Blitz|p2a: Scizor
+|-supereffective|p2a: Scizor
+|split|p2
+|-damage|p2a: Scizor|0 fnt
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|split|p1
+|-damage|p1a: Arcanine|114/384|[from] Recoil
+|-damage|p1a: Arcanine|114/384|[from] Recoil
+|
+|win|agent

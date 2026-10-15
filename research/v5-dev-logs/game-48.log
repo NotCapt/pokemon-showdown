@@ -1,0 +1,252 @@
+|t:|1792087561
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine, F|
+|poke|p2|Scizor, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Charizard, F|
+|teampreview
+|
+|t:|1792087561
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|split|p2
+|switch|p2a: Scizor|Scizor, M|281/281
+|switch|p2a: Scizor|Scizor, M|281/281
+|turn|1
+|
+|t:|1792087561
+|split|p2
+|switch|p2a: Charizard|Charizard, F|360/360
+|switch|p2a: Charizard|Charizard, F|360/360
+|move|p1a: Dragonite|Fire Punch|p2a: Charizard
+|-resisted|p2a: Charizard
+|split|p2
+|-damage|p2a: Charizard|265/360
+|-damage|p2a: Charizard|265/360
+|
+|split|p2
+|-heal|p2a: Charizard|287/360|[from] item: Leftovers
+|-heal|p2a: Charizard|287/360|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1792087561
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|move|p2a: Charizard|Roost|p2a: Charizard
+|split|p2
+|-heal|p2a: Charizard|360/360
+|-heal|p2a: Charizard|360/360
+|-singleturn|p2a: Charizard|move: Roost
+|
+|upkeep
+|turn|3
+|
+|t:|1792087561
+|split|p2
+|switch|p2a: Garchomp|Garchomp, M|357/357
+|switch|p2a: Garchomp|Garchomp, M|357/357
+|move|p1a: Dragapult|Thunderbolt|p2a: Garchomp
+|-immune|p2a: Garchomp
+|
+|upkeep
+|turn|4
+|
+|t:|1792087561
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|move|p2a: Garchomp|Outrage|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|34/323
+|-damage|p1a: Dragonite|34/323
+|
+|upkeep
+|turn|5
+|
+|t:|1792087562
+|move|p2a: Garchomp|Outrage|p1a: Dragonite|[from] lockedmove
+|-supereffective|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|-start|p2a: Garchomp|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1792087562
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|turn|6
+|
+|t:|1792087562
+|move|p1a: Dragapult|Draco Meteor|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|split|p2
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p2a: Garchomp|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1792087562
+|split|p2
+|switch|p2a: Scizor|Scizor, M|281/281
+|switch|p2a: Scizor|Scizor, M|281/281
+|turn|7
+|
+|t:|1792087562
+|split|p1
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|move|p2a: Scizor|Iron Head|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|328/384
+|-damage|p1a: Arcanine|328/384
+|
+|upkeep
+|turn|8
+|
+|t:|1792087562
+|split|p2
+|switch|p2a: Charizard|Charizard, F|360/360
+|switch|p2a: Charizard|Charizard, F|360/360
+|move|p1a: Arcanine|Flare Blitz|p2a: Charizard
+|-resisted|p2a: Charizard
+|split|p2
+|-damage|p2a: Charizard|239/360
+|-damage|p2a: Charizard|239/360
+|split|p1
+|-damage|p1a: Arcanine|288/384|[from] Recoil
+|-damage|p1a: Arcanine|288/384|[from] Recoil
+|
+|split|p2
+|-heal|p2a: Charizard|261/360|[from] item: Leftovers
+|-heal|p2a: Charizard|261/360|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1792087562
+|move|p1a: Arcanine|Extreme Speed|p2a: Charizard
+|split|p2
+|-damage|p2a: Charizard|145/360
+|-damage|p2a: Charizard|145/360
+|move|p2a: Charizard|Air Slash|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|176/384
+|-damage|p1a: Arcanine|176/384
+|
+|split|p2
+|-heal|p2a: Charizard|167/360|[from] item: Leftovers
+|-heal|p2a: Charizard|167/360|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1792087562
+|move|p2a: Charizard|Roost|p2a: Charizard
+|split|p2
+|-heal|p2a: Charizard|347/360
+|-heal|p2a: Charizard|347/360
+|-singleturn|p2a: Charizard|move: Roost
+|move|p1a: Arcanine|Crunch|p2a: Charizard
+|split|p2
+|-damage|p2a: Charizard|238/360
+|-damage|p2a: Charizard|238/360
+|
+|split|p2
+|-heal|p2a: Charizard|260/360|[from] item: Leftovers
+|-heal|p2a: Charizard|260/360|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1792087562
+|move|p1a: Arcanine|Extreme Speed|p2a: Charizard
+|split|p2
+|-damage|p2a: Charizard|140/360
+|-damage|p2a: Charizard|140/360
+|move|p2a: Charizard|Air Slash|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|62/384
+|-damage|p1a: Arcanine|62/384
+|
+|split|p2
+|-heal|p2a: Charizard|162/360|[from] item: Leftovers
+|-heal|p2a: Charizard|162/360|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1792087562
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|move|p2a: Charizard|Overheat|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|169/317
+|-damage|p1a: Dragapult|169/317
+|-unboost|p2a: Charizard|spa|2
+|
+|split|p2
+|-heal|p2a: Charizard|184/360|[from] item: Leftovers
+|-heal|p2a: Charizard|184/360|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1792087562
+|split|p2
+|switch|p2a: Scizor|Scizor, M|281/281
+|switch|p2a: Scizor|Scizor, M|281/281
+|move|p1a: Dragapult|Shadow Ball|p2a: Scizor
+|split|p2
+|-damage|p2a: Scizor|86/281
+|-damage|p2a: Scizor|86/281
+|
+|split|p2
+|-heal|p2a: Scizor|103/281|[from] item: Leftovers
+|-heal|p2a: Scizor|103/281|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1792087562
+|move|p1a: Dragapult|Shadow Ball|p2a: Scizor
+|split|p2
+|-damage|p2a: Scizor|0 fnt
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1792087562
+|split|p2
+|switch|p2a: Charizard|Charizard, F|184/360
+|switch|p2a: Charizard|Charizard, F|184/360
+|turn|15
+|
+|t:|1792087562
+|move|p1a: Dragapult|Shadow Ball|p2a: Charizard
+|split|p2
+|-damage|p2a: Charizard|0 fnt
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|win|agent

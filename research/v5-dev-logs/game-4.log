@@ -1,0 +1,96 @@
+|t:|1792087533
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine, F|
+|poke|p2|Metagross|
+|poke|p2|Alakazam, M|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|t:|1792087533
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|split|p2
+|switch|p2a: Metagross|Metagross|301/301
+|switch|p2a: Metagross|Metagross|301/301
+|turn|1
+|
+|t:|1792087534
+|move|p1a: Dragonite|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|split|p2
+|-damage|p2a: Metagross|0 fnt
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|upkeep
+|
+|t:|1792087534
+|split|p2
+|switch|p2a: Corviknight|Corviknight, M|337/337
+|switch|p2a: Corviknight|Corviknight, M|337/337
+|turn|2
+|
+|t:|1792087534
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|move|p2a: Corviknight|Brave Bird|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|110/317
+|-damage|p1a: Dragapult|110/317
+|split|p2
+|-damage|p2a: Corviknight|269/337|[from] Recoil
+|-damage|p2a: Corviknight|269/337|[from] Recoil
+|
+|split|p2
+|-heal|p2a: Corviknight|290/337|[from] item: Leftovers
+|-heal|p2a: Corviknight|290/337|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1792087534
+|move|p1a: Dragapult|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|split|p2
+|-damage|p2a: Corviknight|8/337
+|-damage|p2a: Corviknight|8/337
+|move|p2a: Corviknight|Brave Bird|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|split|p2
+|-damage|p2a: Corviknight|0 fnt|[from] Recoil
+|-damage|p2a: Corviknight|0 fnt|[from] Recoil
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1792087534
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|split|p2
+|switch|p2a: Alakazam|Alakazam, M|251/251
+|switch|p2a: Alakazam|Alakazam, M|251/251
+|turn|4
+|
+|t:|1792087534
+|move|p1a: Dragonite|Extreme Speed|p2a: Alakazam
+|split|p2
+|-damage|p2a: Alakazam|0 fnt
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|win|agent

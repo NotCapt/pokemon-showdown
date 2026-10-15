@@ -1,0 +1,158 @@
+|t:|1792087591
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Arcanine, M|
+|poke|p1|Metagross|
+|poke|p1|Gyarados, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Arcanine, F|
+|teampreview
+|
+|t:|1792087591
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|turn|1
+|
+|t:|1792087591
+|split|p1
+|switch|p1a: Metagross|Metagross|364/364
+|switch|p1a: Metagross|Metagross|364/364
+|move|p2a: Dragonite|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|split|p1
+|-damage|p1a: Metagross|152/364
+|-damage|p1a: Metagross|152/364
+|
+|upkeep
+|turn|2
+|
+|t:|1792087591
+|split|p1
+|switch|p1a: Gyarados|Gyarados, M|394/394
+|switch|p1a: Gyarados|Gyarados, M|394/394
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|move|p2a: Dragonite|Earthquake|p1a: Gyarados
+|-immune|p1a: Gyarados
+|
+|upkeep
+|turn|3
+|
+|t:|1792087591
+|split|p2
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|move|p1a: Gyarados|Outrage|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1792087591
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|turn|4
+|
+|t:|1792087591
+|move|p2a: Dragonite|Extreme Speed|p1a: Gyarados
+|split|p1
+|-damage|p1a: Gyarados|194/394
+|-damage|p1a: Gyarados|194/394
+|move|p1a: Gyarados|Outrage|p2a: Dragonite|[from] lockedmove
+|-supereffective|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|170/323
+|-damage|p2a: Dragonite|170/323
+|
+|upkeep
+|turn|5
+|
+|t:|1792087591
+|move|p2a: Dragonite|Extreme Speed|p1a: Gyarados
+|split|p1
+|-damage|p1a: Gyarados|0 fnt
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|t:|1792087591
+|split|p1
+|switch|p1a: Metagross|Metagross|152/364
+|switch|p1a: Metagross|Metagross|152/364
+|turn|6
+|
+|t:|1792087591
+|split|p2
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|-ability|p2a: Arcanine|Intimidate|boost
+|-fail|p1a: Metagross|unboost|[from] ability: Clear Body|[of] p1a: Metagross
+|move|p1a: Metagross|Explosion|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|0 fnt
+|-damage|p2a: Arcanine|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1792087591
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|170/323
+|switch|p2a: Dragonite|Dragonite, M|170/323
+|split|p1
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|turn|7
+|
+|t:|1792087591
+|move|p2a: Dragonite|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|58/384
+|-damage|p1a: Arcanine|58/384
+|move|p1a: Arcanine|Flare Blitz|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|split|p2
+|-damage|p2a: Dragonite|57/323
+|-damage|p2a: Dragonite|57/323
+|split|p1
+|-damage|p1a: Arcanine|21/384|[from] Recoil
+|-damage|p1a: Arcanine|21/384|[from] Recoil
+|
+|split|p1
+|-heal|p1a: Arcanine|45/384|[from] item: Leftovers
+|-heal|p1a: Arcanine|45/384|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1792087591
+|move|p1a: Arcanine|Extreme Speed|p2a: Dragonite
+|split|p2
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|baseline

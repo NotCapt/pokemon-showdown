@@ -1,0 +1,173 @@
+|t:|1792087557
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine, F|
+|poke|p2|Blastoise, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Scizor, F|
+|teampreview
+|
+|t:|1792087557
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Blastoise|Blastoise, F|299/299
+|switch|p2a: Blastoise|Blastoise, F|299/299
+|turn|1
+|
+|t:|1792087557
+|move|p2a: Blastoise|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|171/323
+|-damage|p1a: Dragonite|171/323
+|move|p1a: Dragonite|Earthquake|p2a: Blastoise
+|split|p2
+|-damage|p2a: Blastoise|105/299
+|-damage|p2a: Blastoise|105/299
+|
+|upkeep
+|turn|2
+|
+|t:|1792087557
+|move|p2a: Blastoise|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1792087557
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|turn|3
+|
+|t:|1792087557
+|split|p2
+|switch|p2a: Hydreigon|Hydreigon, F|388/388
+|switch|p2a: Hydreigon|Hydreigon, F|388/388
+|move|p1a: Dragapult|Shadow Ball|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|split|p2
+|-damage|p2a: Hydreigon|290/388
+|-damage|p2a: Hydreigon|290/388
+|-unboost|p2a: Hydreigon|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1792087557
+|split|p1
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Hydreigon|atk|1
+|move|p2a: Hydreigon|Draco Meteor|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|149/384
+|-damage|p1a: Arcanine|149/384
+|-unboost|p2a: Hydreigon|spa|2
+|split|p2
+|-damage|p2a: Hydreigon|252/388|[from] item: Life Orb
+|-damage|p2a: Hydreigon|252/388|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1792087557
+|move|p1a: Arcanine|Extreme Speed|p2a: Hydreigon
+|split|p2
+|-damage|p2a: Hydreigon|152/388
+|-damage|p2a: Hydreigon|152/388
+|move|p2a: Hydreigon|Draco Meteor|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|24/384
+|-damage|p1a: Arcanine|24/384
+|-unboost|p2a: Hydreigon|spa|2
+|split|p2
+|-damage|p2a: Hydreigon|114/388|[from] item: Life Orb
+|-damage|p2a: Hydreigon|114/388|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|t:|1792087558
+|move|p1a: Arcanine|Extreme Speed|p2a: Hydreigon
+|split|p2
+|-damage|p2a: Hydreigon|8/388
+|-damage|p2a: Hydreigon|8/388
+|move|p2a: Hydreigon|Draco Meteor|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p1a: Arcanine|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Arcanine
+|split|p2
+|-damage|p2a: Hydreigon|0 fnt|[from] item: Life Orb
+|-damage|p2a: Hydreigon|0 fnt|[from] item: Life Orb
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|t:|1792087558
+|split|p2
+|switch|p2a: Blastoise|Blastoise, F|105/299
+|switch|p2a: Blastoise|Blastoise, F|105/299
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|turn|7
+|
+|t:|1792087558
+|move|p1a: Dragapult|Shadow Ball|p2a: Blastoise
+|split|p2
+|-damage|p2a: Blastoise|0 fnt
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|upkeep
+|
+|t:|1792087558
+|split|p2
+|switch|p2a: Scizor|Scizor, F|281/281
+|switch|p2a: Scizor|Scizor, F|281/281
+|turn|8
+|
+|t:|1792087558
+|move|p1a: Dragapult|Shadow Ball|p2a: Scizor
+|split|p2
+|-damage|p2a: Scizor|65/281
+|-damage|p2a: Scizor|65/281
+|move|p2a: Scizor|Iron Head|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|133/317
+|-damage|p1a: Dragapult|133/317
+|
+|split|p2
+|-heal|p2a: Scizor|82/281|[from] item: Leftovers
+|-heal|p2a: Scizor|82/281|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1792087558
+|move|p1a: Dragapult|Shadow Ball|p2a: Scizor
+|split|p2
+|-damage|p2a: Scizor|0 fnt
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|win|agent

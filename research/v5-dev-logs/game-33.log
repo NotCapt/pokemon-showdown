@@ -1,0 +1,137 @@
+|t:|1792087550
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Lapras, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Scizor, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Arcanine, F|
+|teampreview
+|
+|t:|1792087550
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Lapras|Lapras, M|401/401
+|switch|p1a: Lapras|Lapras, M|401/401
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|turn|1
+|
+|t:|1792087550
+|move|p2a: Dragonite|Earthquake|p1a: Lapras
+|split|p1
+|-damage|p1a: Lapras|160/401
+|-damage|p1a: Lapras|160/401
+|move|p1a: Lapras|Freeze-Dry|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|195/323
+|-damage|p2a: Dragonite|195/323
+|
+|upkeep
+|turn|2
+|
+|t:|1792087550
+|move|p1a: Lapras|Ice Shard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|split|p2
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1792087550
+|split|p2
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|turn|3
+|
+|t:|1792087550
+|move|p2a: Dragapult|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|split|p1
+|-damage|p1a: Lapras|0 fnt
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|upkeep
+|
+|t:|1792087550
+|split|p1
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|turn|4
+|
+|t:|1792087550
+|split|p2
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|-ability|p2a: Arcanine|Intimidate|boost
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|
+|upkeep
+|turn|5
+|
+|t:|1792087550
+|move|p1a: Dragapult|Phantom Force|p2a: Arcanine|[from] lockedmove
+|split|p2
+|-damage|p2a: Arcanine|125/384
+|-damage|p2a: Arcanine|125/384
+|move|p2a: Arcanine|Crunch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-crit|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1792087550
+|split|p1
+|switch|p1a: Scizor|Scizor, F|281/281
+|switch|p1a: Scizor|Scizor, F|281/281
+|turn|6
+|
+|t:|1792087551
+|move|p1a: Scizor|Close Combat|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|0 fnt
+|-damage|p2a: Arcanine|0 fnt
+|-unboost|p1a: Scizor|def|1
+|-unboost|p1a: Scizor|spd|1
+|faint|p2a: Arcanine
+|split|p1
+|-damage|p1a: Scizor|253/281|[from] item: Life Orb
+|-damage|p1a: Scizor|253/281|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1792087551
+|split|p2
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|turn|7
+|
+|t:|1792087551
+|move|p2a: Dragapult|Flamethrower|p1a: Scizor
+|-supereffective|p1a: Scizor
+|split|p1
+|-damage|p1a: Scizor|0 fnt
+|-damage|p1a: Scizor|0 fnt
+|debug|move failed because it did nothing
+|faint|p1a: Scizor
+|
+|win|agent

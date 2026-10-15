@@ -1,0 +1,181 @@
+|t:|1792087564
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Arcanine, M|
+|poke|p2|Lapras, F|
+|poke|p2|Charizard, M|
+|poke|p2|Gengar, M|
+|teampreview
+|
+|t:|1792087564
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Lapras|Lapras, F|401/401
+|switch|p2a: Lapras|Lapras, F|401/401
+|turn|1
+|
+|t:|1792087564
+|move|p1a: Dragonite|Earthquake|p2a: Lapras
+|split|p2
+|-damage|p2a: Lapras|175/401
+|-damage|p2a: Lapras|175/401
+|move|p2a: Lapras|Freeze-Dry|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-crit|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|135/323
+|-damage|p1a: Dragonite|135/323
+|
+|upkeep
+|turn|2
+|
+|t:|1792087564
+|move|p2a: Lapras|Ice Shard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1792087564
+|split|p1
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|turn|3
+|
+|t:|1792087564
+|split|p2
+|switch|p2a: Gengar|Gengar, M|261/261
+|switch|p2a: Gengar|Gengar, M|261/261
+|move|p1a: Dragapult|Thunderbolt|p2a: Gengar
+|split|p2
+|-damage|p2a: Gengar|78/261
+|-damage|p2a: Gengar|78/261
+|-start|p1a: Dragapult|Disable|Thunderbolt|[from] ability: Cursed Body|[of] p2a: Gengar
+|
+|upkeep
+|turn|4
+|
+|t:|1792087564
+|split|p1
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Gengar|atk|1
+|move|p2a: Gengar|Shadow Ball|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|232/384
+|-damage|p1a: Arcanine|232/384
+|split|p2
+|-damage|p2a: Gengar|52/261|[from] item: Life Orb
+|-damage|p2a: Gengar|52/261|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1792087564
+|move|p2a: Gengar|Sludge Bomb|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|63/384
+|-damage|p1a: Arcanine|63/384
+|split|p2
+|-damage|p2a: Gengar|26/261|[from] item: Life Orb
+|-damage|p2a: Gengar|26/261|[from] item: Life Orb
+|move|p1a: Arcanine|Crunch|p2a: Gengar
+|-supereffective|p2a: Gengar
+|split|p2
+|-damage|p2a: Gengar|0 fnt
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|t:|1792087564
+|split|p2
+|switch|p2a: Charizard|Charizard, M|297/297
+|switch|p2a: Charizard|Charizard, M|297/297
+|turn|6
+|
+|t:|1792087564
+|split|p1
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|move|p2a: Charizard|Flare Blitz|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|213/317
+|-damage|p1a: Dragapult|213/317
+|split|p2
+|-damage|p2a: Charizard|263/297|[from] Recoil
+|-damage|p2a: Charizard|263/297|[from] Recoil
+|
+|split|p2
+|-heal|p2a: Charizard|281/297|[from] item: Leftovers
+|-heal|p2a: Charizard|281/297|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1792087564
+|split|p2
+|switch|p2a: Lapras|Lapras, F|175/401
+|switch|p2a: Lapras|Lapras, F|175/401
+|move|p1a: Dragapult|Draco Meteor|p2a: Lapras|[miss]
+|-miss|p1a: Dragapult|p2a: Lapras
+|
+|upkeep
+|turn|8
+|
+|t:|1792087564
+|move|p1a: Dragapult|Draco Meteor|p2a: Lapras|[miss]
+|-miss|p1a: Dragapult|p2a: Lapras
+|move|p2a: Lapras|Freeze-Dry|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|43/317
+|-damage|p1a: Dragapult|43/317
+|-status|p1a: Dragapult|frz
+|
+|upkeep
+|turn|9
+|
+|t:|1792087564
+|move|p2a: Lapras|Ice Shard|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1792087564
+|split|p1
+|switch|p1a: Arcanine|Arcanine, M|63/384
+|switch|p1a: Arcanine|Arcanine, M|63/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Lapras|atk|1
+|turn|10
+|
+|t:|1792087564
+|move|p2a: Lapras|Hydro Pump|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|win|baseline

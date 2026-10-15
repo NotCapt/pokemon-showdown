@@ -1,0 +1,101 @@
+|t:|1792087565
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Metagross|
+|poke|p1|Alakazam, F|
+|poke|p1|Corviknight, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Arcanine, M|
+|teampreview
+|
+|t:|1792087565
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Metagross|Metagross|301/301
+|switch|p1a: Metagross|Metagross|301/301
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|turn|1
+|
+|t:|1792087566
+|move|p2a: Dragonite|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|split|p1
+|-damage|p1a: Metagross|0 fnt
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|upkeep
+|
+|t:|1792087566
+|split|p1
+|switch|p1a: Corviknight|Corviknight, F|337/337
+|switch|p1a: Corviknight|Corviknight, F|337/337
+|turn|2
+|
+|t:|1792087566
+|split|p2
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|move|p1a: Corviknight|Brave Bird|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|119/317
+|-damage|p2a: Dragapult|119/317
+|split|p1
+|-damage|p1a: Corviknight|272/337|[from] Recoil
+|-damage|p1a: Corviknight|272/337|[from] Recoil
+|
+|split|p1
+|-heal|p1a: Corviknight|293/337|[from] item: Leftovers
+|-heal|p1a: Corviknight|293/337|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1792087566
+|move|p2a: Dragapult|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|split|p1
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1792087566
+|split|p1
+|switch|p1a: Alakazam|Alakazam, F|251/251
+|switch|p1a: Alakazam|Alakazam, F|251/251
+|turn|4
+|
+|t:|1792087566
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|move|p1a: Alakazam|Psychic|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|203/323
+|-damage|p2a: Dragonite|203/323
+|split|p1
+|-damage|p1a: Alakazam|226/251|[from] item: Life Orb
+|-damage|p1a: Alakazam|226/251|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1792087566
+|move|p2a: Dragonite|Extreme Speed|p1a: Alakazam
+|split|p1
+|-damage|p1a: Alakazam|0 fnt
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|win|agent

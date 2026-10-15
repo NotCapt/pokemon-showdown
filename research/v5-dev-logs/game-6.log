@@ -1,0 +1,139 @@
+|t:|1792087534
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Arcanine, F|
+|poke|p2|Gengar, F|
+|poke|p2|Gyarados, M|
+|poke|p2|Metagross|
+|teampreview
+|
+|t:|1792087534
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Gengar|Gengar, F|261/261
+|switch|p2a: Gengar|Gengar, F|261/261
+|turn|1
+|
+|t:|1792087534
+|split|p2
+|switch|p2a: Metagross|Metagross|364/364
+|switch|p2a: Metagross|Metagross|364/364
+|move|p1a: Dragonite|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|split|p2
+|-damage|p2a: Metagross|40/364
+|-damage|p2a: Metagross|40/364
+|
+|upkeep
+|turn|2
+|
+|t:|1792087534
+|move|p1a: Dragonite|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|split|p2
+|-damage|p2a: Metagross|0 fnt
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|upkeep
+|
+|t:|1792087534
+|split|p2
+|switch|p2a: Gyarados|Gyarados, M|331/331
+|switch|p2a: Gyarados|Gyarados, M|331/331
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|turn|3
+|
+|t:|1792087534
+|split|p1
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|move|p2a: Gyarados|Outrage|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1792087534
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|turn|4
+|
+|t:|1792087534
+|move|p1a: Dragonite|Extreme Speed|p2a: Gyarados
+|split|p2
+|-damage|p2a: Gyarados|137/331
+|-damage|p2a: Gyarados|137/331
+|move|p2a: Gyarados|Outrage|p1a: Dragonite|[from] lockedmove
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|130/323
+|-damage|p1a: Dragonite|130/323
+|
+|upkeep
+|turn|5
+|
+|t:|1792087534
+|move|p1a: Dragonite|Extreme Speed|p2a: Gyarados
+|split|p2
+|-damage|p2a: Gyarados|0 fnt
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|t:|1792087534
+|split|p2
+|switch|p2a: Gengar|Gengar, F|261/261
+|switch|p2a: Gengar|Gengar, F|261/261
+|turn|6
+|
+|t:|1792087534
+|split|p1
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Gengar|atk|1
+|move|p2a: Gengar|Sludge Bomb|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|251/384
+|-damage|p1a: Arcanine|251/384
+|-status|p1a: Arcanine|psn
+|
+|split|p1
+|-damage|p1a: Arcanine|203/384 psn|[from] psn
+|-damage|p1a: Arcanine|203/384 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1792087534
+|move|p2a: Gengar|Sludge Bomb|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|62/384 psn
+|-damage|p1a: Arcanine|62/384 psn
+|debug|move failed because it did nothing
+|move|p1a: Arcanine|Crunch|p2a: Gengar
+|-supereffective|p2a: Gengar
+|split|p2
+|-damage|p2a: Gengar|0 fnt
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|win|agent

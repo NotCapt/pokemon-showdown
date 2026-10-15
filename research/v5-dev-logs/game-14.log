@@ -1,0 +1,196 @@
+|t:|1792087537
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Arcanine, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Lapras, F|
+|teampreview
+|
+|t:|1792087537
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|turn|1
+|
+|t:|1792087537
+|split|p2
+|switch|p2a: Lapras|Lapras, F|401/401
+|switch|p2a: Lapras|Lapras, F|401/401
+|move|p1a: Dragonite|Ice Spinner|p2a: Lapras
+|-resisted|p2a: Lapras
+|split|p2
+|-damage|p2a: Lapras|353/401
+|-damage|p2a: Lapras|353/401
+|
+|upkeep
+|turn|2
+|
+|t:|1792087537
+|split|p1
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Lapras|atk|1
+|move|p2a: Lapras|Freeze-Dry|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|353/384
+|-damage|p1a: Arcanine|353/384
+|split|p2
+|-damage|p2a: Lapras|313/401|[from] item: Life Orb
+|-damage|p2a: Lapras|313/401|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1792087537
+|split|p2
+|switch|p2a: Tyranitar|Tyranitar, F|404/404
+|switch|p2a: Tyranitar|Tyranitar, F|404/404
+|-ability|p2a: Tyranitar|Unnerve
+|move|p1a: Arcanine|Flare Blitz|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|split|p2
+|-damage|p2a: Tyranitar|313/404
+|-damage|p2a: Tyranitar|313/404
+|split|p1
+|-damage|p1a: Arcanine|323/384|[from] Recoil
+|-damage|p1a: Arcanine|323/384|[from] Recoil
+|
+|upkeep
+|turn|4
+|
+|t:|1792087537
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|move|p2a: Tyranitar|Stone Edge|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|8/323
+|-damage|p1a: Dragonite|8/323
+|
+|upkeep
+|turn|5
+|
+|t:|1792087537
+|split|p2
+|switch|p2a: Lapras|Lapras, F|313/401
+|switch|p2a: Lapras|Lapras, F|313/401
+|move|p1a: Dragonite|Earthquake|p2a: Lapras
+|split|p2
+|-damage|p2a: Lapras|61/401
+|-damage|p2a: Lapras|61/401
+|
+|upkeep
+|turn|6
+|
+|t:|1792087538
+|move|p2a: Lapras|Ice Shard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|split|p2
+|-damage|p2a: Lapras|21/401|[from] item: Life Orb
+|-damage|p2a: Lapras|21/401|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1792087538
+|split|p1
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|turn|7
+|
+|t:|1792087538
+|move|p1a: Dragapult|Shadow Ball|p2a: Lapras
+|split|p2
+|-damage|p2a: Lapras|0 fnt
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|upkeep
+|
+|t:|1792087538
+|split|p2
+|switch|p2a: Tyranitar|Tyranitar, F|313/404
+|switch|p2a: Tyranitar|Tyranitar, F|313/404
+|-ability|p2a: Tyranitar|Unnerve
+|turn|8
+|
+|t:|1792087538
+|split|p1
+|switch|p1a: Arcanine|Arcanine, M|323/384
+|switch|p1a: Arcanine|Arcanine, M|323/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Crunch|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|125/384
+|-damage|p1a: Arcanine|125/384
+|
+|upkeep
+|turn|9
+|
+|t:|1792087538
+|move|p1a: Arcanine|Play Rough|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|split|p2
+|-damage|p2a: Tyranitar|131/404
+|-damage|p2a: Tyranitar|131/404
+|move|p2a: Tyranitar|Crunch|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|t:|1792087538
+|split|p1
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|turn|10
+|
+|t:|1792087538
+|move|p1a: Dragapult|Draco Meteor|p2a: Tyranitar
+|split|p2
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Tyranitar
+|
+|upkeep
+|
+|t:|1792087538
+|split|p2
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|turn|11
+|
+|t:|1792087538
+|move|p2a: Dragapult|Draco Meteor|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1a: Dragapult|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Dragapult
+|
+|win|baseline

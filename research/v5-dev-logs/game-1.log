@@ -1,0 +1,171 @@
+|t:|1792087532
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Scizor, F|
+|poke|p1|Garchomp, M|
+|poke|p1|Charizard, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Arcanine, F|
+|teampreview
+|
+|t:|1792087532
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Scizor|Scizor, F|281/281
+|switch|p1a: Scizor|Scizor, F|281/281
+|split|p2
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|turn|1
+|
+|t:|1792087533
+|split|p1
+|switch|p1a: Charizard|Charizard, F|360/360
+|switch|p1a: Charizard|Charizard, F|360/360
+|move|p2a: Dragonite|Fire Punch|p1a: Charizard
+|-resisted|p1a: Charizard
+|split|p1
+|-damage|p1a: Charizard|272/360
+|-damage|p1a: Charizard|272/360
+|debug|natural status immunity
+|debug|immune to status
+|debug|move failed because it did nothing
+|
+|split|p1
+|-heal|p1a: Charizard|294/360|[from] item: Leftovers
+|-heal|p1a: Charizard|294/360|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1792087533
+|split|p2
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|move|p1a: Charizard|Air Slash|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|151/317
+|-damage|p2a: Dragapult|151/317
+|
+|split|p1
+|-heal|p1a: Charizard|316/360|[from] item: Leftovers
+|-heal|p1a: Charizard|316/360|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1792087533
+|move|p2a: Dragapult|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|split|p1
+|-damage|p1a: Charizard|34/360
+|-damage|p1a: Charizard|34/360
+|move|p1a: Charizard|Air Slash|p2a: Dragapult
+|split|p2
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|split|p1
+|-heal|p1a: Charizard|56/360|[from] item: Leftovers
+|-heal|p1a: Charizard|56/360|[from] item: Leftovers
+|upkeep
+|
+|t:|1792087533
+|split|p2
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|turn|4
+|
+|t:|1792087533
+|split|p1
+|switch|p1a: Garchomp|Garchomp, M|357/357
+|switch|p1a: Garchomp|Garchomp, M|357/357
+|move|p2a: Arcanine|Extreme Speed|p1a: Garchomp
+|-crit|p1a: Garchomp
+|split|p1
+|-damage|p1a: Garchomp|221/357
+|-damage|p1a: Garchomp|221/357
+|split|p2
+|-damage|p2a: Arcanine|336/384|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Arcanine|336/384|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|upkeep
+|turn|5
+|
+|t:|1792087533
+|move|p1a: Garchomp|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|0 fnt
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1792087533
+|split|p2
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|turn|6
+|
+|t:|1792087533
+|move|p1a: Garchomp|Outrage|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|53/323
+|-damage|p2a: Dragonite|53/323
+|move|p2a: Dragonite|Ice Spinner|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|split|p1
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p1a: Garchomp|0 fnt
+|split|p2
+|-damage|p2a: Dragonite|13/323|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Dragonite|13/323|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1792087533
+|split|p1
+|switch|p1a: Charizard|Charizard, F|56/360
+|switch|p1a: Charizard|Charizard, F|56/360
+|turn|7
+|
+|t:|1792087533
+|move|p2a: Dragonite|Ice Spinner|p1a: Charizard
+|split|p1
+|-damage|p1a: Charizard|0 fnt
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1792087533
+|split|p1
+|switch|p1a: Scizor|Scizor, F|281/281
+|switch|p1a: Scizor|Scizor, F|281/281
+|turn|8
+|
+|t:|1792087533
+|move|p2a: Dragonite|Ice Spinner|p1a: Scizor
+|-resisted|p1a: Scizor
+|split|p1
+|-damage|p1a: Scizor|203/281
+|-damage|p1a: Scizor|203/281
+|move|p1a: Scizor|Iron Head|p2a: Dragonite
+|split|p2
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|baseline

@@ -1,0 +1,175 @@
+|t:|1792087588
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Greninja-*, F|
+|poke|p2|Lucario, M|
+|teampreview
+|
+|t:|1792087588
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|split|p2
+|switch|p2a: Excadrill|Excadrill, M|361/361
+|switch|p2a: Excadrill|Excadrill, M|361/361
+|turn|1
+|
+|t:|1792087589
+|split|p2
+|switch|p2a: Greninja|Greninja, F|285/285
+|switch|p2a: Greninja|Greninja, F|285/285
+|move|p1a: Dragonite|Earthquake|p2a: Greninja
+|split|p2
+|-damage|p2a: Greninja|21/285
+|-damage|p2a: Greninja|21/285
+|
+|upkeep
+|turn|2
+|
+|t:|1792087589
+|split|p1
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Greninja|atk|1
+|move|p2a: Greninja|Ice Beam|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|325/384
+|-damage|p1a: Arcanine|325/384
+|
+|upkeep
+|turn|3
+|
+|t:|1792087589
+|split|p2
+|switch|p2a: Excadrill|Excadrill, M|361/361
+|switch|p2a: Excadrill|Excadrill, M|361/361
+|move|p1a: Arcanine|Extreme Speed|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|split|p2
+|-damage|p2a: Excadrill|297/361
+|-damage|p2a: Excadrill|297/361
+|
+|upkeep
+|turn|4
+|
+|t:|1792087589
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|move|p2a: Excadrill|Earthquake|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|split|p2
+|-damage|p2a: Excadrill|261/361|[from] item: Life Orb
+|-damage|p2a: Excadrill|261/361|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1792087589
+|split|p1
+|switch|p1a: Arcanine|Arcanine, F|325/384
+|switch|p1a: Arcanine|Arcanine, F|325/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|turn|5
+|
+|t:|1792087589
+|move|p2a: Excadrill|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|split|p2
+|-damage|p2a: Excadrill|225/361|[from] item: Life Orb
+|-damage|p2a: Excadrill|225/361|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1792087589
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|turn|6
+|
+|t:|1792087589
+|split|p2
+|switch|p2a: Greninja|Greninja, F|21/285
+|switch|p2a: Greninja|Greninja, F|21/285
+|move|p1a: Dragonite|Earthquake|p2a: Greninja
+|split|p2
+|-damage|p2a: Greninja|0 fnt
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|upkeep
+|
+|t:|1792087589
+|split|p2
+|switch|p2a: Excadrill|Excadrill, M|225/361
+|switch|p2a: Excadrill|Excadrill, M|225/361
+|turn|7
+|
+|t:|1792087589
+|move|p2a: Excadrill|Iron Head|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|213/323
+|-damage|p1a: Dragonite|213/323
+|split|p2
+|-damage|p2a: Excadrill|189/361|[from] item: Life Orb
+|-damage|p2a: Excadrill|189/361|[from] item: Life Orb
+|move|p1a: Dragonite|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|split|p2
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1792087589
+|split|p2
+|switch|p2a: Lucario|Lucario, M|281/281
+|switch|p2a: Lucario|Lucario, M|281/281
+|turn|8
+|
+|t:|1792087589
+|move|p2a: Lucario|Dragon Pulse|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|1/323
+|-damage|p1a: Dragonite|1/323
+|move|p1a: Dragonite|Earthquake|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-enditem|p2a: Lucario|Focus Sash
+|split|p2
+|-damage|p2a: Lucario|1/281
+|-damage|p2a: Lucario|1/281
+|
+|upkeep
+|turn|9
+|
+|t:|1792087589
+|move|p2a: Lucario|Flash Cannon|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|baseline

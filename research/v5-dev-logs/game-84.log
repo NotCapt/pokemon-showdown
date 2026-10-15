@@ -1,0 +1,252 @@
+|t:|1792087582
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Arcanine, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Volcarona, M|
+|poke|p2|Gengar, M|
+|teampreview
+|
+|t:|1792087582
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|turn|1
+|
+|t:|1792087583
+|split|p2
+|switch|p2a: Volcarona|Volcarona, M|311/311
+|switch|p2a: Volcarona|Volcarona, M|311/311
+|move|p1a: Dragonite|Ice Spinner|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|split|p2
+|-damage|p2a: Volcarona|202/311
+|-damage|p2a: Volcarona|202/311
+|
+|upkeep
+|turn|2
+|
+|t:|1792087583
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|split|p2
+|-heal|p2a: Volcarona|311/311
+|-heal|p2a: Volcarona|311/311
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Dragonite|Ice Spinner|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|split|p2
+|-damage|p2a: Volcarona|206/311
+|-damage|p2a: Volcarona|206/311
+|
+|upkeep
+|turn|3
+|
+|t:|1792087583
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|split|p2
+|-heal|p2a: Volcarona|311/311
+|-heal|p2a: Volcarona|311/311
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Dragonite|Ice Spinner|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|split|p2
+|-damage|p2a: Volcarona|197/311
+|-damage|p2a: Volcarona|197/311
+|
+|upkeep
+|turn|4
+|
+|t:|1792087583
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|split|p2
+|-heal|p2a: Volcarona|311/311
+|-heal|p2a: Volcarona|311/311
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Dragonite|Ice Spinner|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|split|p2
+|-damage|p2a: Volcarona|197/311
+|-damage|p2a: Volcarona|197/311
+|
+|upkeep
+|turn|5
+|
+|t:|1792087583
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|split|p2
+|-heal|p2a: Volcarona|311/311
+|-heal|p2a: Volcarona|311/311
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Dragonite|Ice Spinner|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|split|p2
+|-damage|p2a: Volcarona|206/311
+|-damage|p2a: Volcarona|206/311
+|
+|upkeep
+|turn|6
+|
+|t:|1792087583
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|split|p2
+|-heal|p2a: Volcarona|311/311
+|-heal|p2a: Volcarona|311/311
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Dragonite|Ice Spinner|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-crit|p2a: Volcarona
+|split|p2
+|-damage|p2a: Volcarona|153/311
+|-damage|p2a: Volcarona|153/311
+|
+|upkeep
+|turn|7
+|
+|t:|1792087583
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|split|p2
+|-heal|p2a: Volcarona|309/311
+|-heal|p2a: Volcarona|309/311
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Dragonite|Ice Spinner|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|split|p2
+|-damage|p2a: Volcarona|200/311
+|-damage|p2a: Volcarona|200/311
+|
+|upkeep
+|turn|8
+|
+|t:|1792087583
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|split|p2
+|-heal|p2a: Volcarona|311/311
+|-heal|p2a: Volcarona|311/311
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Dragonite|Ice Spinner|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|split|p2
+|-damage|p2a: Volcarona|188/311
+|-damage|p2a: Volcarona|188/311
+|
+|upkeep
+|turn|9
+|
+|t:|1792087583
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|split|p2
+|-heal|p2a: Volcarona|311/311
+|-heal|p2a: Volcarona|311/311
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Dragonite|Ice Spinner|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|split|p2
+|-damage|p2a: Volcarona|202/311
+|-damage|p2a: Volcarona|202/311
+|
+|upkeep
+|turn|10
+|
+|t:|1792087583
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|move|p1a: Dragonite|Ice Spinner|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-enditem|p2a: Dragonite|Focus Sash
+|split|p2
+|-damage|p2a: Dragonite|1/323
+|-damage|p2a: Dragonite|1/323
+|
+|upkeep
+|turn|11
+|
+|t:|1792087583
+|move|p2a: Dragonite|Outrage|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|79/323
+|-damage|p1a: Dragonite|79/323
+|move|p1a: Dragonite|Ice Spinner|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|split|p2
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1792087583
+|split|p2
+|switch|p2a: Volcarona|Volcarona, M|202/311
+|switch|p2a: Volcarona|Volcarona, M|202/311
+|turn|12
+|
+|t:|1792087583
+|split|p1
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|move|p2a: Volcarona|Overheat|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|291/384
+|-damage|p1a: Arcanine|291/384
+|-unboost|p2a: Volcarona|spa|2
+|
+|upkeep
+|turn|13
+|
+|t:|1792087583
+|split|p2
+|switch|p2a: Gengar|Gengar, M|261/261
+|switch|p2a: Gengar|Gengar, M|261/261
+|move|p1a: Arcanine|Flare Blitz|p2a: Gengar
+|-crit|p2a: Gengar
+|split|p2
+|-damage|p2a: Gengar|0 fnt
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|split|p1
+|-damage|p1a: Arcanine|205/384|[from] Recoil
+|-damage|p1a: Arcanine|205/384|[from] Recoil
+|
+|upkeep
+|
+|t:|1792087583
+|split|p2
+|switch|p2a: Volcarona|Volcarona, M|202/311
+|switch|p2a: Volcarona|Volcarona, M|202/311
+|turn|14
+|
+|t:|1792087583
+|move|p2a: Volcarona|Overheat|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|111/384
+|-damage|p1a: Arcanine|111/384
+|-unboost|p2a: Volcarona|spa|2
+|move|p1a: Arcanine|Flare Blitz|p2a: Volcarona
+|split|p2
+|-damage|p2a: Volcarona|0 fnt
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|split|p1
+|-damage|p1a: Arcanine|44/384|[from] Recoil
+|-damage|p1a: Arcanine|44/384|[from] Recoil
+|
+|win|agent

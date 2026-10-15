@@ -1,0 +1,171 @@
+|t:|1792087556
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Charizard, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Lucario, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Arcanine, F|
+|teampreview
+|
+|t:|1792087556
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Charizard|Charizard, M|297/297
+|switch|p1a: Charizard|Charizard, M|297/297
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|turn|1
+|
+|t:|1792087557
+|move|p2a: Dragonite|Extreme Speed|p1a: Charizard
+|split|p1
+|-damage|p1a: Charizard|91/297
+|-damage|p1a: Charizard|91/297
+|move|p1a: Charizard|Air Slash|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|269/323
+|-damage|p2a: Dragonite|269/323
+|
+|split|p1
+|-heal|p1a: Charizard|109/297|[from] item: Leftovers
+|-heal|p1a: Charizard|109/297|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1792087557
+|split|p1
+|switch|p1a: Tyranitar|Tyranitar, M|341/341
+|switch|p1a: Tyranitar|Tyranitar, M|341/341
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Dragonite|Extreme Speed|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|split|p1
+|-damage|p1a: Tyranitar|268/341
+|-damage|p1a: Tyranitar|268/341
+|
+|-weather|Sandstorm|[upkeep]
+|split|p2
+|-damage|p2a: Dragonite|249/323|[from] Sandstorm
+|-damage|p2a: Dragonite|249/323|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|3
+|
+|t:|1792087557
+|split|p2
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|switch|p2a: Arcanine|Arcanine, F|384/384
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Stone Edge|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|split|p2
+|-damage|p2a: Arcanine|0 fnt
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-weather|Sandstorm|[upkeep]
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|
+|t:|1792087557
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|249/323
+|switch|p2a: Dragonite|Dragonite, M|249/323
+|turn|4
+|
+|t:|1792087557
+|move|p2a: Dragonite|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|split|p1
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|split|p2
+|-damage|p2a: Dragonite|229/323|[from] Sandstorm
+|-damage|p2a: Dragonite|229/323|[from] Sandstorm
+|upkeep
+|
+|t:|1792087557
+|split|p1
+|switch|p1a: Charizard|Charizard, M|109/297
+|switch|p1a: Charizard|Charizard, M|109/297
+|turn|5
+|
+|t:|1792087557
+|split|p2
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|switch|p2a: Dragapult|Dragapult, F|317/317
+|move|p1a: Charizard|Roost|p1a: Charizard
+|split|p1
+|-heal|p1a: Charizard|258/297
+|-heal|p1a: Charizard|258/297
+|-singleturn|p1a: Charizard|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|split|p2
+|-damage|p2a: Dragapult|298/317|[from] Sandstorm
+|-damage|p2a: Dragapult|298/317|[from] Sandstorm
+|split|p1
+|-damage|p1a: Charizard|240/297|[from] Sandstorm
+|-damage|p1a: Charizard|240/297|[from] Sandstorm
+|split|p1
+|-heal|p1a: Charizard|258/297|[from] item: Leftovers
+|-heal|p1a: Charizard|258/297|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1792087557
+|split|p1
+|switch|p1a: Lucario|Lucario, M|281/281
+|switch|p1a: Lucario|Lucario, M|281/281
+|move|p2a: Dragapult|Thunderbolt|p1a: Lucario
+|split|p1
+|-damage|p1a: Lucario|102/281
+|-damage|p1a: Lucario|102/281
+|
+|-weather|none
+|split|p1
+|-heal|p1a: Lucario|119/281|[from] item: Leftovers
+|-heal|p1a: Lucario|119/281|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1792087557
+|move|p2a: Dragapult|Thunderbolt|p1a: Lucario
+|split|p1
+|-damage|p1a: Lucario|0 fnt
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|upkeep
+|
+|t:|1792087557
+|split|p1
+|switch|p1a: Charizard|Charizard, M|258/297
+|switch|p1a: Charizard|Charizard, M|258/297
+|turn|8
+|
+|t:|1792087557
+|move|p2a: Dragapult|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|split|p1
+|-damage|p1a: Charizard|0 fnt
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|win|agent

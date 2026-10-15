@@ -1,0 +1,114 @@
+|t:|1792087534
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine, M|
+|poke|p2|Togekiss, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Metagross|
+|teampreview
+|
+|t:|1792087534
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|switch|p1a: Dragonite|Dragonite, F|323/323
+|split|p2
+|switch|p2a: Togekiss|Togekiss, F|374/374
+|switch|p2a: Togekiss|Togekiss, F|374/374
+|turn|1
+|
+|t:|1792087534
+|move|p1a: Dragonite|Ice Spinner|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|split|p2
+|-damage|p2a: Togekiss|50/374
+|-damage|p2a: Togekiss|50/374
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|debug|Multiscale weaken
+|split|p1
+|-damage|p1a: Dragonite|185/323
+|-damage|p1a: Dragonite|185/323
+|
+|upkeep
+|turn|2
+|
+|t:|1792087534
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|split|p2
+|switch|p2a: Metagross|Metagross|301/301
+|switch|p2a: Metagross|Metagross|301/301
+|
+|upkeep
+|turn|3
+|
+|t:|1792087535
+|move|p1a: Dragapult|Shadow Ball|p2a: Metagross
+|-supereffective|p2a: Metagross
+|split|p2
+|-damage|p2a: Metagross|0 fnt
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|upkeep
+|
+|t:|1792087535
+|split|p2
+|switch|p2a: Togekiss|Togekiss, F|50/374
+|switch|p2a: Togekiss|Togekiss, F|50/374
+|turn|4
+|
+|t:|1792087535
+|move|p1a: Dragapult|Shadow Ball|p2a: Togekiss
+|split|p2
+|-damage|p2a: Togekiss|0 fnt
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|t:|1792087535
+|split|p2
+|switch|p2a: Hydreigon|Hydreigon, F|388/388
+|switch|p2a: Hydreigon|Hydreigon, F|388/388
+|turn|5
+|
+|t:|1792087535
+|split|p1
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Hydreigon|atk|1
+|move|p2a: Hydreigon|Draco Meteor|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|192/384
+|-damage|p1a: Arcanine|192/384
+|-unboost|p2a: Hydreigon|spa|2
+|
+|upkeep
+|turn|6
+|
+|t:|1792087535
+|move|p2a: Hydreigon|Draco Meteor|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|93/384
+|-damage|p1a: Arcanine|93/384
+|-unboost|p2a: Hydreigon|spa|2
+|move|p1a: Arcanine|Play Rough|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|split|p2
+|-damage|p2a: Hydreigon|0 fnt
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|win|agent

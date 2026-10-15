@@ -1,0 +1,188 @@
+|t:|1792087584
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine, F|
+|poke|p2|Salamence, F|
+|poke|p2|Alakazam, M|
+|poke|p2|Ferrothorn, M|
+|teampreview
+|
+|t:|1792087584
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Salamence|Salamence, F|394/394
+|switch|p2a: Salamence|Salamence, F|394/394
+|turn|1
+|
+|t:|1792087585
+|split|p2
+|switch|p2a: Ferrothorn|Ferrothorn, M|352/352
+|switch|p2a: Ferrothorn|Ferrothorn, M|352/352
+|move|p1a: Dragonite|Ice Spinner|p2a: Ferrothorn
+|split|p2
+|-damage|p2a: Ferrothorn|219/352
+|-damage|p2a: Ferrothorn|219/352
+|split|p1
+|-damage|p1a: Dragonite|283/323|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Dragonite|283/323|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|split|p2
+|-heal|p2a: Ferrothorn|241/352|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|241/352|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1792087585
+|split|p1
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|switch|p1a: Arcanine|Arcanine, F|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|split|p2
+|switch|p2a: Salamence|Salamence, F|394/394
+|switch|p2a: Salamence|Salamence, F|394/394
+|
+|upkeep
+|turn|3
+|
+|t:|1792087585
+|move|p2a: Salamence|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|56/384
+|-damage|p1a: Arcanine|56/384
+|move|p1a: Arcanine|Play Rough|p2a: Salamence
+|-supereffective|p2a: Salamence
+|split|p2
+|-damage|p2a: Salamence|120/394
+|-damage|p2a: Salamence|120/394
+|
+|upkeep
+|turn|4
+|
+|t:|1792087585
+|move|p1a: Arcanine|Extreme Speed|p2a: Salamence
+|split|p2
+|-damage|p2a: Salamence|12/394
+|-damage|p2a: Salamence|12/394
+|move|p2a: Salamence|Outrage|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|upkeep
+|
+|t:|1792087585
+|split|p1
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|switch|p1a: Dragapult|Dragapult, F|317/317
+|turn|5
+|
+|t:|1792087585
+|move|p1a: Dragapult|Shadow Ball|p2a: Salamence
+|split|p2
+|-damage|p2a: Salamence|0 fnt
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|upkeep
+|
+|t:|1792087585
+|split|p2
+|switch|p2a: Ferrothorn|Ferrothorn, M|241/352
+|switch|p2a: Ferrothorn|Ferrothorn, M|241/352
+|turn|6
+|
+|t:|1792087585
+|move|p1a: Dragapult|Shadow Ball|p2a: Ferrothorn
+|split|p2
+|-damage|p2a: Ferrothorn|79/352
+|-damage|p2a: Ferrothorn|79/352
+|move|p2a: Ferrothorn|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|81/317
+|-damage|p1a: Dragapult|81/317
+|-enditem|p1a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|split|p2
+|-heal|p2a: Ferrothorn|101/352|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|101/352|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1792087585
+|move|p1a: Dragapult|Shadow Ball|p2a: Ferrothorn
+|split|p2
+|-damage|p2a: Ferrothorn|2/352
+|-damage|p2a: Ferrothorn|2/352
+|-unboost|p2a: Ferrothorn|spd|1
+|move|p2a: Ferrothorn|Power Whip|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|split|p2
+|-heal|p2a: Ferrothorn|24/352|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|24/352|[from] item: Leftovers
+|upkeep
+|
+|t:|1792087585
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|283/323
+|switch|p1a: Dragonite|Dragonite, M|283/323
+|turn|8
+|
+|t:|1792087585
+|move|p1a: Dragonite|Earthquake|p2a: Ferrothorn
+|split|p2
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|t:|1792087585
+|split|p2
+|switch|p2a: Alakazam|Alakazam, M|251/251
+|switch|p2a: Alakazam|Alakazam, M|251/251
+|turn|9
+|
+|t:|1792087585
+|move|p2a: Alakazam|Psychic|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|114/323
+|-damage|p1a: Dragonite|114/323
+|move|p1a: Dragonite|Earthquake|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|split|p2
+|-damage|p2a: Alakazam|1/251
+|-damage|p2a: Alakazam|1/251
+|
+|upkeep
+|turn|10
+|
+|t:|1792087585
+|move|p2a: Alakazam|Psychic|p1a: Dragonite
+|split|p1
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|baseline

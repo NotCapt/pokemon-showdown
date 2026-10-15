@@ -1,0 +1,87 @@
+|t:|1792087551
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Scizor, F|
+|poke|p1|Venusaur, F|
+|poke|p1|Excadrill, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Arcanine, F|
+|teampreview
+|
+|t:|1792087551
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Scizor|Scizor, F|344/344
+|switch|p1a: Scizor|Scizor, F|344/344
+|split|p2
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|switch|p2a: Dragonite|Dragonite, F|323/323
+|turn|1
+|
+|t:|1792087551
+|move|p2a: Dragonite|Fire Punch|p1a: Scizor
+|-supereffective|p1a: Scizor
+|split|p1
+|-damage|p1a: Scizor|0 fnt
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1792087551
+|split|p1
+|switch|p1a: Venusaur|Venusaur, F|301/301
+|switch|p1a: Venusaur|Venusaur, F|301/301
+|turn|2
+|
+|t:|1792087551
+|move|p1a: Venusaur|Sludge Bomb|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|252/323
+|-damage|p2a: Dragonite|252/323
+|-status|p2a: Dragonite|psn
+|move|p2a: Dragonite|Fire Punch|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|split|p1
+|-damage|p1a: Venusaur|0 fnt
+|-damage|p1a: Venusaur|0 fnt
+|debug|move failed because it did nothing
+|faint|p1a: Venusaur
+|
+|split|p2
+|-damage|p2a: Dragonite|212/323 psn|[from] psn
+|-damage|p2a: Dragonite|212/323 psn|[from] psn
+|upkeep
+|
+|t:|1792087551
+|split|p1
+|switch|p1a: Excadrill|Excadrill, M|361/361
+|switch|p1a: Excadrill|Excadrill, M|361/361
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|3
+|
+|t:|1792087551
+|move|p1a: Excadrill|Iron Head|p2a: Dragonite
+|debug|ModifyDamage handler suppressed by Mold Breaker
+|split|p2
+|-damage|p2a: Dragonite|12/323 psn
+|-damage|p2a: Dragonite|12/323 psn
+|split|p1
+|-damage|p1a: Excadrill|325/361|[from] item: Life Orb
+|-damage|p1a: Excadrill|325/361|[from] item: Life Orb
+|move|p2a: Dragonite|Fire Punch|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|split|p1
+|-damage|p1a: Excadrill|0 fnt
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|win|agent

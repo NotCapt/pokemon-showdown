@@ -1,0 +1,199 @@
+|t:|1792087573
+|gametype|singles
+|player|p1|agent||
+|player|p2|baseline||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Arcanine, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Blastoise, M|
+|poke|p2|Togekiss, F|
+|teampreview
+|
+|t:|1792087573
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|split|p2
+|switch|p2a: Corviknight|Corviknight, F|337/337
+|switch|p2a: Corviknight|Corviknight, F|337/337
+|-ability|p2a: Corviknight|Pressure
+|turn|1
+|
+|t:|1792087573
+|split|p2
+|switch|p2a: Blastoise|Blastoise, M|362/362
+|switch|p2a: Blastoise|Blastoise, M|362/362
+|move|p1a: Dragonite|Fire Punch|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|split|p2
+|-damage|p2a: Blastoise|288/362
+|-damage|p2a: Blastoise|288/362
+|
+|upkeep
+|turn|2
+|
+|t:|1792087573
+|split|p1
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|switch|p1a: Dragapult|Dragapult, M|317/317
+|move|p2a: Blastoise|Ice Beam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|109/317
+|-damage|p1a: Dragapult|109/317
+|
+|upkeep
+|turn|3
+|
+|t:|1792087573
+|split|p2
+|switch|p2a: Togekiss|Togekiss, F|311/311
+|switch|p2a: Togekiss|Togekiss, F|311/311
+|move|p1a: Dragapult|Draco Meteor|p2a: Togekiss
+|-immune|p2a: Togekiss
+|
+|upkeep
+|turn|4
+|
+|t:|1792087574
+|split|p1
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|switch|p1a: Arcanine|Arcanine, M|384/384
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Togekiss|atk|1
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|split|p1
+|-damage|p1a: Arcanine|293/384
+|-damage|p1a: Arcanine|293/384
+|
+|upkeep
+|turn|5
+|
+|t:|1792087574
+|split|p2
+|switch|p2a: Blastoise|Blastoise, M|288/362
+|switch|p2a: Blastoise|Blastoise, M|288/362
+|move|p1a: Arcanine|Flare Blitz|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|split|p2
+|-damage|p2a: Blastoise|188/362
+|-damage|p2a: Blastoise|188/362
+|split|p1
+|-damage|p1a: Arcanine|260/384|[from] Recoil
+|-damage|p1a: Arcanine|260/384|[from] Recoil
+|
+|upkeep
+|turn|6
+|
+|t:|1792087574
+|split|p1
+|switch|p1a: Dragapult|Dragapult, M|109/317
+|switch|p1a: Dragapult|Dragapult, M|109/317
+|move|p2a: Blastoise|Hydro Pump|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|4/317
+|-damage|p1a: Dragapult|4/317
+|
+|upkeep
+|turn|7
+|
+|t:|1792087574
+|split|p2
+|switch|p2a: Togekiss|Togekiss, F|311/311
+|switch|p2a: Togekiss|Togekiss, F|311/311
+|move|p1a: Dragapult|Thunderbolt|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|split|p2
+|-damage|p2a: Togekiss|59/311
+|-damage|p2a: Togekiss|59/311
+|
+|upkeep
+|turn|8
+|
+|t:|1792087574
+|split|p2
+|switch|p2a: Corviknight|Corviknight, F|337/337
+|switch|p2a: Corviknight|Corviknight, F|337/337
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dragapult|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|split|p2
+|-damage|p2a: Corviknight|57/337
+|-damage|p2a: Corviknight|57/337
+|-status|p2a: Corviknight|par
+|-enditem|p2a: Corviknight|Lum Berry|[eat]
+|-curestatus|p2a: Corviknight|par|[msg]
+|
+|upkeep
+|turn|9
+|
+|t:|1792087574
+|move|p1a: Dragapult|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|split|p2
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1792087574
+|split|p2
+|switch|p2a: Togekiss|Togekiss, F|59/311
+|switch|p2a: Togekiss|Togekiss, F|59/311
+|turn|10
+|
+|t:|1792087574
+|move|p1a: Dragapult|Thunderbolt|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|split|p2
+|-damage|p2a: Togekiss|0 fnt
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|t:|1792087574
+|split|p2
+|switch|p2a: Blastoise|Blastoise, M|188/362
+|switch|p2a: Blastoise|Blastoise, M|188/362
+|turn|11
+|
+|t:|1792087574
+|move|p1a: Dragapult|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|split|p2
+|-damage|p2a: Blastoise|18/362
+|-damage|p2a: Blastoise|18/362
+|move|p2a: Blastoise|Hydro Pump|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|split|p1
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1792087574
+|split|p1
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|switch|p1a: Dragonite|Dragonite, M|323/323
+|turn|12
+|
+|t:|1792087574
+|move|p1a: Dragonite|Extreme Speed|p2a: Blastoise
+|split|p2
+|-damage|p2a: Blastoise|0 fnt
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|win|agent

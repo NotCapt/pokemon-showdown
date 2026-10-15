@@ -1,0 +1,96 @@
+|t:|1792087582
+|gametype|singles
+|player|p1|baseline||
+|player|p2|agent||
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Scizor, F|
+|poke|p1|Venusaur, F|
+|poke|p1|Excadrill, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Arcanine, F|
+|teampreview
+|
+|t:|1792087582
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|split|p1
+|switch|p1a: Scizor|Scizor, F|344/344
+|switch|p1a: Scizor|Scizor, F|344/344
+|split|p2
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|switch|p2a: Dragonite|Dragonite, M|323/323
+|turn|1
+|
+|t:|1792087582
+|move|p2a: Dragonite|Fire Punch|p1a: Scizor
+|-supereffective|p1a: Scizor
+|split|p1
+|-damage|p1a: Scizor|0 fnt
+|-damage|p1a: Scizor|0 fnt
+|debug|move failed because it did nothing
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1792087582
+|split|p1
+|switch|p1a: Venusaur|Venusaur, F|301/301
+|switch|p1a: Venusaur|Venusaur, F|301/301
+|turn|2
+|
+|t:|1792087582
+|move|p1a: Venusaur|Sludge Bomb|p2a: Dragonite
+|debug|Multiscale weaken
+|split|p2
+|-damage|p2a: Dragonite|254/323
+|-damage|p2a: Dragonite|254/323
+|move|p2a: Dragonite|Fire Punch|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|split|p1
+|-damage|p1a: Venusaur|0 fnt
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|upkeep
+|
+|t:|1792087582
+|split|p1
+|switch|p1a: Excadrill|Excadrill, M|361/361
+|switch|p1a: Excadrill|Excadrill, M|361/361
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|3
+|
+|t:|1792087582
+|move|p1a: Excadrill|Rock Slide|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|debug|ModifyDamage handler suppressed by Mold Breaker
+|split|p2
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p2a: Dragonite|0 fnt
+|debug|move failed because it did nothing
+|faint|p2a: Dragonite
+|split|p1
+|-damage|p1a: Excadrill|325/361|[from] item: Life Orb
+|-damage|p1a: Excadrill|325/361|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1792087582
+|split|p2
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|switch|p2a: Dragapult|Dragapult, M|317/317
+|turn|4
+|
+|t:|1792087582
+|move|p2a: Dragapult|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|split|p1
+|-damage|p1a: Excadrill|0 fnt
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|win|agent

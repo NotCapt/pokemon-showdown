@@ -1,0 +1,1209 @@
+{
+  "source": "research/v5-dev-control.json",
+  "games": 96,
+  "wins": 73,
+  "lossCount": 23,
+  "opponentTeams": [
+    [
+      "Dragapult / Tyranitar / Lapras",
+      4
+    ],
+    [
+      "Salamence / Alakazam / Ferrothorn",
+      4
+    ],
+    [
+      "Excadrill / Greninja / Lucario",
+      4
+    ],
+    [
+      "Arcanine / Metagross / Gyarados",
+      4
+    ],
+    [
+      "Scizor / Garchomp / Charizard",
+      2
+    ],
+    [
+      "Lapras / Charizard / Gengar",
+      2
+    ],
+    [
+      "Metagross / Snorlax / Greninja",
+      2
+    ],
+    [
+      "Lapras / Dragapult / Scizor",
+      1
+    ]
+  ],
+  "precedingEnemyAttackFaints": [
+    [
+      "Lapras",
+      11
+    ],
+    [
+      "Excadrill",
+      10
+    ],
+    [
+      "Dragapult",
+      6
+    ],
+    [
+      "Alakazam",
+      6
+    ],
+    [
+      "Tyranitar",
+      4
+    ],
+    [
+      "Salamence",
+      4
+    ],
+    [
+      "Gyarados",
+      4
+    ],
+    [
+      "Metagross",
+      4
+    ],
+    [
+      "Arcanine",
+      4
+    ],
+    [
+      "Snorlax",
+      4
+    ],
+    [
+      "Charizard",
+      2
+    ],
+    [
+      "Garchomp",
+      2
+    ],
+    [
+      "Scizor",
+      2
+    ],
+    [
+      "Ferrothorn",
+      2
+    ],
+    [
+      "Lucario",
+      2
+    ]
+  ],
+  "losses": [
+    {
+      "game": 0,
+      "turns": 8,
+      "opponent": [
+        "Scizor",
+        "Garchomp",
+        "Charizard"
+      ],
+      "ownEntries": 4,
+      "ownFaints": [
+        {
+          "turn": 3,
+          "pokemon": "p1a: Dragapult",
+          "precedingMove": {
+            "turn": 3,
+            "user": "p2a: Charizard",
+            "move": "Air Slash"
+          }
+        },
+        {
+          "turn": 5,
+          "pokemon": "p1a: Arcanine",
+          "precedingMove": {
+            "turn": 5,
+            "user": "p2a: Garchomp",
+            "move": "Earthquake"
+          }
+        },
+        {
+          "turn": 8,
+          "pokemon": "p1a: Dragonite",
+          "precedingMove": {
+            "turn": 8,
+            "user": "p2a: Scizor",
+            "move": "Iron Head"
+          }
+        }
+      ],
+      "resistedAttacks": [
+        {
+          "turn": 1,
+          "user": "p1a: Dragonite",
+          "move": "Fire Punch",
+          "result": "-resisted"
+        },
+        {
+          "turn": 8,
+          "user": "p1a: Dragonite",
+          "move": "Ice Spinner",
+          "result": "-resisted"
+        }
+      ]
+    },
+    {
+      "game": 1,
+      "turns": 8,
+      "opponent": [
+        "Scizor",
+        "Garchomp",
+        "Charizard"
+      ],
+      "ownEntries": 4,
+      "ownFaints": [
+        {
+          "turn": 3,
+          "pokemon": "p2a: Dragapult",
+          "precedingMove": {
+            "turn": 3,
+            "user": "p1a: Charizard",
+            "move": "Air Slash"
+          }
+        },
+        {
+          "turn": 5,
+          "pokemon": "p2a: Arcanine",
+          "precedingMove": {
+            "turn": 5,
+            "user": "p1a: Garchomp",
+            "move": "Earthquake"
+          }
+        },
+        {
+          "turn": 8,
+          "pokemon": "p2a: Dragonite",
+          "precedingMove": {
+            "turn": 8,
+            "user": "p1a: Scizor",
+            "move": "Iron Head"
+          }
+        }
+      ],
+      "resistedAttacks": [
+        {
+          "turn": 1,
+          "user": "p2a: Dragonite",
+          "move": "Fire Punch",
+          "result": "-resisted"
+        },
+        {
+          "turn": 8,
+          "user": "p2a: Dragonite",
+          "move": "Ice Spinner",
+          "result": "-resisted"
+        }
+      ]
+    },
+    {
+      "game": 14,
+      "turns": 11,
+      "opponent": [
+        "Dragapult",
+        "Tyranitar",
+        "Lapras"
+      ],
+      "ownEntries": 6,
+      "ownFaints": [
+        {
+          "turn": 6,
+          "pokemon": "p1a: Dragonite",
+          "precedingMove": {
+            "turn": 6,
+            "user": "p2a: Lapras",
+            "move": "Ice Shard"
+          }
+        },
+        {
+          "turn": 9,
+          "pokemon": "p1a: Arcanine",
+          "precedingMove": {
+            "turn": 9,
+            "user": "p2a: Tyranitar",
+            "move": "Crunch"
+          }
+        },
+        {
+          "turn": 11,
+          "pokemon": "p1a: Dragapult",
+          "precedingMove": {
+            "turn": 11,
+            "user": "p2a: Dragapult",
+            "move": "Draco Meteor"
+          }
+        }
+      ],
+      "resistedAttacks": [
+        {
+          "turn": 1,
+          "user": "p1a: Dragonite",
+          "move": "Ice Spinner",
+          "result": "-resisted"
+        },
+        {
+          "turn": 3,
+          "user": "p1a: Arcanine",
+          "move": "Flare Blitz",
+          "result": "-resisted"
+        }
+      ]
+    },
+    {
+      "game": 15,
+      "turns": 11,
+      "opponent": [
+        "Dragapult",
+        "Tyranitar",
+        "Lapras"
+      ],
+      "ownEntries": 6,
+      "ownFaints": [
+        {
+          "turn": 6,
+          "pokemon": "p2a: Dragonite",
+          "precedingMove": {
+            "turn": 6,
+            "user": "p1a: Lapras",
+            "move": "Ice Shard"
+          }
+        },
+        {
+          "turn": 9,
+          "pokemon": "p2a: Arcanine",
+          "precedingMove": {
+            "turn": 9,
+            "user": "p1a: Tyranitar",
+            "move": "Crunch"
+          }
+        },
+        {
+          "turn": 11,
+          "pokemon": "p2a: Dragapult",
+          "precedingMove": {
+            "turn": 11,
+            "user": "p1a: Dragapult",
+            "move": "Draco Meteor"
+          }
+        }
+      ],
+      "resistedAttacks": [
+        {
+          "turn": 1,
+          "user": "p2a: Dragonite",
+          "move": "Ice Spinner",
+          "result": "-resisted"
+        },
+        {
+          "turn": 3,
+          "user": "p2a: Arcanine",
+          "move": "Flare Blitz",
+          "result": "-resisted"
+        }
+      ]
+    },
+    {
+      "game": 38,
+      "turns": 11,
+      "opponent": [
+        "Salamence",
+        "Alakazam",
+        "Ferrothorn"
+      ],
+      "ownEntries": 7,
+      "ownFaints": [
+        {
+          "turn": 8,
+          "pokemon": "p1a: Dragapult",
+          "precedingMove": {
+            "turn": 8,
+            "user": "p2a: Alakazam",
+            "move": "Psychic"
+          }
+        },
+        {
+          "turn": 9,
+          "pokemon": "p1a: Dragonite",
+          "precedingMove": {
+            "turn": 9,
+            "user": "p2a: Alakazam",
+            "move": "Psychic"
+          }
+        },
+        {
+          "turn": 11,
+          "pokemon": "p1a: Arcanine",
+          "precedingMove": {
+            "turn": 11,
+            "user": "p2a: Salamence",
+            "move": "Earthquake"
+          }
+        }
+      ],
+      "resistedAttacks": [
+        {
+          "turn": 3,
+          "user": "p1a: Arcanine",
+          "move": "Flare Blitz",
+          "result": "-resisted"
+        },
+        {
+          "turn": 5,
+          "user": "p1a: Dragapult",
+          "move": "Draco Meteor",
+          "result": "-resisted"
+        }
+      ]
+    },
+    {
+      "game": 39,
+      "turns": 11,
+      "opponent": [
+        "Salamence",
+        "Alakazam",
+        "Ferrothorn"
+      ],
+      "ownEntries": 7,
+      "ownFaints": [
+        {
+          "turn": 8,
+          "pokemon": "p2a: Dragapult",
+          "precedingMove": {
+            "turn": 8,
+            "user": "p1a: Alakazam",
+            "move": "Psychic"
+          }
+        },
+        {
+          "turn": 9,
+          "pokemon": "p2a: Dragonite",
+          "precedingMove": {
+            "turn": 9,
+            "user": "p1a: Alakazam",
+            "move": "Psychic"
+          }
+        },
+        {
+          "turn": 11,
+          "pokemon": "p2a: Arcanine",
+          "precedingMove": {
+            "turn": 11,
+            "user": "p1a: Salamence",
+            "move": "Earthquake"
+          }
+        }
+      ],
+      "resistedAttacks": [
+        {
+          "turn": 3,
+          "user": "p2a: Arcanine",
+          "move": "Flare Blitz",
+          "result": "-resisted"
+        },
+        {
+          "turn": 5,
+          "user": "p2a: Dragapult",
+          "move": "Draco Meteor",
+          "result": "-resisted"
+        }
+      ]
+    },
+    {
+      "game": 44,
+      "turns": 8,
+      "opponent": [
+        "Excadrill",
+        "Greninja",
+        "Lucario"
+      ],
+      "ownEntries": 5,
+      "ownFaints": [
+        {
+          "turn": 5,
+          "pokemon": "p1a: Dragapult",
+          "precedingMove": {
+            "turn": 5,
+            "user": "p2a: Excadrill",
+            "move": "Earthquake"
+          }
+        },
+        {
+          "turn": 6,
+          "pokemon": "p1a: Arcanine",
+          "precedingMove": {
+            "turn": 6,
+            "user": "p2a: Excadrill",
+            "move": "Earthquake"
+          }
+        },
+        {
+          "turn": 8,
+          "pokemon": "p1a: Dragonite",
+          "precedingMove": {
+            "turn": 8,
+            "user": "p2a: Excadrill",
+            "move": "Iron Head"
+          }
+        }
+      ],
+      "resistedAttacks": [
+        {
+          "turn": 4,
+          "user": "p1a: Arcanine",
+          "move": "Extreme Speed",
+          "result": "-resisted"
+        },
+        {
+          "turn": 7,
+          "user": "p1a: Dragonite",
+          "move": "Extreme Speed",
+          "result": "-resisted"
+        },
+        {
+          "turn": 8,
+          "user": "p1a: Dragonite",
+          "move": "Extreme Speed",
+          "result": "-resisted"
+        }
+      ]
+    },
+    {
+      "game": 45,
+      "turns": 8,
+      "opponent": [
+        "Excadrill",
+        "Greninja",
+        "Lucario"
+      ],
+      "ownEntries": 5,
+      "ownFaints": [
+        {
+          "turn": 5,
+          "pokemon": "p2a: Dragapult",
+          "precedingMove": {
+            "turn": 5,
+            "user": "p1a: Excadrill",
+            "move": "Earthquake"
+          }
+        },
+        {
+          "turn": 6,
+          "pokemon": "p2a: Arcanine",
+          "precedingMove": {
+            "turn": 6,
+            "user": "p1a: Excadrill",
+            "move": "Earthquake"
+          }
+        },
+        {
+          "turn": 8,
+          "pokemon": "p2a: Dragonite",
+          "precedingMove": {
+            "turn": 8,
+            "user": "p1a: Excadrill",
+            "move": "Iron Head"
+          }
+        }
+      ],
+      "resistedAttacks": [
+        {
+          "turn": 4,
+          "user": "p2a: Arcanine",
+          "move": "Extreme Speed",
+          "result": "-resisted"
+        },
+        {
+          "turn": 7,
+          "user": "p2a: Dragonite",
+          "move": "Extreme Speed",
+          "result": "-resisted"
+        },
+        {
+          "turn": 8,
+          "user": "p2a: Dragonite",
+          "move": "Extreme Speed",
+          "result": "-resisted"
+        }
+      ]
+    },
+    {
+      "game": 46,
+      "turns": 8,
+      "opponent": [
+        "Arcanine",
+        "Metagross",
+        "Gyarados"
+      ],
+      "ownEntries": 5,
+      "ownFaints": [
+        {
+          "turn": 3,
+          "pokemon": "p1a: Dragapult",
+          "precedingMove": {
+            "turn": 3,
+            "user": "p2a: Gyarados",
+            "move": "Outrage"
+          }
+        },
+        {
+          "turn": 6,
+          "pokemon": "p1a: Arcanine",
+          "precedingMove": {
+            "turn": 6,
+            "user": "p2a: Metagross",
+            "move": "Explosion"
+          }
+        },
+        {
+          "turn": 8,
+          "pokemon": "p1a: Dragonite",
+          "precedingMove": {
+            "turn": 8,
+            "user": "p2a: Arcanine",
+            "move": "Extreme Speed"
+          }
+        }
+      ],
+      "resistedAttacks": [
+        {
+          "turn": 2,
+          "user": "p1a: Dragonite",
+          "move": "Earthquake",
+          "result": "-immune"
+        }
+      ]
+    },
+    {
+      "game": 47,
+      "turns": 8,
+      "opponent": [
+        "Arcanine",
+        "Metagross",
+        "Gyarados"
+      ],
+      "ownEntries": 5,
+      "ownFaints": [
+        {
+          "turn": 3,
+          "pokemon": "p2a: Dragapult",
+          "precedingMove": {
+            "turn": 3,
+            "user": "p1a: Gyarados",
+            "move": "Outrage"
+          }
+        },
+        {
+          "turn": 6,
+          "pokemon": "p2a: Arcanine",
+          "precedingMove": {
+            "turn": 6,
+            "user": "p1a: Metagross",
+            "move": "Explosion"
+          }
+        },
+        {
+          "turn": 8,
+          "pokemon": "p2a: Dragonite",
+          "precedingMove": {
+            "turn": 8,
+            "user": "p1a: Arcanine",
+            "move": "Extreme Speed"
+          }
+        }
+      ],
+      "resistedAttacks": [
+        {
+          "turn": 2,
+          "user": "p2a: Dragonite",
+          "move": "Earthquake",
+          "result": "-immune"
+        }
+      ]
+    },
+    {
+      "game": 50,
+      "turns": 10,
+      "opponent": [
+        "Lapras",
+        "Charizard",
+        "Gengar"
+      ],
+      "ownEntries": 5,
+      "ownFaints": [
+        {
+          "turn": 2,
+          "pokemon": "p1a: Dragonite",
+          "precedingMove": {
+            "turn": 2,
+            "user": "p2a: Lapras",
+            "move": "Ice Shard"
+          }
+        },
+        {
+          "turn": 9,
+          "pokemon": "p1a: Dragapult",
+          "precedingMove": {
+            "turn": 9,
+            "user": "p2a: Lapras",
+            "move": "Ice Shard"
+          }
+        },
+        {
+          "turn": 10,
+          "pokemon": "p1a: Arcanine",
+          "precedingMove": {
+            "turn": 10,
+            "user": "p2a: Lapras",
+            "move": "Hydro Pump"
+          }
+        }
+      ],
+      "resistedAttacks": []
+    },
+    {
+      "game": 51,
+      "turns": 10,
+      "opponent": [
+        "Lapras",
+        "Charizard",
+        "Gengar"
+      ],
+      "ownEntries": 5,
+      "ownFaints": [
+        {
+          "turn": 2,
+          "pokemon": "p2a: Dragonite",
+          "precedingMove": {
+            "turn": 2,
+            "user": "p1a: Lapras",
+            "move": "Ice Shard"
+          }
+        },
+        {
+          "turn": 9,
+          "pokemon": "p2a: Dragapult",
+          "precedingMove": {
+            "turn": 9,
+            "user": "p1a: Lapras",
+            "move": "Ice Shard"
+          }
+        },
+        {
+          "turn": 10,
+          "pokemon": "p2a: Arcanine",
+          "precedingMove": {
+            "turn": 10,
+            "user": "p1a: Lapras",
+            "move": "Hydro Pump"
+          }
+        }
+      ],
+      "resistedAttacks": []
+    },
+    {
+      "game": 62,
+      "turns": 11,
+      "opponent": [
+        "Dragapult",
+        "Tyranitar",
+        "Lapras"
+      ],
+      "ownEntries": 6,
+      "ownFaints": [
+        {
+          "turn": 6,
+          "pokemon": "p1a: Dragonite",
+          "precedingMove": {
+            "turn": 6,
+            "user": "p2a: Lapras",
+            "move": "Ice Shard"
+          }
+        },
+        {
+          "turn": 9,
+          "pokemon": "p1a: Arcanine",
+          "precedingMove": {
+            "turn": 9,
+            "user": "p2a: Tyranitar",
+            "move": "Crunch"
+          }
+        },
+        {
+          "turn": 11,
+          "pokemon": "p1a: Dragapult",
+          "precedingMove": {
+            "turn": 11,
+            "user": "p2a: Dragapult",
+            "move": "Draco Meteor"
+          }
+        }
+      ],
+      "resistedAttacks": [
+        {
+          "turn": 1,
+          "user": "p1a: Dragonite",
+          "move": "Ice Spinner",
+          "result": "-resisted"
+        },
+        {
+          "turn": 3,
+          "user": "p1a: Arcanine",
+          "move": "Flare Blitz",
+          "result": "-resisted"
+        }
+      ]
+    },
+    {
+      "game": 63,
+      "turns": 11,
+      "opponent": [
+        "Dragapult",
+        "Tyranitar",
+        "Lapras"
+      ],
+      "ownEntries": 6,
+      "ownFaints": [
+        {
+          "turn": 6,
+          "pokemon": "p2a: Dragonite",
+          "precedingMove": {
+            "turn": 6,
+            "user": "p1a: Lapras",
+            "move": "Ice Shard"
+          }
+        },
+        {
+          "turn": 9,
+          "pokemon": "p2a: Arcanine",
+          "precedingMove": {
+            "turn": 9,
+            "user": "p1a: Tyranitar",
+            "move": "Crunch"
+          }
+        },
+        {
+          "turn": 11,
+          "pokemon": "p2a: Dragapult",
+          "precedingMove": {
+            "turn": 11,
+            "user": "p1a: Dragapult",
+            "move": "Draco Meteor"
+          }
+        }
+      ],
+      "resistedAttacks": [
+        {
+          "turn": 1,
+          "user": "p2a: Dragonite",
+          "move": "Ice Spinner",
+          "result": "-resisted"
+        },
+        {
+          "turn": 3,
+          "user": "p2a: Arcanine",
+          "move": "Flare Blitz",
+          "result": "-resisted"
+        }
+      ]
+    },
+    {
+      "game": 66,
+      "turns": 9,
+      "opponent": [
+        "Metagross",
+        "Snorlax",
+        "Greninja"
+      ],
+      "ownEntries": 6,
+      "ownFaints": [
+        {
+          "turn": 5,
+          "pokemon": "p1a: Dragonite",
+          "precedingMove": {
+            "turn": 5,
+            "user": "p2a: Snorlax",
+            "move": "Giga Impact"
+          }
+        },
+        {
+          "turn": 8,
+          "pokemon": "p1a: Dragapult",
+          "precedingMove": {
+            "turn": 8,
+            "user": "p2a: Snorlax",
+            "move": "Darkest Lariat"
+          }
+        },
+        {
+          "turn": 9,
+          "pokemon": "p1a: Arcanine",
+          "precedingMove": {
+            "turn": 9,
+            "user": "p1a: Arcanine",
+            "move": "Flare Blitz"
+          }
+        }
+      ],
+      "resistedAttacks": []
+    },
+    {
+      "game": 67,
+      "turns": 9,
+      "opponent": [
+        "Metagross",
+        "Snorlax",
+        "Greninja"
+      ],
+      "ownEntries": 6,
+      "ownFaints": [
+        {
+          "turn": 5,
+          "pokemon": "p2a: Dragonite",
+          "precedingMove": {
+            "turn": 5,
+            "user": "p1a: Snorlax",
+            "move": "Giga Impact"
+          }
+        },
+        {
+          "turn": 8,
+          "pokemon": "p2a: Dragapult",
+          "precedingMove": {
+            "turn": 8,
+            "user": "p1a: Snorlax",
+            "move": "Darkest Lariat"
+          }
+        },
+        {
+          "turn": 9,
+          "pokemon": "p2a: Arcanine",
+          "precedingMove": {
+            "turn": 9,
+            "user": "p2a: Arcanine",
+            "move": "Flare Blitz"
+          }
+        }
+      ],
+      "resistedAttacks": []
+    },
+    {
+      "game": 80,
+      "turns": 9,
+      "opponent": [
+        "Lapras",
+        "Dragapult",
+        "Scizor"
+      ],
+      "ownEntries": 3,
+      "ownFaints": [
+        {
+          "turn": 2,
+          "pokemon": "p1a: Dragonite",
+          "precedingMove": {
+            "turn": 2,
+            "user": "p2a: Lapras",
+            "move": "Ice Shard"
+          }
+        },
+        {
+          "turn": 5,
+          "pokemon": "p1a: Dragapult",
+          "precedingMove": {
+            "turn": 5,
+            "user": "p2a: Dragapult",
+            "move": "Phantom Force"
+          }
+        },
+        {
+          "turn": 9,
+          "pokemon": "p1a: Arcanine",
+          "precedingMove": {
+            "turn": 9,
+            "user": "p2a: Dragapult",
+            "move": "Phantom Force"
+          }
+        }
+      ],
+      "resistedAttacks": []
+    },
+    {
+      "game": 86,
+      "turns": 10,
+      "opponent": [
+        "Salamence",
+        "Alakazam",
+        "Ferrothorn"
+      ],
+      "ownEntries": 4,
+      "ownFaints": [
+        {
+          "turn": 4,
+          "pokemon": "p1a: Arcanine",
+          "precedingMove": {
+            "turn": 4,
+            "user": "p2a: Salamence",
+            "move": "Outrage"
+          }
+        },
+        {
+          "turn": 7,
+          "pokemon": "p1a: Dragapult",
+          "precedingMove": {
+            "turn": 7,
+            "user": "p2a: Ferrothorn",
+            "move": "Power Whip"
+          }
+        },
+        {
+          "turn": 10,
+          "pokemon": "p1a: Dragonite",
+          "precedingMove": {
+            "turn": 10,
+            "user": "p2a: Alakazam",
+            "move": "Psychic"
+          }
+        }
+      ],
+      "resistedAttacks": []
+    },
+    {
+      "game": 87,
+      "turns": 10,
+      "opponent": [
+        "Salamence",
+        "Alakazam",
+        "Ferrothorn"
+      ],
+      "ownEntries": 4,
+      "ownFaints": [
+        {
+          "turn": 4,
+          "pokemon": "p2a: Arcanine",
+          "precedingMove": {
+            "turn": 4,
+            "user": "p1a: Salamence",
+            "move": "Outrage"
+          }
+        },
+        {
+          "turn": 7,
+          "pokemon": "p2a: Dragapult",
+          "precedingMove": {
+            "turn": 7,
+            "user": "p1a: Ferrothorn",
+            "move": "Power Whip"
+          }
+        },
+        {
+          "turn": 10,
+          "pokemon": "p2a: Dragonite",
+          "precedingMove": {
+            "turn": 10,
+            "user": "p1a: Alakazam",
+            "move": "Psychic"
+          }
+        }
+      ],
+      "resistedAttacks": []
+    },
+    {
+      "game": 92,
+      "turns": 9,
+      "opponent": [
+        "Excadrill",
+        "Greninja",
+        "Lucario"
+      ],
+      "ownEntries": 5,
+      "ownFaints": [
+        {
+          "turn": 4,
+          "pokemon": "p1a: Dragapult",
+          "precedingMove": {
+            "turn": 4,
+            "user": "p2a: Excadrill",
+            "move": "Earthquake"
+          }
+        },
+        {
+          "turn": 5,
+          "pokemon": "p1a: Arcanine",
+          "precedingMove": {
+            "turn": 5,
+            "user": "p2a: Excadrill",
+            "move": "Earthquake"
+          }
+        },
+        {
+          "turn": 9,
+          "pokemon": "p1a: Dragonite",
+          "precedingMove": {
+            "turn": 9,
+            "user": "p2a: Lucario",
+            "move": "Flash Cannon"
+          }
+        }
+      ],
+      "resistedAttacks": [
+        {
+          "turn": 3,
+          "user": "p1a: Arcanine",
+          "move": "Extreme Speed",
+          "result": "-resisted"
+        }
+      ]
+    },
+    {
+      "game": 93,
+      "turns": 9,
+      "opponent": [
+        "Excadrill",
+        "Greninja",
+        "Lucario"
+      ],
+      "ownEntries": 5,
+      "ownFaints": [
+        {
+          "turn": 4,
+          "pokemon": "p2a: Dragapult",
+          "precedingMove": {
+            "turn": 4,
+            "user": "p1a: Excadrill",
+            "move": "Earthquake"
+          }
+        },
+        {
+          "turn": 5,
+          "pokemon": "p2a: Arcanine",
+          "precedingMove": {
+            "turn": 5,
+            "user": "p1a: Excadrill",
+            "move": "Earthquake"
+          }
+        },
+        {
+          "turn": 9,
+          "pokemon": "p2a: Dragonite",
+          "precedingMove": {
+            "turn": 9,
+            "user": "p1a: Lucario",
+            "move": "Flash Cannon"
+          }
+        }
+      ],
+      "resistedAttacks": [
+        {
+          "turn": 3,
+          "user": "p2a: Arcanine",
+          "move": "Extreme Speed",
+          "result": "-resisted"
+        }
+      ]
+    },
+    {
+      "game": 94,
+      "turns": 8,
+      "opponent": [
+        "Arcanine",
+        "Metagross",
+        "Gyarados"
+      ],
+      "ownEntries": 5,
+      "ownFaints": [
+        {
+          "turn": 3,
+          "pokemon": "p1a: Dragapult",
+          "precedingMove": {
+            "turn": 3,
+            "user": "p2a: Gyarados",
+            "move": "Outrage"
+          }
+        },
+        {
+          "turn": 6,
+          "pokemon": "p1a: Arcanine",
+          "precedingMove": {
+            "turn": 6,
+            "user": "p2a: Metagross",
+            "move": "Explosion"
+          }
+        },
+        {
+          "turn": 8,
+          "pokemon": "p1a: Dragonite",
+          "precedingMove": {
+            "turn": 8,
+            "user": "p2a: Arcanine",
+            "move": "Extreme Speed"
+          }
+        }
+      ],
+      "resistedAttacks": [
+        {
+          "turn": 2,
+          "user": "p1a: Dragonite",
+          "move": "Earthquake",
+          "result": "-immune"
+        }
+      ]
+    },
+    {
+      "game": 95,
+      "turns": 8,
+      "opponent": [
+        "Arcanine",
+        "Metagross",
+        "Gyarados"
+      ],
+      "ownEntries": 5,
+      "ownFaints": [
+        {
+          "turn": 3,
+          "pokemon": "p2a: Dragapult",
+          "precedingMove": {
+            "turn": 3,
+            "user": "p1a: Gyarados",
+            "move": "Outrage"
+          }
+        },
+        {
+          "turn": 6,
+          "pokemon": "p2a: Arcanine",
+          "precedingMove": {
+            "turn": 6,
+            "user": "p1a: Metagross",
+            "move": "Explosion"
+          }
+        },
+        {
+          "turn": 8,
+          "pokemon": "p2a: Dragonite",
+          "precedingMove": {
+            "turn": 8,
+            "user": "p1a: Arcanine",
+            "move": "Extreme Speed"
+          }
+        }
+      ],
+      "resistedAttacks": [
+        {
+          "turn": 2,
+          "user": "p2a: Dragonite",
+          "move": "Earthquake",
+          "result": "-immune"
+        }
+      ]
+    }
+  ],
+  "caveat": "A preceding move is not necessarily the cause of a faint (recoil and residual damage exist). Hidden sets in reports are used only for offline evaluation, never agent decisions."
+}

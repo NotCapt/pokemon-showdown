@@ -1,0 +1,4947 @@
+{
+  "agentFile": "research/v5-coverage/agent.py",
+  "agentSha256": "eb18fa72c8284070025fba9242a46da21b3d68511a0144abc10923befa862ef1",
+  "sparseBoosts": true,
+  "stateless": false,
+  "opponentPolicySha256": "16c398e12f1d77d318a0283bfd219d4e59664e58efef5497a9d02b68ac3efa57",
+  "archivedOpponentSha256": "872624e2c86fb677b5aceeed825fca629156582a100116dca967bcccaded1ccf",
+  "opponentInformation": "adaptive uses its own exact state plus public enemy species/types/rounded HP; curated defaults for hidden enemy set; no enemy bench",
+  "simulatorVersion": "0.11.11",
+  "team": [
+    {
+      "name": "Dragonite",
+      "ability": "Multiscale",
+      "item": "Choice Band",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Extreme Speed",
+        "Earthquake",
+        "Ice Spinner",
+        "Fire Punch"
+      ]
+    },
+    {
+      "name": "Dragapult",
+      "ability": "Infiltrator",
+      "item": "Choice Specs",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+      "moves": [
+        "Shadow Ball",
+        "Draco Meteor",
+        "Flamethrower",
+        "Thunderbolt"
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "item": "Assault Vest",
+      "ability": "Intimidate",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Flare Blitz",
+        "Extreme Speed",
+        "Close Combat",
+        "Play Rough"
+      ]
+    }
+  ],
+  "games": 80,
+  "wins": 35,
+  "losses": 45,
+  "draws": 0,
+  "winRate": 0.4375,
+  "wilson95": [
+    0.3341368457196415,
+    0.5465906213134304
+  ],
+  "latencyMs": {
+    "median": 22.637500005657785,
+    "p95": 83.74679999542423,
+    "max": 155.77029999985825
+  },
+  "results": [
+    {
+      "game": 0,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        1,
+        39461
+      ],
+      "baselineVoluntarySwitches": 3
+    },
+    {
+      "game": 1,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        1,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 2,
+      "winner": "baseline",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        2,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 3,
+      "winner": "baseline",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        2,
+        39461
+      ],
+      "baselineVoluntarySwitches": 3
+    },
+    {
+      "game": 4,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        3,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 5,
+      "winner": "baseline",
+      "turns": 6,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        3,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 6,
+      "winner": "baseline",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        4,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 7,
+      "winner": "baseline",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        4,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 8,
+      "winner": "baseline",
+      "turns": 6,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        5,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 9,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        5,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 10,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        6,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 11,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        6,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 12,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        7,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 13,
+      "winner": "baseline",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        7,
+        39461
+      ],
+      "baselineVoluntarySwitches": 3
+    },
+    {
+      "game": 14,
+      "winner": "baseline",
+      "turns": 6,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        8,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 15,
+      "winner": "baseline",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        8,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 16,
+      "winner": "baseline",
+      "turns": 6,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        9,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 17,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        9,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 18,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        10,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 19,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        10,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 20,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        11,
+        39461
+      ],
+      "baselineVoluntarySwitches": 3
+    },
+    {
+      "game": 21,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        11,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 22,
+      "winner": "baseline",
+      "turns": 6,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        12,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 23,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        12,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 24,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        13,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 25,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        13,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 26,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        14,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 27,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        14,
+        39461
+      ],
+      "baselineVoluntarySwitches": 3
+    },
+    {
+      "game": 28,
+      "winner": "baseline",
+      "turns": 11,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        15,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 29,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        15,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 30,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        16,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 31,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        16,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 32,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        17,
+        39461
+      ],
+      "baselineVoluntarySwitches": 3
+    },
+    {
+      "game": 33,
+      "winner": "baseline",
+      "turns": 6,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        17,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 34,
+      "winner": "baseline",
+      "turns": 6,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        18,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 35,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        18,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 36,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        19,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 37,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        19,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 38,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        20,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 39,
+      "winner": "baseline",
+      "turns": 6,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        20,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 40,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        21,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 41,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        21,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 42,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        22,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 43,
+      "winner": "agent",
+      "turns": 6,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        22,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 44,
+      "winner": "baseline",
+      "turns": 6,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        23,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 45,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        23,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 46,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        24,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 47,
+      "winner": "baseline",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        24,
+        39461
+      ],
+      "baselineVoluntarySwitches": 4
+    },
+    {
+      "game": 48,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        25,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 49,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        25,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 50,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        26,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 51,
+      "winner": "baseline",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        26,
+        39461
+      ],
+      "baselineVoluntarySwitches": 3
+    },
+    {
+      "game": 52,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        27,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 53,
+      "winner": "baseline",
+      "turns": 6,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        27,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 54,
+      "winner": "agent",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        28,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 55,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        28,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 56,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        29,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 57,
+      "winner": "baseline",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        29,
+        39461
+      ],
+      "baselineVoluntarySwitches": 3
+    },
+    {
+      "game": 58,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        30,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 59,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        30,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 60,
+      "winner": "baseline",
+      "turns": 13,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        31,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 61,
+      "winner": "baseline",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        31,
+        39461
+      ],
+      "baselineVoluntarySwitches": 3
+    },
+    {
+      "game": 62,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        32,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 63,
+      "winner": "baseline",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        32,
+        39461
+      ],
+      "baselineVoluntarySwitches": 4
+    },
+    {
+      "game": 64,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        33,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 65,
+      "winner": "baseline",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        33,
+        39461
+      ],
+      "baselineVoluntarySwitches": 3
+    },
+    {
+      "game": 66,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        34,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 67,
+      "winner": "agent",
+      "turns": 11,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        34,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 68,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        35,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 69,
+      "winner": "baseline",
+      "turns": 6,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        35,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 70,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        36,
+        39461
+      ],
+      "baselineVoluntarySwitches": 3
+    },
+    {
+      "game": 71,
+      "winner": "agent",
+      "turns": 9,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        36,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 72,
+      "winner": "agent",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        37,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 73,
+      "winner": "baseline",
+      "turns": 8,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        37,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 74,
+      "winner": "baseline",
+      "turns": 6,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        38,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 75,
+      "winner": "baseline",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        38,
+        39461
+      ],
+      "baselineVoluntarySwitches": 1
+    },
+    {
+      "game": 76,
+      "winner": "baseline",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        39,
+        39461
+      ],
+      "baselineVoluntarySwitches": 3
+    },
+    {
+      "game": 77,
+      "winner": "agent",
+      "turns": 10,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        39,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 78,
+      "winner": "agent",
+      "turns": 11,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 1,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        40,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    },
+    {
+      "game": 79,
+      "winner": "baseline",
+      "turns": 7,
+      "opponent": [
+        "Dragonite",
+        "Dragapult",
+        "Arcanine"
+      ],
+      "opponentSets": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "baseline": "v4_1",
+      "side": 2,
+      "errors": 0,
+      "seed": [
+        1,
+        2,
+        40,
+        39461
+      ],
+      "baselineVoluntarySwitches": 2
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "candidate": "research/v4_3-coverage-adaptive.json",
+  "control": "research/v4_2-cap-adaptive.json",
+  "candidateSha256": "eb18fa72c8284070025fba9242a46da21b3d68511a0144abc10923befa862ef1",
+  "controlSha256": "65f866cf17ace2330e8856434706839320cf43338d70203348163679ea9f2457",
+  "games": 192,
+  "opposingTeamClusters": 24,
+  "candidateWins": 154,
+  "controlWins": 151,
+  "gainPP": 1.5625,
+  "improvedGames": 5,
+  "regressedGames": 2,
+  "clusterBootstrap95GainPP": [
+    -2.6041666666666665,
+    6.770833333333333
+  ],
+  "method": "5000 replicates, seed 9187; resample entire ordered opposing-team/set clusters to retain repeated-team and side-pair dependence. Descriptive, no adjustment for candidate selection."
+}
