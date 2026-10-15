@@ -1,14 +1,44 @@
-# REDLINE Search — v4.5
+# REDLINE Search — v4.6
 
 GitHub: [NotCapt/pokemon-showdown](https://github.com/NotCapt/pokemon-showdown).
 
-The recommended release is `dist/REDLINE_Search.zip` (v4.5), also available as
-`dist/REDLINE_Search_v4_5.zip`. Rename the ZIP to your registered team name
+The recommended release is `dist/REDLINE_Search.zip` (v4.6), also available as
+`dist/REDLINE_Search_v4_6.zip`. Rename the ZIP to your registered team name
 before submission. It contains exactly `agent.py` and `team.txt`.
 
 `submission/agent.py`, `submission/team.txt`, `agent_core.py` and `team.json`
-all describe this release. V4.2 is preserved in `archive/v4_2` and its versioned
+all describe this release. V4.5 is preserved in `archive/v4_5` and its versioned
 ZIP; earlier releases and experiments remain available.
+
+## V4.6: team selected against a diverse opponent league
+
+V4.6 selects Dragapult / Snorlax / Corviknight using the unchanged v4.5
+decision engine. Twenty-five builds competed against fresh generated sets
+under adaptive and tactical policies, plus twelve frozen teams covering all
+24 allowed species and all three cyclic lead choices. The former incumbent
+contributes only 3.33% of the weighted score, and the weakest-category scoring
+term has been removed.
+
+On independent confirmation, the selected build won 739/864 games versus
+v4.5's 648/864. Weighted scores were 83.26% versus 72.64%: a +10.625-point
+gain with a descriptive paired 95% interval of +3.68 to +18.23 points.
+All three categories improved: adaptive 370/384 versus 331/384, tactical
+188/192 versus 169/192, and the frozen league 181/288 versus 148/288.
+These results describe this experimental league, not tournament win odds.
+
+All 8,856 scheduled games and 1,362 reports passed the source/schedule audit.
+The exact selected source passes 55 Python tests, both JavaScript checks and
+team-text consistency. A matched fresh-instance diagnostic scored 94/96
+versus v4.5's 75/96; those extra games are separate from the league score.
+The exact release also won its authorized practice compatibility test in eight
+turns. That single Sample Baseline game is excluded from the strength estimates.
+See [the v4.6 report](research/V4_6_REPORT.md) and
+[the frozen protocol](research/DIVERSE_LEAGUE.md).
+
+`dist/REDLINE_Diverse_League_Project_v1.zip` preserves the exact Windows
+campaign inputs, compiled agents and schedules. Extract it into a separate
+directory to reproduce the study with its original v4.5 control. The full
+results and audit records remain in `research/diverse-league-v1` locally.
 
 ## V4.5: combined policy and physical Dragapult
 
@@ -64,6 +94,24 @@ while the recommended release advances. Regenerating its notebooks preserves
 that source. Any team emerging from the campaign needs a new comparison using
 the latest agent before promotion.
 
+All three screens completed: 77,700 battles covered all 2,024 default species
+trios and produced 18 finalists. The compact exports passed source-hash and
+coverage checks. The private final comparison completed as version 5, with
+the verified compact exports included directly in
+`notebooks/REDLINE_Final_Comparison_Completed_Screens.ipynb`. A separate local
+campaign evaluated those finalists against the v4.5 incumbent using the frozen
+v4.5 engine; old cloud scores were not reused as latest-engine results.
+
+Both final comparisons completed 5,040 battles, bringing campaign work to
+87,780 battles. The latest-engine challenger, Dragapult/Tyranitar/Corviknight,
+won 188/192 directly against v4.5, but fell from 173/192 to 162/192 against the
+varied adaptive opponents. That 5.73-point regression failed the predeclared
+five-point limit, so that earlier comparison retained v4.5. The alternate is preserved
+as `dist/REDLINE_Kaggle_Challenger_v4_5.zip`. See
+[the completed results](research/KAGGLE_RESULTS.md) for both experiments,
+audits and the next direction. The cloud winner uses the older engine and is
+not promoted.
+
 V4.3.2 corrects Sucker Punch forecasts on switches and after earlier actions.
 Three official-simulator fixtures confirm the mechanics. Across 488 matched
 benchmark battles it retained v4.3.1 outcomes; this is a correctness improvement,
@@ -105,9 +153,9 @@ results, tradeoffs and reproduction details.
 
 | Pokémon | Item / ability | Nature / EVs | Moves |
 | --- | --- | --- | --- |
-| Dragonite | Choice Band / Multiscale | Adamant, 252 Atk / 252 Spe / 4 SpD | Extreme Speed, Earthquake, Ice Spinner, Fire Punch |
-| Dragapult | Choice Specs / Infiltrator | Timid, 252 SpA / 252 Spe / 4 SpD | Shadow Ball, Draco Meteor, Flamethrower, Thunderbolt |
-| Arcanine | Assault Vest / Intimidate | Adamant, 252 HP / 252 Atk / 4 SpD | Flare Blitz, Extreme Speed, Crunch, Play Rough |
+| Dragapult | Choice Band / Clear Body | Jolly, 252 Atk / 252 Spe / 4 SpD | Dragon Darts, Phantom Force, Flamethrower, U-turn |
+| Snorlax | Leftovers / Thick Fat | Careful, 252 HP / 252 SpD / 4 Def | Body Slam, Earthquake, Crunch, Rest |
+| Corviknight | Leftovers / Mirror Armor | Impish, 252 HP / 252 Def / 4 SpD | Brave Bird, Body Press, Roost, Iron Defense |
 
 Configure this exact team in the practice portal. Uploading the Python file
 does not configure the team. Rebuild after changing `team.json` so the agent's

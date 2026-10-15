@@ -1,0 +1,10 @@
+{
+  "version": "v4.6",
+  "agentSha256": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5",
+  "zipSha256": "c15f9c6ce60c6de0eb13ef2df05755d52ad109afcc54f4fa1b189012e69b864f",
+  "teamSha256": "64277db93575a3453efd91d2c4492f77b059f9b55aa81e74b3630190ef35f624",
+  "engineSha256": "cead5d7101baaeb20509eaf16aa455108b3309102c6f50d25be9e02ce5e7dfc9",
+  "previousAgentSha256": "0afe57fe578ffdbd74fa848deae46524f3de4d66065bd152f061c9e684e45c69",
+  "versionedZip": "dist/REDLINE_Search_v4_6.zip",
+  "reason": "Passed the frozen diverse-league confirmation gate, complete source/schedule audit, team-text consistency and automated checks. Decision engine unchanged; selected team configuration updated."
+}

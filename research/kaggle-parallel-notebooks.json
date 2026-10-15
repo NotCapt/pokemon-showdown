@@ -8,7 +8,7 @@
       "url": "https://www.kaggle.com/code/faaizhussain/redline-pokemon-screen-1-v4-3-2",
       "version_number": 2,
       "kernel_id": 138906638,
-      "statusAtLastCheck": "RUNNING"
+      "statusAtLastCheck": "COMPLETE"
     },
     {
       "file": "REDLINE_Screen_2.ipynb",
@@ -16,7 +16,7 @@
       "url": "https://www.kaggle.com/code/faaizhussain/redline-pokemon-screen-2-v4-3-2",
       "version_number": 2,
       "kernel_id": 138906648,
-      "statusAtLastCheck": "RUNNING"
+      "statusAtLastCheck": "COMPLETE"
     },
     {
       "file": "REDLINE_Screen_3.ipynb",
@@ -24,20 +24,119 @@
       "url": "https://www.kaggle.com/code/faaizhussain/redline-pokemon-screen-3-v4-3-2",
       "version_number": 2,
       "kernel_id": 138906667,
-      "statusAtLastCheck": "RUNNING"
+      "statusAtLastCheck": "COMPLETE"
     },
     {
       "file": "REDLINE_Final_Comparison.ipynb",
       "ref": "/code/faaizhussain/redline-pokemon-final-comparison-v4-3-2",
       "url": "https://www.kaggle.com/code/faaizhussain/redline-pokemon-final-comparison-v4-3-2",
-      "version_number": 3,
+      "version_number": 5,
       "kernel_id": 138906683,
-      "statusAtLastCheck": "SAVED_NOT_EXECUTED"
+      "statusAtLastCheck": "COMPLETE",
+      "executedFile": "REDLINE_Final_Comparison_Completed_Screens.ipynb",
+      "inputMode": "embedded_verified_compact_exports",
+      "completedGames": 5040,
+      "outputsDirectory": "research/kaggle-results-v4_3_2/final"
     }
   ],
   "finalInputNotebooks": [
     "faaizhussain/redline-pokemon-screen-1-v4-3-2",
     "faaizhussain/redline-pokemon-screen-2-v4-3-2",
     "faaizhussain/redline-pokemon-screen-3-v4-3-2"
-  ]
+  ],
+  "screeningSummary": {
+    "bundleSha256": "a6ac61f80989e32d6d2319476718c4019a5af66d3c25564a375aa695a41652af",
+    "trioCoverage": 2024,
+    "screeningBattles": 77700,
+    "shards": [
+      {
+        "shard": 1,
+        "archiveSha256": "d64c50aeca5d693e6063b6307c97c6892ca94054b8f3dd4e34557448013fd4d4",
+        "status": "complete",
+        "trios": 675,
+        "games": 25764,
+        "finalists": 6,
+        "keys": [
+          "status",
+          "campaign",
+          "shardIndex",
+          "shardCount",
+          "populationIndices",
+          "populationSha256",
+          "finalists",
+          "ranking",
+          "completedGames"
+        ]
+      },
+      {
+        "shard": 2,
+        "archiveSha256": "a78bde539a21a78e7bd149ccf23540754cc318dfe07ba3896486dcf44c7dbb26",
+        "status": "complete",
+        "trios": 675,
+        "games": 25980,
+        "finalists": 6,
+        "keys": [
+          "status",
+          "campaign",
+          "shardIndex",
+          "shardCount",
+          "populationIndices",
+          "populationSha256",
+          "finalists",
+          "ranking",
+          "completedGames"
+        ]
+      },
+      {
+        "shard": 3,
+        "archiveSha256": "f9c55963968889f252523a52c24d01c3565437b26d27f958c69196a18ccd79ff",
+        "status": "complete",
+        "trios": 674,
+        "games": 25956,
+        "finalists": 6,
+        "keys": [
+          "status",
+          "campaign",
+          "shardIndex",
+          "shardCount",
+          "populationIndices",
+          "populationSha256",
+          "finalists",
+          "ranking",
+          "completedGames"
+        ]
+      }
+    ],
+    "uniqueTeamsIncludingV45": 19
+  },
+  "finalVersion4Note": "Failed before battles because notebook input links were not mounted; version 5 embeds the verified data-only exports.",
+  "latestEngineEvaluation": {
+    "directory": "research/kaggle-v4_5-evaluation",
+    "engine": "v4.5",
+    "completedGames": 5040,
+    "status": "complete",
+    "promote": false,
+    "reason": "Adaptive confirmation regressed 5.729 percentage points, beyond the preset 5-point limit."
+  },
+  "diverseLeagueEvaluation": {
+    "status": "complete",
+    "directory": "research/diverse-league-v1",
+    "sourceEngine": "v4.5",
+    "recommendedRelease": "v4.6",
+    "completedGames": 8856,
+    "candidates": 25,
+    "fixedRosters": 12,
+    "coveredSpecies": 24,
+    "weights": {
+      "adaptive": 0.4,
+      "tactical": 0.2,
+      "league": 0.4
+    },
+    "promote": true,
+    "weightedGainPP": 10.625,
+    "pairedInterval95": [
+      3.680555555555556,
+      18.229166666666668
+    ]
+  }
 }

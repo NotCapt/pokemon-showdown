@@ -1,41 +1,41 @@
 [
   {
-    "name": "Dragonite",
-    "ability": "Multiscale",
-    "item": "Choice Band",
-    "nature": "Adamant",
-    "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
-    "moves": [
-      "Extreme Speed",
-      "Earthquake",
-      "Ice Spinner",
-      "Fire Punch"
-    ]
-  },
-  {
     "name": "Dragapult",
-    "item": "Choice Band",
-    "ability": "Clear Body",
-    "nature": "Adamant",
-    "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
     "moves": [
       "Dragon Darts",
-      "Sucker Punch",
-      "Psychic Fangs",
-      "Flamethrower"
-    ]
+      "Phantom Force",
+      "Flamethrower",
+      "U-turn"
+    ],
+    "ability": "Clear Body",
+    "item": "Choice Band",
+    "nature": "Jolly",
+    "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
   },
   {
-    "name": "Arcanine",
-    "item": "Assault Vest",
-    "ability": "Intimidate",
-    "nature": "Adamant",
-    "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+    "name": "Snorlax",
     "moves": [
-      "Flare Blitz",
-      "Extreme Speed",
+      "Body Slam",
+      "Earthquake",
       "Crunch",
-      "Play Rough"
-    ]
+      "Rest"
+    ],
+    "ability": "Thick Fat",
+    "item": "Leftovers",
+    "nature": "Careful",
+    "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+  },
+  {
+    "name": "Corviknight",
+    "moves": [
+      "Brave Bird",
+      "Body Press",
+      "Roost",
+      "Iron Defense"
+    ],
+    "ability": "Mirror Armor",
+    "item": "Leftovers",
+    "nature": "Impish",
+    "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)"
   }
 ]

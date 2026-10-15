@@ -1,26 +1,26 @@
-Dragonite @ Choice Band
-Ability: Multiscale
-EVs: 252 Atk / 252 Spe / 4 SpD
-Adamant Nature
-- Extreme Speed
-- Earthquake
-- Ice Spinner
-- Fire Punch
-
 Dragapult @ Choice Band
 Ability: Clear Body
 EVs: 252 Atk / 252 Spe / 4 SpD
-Adamant Nature
+Jolly Nature
 - Dragon Darts
-- Sucker Punch
-- Psychic Fangs
+- Phantom Force
 - Flamethrower
+- U-turn
 
-Arcanine @ Assault Vest
-Ability: Intimidate
-EVs: 252 HP / 252 Atk / 4 SpD
-Adamant Nature
-- Flare Blitz
-- Extreme Speed
+Snorlax @ Leftovers
+Ability: Thick Fat
+EVs: 252 HP / 252 SpD / 4 Def
+Careful Nature
+- Body Slam
+- Earthquake
 - Crunch
-- Play Rough
+- Rest
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Brave Bird
+- Body Press
+- Roost
+- Iron Defense

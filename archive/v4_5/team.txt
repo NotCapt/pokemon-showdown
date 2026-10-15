@@ -1,0 +1,26 @@
+Dragonite @ Choice Band
+Ability: Multiscale
+EVs: 252 Atk / 252 Spe / 4 SpD
+Adamant Nature
+- Extreme Speed
+- Earthquake
+- Ice Spinner
+- Fire Punch
+
+Dragapult @ Choice Band
+Ability: Clear Body
+EVs: 252 Atk / 252 Spe / 4 SpD
+Adamant Nature
+- Dragon Darts
+- Sucker Punch
+- Psychic Fangs
+- Flamethrower
+
+Arcanine @ Assault Vest
+Ability: Intimidate
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Flare Blitz
+- Extreme Speed
+- Crunch
+- Play Rough

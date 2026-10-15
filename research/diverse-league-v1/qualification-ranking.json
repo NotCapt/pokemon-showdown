@@ -1,0 +1,1377 @@
+[
+  {
+    "id": "eb298c29c5082e81ef44",
+    "team": [
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Clear Body",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      },
+      {
+        "name": "Corviknight",
+        "moves": [
+          "Brave Bird",
+          "Body Press",
+          "Roost",
+          "Iron Defense"
+        ],
+        "ability": "Mirror Armor",
+        "item": "Leftovers",
+        "nature": "Impish",
+        "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)"
+      }
+    ],
+    "score": 0.8527777777777779,
+    "rates": {
+      "adaptive": 0.9791666666666666,
+      "tactical": 1.0,
+      "league": 0.6527777777777778
+    },
+    "games": 216,
+    "wins": 189,
+    "draws": 0,
+    "hpMargin": 147.31738999177165,
+    "incumbent": false
+  },
+  {
+    "id": "11ffdae55a2672c0b629",
+    "team": [
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Tyranitar",
+        "moves": [
+          "Stone Edge",
+          "Crunch",
+          "Earthquake",
+          "Ice Punch"
+        ],
+        "ability": "Sand Stream",
+        "item": "Leftovers",
+        "nature": "Adamant",
+        "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)"
+      },
+      {
+        "name": "Corviknight",
+        "moves": [
+          "Brave Bird",
+          "Body Press",
+          "Roost",
+          "Iron Defense"
+        ],
+        "ability": "Mirror Armor",
+        "item": "Leftovers",
+        "nature": "Impish",
+        "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)"
+      }
+    ],
+    "score": 0.8125000000000001,
+    "rates": {
+      "adaptive": 0.8020833333333334,
+      "tactical": 0.9583333333333334,
+      "league": 0.75
+    },
+    "games": 216,
+    "wins": 177,
+    "draws": 0,
+    "hpMargin": 119.60175175855045,
+    "incumbent": false
+  },
+  {
+    "id": "414e9c88f7c85274058e",
+    "team": [
+      {
+        "name": "Lapras",
+        "item": "Assault Vest",
+        "ability": "Water Absorb",
+        "nature": "Modest",
+        "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+        "moves": [
+          "Freeze-Dry",
+          "Surf",
+          "Thunderbolt",
+          "Ice Shard"
+        ]
+      },
+      {
+        "name": "Corviknight",
+        "item": "Leftovers",
+        "ability": "Mirror Armor",
+        "nature": "Impish",
+        "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+        "moves": [
+          "Brave Bird",
+          "Body Press",
+          "Roost",
+          "Iron Defense"
+        ]
+      },
+      {
+        "name": "Lucario",
+        "item": "Choice Band",
+        "ability": "Inner Focus",
+        "nature": "Adamant",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+        "moves": [
+          "Close Combat",
+          "Extreme Speed",
+          "Bullet Punch",
+          "Ice Punch"
+        ]
+      }
+    ],
+    "score": 0.7972222222222223,
+    "rates": {
+      "adaptive": 0.8541666666666666,
+      "tactical": 0.9166666666666666,
+      "league": 0.6805555555555556
+    },
+    "games": 216,
+    "wins": 175,
+    "draws": 0,
+    "hpMargin": 109.75877695689803,
+    "incumbent": false
+  },
+  {
+    "id": "63c4eeac0273f6bbcb4d",
+    "team": [
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Gyarados",
+        "moves": [
+          "Waterfall",
+          "Earthquake",
+          "Ice Fang",
+          "Dragon Dance"
+        ],
+        "ability": "Intimidate",
+        "item": "Expert Belt",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      }
+    ],
+    "score": 0.7916666666666667,
+    "rates": {
+      "adaptive": 0.9479166666666666,
+      "tactical": 0.8958333333333334,
+      "league": 0.5833333333333334
+    },
+    "games": 216,
+    "wins": 176,
+    "draws": 0,
+    "hpMargin": 102.64137187760022,
+    "incumbent": false
+  },
+  {
+    "id": "e6917f68e5f55376c448",
+    "team": [
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Garchomp",
+        "moves": [
+          "Earthquake",
+          "Outrage",
+          "Stone Edge",
+          "Swords Dance"
+        ],
+        "ability": "Rough Skin",
+        "item": "Life Orb",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      }
+    ],
+    "score": 0.7638888888888888,
+    "rates": {
+      "adaptive": 0.9166666666666666,
+      "tactical": 0.9583333333333334,
+      "league": 0.5138888888888888
+    },
+    "games": 216,
+    "wins": 171,
+    "draws": 0,
+    "hpMargin": 100.02285969089796,
+    "incumbent": false
+  },
+  {
+    "id": "bf8684d9fb6833b37d3a",
+    "team": [
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Gyarados",
+        "moves": [
+          "Waterfall",
+          "Earthquake",
+          "Ice Fang",
+          "Dragon Dance"
+        ],
+        "ability": "Intimidate",
+        "item": "Leftovers",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      }
+    ],
+    "score": 0.7319444444444445,
+    "rates": {
+      "adaptive": 0.8958333333333334,
+      "tactical": 0.8958333333333334,
+      "league": 0.4861111111111111
+    },
+    "games": 216,
+    "wins": 164,
+    "draws": 0,
+    "hpMargin": 93.39541023849205,
+    "incumbent": false
+  },
+  {
+    "id": "ca1adf36c5c319fc18f4",
+    "team": [
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Gyarados",
+        "moves": [
+          "Waterfall",
+          "Earthquake",
+          "Ice Fang",
+          "Dragon Dance"
+        ],
+        "ability": "Intimidate",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      }
+    ],
+    "score": 0.7125000000000001,
+    "rates": {
+      "adaptive": 0.90625,
+      "tactical": 0.8333333333333334,
+      "league": 0.4583333333333333
+    },
+    "games": 216,
+    "wins": 160,
+    "draws": 0,
+    "hpMargin": 91.91850500983129,
+    "incumbent": false
+  },
+  {
+    "id": "1b449a28c8c895534a80",
+    "team": [
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Scizor",
+        "moves": [
+          "Bullet Punch",
+          "Close Combat",
+          "Swords Dance",
+          "U-turn"
+        ],
+        "ability": "Technician",
+        "item": "Metal Coat",
+        "nature": "Adamant",
+        "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      }
+    ],
+    "score": 0.6972222222222222,
+    "rates": {
+      "adaptive": 0.78125,
+      "tactical": 0.8125,
+      "league": 0.5555555555555556
+    },
+    "games": 216,
+    "wins": 154,
+    "draws": 0,
+    "hpMargin": 68.62862915228196,
+    "incumbent": false
+  },
+  {
+    "id": "1ffbcbd3f4719ec8e6b2",
+    "team": [
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Dragon Dance",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Scizor",
+        "moves": [
+          "Bullet Punch",
+          "Close Combat",
+          "Swords Dance",
+          "U-turn"
+        ],
+        "ability": "Technician",
+        "item": "Metal Coat",
+        "nature": "Adamant",
+        "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      }
+    ],
+    "score": 0.6861111111111111,
+    "rates": {
+      "adaptive": 0.7604166666666666,
+      "tactical": 0.8541666666666666,
+      "league": 0.5277777777777778
+    },
+    "games": 216,
+    "wins": 152,
+    "draws": 0,
+    "hpMargin": 62.307410678894804,
+    "incumbent": false
+  },
+  {
+    "id": "490d4e455abee8099a5a",
+    "team": [
+      {
+        "name": "Salamence",
+        "moves": [
+          "Draco Meteor",
+          "Flamethrower",
+          "Earthquake",
+          "Roost"
+        ],
+        "ability": "Intimidate",
+        "item": "Life Orb",
+        "nature": "Naive",
+        "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)"
+      }
+    ],
+    "score": 0.6819444444444445,
+    "rates": {
+      "adaptive": 0.8125,
+      "tactical": 0.8958333333333334,
+      "league": 0.4444444444444444
+    },
+    "games": 216,
+    "wins": 153,
+    "draws": 0,
+    "hpMargin": 71.54151300120527,
+    "incumbent": false
+  },
+  {
+    "id": "7b2d4f06582e4d83957d",
+    "team": [
+      {
+        "name": "Dragonite",
+        "ability": "Multiscale",
+        "item": "Choice Band",
+        "nature": "Adamant",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+        "moves": [
+          "Extreme Speed",
+          "Earthquake",
+          "Ice Spinner",
+          "Fire Punch"
+        ]
+      },
+      {
+        "name": "Dragapult",
+        "item": "Choice Band",
+        "ability": "Clear Body",
+        "nature": "Adamant",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+        "moves": [
+          "Dragon Darts",
+          "Sucker Punch",
+          "Psychic Fangs",
+          "Flamethrower"
+        ]
+      },
+      {
+        "name": "Arcanine",
+        "item": "Assault Vest",
+        "ability": "Intimidate",
+        "nature": "Adamant",
+        "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+        "moves": [
+          "Flare Blitz",
+          "Extreme Speed",
+          "Crunch",
+          "Play Rough"
+        ]
+      }
+    ],
+    "score": 0.673611111111111,
+    "rates": {
+      "adaptive": 0.78125,
+      "tactical": 0.6666666666666666,
+      "league": 0.5694444444444444
+    },
+    "games": 216,
+    "wins": 148,
+    "draws": 0,
+    "hpMargin": 56.415970255909414,
+    "incumbent": true
+  },
+  {
+    "id": "7e13526443a3ab402687",
+    "team": [
+      {
+        "name": "Salamence",
+        "moves": [
+          "Draco Meteor",
+          "Flamethrower",
+          "Earthquake",
+          "Roost"
+        ],
+        "ability": "Intimidate",
+        "item": "Life Orb",
+        "nature": "Naive",
+        "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Ice Punch"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      }
+    ],
+    "score": 0.663888888888889,
+    "rates": {
+      "adaptive": 0.7604166666666666,
+      "tactical": 0.9375,
+      "league": 0.4305555555555556
+    },
+    "games": 216,
+    "wins": 149,
+    "draws": 0,
+    "hpMargin": 72.28407307303257,
+    "incumbent": false
+  },
+  {
+    "id": "12d95def15f4a08893e4",
+    "team": [
+      {
+        "name": "Togekiss",
+        "item": "Choice Scarf",
+        "ability": "Serene Grace",
+        "nature": "Timid",
+        "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+        "moves": [
+          "Air Slash",
+          "Dazzling Gleam",
+          "Aura Sphere",
+          "Flamethrower"
+        ]
+      },
+      {
+        "name": "Metagross",
+        "item": "Assault Vest",
+        "ability": "Clear Body",
+        "nature": "Adamant",
+        "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+        "moves": [
+          "Meteor Mash",
+          "Bullet Punch",
+          "Earthquake",
+          "Ice Punch"
+        ]
+      },
+      {
+        "name": "Volcarona",
+        "item": "Heavy-Duty Boots",
+        "ability": "Flame Body",
+        "nature": "Timid",
+        "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+        "moves": [
+          "Fiery Dance",
+          "Bug Buzz",
+          "Giga Drain",
+          "Quiver Dance"
+        ]
+      }
+    ],
+    "score": 0.6625000000000001,
+    "rates": {
+      "adaptive": 0.78125,
+      "tactical": 0.8333333333333334,
+      "league": 0.4583333333333333
+    },
+    "games": 216,
+    "wins": 148,
+    "draws": 0,
+    "hpMargin": 65.79996855855421,
+    "incumbent": false
+  },
+  {
+    "id": "7cc146cdc859a7e23f1b",
+    "team": [
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Greninja",
+        "moves": [
+          "Hydro Pump",
+          "Dark Pulse",
+          "Ice Beam",
+          "U-turn"
+        ],
+        "ability": "Protean",
+        "item": "Life Orb",
+        "nature": "Timid",
+        "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      }
+    ],
+    "score": 0.6541666666666667,
+    "rates": {
+      "adaptive": 0.8333333333333334,
+      "tactical": 0.8541666666666666,
+      "league": 0.375
+    },
+    "games": 216,
+    "wins": 148,
+    "draws": 0,
+    "hpMargin": 62.64738792356086,
+    "incumbent": false
+  },
+  {
+    "id": "d3279d0e96c8e66d2b8d",
+    "team": [
+      {
+        "name": "Gengar",
+        "item": "Focus Sash",
+        "ability": "Cursed Body",
+        "nature": "Timid",
+        "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+        "moves": [
+          "Shadow Ball",
+          "Sludge Bomb",
+          "Focus Blast",
+          "Thunderbolt"
+        ]
+      },
+      {
+        "name": "Gyarados",
+        "item": "Leftovers",
+        "ability": "Intimidate",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+        "moves": [
+          "Waterfall",
+          "Earthquake",
+          "Ice Fang",
+          "Dragon Dance"
+        ]
+      },
+      {
+        "name": "Ferrothorn",
+        "item": "Rocky Helmet",
+        "ability": "Iron Barbs",
+        "nature": "Impish",
+        "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+        "moves": [
+          "Power Whip",
+          "Body Press",
+          "Iron Head",
+          "Thunder Wave"
+        ]
+      }
+    ],
+    "score": 0.6527777777777778,
+    "rates": {
+      "adaptive": 0.7916666666666666,
+      "tactical": 0.7916666666666666,
+      "league": 0.4444444444444444
+    },
+    "games": 216,
+    "wins": 146,
+    "draws": 0,
+    "hpMargin": 54.28351190097654,
+    "incumbent": false
+  },
+  {
+    "id": "f8b94280a091b784c945",
+    "team": [
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Clear Body",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Excadrill",
+        "moves": [
+          "Earthquake",
+          "Iron Head",
+          "Rock Slide",
+          "Swords Dance"
+        ],
+        "ability": "Mold Breaker",
+        "item": "Focus Sash",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      }
+    ],
+    "score": 0.65,
+    "rates": {
+      "adaptive": 0.8645833333333334,
+      "tactical": 0.8541666666666666,
+      "league": 0.3333333333333333
+    },
+    "games": 216,
+    "wins": 148,
+    "draws": 0,
+    "hpMargin": 69.6472705882759,
+    "incumbent": false
+  },
+  {
+    "id": "94392de8a0fe5f2879de",
+    "team": [
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      },
+      {
+        "name": "Excadrill",
+        "moves": [
+          "Earthquake",
+          "Iron Head",
+          "Rock Slide",
+          "Swords Dance"
+        ],
+        "ability": "Mold Breaker",
+        "item": "Focus Sash",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      }
+    ],
+    "score": 0.6416666666666667,
+    "rates": {
+      "adaptive": 0.8645833333333334,
+      "tactical": 0.8125,
+      "league": 0.3333333333333333
+    },
+    "games": 216,
+    "wins": 146,
+    "draws": 0,
+    "hpMargin": 61.22337059325629,
+    "incumbent": false
+  },
+  {
+    "id": "7f54871675385122a354",
+    "team": [
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Excadrill",
+        "moves": [
+          "Earthquake",
+          "Iron Head",
+          "Rock Slide",
+          "Swords Dance"
+        ],
+        "ability": "Sand Rush",
+        "item": "Focus Sash",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      }
+    ],
+    "score": 0.6361111111111112,
+    "rates": {
+      "adaptive": 0.8645833333333334,
+      "tactical": 0.8125,
+      "league": 0.3194444444444444
+    },
+    "games": 216,
+    "wins": 145,
+    "draws": 0,
+    "hpMargin": 66.04701773535004,
+    "incumbent": false
+  },
+  {
+    "id": "49a560109b83895d04bc",
+    "team": [
+      {
+        "name": "Salamence",
+        "moves": [
+          "Draco Meteor",
+          "Flamethrower",
+          "Earthquake",
+          "Roost"
+        ],
+        "ability": "Intimidate",
+        "item": "Life Orb",
+        "nature": "Naive",
+        "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      }
+    ],
+    "score": 0.625,
+    "rates": {
+      "adaptive": 0.71875,
+      "tactical": 0.9375,
+      "league": 0.375
+    },
+    "games": 216,
+    "wins": 141,
+    "draws": 0,
+    "hpMargin": 58.59058728626692,
+    "incumbent": false
+  },
+  {
+    "id": "22e471753b3299f2ad7c",
+    "team": [
+      {
+        "name": "Salamence",
+        "moves": [
+          "Draco Meteor",
+          "Flamethrower",
+          "Earthquake",
+          "Roost"
+        ],
+        "ability": "Intimidate",
+        "item": "Life Orb",
+        "nature": "Naive",
+        "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Immunity",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      }
+    ],
+    "score": 0.625,
+    "rates": {
+      "adaptive": 0.7395833333333334,
+      "tactical": 0.8958333333333334,
+      "league": 0.375
+    },
+    "games": 216,
+    "wins": 141,
+    "draws": 0,
+    "hpMargin": 56.90605675724695,
+    "incumbent": false
+  },
+  {
+    "id": "3affddcbbbcf821aa5d9",
+    "team": [
+      {
+        "name": "Garchomp",
+        "moves": [
+          "Earthquake",
+          "Outrage",
+          "Stone Edge",
+          "Swords Dance"
+        ],
+        "ability": "Rough Skin",
+        "item": "Life Orb",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Dragonite",
+        "moves": [
+          "Extreme Speed",
+          "Outrage",
+          "Earthquake",
+          "Fire Punch"
+        ],
+        "ability": "Multiscale",
+        "item": "Lum Berry",
+        "nature": "Adamant",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Excadrill",
+        "moves": [
+          "Earthquake",
+          "Iron Head",
+          "Rock Slide",
+          "Swords Dance"
+        ],
+        "ability": "Mold Breaker",
+        "item": "Focus Sash",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      }
+    ],
+    "score": 0.5958333333333333,
+    "rates": {
+      "adaptive": 0.8333333333333334,
+      "tactical": 0.8125,
+      "league": 0.25
+    },
+    "games": 216,
+    "wins": 137,
+    "draws": 0,
+    "hpMargin": 50.3022500463615,
+    "incumbent": false
+  },
+  {
+    "id": "b16ce8cc796f9c837428",
+    "team": [
+      {
+        "name": "Alakazam",
+        "item": "Life Orb",
+        "ability": "Magic Guard",
+        "nature": "Timid",
+        "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+        "moves": [
+          "Psychic",
+          "Shadow Ball",
+          "Focus Blast",
+          "Energy Ball"
+        ]
+      },
+      {
+        "name": "Arcanine",
+        "item": "Assault Vest",
+        "ability": "Intimidate",
+        "nature": "Adamant",
+        "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+        "moves": [
+          "Flare Blitz",
+          "Extreme Speed",
+          "Crunch",
+          "Play Rough"
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Choice Scarf",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+        "moves": [
+          "Earthquake",
+          "Dragon Claw",
+          "Stone Edge",
+          "Fire Fang"
+        ]
+      }
+    ],
+    "score": 0.5916666666666667,
+    "rates": {
+      "adaptive": 0.7916666666666666,
+      "tactical": 0.625,
+      "league": 0.375
+    },
+    "games": 216,
+    "wins": 133,
+    "draws": 0,
+    "hpMargin": 27.071355558773764,
+    "incumbent": false
+  },
+  {
+    "id": "c53b267698fc52123dbb",
+    "team": [
+      {
+        "name": "Salamence",
+        "moves": [
+          "Draco Meteor",
+          "Flamethrower",
+          "Earthquake",
+          "Roost"
+        ],
+        "ability": "Intimidate",
+        "item": "Life Orb",
+        "nature": "Naive",
+        "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Calm",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      }
+    ],
+    "score": 0.5569444444444445,
+    "rates": {
+      "adaptive": 0.6979166666666666,
+      "tactical": 0.8333333333333334,
+      "league": 0.2777777777777778
+    },
+    "games": 216,
+    "wins": 127,
+    "draws": 0,
+    "hpMargin": 33.25538136962866,
+    "incumbent": false
+  },
+  {
+    "id": "4897bf36b12442d57a57",
+    "team": [
+      {
+        "name": "Greninja",
+        "item": "Life Orb",
+        "ability": "Protean",
+        "nature": "Timid",
+        "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+        "moves": [
+          "Hydro Pump",
+          "Dark Pulse",
+          "Ice Beam",
+          "Water Shuriken"
+        ]
+      },
+      {
+        "name": "Scizor",
+        "item": "Choice Band",
+        "ability": "Technician",
+        "nature": "Adamant",
+        "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+        "moves": [
+          "Bullet Punch",
+          "Close Combat",
+          "U-turn",
+          "Knock Off"
+        ]
+      },
+      {
+        "name": "Hydreigon",
+        "item": "Life Orb",
+        "ability": "Levitate",
+        "nature": "Timid",
+        "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+        "moves": [
+          "Draco Meteor",
+          "Dark Pulse",
+          "Flamethrower",
+          "Flash Cannon"
+        ]
+      }
+    ],
+    "score": 0.5569444444444445,
+    "rates": {
+      "adaptive": 0.7395833333333334,
+      "tactical": 0.75,
+      "league": 0.2777777777777778
+    },
+    "games": 216,
+    "wins": 127,
+    "draws": 0,
+    "hpMargin": 28.715151792588955,
+    "incumbent": false
+  },
+  {
+    "id": "e324055fc6847ce0dbf9",
+    "team": [
+      {
+        "name": "Venusaur",
+        "item": "Black Sludge",
+        "ability": "Overgrow",
+        "nature": "Bold",
+        "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+        "moves": [
+          "Giga Drain",
+          "Sludge Bomb",
+          "Sleep Powder",
+          "Synthesis"
+        ]
+      },
+      {
+        "name": "Charizard",
+        "item": "Heavy-Duty Boots",
+        "ability": "Blaze",
+        "nature": "Timid",
+        "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+        "moves": [
+          "Flamethrower",
+          "Air Slash",
+          "Focus Blast",
+          "Roost"
+        ]
+      },
+      {
+        "name": "Blastoise",
+        "item": "Assault Vest",
+        "ability": "Torrent",
+        "nature": "Modest",
+        "evs": "Bulky Special (252 HP / 252 SpA / 4 SpD)",
+        "moves": [
+          "Hydro Pump",
+          "Ice Beam",
+          "Flash Cannon",
+          "Aura Sphere"
+        ]
+      }
+    ],
+    "score": 0.32083333333333336,
+    "rates": {
+      "adaptive": 0.4583333333333333,
+      "tactical": 0.4375,
+      "league": 0.125
+    },
+    "games": 216,
+    "wins": 74,
+    "draws": 0,
+    "hpMargin": -57.18530444519792,
+    "incumbent": false
+  }
+]

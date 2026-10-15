@@ -1,0 +1,7 @@
+{
+  "reason": "Retry transient Windows PermissionError while recording progress and job stamps.",
+  "adapterSha256": "9c921ade2d9725195543116bb2576cefd21241e3087dca0ea102f2ffe2b8a4ab",
+  "evaluationScriptSha256": "2d3308933e85cafa9a0e7bc212586098c0656f547a168704056f6840bae08bbb",
+  "manifestSha256": "b7fb32a53fd4a343b2d6106e873d1d72f7d6c521c7a2d00979d8743c7223e56f",
+  "effect": "Output I/O only; candidate/opponent sources, schedules, scores and promotion criteria unchanged. Cached complete jobs are reused."
+}

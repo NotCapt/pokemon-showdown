@@ -1,0 +1,65 @@
+{
+  "bundleSha256": "a6ac61f80989e32d6d2319476718c4019a5af66d3c25564a375aa695a41652af",
+  "trioCoverage": 2024,
+  "screeningBattles": 77700,
+  "shards": [
+    {
+      "shard": 1,
+      "archiveSha256": "d64c50aeca5d693e6063b6307c97c6892ca94054b8f3dd4e34557448013fd4d4",
+      "status": "complete",
+      "trios": 675,
+      "games": 25764,
+      "finalists": 6,
+      "keys": [
+        "status",
+        "campaign",
+        "shardIndex",
+        "shardCount",
+        "populationIndices",
+        "populationSha256",
+        "finalists",
+        "ranking",
+        "completedGames"
+      ]
+    },
+    {
+      "shard": 2,
+      "archiveSha256": "a78bde539a21a78e7bd149ccf23540754cc318dfe07ba3896486dcf44c7dbb26",
+      "status": "complete",
+      "trios": 675,
+      "games": 25980,
+      "finalists": 6,
+      "keys": [
+        "status",
+        "campaign",
+        "shardIndex",
+        "shardCount",
+        "populationIndices",
+        "populationSha256",
+        "finalists",
+        "ranking",
+        "completedGames"
+      ]
+    },
+    {
+      "shard": 3,
+      "archiveSha256": "f9c55963968889f252523a52c24d01c3565437b26d27f958c69196a18ccd79ff",
+      "status": "complete",
+      "trios": 674,
+      "games": 25956,
+      "finalists": 6,
+      "keys": [
+        "status",
+        "campaign",
+        "shardIndex",
+        "shardCount",
+        "populationIndices",
+        "populationSha256",
+        "finalists",
+        "ranking",
+        "completedGames"
+      ]
+    }
+  ],
+  "uniqueTeamsIncludingV45": 19
+}

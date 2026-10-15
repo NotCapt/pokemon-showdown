@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "manifestSha256": "b7fb32a53fd4a343b2d6106e873d1d72f7d6c521c7a2d00979d8743c7223e56f",
+  "promote": true,
+  "candidateCount": 25,
+  "fixedRosters": 12,
+  "coveredSpecies": 24,
+  "distinctGeneratedOpponents": 504,
+  "completedGames": 8856,
+  "selectedNames": [
+    "Dragapult",
+    "Snorlax",
+    "Corviknight"
+  ],
+  "comparison": {
+    "categories": {
+      "adaptive": {
+        "controlWins": 331,
+        "challengerWins": 370,
+        "games": 384,
+        "scoreGainPP": 10.15625
+      },
+      "tactical": {
+        "controlWins": 169,
+        "challengerWins": 188,
+        "games": 192,
+        "scoreGainPP": 9.895833333333334
+      },
+      "league": {
+        "controlWins": 148,
+        "challengerWins": 181,
+        "games": 288,
+        "scoreGainPP": 11.458333333333334
+      }
+    },
+    "weightedGainPP": 10.625,
+    "pairedInterval95": [
+      3.680555555555556,
+      18.229166666666668
+    ],
+    "improvedGames": 145,
+    "regressedGames": 54,
+    "clusterCounts": {
+      "adaptive": 192,
+      "tactical": 96,
+      "league": 12
+    }
+  },
+  "sourceSha256": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5"
+}

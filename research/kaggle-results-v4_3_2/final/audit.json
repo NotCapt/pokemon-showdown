@@ -1,0 +1,13 @@
+{
+  "engineVersion": "v4.3.2",
+  "checkedGames": 5040,
+  "checkedReports": 75,
+  "candidateCount": 19,
+  "sourceBundleSha256": "a6ac61f80989e32d6d2319476718c4019a5af66d3c25564a375aa695a41652af",
+  "selectedSourceSha256": "8757fd6e2e60d0e675b1309116cc27ba7ee2268f0d546baa4de37f7d67e8a97d",
+  "selectedZipSha256": "f37da6952595e2db5dfe3e3b56e712db3644c1acfda84d55dc23b2ebc74e7311",
+  "resultSha256": "cfe568e089e417064e00189b5803c04d9f9f58255fe0ee55195039a5c8006d45",
+  "checkpointSha256": "71e2017bcc7f0d3c3067d9caf89e84280ce0bbe4d3789262524ca5b66c2413be",
+  "allSchedulesAndCompiledTeamsVerified": true,
+  "downloadedCodeExecuted": false
+}

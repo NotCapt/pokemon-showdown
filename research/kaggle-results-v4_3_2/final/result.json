@@ -1,0 +1,228 @@
+{
+  "status": "complete",
+  "selected": {
+    "id": "94392de8a0fe5f2879de",
+    "team": [
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      },
+      {
+        "name": "Excadrill",
+        "moves": [
+          "Earthquake",
+          "Iron Head",
+          "Rock Slide",
+          "Swords Dance"
+        ],
+        "ability": "Mold Breaker",
+        "item": "Focus Sash",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      }
+    ],
+    "score": 0.8977430555555554,
+    "rates": {
+      "adaptive": 0.890625,
+      "tactical": 0.8697916666666666,
+      "frozen": 0.96875
+    },
+    "games": 576,
+    "hpMargin": 127.26680455857975,
+    "incumbent": false
+  },
+  "confirmation": [
+    {
+      "id": "94392de8a0fe5f2879de",
+      "team": [
+        {
+          "name": "Dragapult",
+          "moves": [
+            "Dragon Darts",
+            "Phantom Force",
+            "Flamethrower",
+            "U-turn"
+          ],
+          "ability": "Infiltrator",
+          "item": "Choice Band",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+        },
+        {
+          "name": "Snorlax",
+          "moves": [
+            "Body Slam",
+            "Earthquake",
+            "Crunch",
+            "Rest"
+          ],
+          "ability": "Thick Fat",
+          "item": "Leftovers",
+          "nature": "Careful",
+          "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+        },
+        {
+          "name": "Excadrill",
+          "moves": [
+            "Earthquake",
+            "Iron Head",
+            "Rock Slide",
+            "Swords Dance"
+          ],
+          "ability": "Mold Breaker",
+          "item": "Focus Sash",
+          "nature": "Jolly",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+        }
+      ],
+      "score": 0.8977430555555554,
+      "rates": {
+        "adaptive": 0.890625,
+        "tactical": 0.8697916666666666,
+        "frozen": 0.96875
+      },
+      "games": 576,
+      "hpMargin": 127.26680455857975,
+      "incumbent": false
+    },
+    {
+      "id": "65df6b3daf36181f253b",
+      "team": [
+        {
+          "name": "Dragonite",
+          "ability": "Multiscale",
+          "item": "Choice Band",
+          "nature": "Adamant",
+          "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Ice Spinner",
+            "Fire Punch"
+          ]
+        },
+        {
+          "name": "Dragapult",
+          "ability": "Infiltrator",
+          "item": "Choice Specs",
+          "nature": "Timid",
+          "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)",
+          "moves": [
+            "Shadow Ball",
+            "Draco Meteor",
+            "Flamethrower",
+            "Thunderbolt"
+          ]
+        },
+        {
+          "name": "Arcanine",
+          "item": "Assault Vest",
+          "ability": "Intimidate",
+          "nature": "Adamant",
+          "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+          "moves": [
+            "Flare Blitz",
+            "Extreme Speed",
+            "Crunch",
+            "Play Rough"
+          ]
+        }
+      ],
+      "score": 0.6397569444444444,
+      "rates": {
+        "adaptive": 0.8020833333333334,
+        "tactical": 0.796875,
+        "frozen": 0.5
+      },
+      "games": 576,
+      "hpMargin": 54.49647114525958,
+      "incumbent": true
+    }
+  ],
+  "comparison": {
+    "policies": {
+      "adaptive": {
+        "controlWins": 154,
+        "challengerWins": 171,
+        "games": 192,
+        "scoreGainPP": 8.854166666666666
+      },
+      "tactical": {
+        "controlWins": 153,
+        "challengerWins": 167,
+        "games": 192,
+        "scoreGainPP": 7.291666666666667
+      },
+      "frozen": {
+        "controlWins": 96,
+        "challengerWins": 186,
+        "games": 192,
+        "scoreGainPP": 46.875
+      }
+    },
+    "improvedGames": 160,
+    "regressedGames": 39,
+    "meanScoreGainPP": 21.006944444444446,
+    "pairedScoreInterval95": [
+      16.145833333333332,
+      25.868055555555554
+    ],
+    "method": "2000 stratified paired bootstrap replicates, seed 61273; opposing-set clusters for adaptive/tactical, seed pairs for fixed frozen team. Conditional on this experimental league; not a tournament win probability."
+  },
+  "warning": "Exploratory league result, not proof of tournament superiority. Review paired held-out results before promotion.",
+  "completedGames": 5040,
+  "provenance": {
+    "config": {
+      "profile": "full",
+      "seed": 43179,
+      "mode": "finalize",
+      "shard_index": 0,
+      "shard_count": 3,
+      "screeningSha256": [
+        "a78bde539a21a78e7bd149ccf23540754cc318dfe07ba3896486dcf44c7dbb26",
+        "d64c50aeca5d693e6063b6307c97c6892ca94054b8f3dd4e34557448013fd4d4",
+        "f9c55963968889f252523a52c24d01c3565437b26d27f958c69196a18ccd79ff"
+      ]
+    },
+    "hashes": {
+      "agent_core.py": "5f846d60379d6dde9f6309aeb1aa67f459272c6f0cc7d1d57e75d7999fc218ea",
+      "team.json": "23bbe1bea97749766d9af16b96725bb9516b46cb061b30430f30eb62044606fb",
+      "tools/team_search.py": "361001e071e2a4ced53a265dcc388b44e4d0430fa1df86b5dbf7ccc0a31e3bec",
+      "tools/build_agent.py": "5814cca6599de5c634703232dd30ba444fd19318916fbd94acfefbc5c95cc025",
+      "tools/benchmark.js": "c4d29138e60e703880be11d8d1b5514ca6c61aedf97e692ea026ebd6bd21ba94",
+      "tools/worker.py": "530d75f7819c8f11a6be478e9e29d9262966590f195ae471b26887ad2b858e51",
+      "tools/opponents.js": "16c398e12f1d77d318a0283bfd219d4e59664e58efef5497a9d02b68ac3efa57",
+      "tools/make_eval_teams.py": "d845584efa4b9688da8795f45fe72fb9dd55467d7d4f8853d8d5979f4ffa2d87",
+      "package-lock.json": "ccadd4c0b9fd3270fb2d18701fd77a8abdf29d00a0c5d5cad37afb9f2ee2fd41",
+      "research/options.json": "d3d36c903e93aa9836cc6c444cd43241e4df1bb5add920abf11c89a763067a46",
+      "research/battle_data.json": "e09240f3642f4bec33a7e0beda05c3ebd36a078c0676c3ba4bc63d7822509ec8",
+      "research/enemy_sets.json": "669a1019aed6ef58d5f50a79a0a065a6a74ea12089719537bc6da3112e520091",
+      "research/SHOWDOWN_LICENSE.txt": "b2002a9fd52ba8db3783a05fbdebfb09c34fd09513b90f6b390a2c0dfbc93ed0",
+      "archive/v4_3/agent.py": "f44eb69614d6b551e008c3023b8a0d7a1ca93c94b63bd5ed5ed2fefa16a81067",
+      "archive/v4_3/team.json": "23bbe1bea97749766d9af16b96725bb9516b46cb061b30430f30eb62044606fb",
+      "archive/v1/agent.py": "38e2a25fcbb3e55bc2f24b77e024266e201175e39b673f80f37339e5650c363b"
+    }
+  }
+}

@@ -1,0 +1,781 @@
+[
+  [
+    {
+      "name": "Dragonite",
+      "ability": "Multiscale",
+      "item": "Choice Band",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Extreme Speed",
+        "Earthquake",
+        "Ice Spinner",
+        "Fire Punch"
+      ]
+    },
+    {
+      "name": "Dragapult",
+      "item": "Choice Band",
+      "ability": "Clear Body",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+      "moves": [
+        "Dragon Darts",
+        "Sucker Punch",
+        "Psychic Fangs",
+        "Flamethrower"
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "item": "Assault Vest",
+      "ability": "Intimidate",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+      "moves": [
+        "Flare Blitz",
+        "Extreme Speed",
+        "Crunch",
+        "Play Rough"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Phantom Force",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Infiltrator",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Gyarados",
+      "moves": [
+        "Waterfall",
+        "Earthquake",
+        "Ice Fang",
+        "Dragon Dance"
+      ],
+      "ability": "Intimidate",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Snorlax",
+      "moves": [
+        "Body Slam",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Careful",
+      "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+    }
+  ],
+  [
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Phantom Force",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Infiltrator",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Gyarados",
+      "moves": [
+        "Waterfall",
+        "Earthquake",
+        "Ice Fang",
+        "Dragon Dance"
+      ],
+      "ability": "Intimidate",
+      "item": "Leftovers",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Snorlax",
+      "moves": [
+        "Body Slam",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Careful",
+      "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+    }
+  ],
+  [
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Phantom Force",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Infiltrator",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Snorlax",
+      "moves": [
+        "Body Slam",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Careful",
+      "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+    },
+    {
+      "name": "Excadrill",
+      "moves": [
+        "Earthquake",
+        "Iron Head",
+        "Rock Slide",
+        "Swords Dance"
+      ],
+      "ability": "Mold Breaker",
+      "item": "Focus Sash",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    }
+  ],
+  [
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Phantom Force",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Infiltrator",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Gyarados",
+      "moves": [
+        "Waterfall",
+        "Earthquake",
+        "Ice Fang",
+        "Dragon Dance"
+      ],
+      "ability": "Intimidate",
+      "item": "Expert Belt",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Snorlax",
+      "moves": [
+        "Body Slam",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Careful",
+      "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+    }
+  ],
+  [
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Phantom Force",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Clear Body",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Excadrill",
+      "moves": [
+        "Earthquake",
+        "Iron Head",
+        "Rock Slide",
+        "Swords Dance"
+      ],
+      "ability": "Mold Breaker",
+      "item": "Focus Sash",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Snorlax",
+      "moves": [
+        "Body Slam",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Careful",
+      "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+    }
+  ],
+  [
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Phantom Force",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Infiltrator",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Excadrill",
+      "moves": [
+        "Earthquake",
+        "Iron Head",
+        "Rock Slide",
+        "Swords Dance"
+      ],
+      "ability": "Sand Rush",
+      "item": "Focus Sash",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Snorlax",
+      "moves": [
+        "Body Slam",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Careful",
+      "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+    }
+  ],
+  [
+    {
+      "name": "Salamence",
+      "moves": [
+        "Draco Meteor",
+        "Flamethrower",
+        "Earthquake",
+        "Roost"
+      ],
+      "ability": "Intimidate",
+      "item": "Life Orb",
+      "nature": "Naive",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Phantom Force",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Infiltrator",
+      "item": "Choice Band",
+      "nature": "Calm",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Snorlax",
+      "moves": [
+        "Body Slam",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Careful",
+      "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+    }
+  ],
+  [
+    {
+      "name": "Salamence",
+      "moves": [
+        "Draco Meteor",
+        "Flamethrower",
+        "Earthquake",
+        "Roost"
+      ],
+      "ability": "Intimidate",
+      "item": "Life Orb",
+      "nature": "Naive",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Phantom Force",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Infiltrator",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Snorlax",
+      "moves": [
+        "Body Slam",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Careful",
+      "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+    }
+  ],
+  [
+    {
+      "name": "Salamence",
+      "moves": [
+        "Draco Meteor",
+        "Flamethrower",
+        "Earthquake",
+        "Roost"
+      ],
+      "ability": "Intimidate",
+      "item": "Life Orb",
+      "nature": "Naive",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Phantom Force",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Infiltrator",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Snorlax",
+      "moves": [
+        "Body Slam",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Careful",
+      "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)"
+    }
+  ],
+  [
+    {
+      "name": "Salamence",
+      "moves": [
+        "Draco Meteor",
+        "Flamethrower",
+        "Earthquake",
+        "Roost"
+      ],
+      "ability": "Intimidate",
+      "item": "Life Orb",
+      "nature": "Naive",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Phantom Force",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Infiltrator",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Snorlax",
+      "moves": [
+        "Body Slam",
+        "Earthquake",
+        "Crunch",
+        "Ice Punch"
+      ],
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Careful",
+      "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+    }
+  ],
+  [
+    {
+      "name": "Salamence",
+      "moves": [
+        "Draco Meteor",
+        "Flamethrower",
+        "Earthquake",
+        "Roost"
+      ],
+      "ability": "Intimidate",
+      "item": "Life Orb",
+      "nature": "Naive",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Phantom Force",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Infiltrator",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Snorlax",
+      "moves": [
+        "Body Slam",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "ability": "Immunity",
+      "item": "Leftovers",
+      "nature": "Careful",
+      "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+    }
+  ],
+  [
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Phantom Force",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Infiltrator",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Greninja",
+      "moves": [
+        "Hydro Pump",
+        "Dark Pulse",
+        "Ice Beam",
+        "U-turn"
+      ],
+      "ability": "Protean",
+      "item": "Life Orb",
+      "nature": "Timid",
+      "evs": "Special Sweeper (252 SpA / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Snorlax",
+      "moves": [
+        "Body Slam",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Careful",
+      "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+    }
+  ],
+  [
+    {
+      "name": "Garchomp",
+      "moves": [
+        "Earthquake",
+        "Outrage",
+        "Stone Edge",
+        "Swords Dance"
+      ],
+      "ability": "Rough Skin",
+      "item": "Life Orb",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Dragonite",
+      "moves": [
+        "Extreme Speed",
+        "Outrage",
+        "Earthquake",
+        "Fire Punch"
+      ],
+      "ability": "Multiscale",
+      "item": "Lum Berry",
+      "nature": "Adamant",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Excadrill",
+      "moves": [
+        "Earthquake",
+        "Iron Head",
+        "Rock Slide",
+        "Swords Dance"
+      ],
+      "ability": "Mold Breaker",
+      "item": "Focus Sash",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    }
+  ],
+  [
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Phantom Force",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Infiltrator",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Scizor",
+      "moves": [
+        "Bullet Punch",
+        "Close Combat",
+        "Swords Dance",
+        "U-turn"
+      ],
+      "ability": "Technician",
+      "item": "Metal Coat",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)"
+    },
+    {
+      "name": "Snorlax",
+      "moves": [
+        "Body Slam",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Careful",
+      "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+    }
+  ],
+  [
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Dragon Dance",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Infiltrator",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Scizor",
+      "moves": [
+        "Bullet Punch",
+        "Close Combat",
+        "Swords Dance",
+        "U-turn"
+      ],
+      "ability": "Technician",
+      "item": "Metal Coat",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)"
+    },
+    {
+      "name": "Snorlax",
+      "moves": [
+        "Body Slam",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Careful",
+      "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+    }
+  ],
+  [
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Phantom Force",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Infiltrator",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Tyranitar",
+      "moves": [
+        "Stone Edge",
+        "Crunch",
+        "Earthquake",
+        "Ice Punch"
+      ],
+      "ability": "Sand Stream",
+      "item": "Leftovers",
+      "nature": "Adamant",
+      "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)"
+    },
+    {
+      "name": "Corviknight",
+      "moves": [
+        "Brave Bird",
+        "Body Press",
+        "Roost",
+        "Iron Defense"
+      ],
+      "ability": "Mirror Armor",
+      "item": "Leftovers",
+      "nature": "Impish",
+      "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)"
+    }
+  ],
+  [
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Phantom Force",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Infiltrator",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Garchomp",
+      "moves": [
+        "Earthquake",
+        "Outrage",
+        "Stone Edge",
+        "Swords Dance"
+      ],
+      "ability": "Rough Skin",
+      "item": "Life Orb",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Snorlax",
+      "moves": [
+        "Body Slam",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Careful",
+      "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+    }
+  ],
+  [
+    {
+      "name": "Dragapult",
+      "moves": [
+        "Dragon Darts",
+        "Phantom Force",
+        "Flamethrower",
+        "U-turn"
+      ],
+      "ability": "Clear Body",
+      "item": "Choice Band",
+      "nature": "Jolly",
+      "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+    },
+    {
+      "name": "Snorlax",
+      "moves": [
+        "Body Slam",
+        "Earthquake",
+        "Crunch",
+        "Rest"
+      ],
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "nature": "Careful",
+      "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+    },
+    {
+      "name": "Corviknight",
+      "moves": [
+        "Brave Bird",
+        "Body Press",
+        "Roost",
+        "Iron Defense"
+      ],
+      "ability": "Mirror Armor",
+      "item": "Leftovers",
+      "nature": "Impish",
+      "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)"
+    }
+  ]
+]

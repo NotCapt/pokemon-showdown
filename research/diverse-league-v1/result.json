@@ -1,0 +1,214 @@
+{
+  "status": "complete",
+  "completedGames": 8856,
+  "manifestSha256": "b7fb32a53fd4a343b2d6106e873d1d72f7d6c521c7a2d00979d8743c7223e56f",
+  "incumbent": {
+    "id": "7b2d4f06582e4d83957d",
+    "team": [
+      {
+        "name": "Dragonite",
+        "ability": "Multiscale",
+        "item": "Choice Band",
+        "nature": "Adamant",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+        "moves": [
+          "Extreme Speed",
+          "Earthquake",
+          "Ice Spinner",
+          "Fire Punch"
+        ]
+      },
+      {
+        "name": "Dragapult",
+        "item": "Choice Band",
+        "ability": "Clear Body",
+        "nature": "Adamant",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+        "moves": [
+          "Dragon Darts",
+          "Sucker Punch",
+          "Psychic Fangs",
+          "Flamethrower"
+        ]
+      },
+      {
+        "name": "Arcanine",
+        "item": "Assault Vest",
+        "ability": "Intimidate",
+        "nature": "Adamant",
+        "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+        "moves": [
+          "Flare Blitz",
+          "Extreme Speed",
+          "Crunch",
+          "Play Rough"
+        ]
+      }
+    ],
+    "score": 0.726388888888889,
+    "rates": {
+      "adaptive": 0.8619791666666666,
+      "tactical": 0.8802083333333334,
+      "league": 0.5138888888888888
+    },
+    "games": 864,
+    "wins": 648,
+    "draws": 0,
+    "hpMargin": 76.63365028554402,
+    "incumbent": true
+  },
+  "challenger": {
+    "id": "eb298c29c5082e81ef44",
+    "team": [
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Clear Body",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      },
+      {
+        "name": "Corviknight",
+        "moves": [
+          "Brave Bird",
+          "Body Press",
+          "Roost",
+          "Iron Defense"
+        ],
+        "ability": "Mirror Armor",
+        "item": "Leftovers",
+        "nature": "Impish",
+        "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)"
+      }
+    ],
+    "score": 0.8326388888888889,
+    "rates": {
+      "adaptive": 0.9635416666666666,
+      "tactical": 0.9791666666666666,
+      "league": 0.6284722222222222
+    },
+    "games": 864,
+    "wins": 739,
+    "draws": 0,
+    "hpMargin": 136.78863937612337,
+    "incumbent": false
+  },
+  "selected": {
+    "id": "eb298c29c5082e81ef44",
+    "team": [
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Clear Body",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Snorlax",
+        "moves": [
+          "Body Slam",
+          "Earthquake",
+          "Crunch",
+          "Rest"
+        ],
+        "ability": "Thick Fat",
+        "item": "Leftovers",
+        "nature": "Careful",
+        "evs": "Special Wall (252 HP / 252 SpD / 4 Def)"
+      },
+      {
+        "name": "Corviknight",
+        "moves": [
+          "Brave Bird",
+          "Body Press",
+          "Roost",
+          "Iron Defense"
+        ],
+        "ability": "Mirror Armor",
+        "item": "Leftovers",
+        "nature": "Impish",
+        "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)"
+      }
+    ],
+    "score": 0.8326388888888889,
+    "rates": {
+      "adaptive": 0.9635416666666666,
+      "tactical": 0.9791666666666666,
+      "league": 0.6284722222222222
+    },
+    "games": 864,
+    "wins": 739,
+    "draws": 0,
+    "hpMargin": 136.78863937612337,
+    "incumbent": false
+  },
+  "promote": true,
+  "comparison": {
+    "categories": {
+      "adaptive": {
+        "controlWins": 331,
+        "challengerWins": 370,
+        "games": 384,
+        "scoreGainPP": 10.15625
+      },
+      "tactical": {
+        "controlWins": 169,
+        "challengerWins": 188,
+        "games": 192,
+        "scoreGainPP": 9.895833333333334
+      },
+      "league": {
+        "controlWins": 148,
+        "challengerWins": 181,
+        "games": 288,
+        "scoreGainPP": 11.458333333333334
+      }
+    },
+    "weightedGainPP": 10.625,
+    "pairedInterval95": [
+      3.680555555555556,
+      18.229166666666668
+    ],
+    "improvedGames": 145,
+    "regressedGames": 54,
+    "clusterCounts": {
+      "adaptive": 192,
+      "tactical": 96,
+      "league": 12
+    }
+  },
+  "validationCandidates": [
+    "7b2d4f06582e4d83957d",
+    "eb298c29c5082e81ef44",
+    "11ffdae55a2672c0b629",
+    "414e9c88f7c85274058e"
+  ],
+  "sourceSha256": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5",
+  "caveat": "Roster and candidate teams were informed by previous campaigns. New seeds and generated teams are held out, but the fixed roster compositions are known. No neural model or policy weights are trained here.",
+  "bootstrap": "4000 paired stratified bootstrap replicates, seed 384901. Resample opposing-set pairs for adaptive/tactical and complete base-roster clusters (all leads and seeds together) for the fixed league. Descriptive interval conditional on this experimental population."
+}

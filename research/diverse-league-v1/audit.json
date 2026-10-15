@@ -1,0 +1,21 @@
+{
+  "candidates": 25,
+  "fixedRosters": 12,
+  "coveredSpecies": 24,
+  "distinctGeneratedOpponents": 504,
+  "gamesPerCandidate": {
+    "qualification": 216,
+    "validation": 432,
+    "confirmation": 864
+  },
+  "plannedGames": 8856,
+  "incumbentScoreWeight": 0.03333333333333333,
+  "frozenEngineSha256": "cead5d7101baaeb20509eaf16aa455108b3309102c6f50d25be9e02ce5e7dfc9",
+  "manifestSha256": "b7fb32a53fd4a343b2d6106e873d1d72f7d6c521c7a2d00979d8743c7223e56f",
+  "checkedGames": 8856,
+  "checkedReports": 1362,
+  "promote": true,
+  "selectedSourceSha256": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5",
+  "selectedZipSha256": "c15f9c6ce60c6de0eb13ef2df05755d52ad109afcc54f4fa1b189012e69b864f",
+  "allSchedulesAndCompiledTeamsVerified": true
+}

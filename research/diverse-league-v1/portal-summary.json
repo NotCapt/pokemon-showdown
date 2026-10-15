@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "battleId": "sim-1792103224232",
+  "winner": "REDLINE Search",
+  "winnerSlot": "p1",
+  "turns": 8,
+  "agentSha256": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5",
+  "teamSha256": "64277db93575a3453efd91d2c4492f77b059f9b55aa81e74b3630190ef35f624",
+  "probe": false,
+  "purpose": "Single authorized practice compatibility test against Sample Baseline; excluded from league strength estimates."
+}

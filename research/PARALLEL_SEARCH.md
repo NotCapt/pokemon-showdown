@@ -3,13 +3,34 @@
 The private Kaggle screen notebooks use the same checksummed v4.3.2 source
 bundle and seed 43179. Each is CPU-only with Internet enabled, two battle
 processes, a six-hour time limit and a 30,000-game budget. The final comparison
-has a 10,000-game budget and is saved without execution. No notebook submits a
+has a 10,000-game budget. No notebook submits a
 competition entry or overwrites the recommended agent.
 
-The recommended release is now v4.4, while this campaign remains frozen at
+The recommended release is now v4.6, while this campaign remains frozen at
 `archive/v4_3_2`. Notebook generation deliberately uses that archived core and
 team. Recompile any campaign winner with the latest recommended agent and run a
 new paired comparison before promoting it.
+
+The three full screens completed 77,700 battles and exported six finalists
+each. Their matching source hashes and complete, disjoint trio coverage were
+verified locally. Final notebook version 4 stopped before any battles because
+the API did not mount the notebook outputs. Version 5 completed with all three
+verified compact ZIPs embedded as data in
+`notebooks/REDLINE_Final_Comparison_Completed_Screens.ipynb`. Each ZIP is checked
+against its recorded SHA256 before the original final workflow reads it.
+
+A separate latest-engine campaign, `tools/evaluate_kaggle_finalists.py`, uses
+all 18 finalists plus the exact v4.5 control. Its seeds, three evaluation phases
+and promotion rule were fixed before qualification. It schedules 5,040 new
+battles; `tools/audit_kaggle_evaluation.py` checks the compiled teams, schedules,
+rankings, paired comparison and exported bytes. Results live in
+`research/kaggle-v4_5-evaluation`. This campaign does not change the frozen
+v4.3.2 notebooks or reuse their scores as v4.5 results.
+
+Both final comparisons completed all 5,040 scheduled battles and passed the
+schedule/source audits. Total campaign work is 87,780 battles. The local
+challenger failed its preset adaptive-regression limit, so the v4.5 release
+was retained in that first comparison. The subsequent diverse league selected v4.6; see [the new report](V4_6_REPORT.md). See also [earlier results](KAGGLE_RESULTS.md).
 
 ## Workflow
 

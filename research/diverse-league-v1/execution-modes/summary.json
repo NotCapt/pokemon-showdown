@@ -1,0 +1,23 @@
+{
+  "manifestSha256": "b7fb32a53fd4a343b2d6106e873d1d72f7d6c521c7a2d00979d8743c7223e56f",
+  "additionalGames": 192,
+  "results": {
+    "7b2d4f06582e4d83957d": {
+      "sourceSha256": "0afe57fe578ffdbd74fa848deae46524f3de4d66065bd152f061c9e684e45c69",
+      "gamesPerMode": 96,
+      "statefulWins": 77,
+      "statelessWins": 75,
+      "statelessDraws": 0,
+      "statelessTurnCapGames": 0
+    },
+    "eb298c29c5082e81ef44": {
+      "sourceSha256": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5",
+      "gamesPerMode": 96,
+      "statefulWins": 92,
+      "statelessWins": 94,
+      "statelessDraws": 0,
+      "statelessTurnCapGames": 0
+    }
+  },
+  "purpose": "Execution robustness diagnostic; reuses confirmation opposing-set cohorts to isolate persistence. Excluded from league scoring and independent strength claims."
+}

@@ -1,13 +1,21 @@
 """Inference from public entry HP only; ambiguity and immunity must be kept."""
 import importlib.util
+import json
 import os
 from pathlib import Path
 import unittest
+from unittest.mock import patch
 
 root=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('hazard_agent',root/os.environ.get('AGENT_FILE','submission/agent.py'))
 agent=importlib.util.module_from_spec(spec);spec.loader.exec_module(agent)
 
+# These saved positions use the original team, including Assault Vest Arcanine.
+# An unrelated candidate's OWN mapping would fall back to Boots Arcanine and
+# change the position itself rather than test the retained hazard mechanics.
+historical_team={agent.ident(p['name']):p for p in json.loads((root/'archive/v4_4/team.json').read_text())}
+
+@patch.object(agent,'OWN',historical_team)
 class HazardTests(unittest.TestCase):
     def mon(self,name,hp=100,**kw):return agent.build_mon(dict(name=name,hp_percent=hp,**kw),True)
     def enter(self,p,name,state,health=100):
@@ -69,7 +77,6 @@ class HazardTests(unittest.TestCase):
         self.assertIsNone(p.forced_entry)
 
     def test_avoids_known_lethal_rock_entry_in_saved_position(self):
-        import json
         fixture=json.loads((root/'research/f-hazard-fixture.json').read_text())
         p=agent.PokemonAgent()
         mon=self.mon('Dragonite',fixture['priorPublicEntry']['afterHP'])

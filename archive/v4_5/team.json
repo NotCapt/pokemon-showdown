@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Dragonite",
+    "ability": "Multiscale",
+    "item": "Choice Band",
+    "nature": "Adamant",
+    "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+    "moves": [
+      "Extreme Speed",
+      "Earthquake",
+      "Ice Spinner",
+      "Fire Punch"
+    ]
+  },
+  {
+    "name": "Dragapult",
+    "item": "Choice Band",
+    "ability": "Clear Body",
+    "nature": "Adamant",
+    "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+    "moves": [
+      "Dragon Darts",
+      "Sucker Punch",
+      "Psychic Fangs",
+      "Flamethrower"
+    ]
+  },
+  {
+    "name": "Arcanine",
+    "item": "Assault Vest",
+    "ability": "Intimidate",
+    "nature": "Adamant",
+    "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+    "moves": [
+      "Flare Blitz",
+      "Extreme Speed",
+      "Crunch",
+      "Play Rough"
+    ]
+  }
+]

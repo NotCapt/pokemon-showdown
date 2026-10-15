@@ -1,0 +1,207 @@
+{
+  "status": "complete",
+  "engineVersion": "v4.5",
+  "selected": {
+    "id": "7b2d4f06582e4d83957d",
+    "team": [
+      {
+        "name": "Dragonite",
+        "ability": "Multiscale",
+        "item": "Choice Band",
+        "nature": "Adamant",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+        "moves": [
+          "Extreme Speed",
+          "Earthquake",
+          "Ice Spinner",
+          "Fire Punch"
+        ]
+      },
+      {
+        "name": "Dragapult",
+        "item": "Choice Band",
+        "ability": "Clear Body",
+        "nature": "Adamant",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+        "moves": [
+          "Dragon Darts",
+          "Sucker Punch",
+          "Psychic Fangs",
+          "Flamethrower"
+        ]
+      },
+      {
+        "name": "Arcanine",
+        "item": "Assault Vest",
+        "ability": "Intimidate",
+        "nature": "Adamant",
+        "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+        "moves": [
+          "Flare Blitz",
+          "Extreme Speed",
+          "Crunch",
+          "Play Rough"
+        ]
+      }
+    ],
+    "score": 0.6859375,
+    "rates": {
+      "adaptive": 0.9010416666666666,
+      "tactical": 0.8958333333333334,
+      "frozen": 0.5
+    },
+    "wins": 441,
+    "games": 576,
+    "incumbent": true,
+    "hpMargin": 76.49387701677104
+  },
+  "challenger": {
+    "id": "11ffdae55a2672c0b629",
+    "team": [
+      {
+        "name": "Dragapult",
+        "moves": [
+          "Dragon Darts",
+          "Phantom Force",
+          "Flamethrower",
+          "U-turn"
+        ],
+        "ability": "Infiltrator",
+        "item": "Choice Band",
+        "nature": "Jolly",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)"
+      },
+      {
+        "name": "Tyranitar",
+        "moves": [
+          "Stone Edge",
+          "Crunch",
+          "Earthquake",
+          "Ice Punch"
+        ],
+        "ability": "Sand Stream",
+        "item": "Leftovers",
+        "nature": "Adamant",
+        "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)"
+      },
+      {
+        "name": "Corviknight",
+        "moves": [
+          "Brave Bird",
+          "Body Press",
+          "Roost",
+          "Iron Defense"
+        ],
+        "ability": "Mirror Armor",
+        "item": "Leftovers",
+        "nature": "Impish",
+        "evs": "Physical Wall (252 HP / 252 Def / 4 SpD)"
+      }
+    ],
+    "score": 0.8923611111111109,
+    "rates": {
+      "adaptive": 0.84375,
+      "tactical": 0.9166666666666666,
+      "frozen": 0.9791666666666666
+    },
+    "wins": 526,
+    "games": 576,
+    "incumbent": false,
+    "hpMargin": 137.25368660821664
+  },
+  "incumbent": {
+    "id": "7b2d4f06582e4d83957d",
+    "team": [
+      {
+        "name": "Dragonite",
+        "ability": "Multiscale",
+        "item": "Choice Band",
+        "nature": "Adamant",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+        "moves": [
+          "Extreme Speed",
+          "Earthquake",
+          "Ice Spinner",
+          "Fire Punch"
+        ]
+      },
+      {
+        "name": "Dragapult",
+        "item": "Choice Band",
+        "ability": "Clear Body",
+        "nature": "Adamant",
+        "evs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpD)",
+        "moves": [
+          "Dragon Darts",
+          "Sucker Punch",
+          "Psychic Fangs",
+          "Flamethrower"
+        ]
+      },
+      {
+        "name": "Arcanine",
+        "item": "Assault Vest",
+        "ability": "Intimidate",
+        "nature": "Adamant",
+        "evs": "Bulky Attacker (252 HP / 252 Atk / 4 SpD)",
+        "moves": [
+          "Flare Blitz",
+          "Extreme Speed",
+          "Crunch",
+          "Play Rough"
+        ]
+      }
+    ],
+    "score": 0.6859375,
+    "rates": {
+      "adaptive": 0.9010416666666666,
+      "tactical": 0.8958333333333334,
+      "frozen": 0.5
+    },
+    "wins": 441,
+    "games": 576,
+    "incumbent": true,
+    "hpMargin": 76.49387701677104
+  },
+  "promote": false,
+  "comparison": {
+    "policies": {
+      "adaptive": {
+        "controlWins": 173,
+        "challengerWins": 162,
+        "games": 192,
+        "scoreGainPP": -5.729166666666667
+      },
+      "tactical": {
+        "controlWins": 172,
+        "challengerWins": 176,
+        "games": 192,
+        "scoreGainPP": 2.0833333333333335
+      },
+      "frozen": {
+        "controlWins": 96,
+        "challengerWins": 188,
+        "games": 192,
+        "scoreGainPP": 47.916666666666664
+      }
+    },
+    "improvedGames": 123,
+    "regressedGames": 38,
+    "meanScoreGainPP": 14.756944444444443,
+    "pairedScoreInterval95": [
+      10.590277777777779,
+      18.75
+    ],
+    "method": "2000 stratified paired bootstrap replicates, seed 61273; opposing-set clusters for adaptive/tactical, seed pairs for fixed frozen team. Conditional on this experimental league; not a tournament win probability."
+  },
+  "completedGames": 5040,
+  "sourceSha256": "0afe57fe578ffdbd74fa848deae46524f3de4d66065bd152f061c9e684e45c69",
+  "manifestSha256": "1a2b94fa1c229cd44e1348fa04113ea83673fc3dc793f178630d06f55c093e4b",
+  "qualificationFinalists": [
+    "7b2d4f06582e4d83957d",
+    "11ffdae55a2672c0b629",
+    "490d4e455abee8099a5a",
+    "eb298c29c5082e81ef44"
+  ],
+  "caveat": "Screening outputs used only to nominate teams. All reported scores are new v4.5 battles. Do not reinterpret the v4.3.2 cloud final as a latest-policy result. Promotion rule was fixed before qualification."
+}

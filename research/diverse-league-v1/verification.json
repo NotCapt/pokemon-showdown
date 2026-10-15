@@ -1,0 +1,14 @@
+{
+  "candidateId": "eb298c29c5082e81ef44",
+  "agentSha256": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5",
+  "pythonTestsPassed": true,
+  "pythonTests": 55,
+  "jsTestsPassed": true,
+  "jsTests": 2,
+  "teamTextMatches": true,
+  "commands": [
+    "AGENT_FILE=research/diverse-league-v1/candidates/eb298c29c5082e81ef44/agent.py npm test",
+    "node tools/check_submission_team.js candidate/team.txt candidate/team.json"
+  ],
+  "note": "Exact validation-leading source passed these checks; promotion still requires independent confirmation and audit."
+}
