@@ -1,0 +1,987 @@
+{
+  "completedGames": 2336,
+  "planSha256": "57567b39111da06bd8594a641f3ad3c2e71d6f1ee38b9b849c3be8250d4f39f0",
+  "allSourcesSchedulesAndActionsAudited": true,
+  "headNative": {
+    "wins": 240,
+    "losses": 16,
+    "draws": 0,
+    "games": 256,
+    "scorePct": 93.75,
+    "averageTurns": 29.0625,
+    "turn101Adjudications": 28,
+    "meanFinalHPDifference": 186.04209361341717,
+    "pairedSeedBootstrap95Pct": [
+      90.625,
+      96.484375
+    ]
+  },
+  "headOrders": {
+    "wins": 133,
+    "losses": 10,
+    "draws": 1,
+    "games": 144,
+    "scorePct": 92.70833333333333,
+    "averageTurns": 30.131944444444443,
+    "turn101Adjudications": 15,
+    "meanFinalHPDifference": 191.81108580127253
+  },
+  "selfNative": {
+    "v4_6": {
+      "wins": 64,
+      "losses": 64,
+      "draws": 0,
+      "games": 128,
+      "scorePct": 50.0,
+      "averageTurns": 91.46875,
+      "turn101Adjudications": 110,
+      "meanFinalHPDifference": 0.0
+    },
+    "v4_7": {
+      "wins": 64,
+      "losses": 64,
+      "draws": 0,
+      "games": 128,
+      "scorePct": 50.0,
+      "averageTurns": 44.40625,
+      "turn101Adjudications": 36,
+      "meanFinalHPDifference": 0.0
+    }
+  },
+  "selfOrders": {
+    "wins": 75,
+    "losses": 69,
+    "draws": 0,
+    "games": 144,
+    "scorePct": 52.083333333333336,
+    "averageTurns": 49.02777777777778,
+    "turn101Adjudications": 43,
+    "meanFinalHPDifference": 3.700097267708028
+  },
+  "randomField": {
+    "coherent": {
+      "random": {
+        "v4_6": {
+          "wins": 126,
+          "losses": 2,
+          "draws": 0,
+          "games": 128,
+          "scorePct": 98.4375,
+          "averageTurns": 7.9609375,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 209.67642367387884
+        },
+        "v4_7": {
+          "wins": 127,
+          "losses": 1,
+          "draws": 0,
+          "games": 128,
+          "scorePct": 99.21875,
+          "averageTurns": 8.3984375,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 217.1013973683537
+        }
+      },
+      "tactical": {
+        "v4_6": {
+          "wins": 123,
+          "losses": 5,
+          "draws": 0,
+          "games": 128,
+          "scorePct": 96.09375,
+          "averageTurns": 7.9765625,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 161.41591930856745
+        },
+        "v4_7": {
+          "wins": 123,
+          "losses": 5,
+          "draws": 0,
+          "games": 128,
+          "scorePct": 96.09375,
+          "averageTurns": 8.1484375,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 173.46898521997213
+        }
+      },
+      "adaptive": {
+        "v4_6": {
+          "wins": 117,
+          "losses": 11,
+          "draws": 0,
+          "games": 128,
+          "scorePct": 91.40625,
+          "averageTurns": 11.078125,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 147.53714907920823
+        },
+        "v4_7": {
+          "wins": 115,
+          "losses": 13,
+          "draws": 0,
+          "games": 128,
+          "scorePct": 89.84375,
+          "averageTurns": 11.671875,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 151.63683806188433
+        }
+      }
+    },
+    "uniform": {
+      "random": {
+        "v4_6": {
+          "wins": 126,
+          "losses": 2,
+          "draws": 0,
+          "games": 128,
+          "scorePct": 98.4375,
+          "averageTurns": 9.4140625,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 222.8690587788926
+        },
+        "v4_7": {
+          "wins": 128,
+          "losses": 0,
+          "draws": 0,
+          "games": 128,
+          "scorePct": 100.0,
+          "averageTurns": 9.0234375,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 237.88961172851404
+        }
+      },
+      "tactical": {
+        "v4_6": {
+          "wins": 126,
+          "losses": 2,
+          "draws": 0,
+          "games": 128,
+          "scorePct": 98.4375,
+          "averageTurns": 9.328125,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 181.1423534854341
+        },
+        "v4_7": {
+          "wins": 126,
+          "losses": 2,
+          "draws": 0,
+          "games": 128,
+          "scorePct": 98.4375,
+          "averageTurns": 9.328125,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 189.44317687669155
+        }
+      },
+      "adaptive": {
+        "v4_6": {
+          "wins": 124,
+          "losses": 4,
+          "draws": 0,
+          "games": 128,
+          "scorePct": 96.875,
+          "averageTurns": 11.640625,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 195.59014724715746
+        },
+        "v4_7": {
+          "wins": 122,
+          "losses": 6,
+          "draws": 0,
+          "games": 128,
+          "scorePct": 95.3125,
+          "averageTurns": 12.4765625,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 197.2612152528411
+        }
+      }
+    }
+  },
+  "sourceSha256": {
+    "v4_6": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5",
+    "v4_7": "5dac01afbde238d621a27ca2c11f8bc4e2ee0e094af26f5bb9c47d0c170b62fb"
+  },
+  "policyOrTeamChanges": false,
+  "randomFieldCombined": {
+    "versions": {
+      "v4_6": {
+        "wins": 742,
+        "losses": 26,
+        "draws": 0,
+        "games": 768,
+        "scorePct": 96.61458333333333,
+        "averageTurns": 9.56640625,
+        "turn101Adjudications": 0,
+        "meanFinalHPDifference": 186.37184192885638
+      },
+      "v4_7": {
+        "wins": 741,
+        "losses": 27,
+        "draws": 0,
+        "games": 768,
+        "scorePct": 96.484375,
+        "averageTurns": 9.841145833333334,
+        "turn101Adjudications": 0,
+        "meanFinalHPDifference": 194.46687075137595
+      }
+    },
+    "scoreGainPP": -0.1302083333333286,
+    "pairedBuildBootstrap95PP": [
+      -1.6927083333333333,
+      1.4322916666666665
+    ],
+    "improvedGames": 9,
+    "regressedGames": 10,
+    "method": "10,000 paired whole-build bootstrap samples across all policies/sides; stratified coherent/uniform; descriptive local-field interval"
+  },
+  "orderMatrices": {
+    "head-orders": [
+      [
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 16.75,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 206.3759541984733
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 17.75,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 229.0625
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 38.25,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 198.62386369109254
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 22.25,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 247.27385646687696
+        },
+        {
+          "wins": 3,
+          "losses": 0,
+          "draws": 1,
+          "games": 4,
+          "scorePct": 87.5,
+          "averageTurns": 40.75,
+          "turn101Adjudications": 1,
+          "meanFinalHPDifference": 139.95732445156165
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 25.5,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 177.773856466877
+        }
+      ],
+      [
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 20.75,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 224.5
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 15.5,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 220.0625
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 39.0,
+          "turn101Adjudications": 1,
+          "meanFinalHPDifference": 184.4984874298649
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 31.25,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 200.74151756688417
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 25.75,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 190.59312615888456
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 23.0,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 188.84332030967803
+        }
+      ],
+      [
+        {
+          "wins": 3,
+          "losses": 1,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 75.0,
+          "averageTurns": 38.5,
+          "turn101Adjudications": 1,
+          "meanFinalHPDifference": 94.76104251450863
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 14.5,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 182.36164122137404
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 22.25,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 250.6875
+        },
+        {
+          "wins": 3,
+          "losses": 1,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 75.0,
+          "averageTurns": 36.25,
+          "turn101Adjudications": 1,
+          "meanFinalHPDifference": 182.3263358778626
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 60.0,
+          "turn101Adjudications": 2,
+          "meanFinalHPDifference": 180.142664712115
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 42.25,
+          "turn101Adjudications": 1,
+          "meanFinalHPDifference": 185.92582235653913
+        }
+      ],
+      [
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 16.0,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 181.86164122137404
+        },
+        {
+          "wins": 3,
+          "losses": 1,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 75.0,
+          "averageTurns": 35.5,
+          "turn101Adjudications": 1,
+          "meanFinalHPDifference": 113.85230843788378
+        },
+        {
+          "wins": 3,
+          "losses": 1,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 75.0,
+          "averageTurns": 24.5,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 137.95620770823803
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 21.25,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 242.125
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 21.75,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 228.12467190020948
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 40.25,
+          "turn101Adjudications": 1,
+          "meanFinalHPDifference": 215.02531034026055
+        }
+      ],
+      [
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 21.5,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 236.1875
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 19.0,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 234.59996056782336
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 29.5,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 232.96135496183206
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 42.5,
+          "turn101Adjudications": 1,
+          "meanFinalHPDifference": 215.39755008789461
+        },
+        {
+          "wins": 3,
+          "losses": 1,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 75.0,
+          "averageTurns": 59.0,
+          "turn101Adjudications": 2,
+          "meanFinalHPDifference": 105.625
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 20.75,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 239.0
+        }
+      ],
+      [
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 50.0,
+          "turn101Adjudications": 1,
+          "meanFinalHPDifference": 97.15828256315169
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 40.0,
+          "turn101Adjudications": 1,
+          "meanFinalHPDifference": 19.438193825703763
+        },
+        {
+          "wins": 3,
+          "losses": 1,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 75.0,
+          "averageTurns": 38.25,
+          "turn101Adjudications": 1,
+          "meanFinalHPDifference": 187.11286632793121
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 27.5,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 234.3253816793893
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 22.5,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 241.43654580152673
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 24.75,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 258.5
+        }
+      ]
+    ],
+    "self-orders": [
+      [
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 12.5,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 0.0
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 101.0,
+          "turn101Adjudications": 4,
+          "meanFinalHPDifference": 0.0
+        },
+        {
+          "wins": 3,
+          "losses": 1,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 75.0,
+          "averageTurns": 59.25,
+          "turn101Adjudications": 1,
+          "meanFinalHPDifference": 40.57641414019795
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 17.5,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 30.392037108387314
+        },
+        {
+          "wins": 3,
+          "losses": 1,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 75.0,
+          "averageTurns": 76.25,
+          "turn101Adjudications": 2,
+          "meanFinalHPDifference": 28.198906735376987
+        },
+        {
+          "wins": 1,
+          "losses": 3,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 25.0,
+          "averageTurns": 59.75,
+          "turn101Adjudications": 1,
+          "meanFinalHPDifference": -147.97474986153586
+        }
+      ],
+      [
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 21.5,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 0.0
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 61.0,
+          "turn101Adjudications": 2,
+          "meanFinalHPDifference": 0.0
+        },
+        {
+          "wins": 3,
+          "losses": 1,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 75.0,
+          "averageTurns": 59.75,
+          "turn101Adjudications": 2,
+          "meanFinalHPDifference": 41.63881480723386
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 16.0,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 27.42563723601512
+        },
+        {
+          "wins": 4,
+          "losses": 0,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 100.0,
+          "averageTurns": 28.0,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 178.7105572880295
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 23.25,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": -17.872042586750787
+        }
+      ],
+      [
+        {
+          "wins": 3,
+          "losses": 1,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 75.0,
+          "averageTurns": 36.0,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 56.54776862041564
+        },
+        {
+          "wins": 1,
+          "losses": 3,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 25.0,
+          "averageTurns": 58.5,
+          "turn101Adjudications": 2,
+          "meanFinalHPDifference": -31.031953608495677
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 43.5,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 0.0
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 69.0,
+          "turn101Adjudications": 2,
+          "meanFinalHPDifference": 0.0
+        },
+        {
+          "wins": 3,
+          "losses": 1,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 75.0,
+          "averageTurns": 83.0,
+          "turn101Adjudications": 3,
+          "meanFinalHPDifference": 54.943225190839684
+        },
+        {
+          "wins": 3,
+          "losses": 1,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 75.0,
+          "averageTurns": 58.5,
+          "turn101Adjudications": 1,
+          "meanFinalHPDifference": 22.738670021913457
+        }
+      ],
+      [
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 65.0,
+          "turn101Adjudications": 2,
+          "meanFinalHPDifference": -13.556758253666288
+        },
+        {
+          "wins": 1,
+          "losses": 3,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 25.0,
+          "averageTurns": 62.0,
+          "turn101Adjudications": 2,
+          "meanFinalHPDifference": -31.75465961904304
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 61.0,
+          "turn101Adjudications": 2,
+          "meanFinalHPDifference": 0.0
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 59.5,
+          "turn101Adjudications": 2,
+          "meanFinalHPDifference": 0.0
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 16.5,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 10.375
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 15.0,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": -27.890896284345132
+        }
+      ],
+      [
+        {
+          "wins": 1,
+          "losses": 3,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 25.0,
+          "averageTurns": 22.5,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": -96.176261829653
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 30.25,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 25.66364353312302
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 14.0,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": -4.6875
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 17.75,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 3.875
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 101.0,
+          "turn101Adjudications": 4,
+          "meanFinalHPDifference": 0.0
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 101.0,
+          "turn101Adjudications": 4,
+          "meanFinalHPDifference": 0.0
+        }
+      ],
+      [
+        {
+          "wins": 1,
+          "losses": 3,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 25.0,
+          "averageTurns": 59.0,
+          "turn101Adjudications": 2,
+          "meanFinalHPDifference": -46.306964444819045
+        },
+        {
+          "wins": 3,
+          "losses": 1,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 75.0,
+          "averageTurns": 25.0,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 88.37421135646687
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 55.5,
+          "turn101Adjudications": 0,
+          "meanFinalHPDifference": 0.25
+        },
+        {
+          "wins": 1,
+          "losses": 3,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 25.0,
+          "averageTurns": 59.75,
+          "turn101Adjudications": 1,
+          "meanFinalHPDifference": -59.254597912201696
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 57.0,
+          "turn101Adjudications": 2,
+          "meanFinalHPDifference": 0.0
+        },
+        {
+          "wins": 2,
+          "losses": 2,
+          "draws": 0,
+          "games": 4,
+          "scorePct": 50.0,
+          "averageTurns": 59.0,
+          "turn101Adjudications": 2,
+          "meanFinalHPDifference": 0.0
+        }
+      ]
+    ]
+  },
+  "auditorSha256": "311d0a862e439ac21bf5fd26b77243fd0546ceb273710cf2abb1c7586f20a0b2"
+}

@@ -1,0 +1,13 @@
+{
+  "zip": "dist/REDLINE_v4_7_Matchup_Tests_v1.zip",
+  "sha256": "5a2efe535b853437bf744df5fbbd2074a4351b444b36fd8af3800c59e4502908",
+  "files": 314,
+  "bytes": 574859,
+  "games": 2336,
+  "planSha256": "57567b39111da06bd8594a641f3ad3c2e71d6f1ee38b9b849c3be8250d4f39f0",
+  "sourceSha256": {
+    "v4_6": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5",
+    "v4_7": "5dac01afbde238d621a27ca2c11f8bc4e2ee0e094af26f5bb9c47d0c170b62fb"
+  },
+  "originalPrivateTeammateSourcesIncluded": false
+}

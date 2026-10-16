@@ -46,6 +46,26 @@ and [the frozen protocol](research/monte-carlo-v1/PROTOCOL.md).
 `dist/REDLINE_Monte_Carlo_Project_v1.zip` contains the frozen inputs, every
 battle result and the reproducible audit tools.
 
+### Fresh direct matches, self-play and random opponents
+
+A separate frozen follow-up completed 2,336 new games using the exact releases.
+V4.7 beat v4.6 240–16 in the native team order, and 133–10–1 across all 36
+team-order pairings. Native v4.7 self-play split 64–64 and passed the side
+symmetry checks; order-varied self-play scored 75–69. These self-play scores
+are diagnostics, not evidence of strength against other policies.
+
+Against 128 fresh legal builds, covering all 24 species under random, tactical
+and adaptive policies, v4.7 won 741/768 versus v4.6's 742/768. The paired gain
+was -0.130 percentage points, with a descriptive 95% interval of -1.69 to +1.43.
+The new field does not establish an overall advantage for either release.
+V4.7 lost two more games in each adaptive cohort; the largest improvement is
+still in the direct matchup with v4.6. No source or team was retuned during
+these tests. See [the matchup report](research/v4_7-matchups-v1/REPORT.md),
+[evaluation notes](research/v4_7-matchups-v1/EVALUATION_NOTES.md) and
+`dist/REDLINE_v4_7_Matchup_Tests_v1.zip` for all frozen inputs and raw results.
+Extract that research ZIP into a separate directory, then run
+`python tools/test_v4_7_matchups.py --audit` to reproduce the report.
+
 ## V4.6: team selected against a diverse opponent league
 
 V4.6 selects Dragapult / Snorlax / Corviknight using the unchanged v4.5

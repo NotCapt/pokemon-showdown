@@ -1,0 +1,11 @@
+{
+  "zipSha256": "5a2efe535b853437bf744df5fbbd2074a4351b444b36fd8af3800c59e4502908",
+  "files": 314,
+  "games": 2336,
+  "allFileHashesVerified": true,
+  "noOriginalPrivateTeammateSources": true,
+  "extractedAuditPassed": true,
+  "extractedResultsIdentical": true,
+  "extractedReportIdentical": true,
+  "unchangedReleaseSources": true
+}
