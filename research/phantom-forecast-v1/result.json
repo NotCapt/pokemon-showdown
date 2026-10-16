@@ -1,0 +1,151 @@
+{
+  "status": "complete",
+  "additionalGames": 1296,
+  "referenceGamesShared": true,
+  "manifestSha256": "2f65ee5941ccf9955be9b01534f7fe3d0949b6c0c5df9310c3ab307b53aa19f4",
+  "comparisons": {
+    "validation": {
+      "control": {
+        "categories": {
+          "adaptive": {
+            "controlWins": 180,
+            "challengerWins": 176,
+            "games": 192,
+            "scoreGainPP": -2.0833333333333335
+          },
+          "tactical": {
+            "controlWins": 96,
+            "challengerWins": 96,
+            "games": 96,
+            "scoreGainPP": 0.0
+          },
+          "league": {
+            "controlWins": 106,
+            "challengerWins": 103,
+            "games": 144,
+            "scoreGainPP": -2.0833333333333335
+          }
+        },
+        "weightedGainPP": -1.666666666666667,
+        "pairedInterval95": [
+          -3.7500000000000004,
+          0.13888888888888892
+        ],
+        "improvedGames": 4,
+        "regressedGames": 11,
+        "clusterCounts": {
+          "adaptive": 96,
+          "tactical": 48,
+          "league": 12
+        }
+      },
+      "recovery": {
+        "categories": {
+          "adaptive": {
+            "controlWins": 178,
+            "challengerWins": 176,
+            "games": 192,
+            "scoreGainPP": -1.0416666666666667
+          },
+          "tactical": {
+            "controlWins": 96,
+            "challengerWins": 96,
+            "games": 96,
+            "scoreGainPP": 0.0
+          },
+          "league": {
+            "controlWins": 100,
+            "challengerWins": 103,
+            "games": 144,
+            "scoreGainPP": 2.0833333333333335
+          }
+        },
+        "weightedGainPP": 0.41666666666666674,
+        "pairedInterval95": [
+          -1.5277777777777781,
+          3.055555555555556
+        ],
+        "improvedGames": 4,
+        "regressedGames": 3,
+        "clusterCounts": {
+          "adaptive": 96,
+          "tactical": 48,
+          "league": 12
+        }
+      }
+    },
+    "confirmation": {
+      "control": {
+        "categories": {
+          "adaptive": {
+            "controlWins": 357,
+            "challengerWins": 349,
+            "games": 384,
+            "scoreGainPP": -2.0833333333333335
+          },
+          "tactical": {
+            "controlWins": 188,
+            "challengerWins": 188,
+            "games": 192,
+            "scoreGainPP": 0.0
+          },
+          "league": {
+            "controlWins": 199,
+            "challengerWins": 204,
+            "games": 288,
+            "scoreGainPP": 1.7361111111111112
+          }
+        },
+        "weightedGainPP": -0.13888888888888895,
+        "pairedInterval95": [
+          -2.2222222222222228,
+          2.3611111111111116
+        ],
+        "improvedGames": 20,
+        "regressedGames": 23,
+        "clusterCounts": {
+          "adaptive": 192,
+          "tactical": 96,
+          "league": 12
+        }
+      },
+      "recovery": {
+        "categories": {
+          "adaptive": {
+            "controlWins": 355,
+            "challengerWins": 349,
+            "games": 384,
+            "scoreGainPP": -1.5625
+          },
+          "tactical": {
+            "controlWins": 188,
+            "challengerWins": 188,
+            "games": 192,
+            "scoreGainPP": 0.0
+          },
+          "league": {
+            "controlWins": 197,
+            "challengerWins": 204,
+            "games": 288,
+            "scoreGainPP": 2.4305555555555554
+          }
+        },
+        "weightedGainPP": 0.3472222222222222,
+        "pairedInterval95": [
+          -1.0416666666666665,
+          2.2222222222222228
+        ],
+        "improvedGames": 7,
+        "regressedGames": 6,
+        "clusterCounts": {
+          "adaptive": 192,
+          "tactical": 96,
+          "league": 12
+        }
+      }
+    }
+  },
+  "promoteStrength": false,
+  "promoteCorrectness": false,
+  "sourceSha256": "b8cda61312dd56d2b18d7f496d26fb33820442485dfa00eda0f39e5779bb7308"
+}

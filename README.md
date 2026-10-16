@@ -40,6 +40,30 @@ campaign inputs, compiled agents and schedules. Extract it into a separate
 directory to reproduce the study with its original v4.5 control. The full
 results and audit records remain in `research/diverse-league-v1` locally.
 
+## Current submission audit and policy experiments
+
+The current docs, starter guide, event ZIP requirements and live roster options
+were checked on 16 October 2026. The original v4.6 ZIP passes the format,
+team-text, legality and standalone Python contract checks, including 288 isolated
+legal-action cases, the expanded 63 Python checks and both JavaScript checks.
+Rename the ZIP to your registered team name before submitting it.
+
+The audit found recovery-model inaccuracies in Roost typing, Rest timing and
+full-HP Rest. A 4,752-game frozen study tested corrected recovery and whole-team
+forecasts. Neither passed its release gate; v4.6 remains recommended. A separate
+1,296-game temporal follow-up models Phantom Force charging and invulnerability.
+Its controls are shared with the first study and are not counted again.
+These experiments do not establish a stronger submission.
+
+See [the submission audit](research/readiness-v4_6/REPORT.md),
+[the recovery/roster study](research/roster-forecast-v1/REPORT.md), and
+[the temporal follow-up](research/phantom-forecast-v1/REPORT.md).
+The original source and team are also preserved in `archive/v4_6`.
+`dist/REDLINE_Forecast_Audit_Project_v1.zip` preserves the frozen experiment
+inputs, all 6,048 result records and verification tools. Extract it into a
+separate directory to audit or rerun the studies. It is a research package;
+the competition submission remains `dist/REDLINE_Search_v4_6.zip`.
+
 ## V4.5: combined policy and physical Dragapult
 
 V4.5 uses the teammate's Choice Band / Clear Body / Adamant Dragapult set and

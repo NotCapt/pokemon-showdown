@@ -1,0 +1,43 @@
+{
+  "zipSha256": "2b2c9f22a0326e1f3a06f0ccfd9605d023e9668f9f9e0de67fb76c56d0eae834",
+  "allIncludedFilesMatched": true,
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\Faaiz\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "tools/audit_roster_forecast.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\Faaiz\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "tools/audit_phased_forecast.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\Faaiz\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "tools/audit_submission_readiness.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\Faaiz\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "tools/verify_release.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "npm.cmd",
+        "test"
+      ],
+      "returncode": 0
+    }
+  ],
+  "allChecksPassed": true,
+  "note": "Extracted project verified with the installed pinned Showdown runtime; no new battle campaign was run."
+}

@@ -1,0 +1,219 @@
+{
+  "status": "complete",
+  "completedGames": 4752,
+  "comparisons": {
+    "validation": {
+      "recovery-vs-control": {
+        "categories": {
+          "adaptive": {
+            "controlWins": 180,
+            "challengerWins": 178,
+            "games": 192,
+            "scoreGainPP": -1.0416666666666667
+          },
+          "tactical": {
+            "controlWins": 96,
+            "challengerWins": 96,
+            "games": 96,
+            "scoreGainPP": 0.0
+          },
+          "league": {
+            "controlWins": 106,
+            "challengerWins": 100,
+            "games": 144,
+            "scoreGainPP": -4.166666666666667
+          }
+        },
+        "weightedGainPP": -2.083333333333334,
+        "pairedInterval95": [
+          -4.166666666666667,
+          -0.4166666666666667
+        ],
+        "improvedGames": 1,
+        "regressedGames": 9,
+        "clusterCounts": {
+          "adaptive": 96,
+          "tactical": 48,
+          "league": 12
+        }
+      },
+      "combined-vs-control": {
+        "categories": {
+          "adaptive": {
+            "controlWins": 180,
+            "challengerWins": 172,
+            "games": 192,
+            "scoreGainPP": -4.166666666666667
+          },
+          "tactical": {
+            "controlWins": 96,
+            "challengerWins": 96,
+            "games": 96,
+            "scoreGainPP": 0.0
+          },
+          "league": {
+            "controlWins": 106,
+            "challengerWins": 104,
+            "games": 144,
+            "scoreGainPP": -1.3888888888888888
+          }
+        },
+        "weightedGainPP": -2.2222222222222223,
+        "pairedInterval95": [
+          -5.416666666666667,
+          1.25
+        ],
+        "improvedGames": 6,
+        "regressedGames": 16,
+        "clusterCounts": {
+          "adaptive": 96,
+          "tactical": 48,
+          "league": 12
+        }
+      },
+      "combined-vs-recovery": {
+        "categories": {
+          "adaptive": {
+            "controlWins": 178,
+            "challengerWins": 172,
+            "games": 192,
+            "scoreGainPP": -3.125
+          },
+          "tactical": {
+            "controlWins": 96,
+            "challengerWins": 96,
+            "games": 96,
+            "scoreGainPP": 0.0
+          },
+          "league": {
+            "controlWins": 100,
+            "challengerWins": 104,
+            "games": 144,
+            "scoreGainPP": 2.7777777777777777
+          }
+        },
+        "weightedGainPP": -0.13888888888888884,
+        "pairedInterval95": [
+          -2.6388888888888884,
+          2.500000000000001
+        ],
+        "improvedGames": 5,
+        "regressedGames": 7,
+        "clusterCounts": {
+          "adaptive": 96,
+          "tactical": 48,
+          "league": 12
+        }
+      }
+    },
+    "confirmation": {
+      "recovery-vs-control": {
+        "categories": {
+          "adaptive": {
+            "controlWins": 357,
+            "challengerWins": 355,
+            "games": 384,
+            "scoreGainPP": -0.5208333333333334
+          },
+          "tactical": {
+            "controlWins": 188,
+            "challengerWins": 188,
+            "games": 192,
+            "scoreGainPP": 0.0
+          },
+          "league": {
+            "controlWins": 199,
+            "challengerWins": 197,
+            "games": 288,
+            "scoreGainPP": -0.6944444444444444
+          }
+        },
+        "weightedGainPP": -0.48611111111111116,
+        "pairedInterval95": [
+          -1.666666666666667,
+          0.625
+        ],
+        "improvedGames": 13,
+        "regressedGames": 17,
+        "clusterCounts": {
+          "adaptive": 192,
+          "tactical": 96,
+          "league": 12
+        }
+      },
+      "combined-vs-control": {
+        "categories": {
+          "adaptive": {
+            "controlWins": 357,
+            "challengerWins": 351,
+            "games": 384,
+            "scoreGainPP": -1.5625
+          },
+          "tactical": {
+            "controlWins": 188,
+            "challengerWins": 186,
+            "games": 192,
+            "scoreGainPP": -1.0416666666666667
+          },
+          "league": {
+            "controlWins": 199,
+            "challengerWins": 192,
+            "games": 288,
+            "scoreGainPP": -2.4305555555555554
+          }
+        },
+        "weightedGainPP": -1.8055555555555556,
+        "pairedInterval95": [
+          -3.6111111111111116,
+          -0.06944444444444446
+        ],
+        "improvedGames": 16,
+        "regressedGames": 31,
+        "clusterCounts": {
+          "adaptive": 192,
+          "tactical": 96,
+          "league": 12
+        }
+      },
+      "combined-vs-recovery": {
+        "categories": {
+          "adaptive": {
+            "controlWins": 355,
+            "challengerWins": 351,
+            "games": 384,
+            "scoreGainPP": -1.0416666666666667
+          },
+          "tactical": {
+            "controlWins": 188,
+            "challengerWins": 186,
+            "games": 192,
+            "scoreGainPP": -1.0416666666666667
+          },
+          "league": {
+            "controlWins": 197,
+            "challengerWins": 192,
+            "games": 288,
+            "scoreGainPP": -1.7361111111111112
+          }
+        },
+        "weightedGainPP": -1.3194444444444446,
+        "pairedInterval95": [
+          -2.9861111111111107,
+          0.27777777777777785
+        ],
+        "improvedGames": 13,
+        "regressedGames": 24,
+        "clusterCounts": {
+          "adaptive": 192,
+          "tactical": 96,
+          "league": 12
+        }
+      }
+    }
+  },
+  "promoteStrength": false,
+  "promoteCorrectness": false,
+  "selected": "control",
+  "manifestSha256": "c31670518da94958fe991d66cbe953078f2abc30893bfb197b42c0f54ed276e9",
+  "caveat": "Same fixed v4.6 team; this tests policy changes. Generated sets and seeds are new and disjoint from the preceding two campaigns. Twelve frozen roster identities remain known. No neural weights are trained."
+}

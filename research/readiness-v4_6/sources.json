@@ -1,0 +1,23 @@
+{
+  "reviewedDate": "2026-10-16",
+  "sources": [
+    {
+      "url": "https://redline-aresxshunya.netlify.app/docs",
+      "title": "PokéDuel AI — Documentation"
+    },
+    {
+      "url": "https://redline-aresxshunya.netlify.app/",
+      "title": "Pokémon Showdown AI Battle"
+    },
+    {
+      "url": "https://unstop.com/hackathons/redline-ares-netaji-subhas-university-of-technology-nsut-delhi-1766284",
+      "title": "REDLINE - ARES x Google Developer Groups NSUT - 2026"
+    }
+  ],
+  "additionalSources": [
+    "https://redline-aresxshunya.netlify.app/api/pokemon-options",
+    "https://redline-aresxshunya.netlify.app/starter_pack.zip"
+  ],
+  "unreachableTextDownload": "https://redline-aresxshunya.netlify.app/api/download/template_agent.py",
+  "fallback": "Read the same official template and guide from the downloaded current starter ZIP; no source upload."
+}

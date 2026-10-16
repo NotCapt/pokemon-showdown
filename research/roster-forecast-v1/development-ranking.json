@@ -1,0 +1,54 @@
+[
+  {
+    "id": "control",
+    "score": 0.8638888888888889,
+    "rates": {
+      "adaptive": 0.9791666666666666,
+      "tactical": 1.0,
+      "league": 0.6805555555555556
+    },
+    "games": 216,
+    "wins": 191,
+    "draws": 0,
+    "hpMargin": 137.17498585714895
+  },
+  {
+    "id": "roster",
+    "score": 0.8527777777777777,
+    "rates": {
+      "adaptive": 0.9375,
+      "tactical": 1.0,
+      "league": 0.6944444444444444
+    },
+    "games": 216,
+    "wins": 188,
+    "draws": 0,
+    "hpMargin": 134.5791979645491
+  },
+  {
+    "id": "recovery",
+    "score": 0.8500000000000001,
+    "rates": {
+      "adaptive": 0.9583333333333334,
+      "tactical": 1.0,
+      "league": 0.6666666666666666
+    },
+    "games": 216,
+    "wins": 188,
+    "draws": 0,
+    "hpMargin": 131.50413041455465
+  },
+  {
+    "id": "combined",
+    "score": 0.8305555555555555,
+    "rates": {
+      "adaptive": 0.9375,
+      "tactical": 1.0,
+      "league": 0.6388888888888888
+    },
+    "games": 216,
+    "wins": 184,
+    "draws": 0,
+    "hpMargin": 129.42204824757235
+  }
+]

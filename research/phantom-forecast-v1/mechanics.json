@@ -1,0 +1,10 @@
+{
+  "noDamageOnChargeFalse": true,
+  "forcedContinuationFalse": true,
+  "laterHitFalse": true,
+  "phaseClearedFalse": true,
+  "noDamageOnChargeTrue": true,
+  "forcedContinuationTrue": true,
+  "laterHitTrue": true,
+  "phaseClearedTrue": true
+}

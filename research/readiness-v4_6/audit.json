@@ -1,0 +1,29 @@
+{
+  "zip": "dist/REDLINE_Search_v4_6.zip",
+  "agentSha256": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5",
+  "zipSha256": "c15f9c6ce60c6de0eb13ef2df05755d52ad109afcc54f4fa1b189012e69b864f",
+  "currentOptionsSha256": "72fab77c3f5e5ac53ccad6961ff355a7132199c97e5bb45da683a060c864ca48",
+  "exactTwoRootFiles": true,
+  "teamTextMatches": true,
+  "liveTeamLegality": true,
+  "interfacePassed": true,
+  "stdlibOnly": true,
+  "noFileOrNetworkOperations": true,
+  "isolated": {
+    "cases": 288,
+    "allActionsLegal": true,
+    "inputsAndStaticDataUnchanged": true,
+    "isolatedStdlibImportPassed": true,
+    "latencyMs": {
+      "median": 39.97075000370387,
+      "p95": 91.20310000434984,
+      "max": 210.7419000021764
+    }
+  },
+  "rulesSources": [
+    "https://redline-aresxshunya.netlify.app/docs",
+    "https://unstop.com/hackathons/redline-ares-netaji-subhas-university-of-technology-nsut-delhi-1766284"
+  ],
+  "archiveNaming": "User will rename the release ZIP to the registered team name.",
+  "limits": "Compatibility and observed runtime checks do not establish a bug-free strategic model. The public docs specify no numeric per-decision CPU/memory limit."
+}

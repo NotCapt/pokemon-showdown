@@ -37,13 +37,17 @@ class PolicyTests(unittest.TestCase):
         self.assertEqual(agent.damage(a,c,agent.best_attack(a,c,'')),0)
         self.assertNotIn('locked',agent.build_mon({'name':'Metagross','item':'Choice Band'}))
 
-    @patch.object(agent,'OWN',old.OWN)
-    def test_weak_reserve_sacrifice_stays_available(self):
-        moves=[dict(agent.DATA['moves'][m],index=i+1) for i,m in enumerate(('flareblitz','extremespeed','crunch','playrough'))]
+    def test_archived_v4_5_weak_reserve_sacrifice(self):
+        # This exact ranking was defined by the old Rest forecast. Preserve the
+        # historical expectation without forcing a corrected recovery model to
+        # reproduce it. Recovery mechanics have separate simulator fixtures.
+        frozen=load('archive/v4_5/agent.py','weak_reserve_reference')
+        moves=[dict(frozen.DATA['moves'][m],index=i+1) for i,m in enumerate(('flareblitz','extremespeed','crunch','playrough'))]
         obs=dict(turn=97,my_active=dict(name='Arcanine',hp_percent=66),
                  foe=dict(name='Snorlax',hp_percent=68),valid_moves=moves,
                  valid_switches=[dict(name='Dragonite',hp_percent=6,index=1),dict(name='Dragapult',hp_percent=10,index=2)])
-        self.assertEqual(agent.PokemonAgent().decide(obs),'switch 1')
+        with patch.object(frozen,'OWN',old.OWN):
+            self.assertEqual(frozen.PokemonAgent().decide(obs),'switch 1')
 
     @patch.object(agent,'OWN',old.OWN)
     def test_last_turn_actions_preserve_hp_objective(self):

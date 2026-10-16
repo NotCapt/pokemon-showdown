@@ -1,0 +1,10 @@
+{
+  "checkedNewGames": 1296,
+  "checkedNewReports": 108,
+  "sharedReferenceAuditSha256": "32144adddfb2e32fd5da09f3c105a075bd916bd3c3c1cbd1a7183a0450a84b63",
+  "sourceSha256": "b8cda61312dd56d2b18d7f496d26fb33820442485dfa00eda0f39e5779bb7308",
+  "allSourcesSchedulesAndScoresVerified": true,
+  "promoteStrength": false,
+  "promoteCorrectness": false,
+  "referenceGamesNotRecounted": true
+}

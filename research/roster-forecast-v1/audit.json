@@ -1,0 +1,73 @@
+{
+  "manifestSha256": "c31670518da94958fe991d66cbe953078f2abc30893bfb197b42c0f54ed276e9",
+  "checkedGames": 4752,
+  "checkedReports": 492,
+  "allSourcesSchedulesAndScoresVerified": true,
+  "sourceSha256": {
+    "control": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5",
+    "recovery": "0b4caa607b166670d58dbd44b936af863baa0a9c8a2f9021b67977c482bf1864",
+    "roster": "e91d11cb8f51e00f98e56a6958990ff2ac528aec9c9a1527da76ed8fcd8e8982",
+    "combined": "6c9527d44986e60142865d20417f66943e470ce6121abddd3e1d51205776e0d7"
+  },
+  "recoveryProperties": {
+    "control": {
+      "agent": "D:\\pokemon_showdown\\research\\roster-forecast-v1\\candidates\\control\\agent.py",
+      "roostGroundingCorrect": false,
+      "roostTypesRestored": true,
+      "restBlocksNextTwoTurns": false,
+      "fullHPRestFails": false,
+      "fullHPRoostKeepsFlying": true,
+      "restOpponentHPTimeline": [
+        100.0,
+        100.0,
+        69.54749976589568,
+        39.09499953179136
+      ]
+    },
+    "recovery": {
+      "agent": "D:\\pokemon_showdown\\research\\roster-forecast-v1\\candidates\\recovery\\agent.py",
+      "roostGroundingCorrect": true,
+      "roostTypesRestored": true,
+      "restBlocksNextTwoTurns": true,
+      "fullHPRestFails": true,
+      "fullHPRoostKeepsFlying": true,
+      "restOpponentHPTimeline": [
+        100.0,
+        100.0,
+        100.0,
+        69.54749976589568
+      ]
+    },
+    "roster": {
+      "agent": "D:\\pokemon_showdown\\research\\roster-forecast-v1\\candidates\\roster\\agent.py",
+      "roostGroundingCorrect": false,
+      "roostTypesRestored": true,
+      "restBlocksNextTwoTurns": false,
+      "fullHPRestFails": false,
+      "fullHPRoostKeepsFlying": true,
+      "restOpponentHPTimeline": [
+        100.0,
+        100.0,
+        69.54749976589568,
+        39.09499953179136
+      ]
+    },
+    "combined": {
+      "agent": "D:\\pokemon_showdown\\research\\roster-forecast-v1\\candidates\\combined\\agent.py",
+      "roostGroundingCorrect": true,
+      "roostTypesRestored": true,
+      "restBlocksNextTwoTurns": true,
+      "fullHPRestFails": true,
+      "fullHPRoostKeepsFlying": true,
+      "restOpponentHPTimeline": [
+        100.0,
+        100.0,
+        100.0,
+        69.54749976589568
+      ]
+    }
+  },
+  "promoteStrength": false,
+  "promoteCorrectness": false,
+  "selected": "control"
+}

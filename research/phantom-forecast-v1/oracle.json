@@ -1,0 +1,123 @@
+{
+  "simulatorVersion": "0.11.11",
+  "rows": [
+    {
+      "case": "charge evasion and later hit",
+      "first": [
+        317,
+        281
+      ],
+      "charged": [
+        317,
+        281
+      ],
+      "after": [
+        317,
+        0
+      ],
+      "log": [
+        "|t:|1792129570",
+        "|gametype|singles",
+        "|player|p1|phased||",
+        "|player|p2|target||",
+        "|gen|9",
+        "|tier|[Gen 9] Custom Game",
+        "|clearpoke",
+        "|poke|p1|Dragapult, M|",
+        "|poke|p2|Lucario, F|",
+        "|teampreview",
+        "|",
+        "|t:|1792129572",
+        "|teamsize|p1|1",
+        "|teamsize|p2|1",
+        "|start",
+        "|split|p1",
+        "|switch|p1a: Dragapult|Dragapult, M|317/317",
+        "|switch|p1a: Dragapult|Dragapult, M|317/317",
+        "|split|p2",
+        "|switch|p2a: Lucario|Lucario, F|281/281",
+        "|switch|p2a: Lucario|Lucario, F|281/281",
+        "|turn|1",
+        "|",
+        "|t:|1792129572",
+        "|move|p1a: Dragapult|Phantom Force||[still]",
+        "|-prepare|p1a: Dragapult|Phantom Force",
+        "|move|p2a: Lucario|Ice Punch|p1a: Dragapult|[miss]",
+        "|-miss|p2a: Lucario|p1a: Dragapult",
+        "|",
+        "|upkeep",
+        "|turn|2",
+        "|",
+        "|t:|1792129572",
+        "|move|p1a: Dragapult|Phantom Force|p2a: Lucario|[from] lockedmove",
+        "|split|p2",
+        "|-damage|p2a: Lucario|0 fnt",
+        "|-damage|p2a: Lucario|0 fnt",
+        "|faint|p2a: Lucario",
+        "|",
+        "|win|phased"
+      ]
+    },
+    {
+      "case": "break Protect",
+      "first": [
+        317,
+        301
+      ],
+      "charged": [
+        317,
+        301
+      ],
+      "after": [
+        317,
+        0
+      ],
+      "log": [
+        "|t:|1792129572",
+        "|gametype|singles",
+        "|player|p1|phased||",
+        "|player|p2|target||",
+        "|gen|9",
+        "|tier|[Gen 9] Custom Game",
+        "|clearpoke",
+        "|poke|p1|Dragapult, M|",
+        "|poke|p2|Metagross|",
+        "|teampreview",
+        "|",
+        "|t:|1792129572",
+        "|teamsize|p1|1",
+        "|teamsize|p2|1",
+        "|start",
+        "|split|p1",
+        "|switch|p1a: Dragapult|Dragapult, M|317/317",
+        "|switch|p1a: Dragapult|Dragapult, M|317/317",
+        "|split|p2",
+        "|switch|p2a: Metagross|Metagross|301/301",
+        "|switch|p2a: Metagross|Metagross|301/301",
+        "|turn|1",
+        "|",
+        "|t:|1792129572",
+        "|move|p1a: Dragapult|Phantom Force||[still]",
+        "|-prepare|p1a: Dragapult|Phantom Force",
+        "|move|p2a: Metagross|Splash|p2a: Metagross",
+        "|-nothing",
+        "|",
+        "|upkeep",
+        "|turn|2",
+        "|",
+        "|t:|1792129572",
+        "|move|p2a: Metagross|Protect|p2a: Metagross",
+        "|-singleturn|p2a: Metagross|Protect",
+        "|move|p1a: Dragapult|Phantom Force|p2a: Metagross|[from] lockedmove",
+        "|-activate|p2a: Metagross|move: Phantom Force|[broken]",
+        "|-supereffective|p2a: Metagross",
+        "|split|p2",
+        "|-damage|p2a: Metagross|0 fnt",
+        "|-damage|p2a: Metagross|0 fnt",
+        "|faint|p2a: Metagross",
+        "|",
+        "|win|phased"
+      ]
+    }
+  ]
+}
