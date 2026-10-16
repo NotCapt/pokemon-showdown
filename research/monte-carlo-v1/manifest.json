@@ -1,0 +1,1527 @@
+{
+  "candidates": [
+    "control",
+    "phased",
+    "mc",
+    "phased_mc"
+  ],
+  "jobs": {
+    "development": [
+      {
+        "key": "adaptive-00",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1718039,
+        "teamFile": "suites/development-adaptive-00.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-01",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1718152,
+        "teamFile": "suites/development-adaptive-01.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-02",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1718265,
+        "teamFile": "suites/development-adaptive-02.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-03",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1718378,
+        "teamFile": "suites/development-adaptive-03.json",
+        "opponentId": null
+      },
+      {
+        "key": "tactical-00",
+        "category": "tactical",
+        "policy": "tactical",
+        "games": 24,
+        "seed": 1719036,
+        "teamFile": "suites/development-tactical-00.json",
+        "opponentId": null
+      },
+      {
+        "key": "tactical-01",
+        "category": "tactical",
+        "policy": "tactical",
+        "games": 24,
+        "seed": 1719149,
+        "teamFile": "suites/development-tactical-01.json",
+        "opponentId": null
+      },
+      {
+        "key": "league-00-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720039,
+        "teamFile": "opponents/00/lead-0.json",
+        "opponentId": "00"
+      },
+      {
+        "key": "league-00-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720039,
+        "teamFile": "opponents/00/lead-1.json",
+        "opponentId": "00"
+      },
+      {
+        "key": "league-00-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720039,
+        "teamFile": "opponents/00/lead-2.json",
+        "opponentId": "00"
+      },
+      {
+        "key": "league-01-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720170,
+        "teamFile": "opponents/01/lead-0.json",
+        "opponentId": "01"
+      },
+      {
+        "key": "league-01-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720170,
+        "teamFile": "opponents/01/lead-1.json",
+        "opponentId": "01"
+      },
+      {
+        "key": "league-01-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720170,
+        "teamFile": "opponents/01/lead-2.json",
+        "opponentId": "01"
+      },
+      {
+        "key": "league-02-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720301,
+        "teamFile": "opponents/02/lead-0.json",
+        "opponentId": "02"
+      },
+      {
+        "key": "league-02-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720301,
+        "teamFile": "opponents/02/lead-1.json",
+        "opponentId": "02"
+      },
+      {
+        "key": "league-02-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720301,
+        "teamFile": "opponents/02/lead-2.json",
+        "opponentId": "02"
+      },
+      {
+        "key": "league-03-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720432,
+        "teamFile": "opponents/03/lead-0.json",
+        "opponentId": "03"
+      },
+      {
+        "key": "league-03-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720432,
+        "teamFile": "opponents/03/lead-1.json",
+        "opponentId": "03"
+      },
+      {
+        "key": "league-03-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720432,
+        "teamFile": "opponents/03/lead-2.json",
+        "opponentId": "03"
+      },
+      {
+        "key": "league-04-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720563,
+        "teamFile": "opponents/04/lead-0.json",
+        "opponentId": "04"
+      },
+      {
+        "key": "league-04-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720563,
+        "teamFile": "opponents/04/lead-1.json",
+        "opponentId": "04"
+      },
+      {
+        "key": "league-04-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720563,
+        "teamFile": "opponents/04/lead-2.json",
+        "opponentId": "04"
+      },
+      {
+        "key": "league-05-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720694,
+        "teamFile": "opponents/05/lead-0.json",
+        "opponentId": "05"
+      },
+      {
+        "key": "league-05-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720694,
+        "teamFile": "opponents/05/lead-1.json",
+        "opponentId": "05"
+      },
+      {
+        "key": "league-05-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720694,
+        "teamFile": "opponents/05/lead-2.json",
+        "opponentId": "05"
+      },
+      {
+        "key": "league-06-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720825,
+        "teamFile": "opponents/06/lead-0.json",
+        "opponentId": "06"
+      },
+      {
+        "key": "league-06-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720825,
+        "teamFile": "opponents/06/lead-1.json",
+        "opponentId": "06"
+      },
+      {
+        "key": "league-06-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720825,
+        "teamFile": "opponents/06/lead-2.json",
+        "opponentId": "06"
+      },
+      {
+        "key": "league-07-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720956,
+        "teamFile": "opponents/07/lead-0.json",
+        "opponentId": "07"
+      },
+      {
+        "key": "league-07-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720956,
+        "teamFile": "opponents/07/lead-1.json",
+        "opponentId": "07"
+      },
+      {
+        "key": "league-07-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1720956,
+        "teamFile": "opponents/07/lead-2.json",
+        "opponentId": "07"
+      },
+      {
+        "key": "league-08-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1721087,
+        "teamFile": "opponents/08/lead-0.json",
+        "opponentId": "08"
+      },
+      {
+        "key": "league-08-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1721087,
+        "teamFile": "opponents/08/lead-1.json",
+        "opponentId": "08"
+      },
+      {
+        "key": "league-08-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1721087,
+        "teamFile": "opponents/08/lead-2.json",
+        "opponentId": "08"
+      },
+      {
+        "key": "league-09-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1721218,
+        "teamFile": "opponents/09/lead-0.json",
+        "opponentId": "09"
+      },
+      {
+        "key": "league-09-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1721218,
+        "teamFile": "opponents/09/lead-1.json",
+        "opponentId": "09"
+      },
+      {
+        "key": "league-09-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1721218,
+        "teamFile": "opponents/09/lead-2.json",
+        "opponentId": "09"
+      },
+      {
+        "key": "league-10-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1721349,
+        "teamFile": "opponents/10/lead-0.json",
+        "opponentId": "10"
+      },
+      {
+        "key": "league-10-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1721349,
+        "teamFile": "opponents/10/lead-1.json",
+        "opponentId": "10"
+      },
+      {
+        "key": "league-10-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1721349,
+        "teamFile": "opponents/10/lead-2.json",
+        "opponentId": "10"
+      },
+      {
+        "key": "league-11-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1721480,
+        "teamFile": "opponents/11/lead-0.json",
+        "opponentId": "11"
+      },
+      {
+        "key": "league-11-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1721480,
+        "teamFile": "opponents/11/lead-1.json",
+        "opponentId": "11"
+      },
+      {
+        "key": "league-11-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 2,
+        "seed": 1721480,
+        "teamFile": "opponents/11/lead-2.json",
+        "opponentId": "11"
+      }
+    ],
+    "validation": [
+      {
+        "key": "adaptive-00",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1728039,
+        "teamFile": "suites/validation-adaptive-00.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-01",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1728152,
+        "teamFile": "suites/validation-adaptive-01.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-02",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1728265,
+        "teamFile": "suites/validation-adaptive-02.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-03",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1728378,
+        "teamFile": "suites/validation-adaptive-03.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-04",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1728491,
+        "teamFile": "suites/validation-adaptive-04.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-05",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1728604,
+        "teamFile": "suites/validation-adaptive-05.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-06",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1728717,
+        "teamFile": "suites/validation-adaptive-06.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-07",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1728830,
+        "teamFile": "suites/validation-adaptive-07.json",
+        "opponentId": null
+      },
+      {
+        "key": "tactical-00",
+        "category": "tactical",
+        "policy": "tactical",
+        "games": 24,
+        "seed": 1729036,
+        "teamFile": "suites/validation-tactical-00.json",
+        "opponentId": null
+      },
+      {
+        "key": "tactical-01",
+        "category": "tactical",
+        "policy": "tactical",
+        "games": 24,
+        "seed": 1729149,
+        "teamFile": "suites/validation-tactical-01.json",
+        "opponentId": null
+      },
+      {
+        "key": "tactical-02",
+        "category": "tactical",
+        "policy": "tactical",
+        "games": 24,
+        "seed": 1729262,
+        "teamFile": "suites/validation-tactical-02.json",
+        "opponentId": null
+      },
+      {
+        "key": "tactical-03",
+        "category": "tactical",
+        "policy": "tactical",
+        "games": 24,
+        "seed": 1729375,
+        "teamFile": "suites/validation-tactical-03.json",
+        "opponentId": null
+      },
+      {
+        "key": "league-00-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730039,
+        "teamFile": "opponents/00/lead-0.json",
+        "opponentId": "00"
+      },
+      {
+        "key": "league-00-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730039,
+        "teamFile": "opponents/00/lead-1.json",
+        "opponentId": "00"
+      },
+      {
+        "key": "league-00-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730039,
+        "teamFile": "opponents/00/lead-2.json",
+        "opponentId": "00"
+      },
+      {
+        "key": "league-01-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730170,
+        "teamFile": "opponents/01/lead-0.json",
+        "opponentId": "01"
+      },
+      {
+        "key": "league-01-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730170,
+        "teamFile": "opponents/01/lead-1.json",
+        "opponentId": "01"
+      },
+      {
+        "key": "league-01-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730170,
+        "teamFile": "opponents/01/lead-2.json",
+        "opponentId": "01"
+      },
+      {
+        "key": "league-02-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730301,
+        "teamFile": "opponents/02/lead-0.json",
+        "opponentId": "02"
+      },
+      {
+        "key": "league-02-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730301,
+        "teamFile": "opponents/02/lead-1.json",
+        "opponentId": "02"
+      },
+      {
+        "key": "league-02-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730301,
+        "teamFile": "opponents/02/lead-2.json",
+        "opponentId": "02"
+      },
+      {
+        "key": "league-03-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730432,
+        "teamFile": "opponents/03/lead-0.json",
+        "opponentId": "03"
+      },
+      {
+        "key": "league-03-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730432,
+        "teamFile": "opponents/03/lead-1.json",
+        "opponentId": "03"
+      },
+      {
+        "key": "league-03-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730432,
+        "teamFile": "opponents/03/lead-2.json",
+        "opponentId": "03"
+      },
+      {
+        "key": "league-04-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730563,
+        "teamFile": "opponents/04/lead-0.json",
+        "opponentId": "04"
+      },
+      {
+        "key": "league-04-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730563,
+        "teamFile": "opponents/04/lead-1.json",
+        "opponentId": "04"
+      },
+      {
+        "key": "league-04-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730563,
+        "teamFile": "opponents/04/lead-2.json",
+        "opponentId": "04"
+      },
+      {
+        "key": "league-05-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730694,
+        "teamFile": "opponents/05/lead-0.json",
+        "opponentId": "05"
+      },
+      {
+        "key": "league-05-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730694,
+        "teamFile": "opponents/05/lead-1.json",
+        "opponentId": "05"
+      },
+      {
+        "key": "league-05-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730694,
+        "teamFile": "opponents/05/lead-2.json",
+        "opponentId": "05"
+      },
+      {
+        "key": "league-06-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730825,
+        "teamFile": "opponents/06/lead-0.json",
+        "opponentId": "06"
+      },
+      {
+        "key": "league-06-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730825,
+        "teamFile": "opponents/06/lead-1.json",
+        "opponentId": "06"
+      },
+      {
+        "key": "league-06-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730825,
+        "teamFile": "opponents/06/lead-2.json",
+        "opponentId": "06"
+      },
+      {
+        "key": "league-07-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730956,
+        "teamFile": "opponents/07/lead-0.json",
+        "opponentId": "07"
+      },
+      {
+        "key": "league-07-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730956,
+        "teamFile": "opponents/07/lead-1.json",
+        "opponentId": "07"
+      },
+      {
+        "key": "league-07-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1730956,
+        "teamFile": "opponents/07/lead-2.json",
+        "opponentId": "07"
+      },
+      {
+        "key": "league-08-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1731087,
+        "teamFile": "opponents/08/lead-0.json",
+        "opponentId": "08"
+      },
+      {
+        "key": "league-08-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1731087,
+        "teamFile": "opponents/08/lead-1.json",
+        "opponentId": "08"
+      },
+      {
+        "key": "league-08-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1731087,
+        "teamFile": "opponents/08/lead-2.json",
+        "opponentId": "08"
+      },
+      {
+        "key": "league-09-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1731218,
+        "teamFile": "opponents/09/lead-0.json",
+        "opponentId": "09"
+      },
+      {
+        "key": "league-09-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1731218,
+        "teamFile": "opponents/09/lead-1.json",
+        "opponentId": "09"
+      },
+      {
+        "key": "league-09-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1731218,
+        "teamFile": "opponents/09/lead-2.json",
+        "opponentId": "09"
+      },
+      {
+        "key": "league-10-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1731349,
+        "teamFile": "opponents/10/lead-0.json",
+        "opponentId": "10"
+      },
+      {
+        "key": "league-10-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1731349,
+        "teamFile": "opponents/10/lead-1.json",
+        "opponentId": "10"
+      },
+      {
+        "key": "league-10-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1731349,
+        "teamFile": "opponents/10/lead-2.json",
+        "opponentId": "10"
+      },
+      {
+        "key": "league-11-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1731480,
+        "teamFile": "opponents/11/lead-0.json",
+        "opponentId": "11"
+      },
+      {
+        "key": "league-11-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1731480,
+        "teamFile": "opponents/11/lead-1.json",
+        "opponentId": "11"
+      },
+      {
+        "key": "league-11-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 4,
+        "seed": 1731480,
+        "teamFile": "opponents/11/lead-2.json",
+        "opponentId": "11"
+      }
+    ],
+    "confirmation": [
+      {
+        "key": "adaptive-00",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1738039,
+        "teamFile": "suites/confirmation-adaptive-00.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-01",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1738152,
+        "teamFile": "suites/confirmation-adaptive-01.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-02",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1738265,
+        "teamFile": "suites/confirmation-adaptive-02.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-03",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1738378,
+        "teamFile": "suites/confirmation-adaptive-03.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-04",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1738491,
+        "teamFile": "suites/confirmation-adaptive-04.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-05",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1738604,
+        "teamFile": "suites/confirmation-adaptive-05.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-06",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1738717,
+        "teamFile": "suites/confirmation-adaptive-06.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-07",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1738830,
+        "teamFile": "suites/confirmation-adaptive-07.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-08",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1738943,
+        "teamFile": "suites/confirmation-adaptive-08.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-09",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1739056,
+        "teamFile": "suites/confirmation-adaptive-09.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-10",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1739169,
+        "teamFile": "suites/confirmation-adaptive-10.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-11",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1739282,
+        "teamFile": "suites/confirmation-adaptive-11.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-12",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1739395,
+        "teamFile": "suites/confirmation-adaptive-12.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-13",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1739508,
+        "teamFile": "suites/confirmation-adaptive-13.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-14",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1739621,
+        "teamFile": "suites/confirmation-adaptive-14.json",
+        "opponentId": null
+      },
+      {
+        "key": "adaptive-15",
+        "category": "adaptive",
+        "policy": "adaptive",
+        "games": 24,
+        "seed": 1739734,
+        "teamFile": "suites/confirmation-adaptive-15.json",
+        "opponentId": null
+      },
+      {
+        "key": "tactical-00",
+        "category": "tactical",
+        "policy": "tactical",
+        "games": 24,
+        "seed": 1739036,
+        "teamFile": "suites/confirmation-tactical-00.json",
+        "opponentId": null
+      },
+      {
+        "key": "tactical-01",
+        "category": "tactical",
+        "policy": "tactical",
+        "games": 24,
+        "seed": 1739149,
+        "teamFile": "suites/confirmation-tactical-01.json",
+        "opponentId": null
+      },
+      {
+        "key": "tactical-02",
+        "category": "tactical",
+        "policy": "tactical",
+        "games": 24,
+        "seed": 1739262,
+        "teamFile": "suites/confirmation-tactical-02.json",
+        "opponentId": null
+      },
+      {
+        "key": "tactical-03",
+        "category": "tactical",
+        "policy": "tactical",
+        "games": 24,
+        "seed": 1739375,
+        "teamFile": "suites/confirmation-tactical-03.json",
+        "opponentId": null
+      },
+      {
+        "key": "tactical-04",
+        "category": "tactical",
+        "policy": "tactical",
+        "games": 24,
+        "seed": 1739488,
+        "teamFile": "suites/confirmation-tactical-04.json",
+        "opponentId": null
+      },
+      {
+        "key": "tactical-05",
+        "category": "tactical",
+        "policy": "tactical",
+        "games": 24,
+        "seed": 1739601,
+        "teamFile": "suites/confirmation-tactical-05.json",
+        "opponentId": null
+      },
+      {
+        "key": "tactical-06",
+        "category": "tactical",
+        "policy": "tactical",
+        "games": 24,
+        "seed": 1739714,
+        "teamFile": "suites/confirmation-tactical-06.json",
+        "opponentId": null
+      },
+      {
+        "key": "tactical-07",
+        "category": "tactical",
+        "policy": "tactical",
+        "games": 24,
+        "seed": 1739827,
+        "teamFile": "suites/confirmation-tactical-07.json",
+        "opponentId": null
+      },
+      {
+        "key": "league-00-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740039,
+        "teamFile": "opponents/00/lead-0.json",
+        "opponentId": "00"
+      },
+      {
+        "key": "league-00-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740039,
+        "teamFile": "opponents/00/lead-1.json",
+        "opponentId": "00"
+      },
+      {
+        "key": "league-00-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740039,
+        "teamFile": "opponents/00/lead-2.json",
+        "opponentId": "00"
+      },
+      {
+        "key": "league-01-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740170,
+        "teamFile": "opponents/01/lead-0.json",
+        "opponentId": "01"
+      },
+      {
+        "key": "league-01-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740170,
+        "teamFile": "opponents/01/lead-1.json",
+        "opponentId": "01"
+      },
+      {
+        "key": "league-01-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740170,
+        "teamFile": "opponents/01/lead-2.json",
+        "opponentId": "01"
+      },
+      {
+        "key": "league-02-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740301,
+        "teamFile": "opponents/02/lead-0.json",
+        "opponentId": "02"
+      },
+      {
+        "key": "league-02-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740301,
+        "teamFile": "opponents/02/lead-1.json",
+        "opponentId": "02"
+      },
+      {
+        "key": "league-02-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740301,
+        "teamFile": "opponents/02/lead-2.json",
+        "opponentId": "02"
+      },
+      {
+        "key": "league-03-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740432,
+        "teamFile": "opponents/03/lead-0.json",
+        "opponentId": "03"
+      },
+      {
+        "key": "league-03-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740432,
+        "teamFile": "opponents/03/lead-1.json",
+        "opponentId": "03"
+      },
+      {
+        "key": "league-03-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740432,
+        "teamFile": "opponents/03/lead-2.json",
+        "opponentId": "03"
+      },
+      {
+        "key": "league-04-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740563,
+        "teamFile": "opponents/04/lead-0.json",
+        "opponentId": "04"
+      },
+      {
+        "key": "league-04-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740563,
+        "teamFile": "opponents/04/lead-1.json",
+        "opponentId": "04"
+      },
+      {
+        "key": "league-04-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740563,
+        "teamFile": "opponents/04/lead-2.json",
+        "opponentId": "04"
+      },
+      {
+        "key": "league-05-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740694,
+        "teamFile": "opponents/05/lead-0.json",
+        "opponentId": "05"
+      },
+      {
+        "key": "league-05-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740694,
+        "teamFile": "opponents/05/lead-1.json",
+        "opponentId": "05"
+      },
+      {
+        "key": "league-05-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740694,
+        "teamFile": "opponents/05/lead-2.json",
+        "opponentId": "05"
+      },
+      {
+        "key": "league-06-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740825,
+        "teamFile": "opponents/06/lead-0.json",
+        "opponentId": "06"
+      },
+      {
+        "key": "league-06-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740825,
+        "teamFile": "opponents/06/lead-1.json",
+        "opponentId": "06"
+      },
+      {
+        "key": "league-06-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740825,
+        "teamFile": "opponents/06/lead-2.json",
+        "opponentId": "06"
+      },
+      {
+        "key": "league-07-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740956,
+        "teamFile": "opponents/07/lead-0.json",
+        "opponentId": "07"
+      },
+      {
+        "key": "league-07-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740956,
+        "teamFile": "opponents/07/lead-1.json",
+        "opponentId": "07"
+      },
+      {
+        "key": "league-07-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1740956,
+        "teamFile": "opponents/07/lead-2.json",
+        "opponentId": "07"
+      },
+      {
+        "key": "league-08-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1741087,
+        "teamFile": "opponents/08/lead-0.json",
+        "opponentId": "08"
+      },
+      {
+        "key": "league-08-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1741087,
+        "teamFile": "opponents/08/lead-1.json",
+        "opponentId": "08"
+      },
+      {
+        "key": "league-08-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1741087,
+        "teamFile": "opponents/08/lead-2.json",
+        "opponentId": "08"
+      },
+      {
+        "key": "league-09-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1741218,
+        "teamFile": "opponents/09/lead-0.json",
+        "opponentId": "09"
+      },
+      {
+        "key": "league-09-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1741218,
+        "teamFile": "opponents/09/lead-1.json",
+        "opponentId": "09"
+      },
+      {
+        "key": "league-09-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1741218,
+        "teamFile": "opponents/09/lead-2.json",
+        "opponentId": "09"
+      },
+      {
+        "key": "league-10-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1741349,
+        "teamFile": "opponents/10/lead-0.json",
+        "opponentId": "10"
+      },
+      {
+        "key": "league-10-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1741349,
+        "teamFile": "opponents/10/lead-1.json",
+        "opponentId": "10"
+      },
+      {
+        "key": "league-10-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1741349,
+        "teamFile": "opponents/10/lead-2.json",
+        "opponentId": "10"
+      },
+      {
+        "key": "league-11-0",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1741480,
+        "teamFile": "opponents/11/lead-0.json",
+        "opponentId": "11"
+      },
+      {
+        "key": "league-11-1",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1741480,
+        "teamFile": "opponents/11/lead-1.json",
+        "opponentId": "11"
+      },
+      {
+        "key": "league-11-2",
+        "category": "league",
+        "policy": "frozen",
+        "games": 8,
+        "seed": 1741480,
+        "teamFile": "opponents/11/lead-2.json",
+        "opponentId": "11"
+      }
+    ]
+  },
+  "candidateSha256": {
+    "control": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5",
+    "phased": "b8cda61312dd56d2b18d7f496d26fb33820442485dfa00eda0f39e5779bb7308",
+    "mc": "5dac01afbde238d621a27ca2c11f8bc4e2ee0e094af26f5bb9c47d0c170b62fb",
+    "phased_mc": "2f1318e35e7a840d7f046c131efdd5123e226003665fcd1e66851f8303bd93da"
+  },
+  "inputSha256": {
+    "tools/evaluate_monte_carlo.py": "3477f3f8b3a124d742ba26c0f2e5df1ec7ee78d8700e9046921c560ccaebba71",
+    "tools/prepare_monte_carlo.py": "a6ca31642bbacfc08d06cf87926c33ef644c395b7e387c51466b68cd91a6077e",
+    "tools/check_monte_carlo.py": "1d023efb5c893aaee80246d174a351be2e89c612e1f410972fbc1d41e95627f8",
+    "tools/preflight_monte_carlo.py": "2966884c51690f1aabea913302d51bcea337a4ea90d5dd466fb60ff765d03fe3",
+    "tools/evaluate_roster_forecast.py": "90addee11f13705ef111c1e1c7b5abdc7bede11619d048173d70139fc593ff07",
+    "tools/evaluate_diverse_league.py": "2d3308933e85cafa9a0e7bc212586098c0656f547a168704056f6840bae08bbb",
+    "tools/benchmark.js": "c4d29138e60e703880be11d8d1b5514ca6c61aedf97e692ea026ebd6bd21ba94",
+    "tools/worker.py": "530d75f7819c8f11a6be478e9e29d9262966590f195ae471b26887ad2b858e51",
+    "tools/opponents.js": "16c398e12f1d77d318a0283bfd219d4e59664e58efef5497a9d02b68ac3efa57",
+    "tools/team_search.py": "361001e071e2a4ced53a265dcc388b44e4d0430fa1df86b5dbf7ccc0a31e3bec",
+    "tools/build_agent.py": "5814cca6599de5c634703232dd30ba444fd19318916fbd94acfefbc5c95cc025",
+    "tools/make_eval_teams.py": "d845584efa4b9688da8795f45fe72fb9dd55467d7d4f8853d8d5979f4ffa2d87",
+    "package-lock.json": "ccadd4c0b9fd3270fb2d18701fd77a8abdf29d00a0c5d5cad37afb9f2ee2fd41",
+    "archive/v1/agent.py": "38e2a25fcbb3e55bc2f24b77e024266e201175e39b673f80f37339e5650c363b",
+    "archive/v4_6/agent.py": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5",
+    "research/options.json": "d3d36c903e93aa9836cc6c444cd43241e4df1bb5add920abf11c89a763067a46",
+    "research/battle_data.json": "e09240f3642f4bec33a7e0beda05c3ebd36a078c0676c3ba4bc63d7822509ec8",
+    "research/enemy_sets.json": "669a1019aed6ef58d5f50a79a0a065a6a74ea12089719537bc6da3112e520091",
+    "research/SHOWDOWN_LICENSE.txt": "b2002a9fd52ba8db3783a05fbdebfb09c34fd09513b90f6b390a2c0dfbc93ed0",
+    "research/monte-carlo-v1/rollout_helpers.py": "affdd098a7bc10bee080885c227612ea1f6bba6dbc48543c050974da74dbc275",
+    "research/monte-carlo-v1/PROTOCOL.md": "dc5b049d42f6e1fb89ca072b4958b2c63f91132b861e1fedca1be2c4b621d2ef",
+    "research/monte-carlo-v1/preflight.json": "d8c4a449b8645afaa40cfdb9ae6197ac500cbc13d3e2e1a2f78f21e31a5b9424",
+    "research/monte-carlo-v1/checks.json": "ed6b75bb1cea2dd12219c24001dca43b3548000ad346b35d7a4c5b8bef3b9165",
+    "research/monte-carlo-v1/candidates/control/agent.py": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5",
+    "research/monte-carlo-v1/candidates/control/agent_core.py": "5716af5797ed19155ac372a0df8157ee89ef22db913fdb523fe5c7957c37284a",
+    "research/monte-carlo-v1/candidates/mc/agent.py": "5dac01afbde238d621a27ca2c11f8bc4e2ee0e094af26f5bb9c47d0c170b62fb",
+    "research/monte-carlo-v1/candidates/mc/agent_core.py": "5b2b0e2fff4938eeec8fabe991a3b4e0caba66d304583d832b80bf560cf800c1",
+    "research/monte-carlo-v1/candidates/phased/agent.py": "b8cda61312dd56d2b18d7f496d26fb33820442485dfa00eda0f39e5779bb7308",
+    "research/monte-carlo-v1/candidates/phased/agent_core.py": "7cf080b6e6c7a16c88dce5749520ce02990c7d192480b59d796cacb03ca940e2",
+    "research/monte-carlo-v1/candidates/phased_mc/agent.py": "2f1318e35e7a840d7f046c131efdd5123e226003665fcd1e66851f8303bd93da",
+    "research/monte-carlo-v1/candidates/phased_mc/agent_core.py": "c793d03bbe4aa0244a3507a660d1fc17934803104e7375df315c4df6206e1117",
+    "research/monte-carlo-v1/candidates/control/team.json": "64277db93575a3453efd91d2c4492f77b059f9b55aa81e74b3630190ef35f624",
+    "research/monte-carlo-v1/candidates/mc/team.json": "64277db93575a3453efd91d2c4492f77b059f9b55aa81e74b3630190ef35f624",
+    "research/monte-carlo-v1/candidates/phased/team.json": "64277db93575a3453efd91d2c4492f77b059f9b55aa81e74b3630190ef35f624",
+    "research/monte-carlo-v1/candidates/phased_mc/team.json": "64277db93575a3453efd91d2c4492f77b059f9b55aa81e74b3630190ef35f624",
+    "research/monte-carlo-v1/candidates/control/team.txt": "ad28421c278da7e99e20ce6200eb62b12dddc30f833e739210adbd305ff51d07",
+    "research/monte-carlo-v1/candidates/mc/team.txt": "ad28421c278da7e99e20ce6200eb62b12dddc30f833e739210adbd305ff51d07",
+    "research/monte-carlo-v1/candidates/phased/team.txt": "ad28421c278da7e99e20ce6200eb62b12dddc30f833e739210adbd305ff51d07",
+    "research/monte-carlo-v1/candidates/phased_mc/team.txt": "ad28421c278da7e99e20ce6200eb62b12dddc30f833e739210adbd305ff51d07",
+    "research/monte-carlo-v1/opponents/00/agent.py": "0afe57fe578ffdbd74fa848deae46524f3de4d66065bd152f061c9e684e45c69",
+    "research/monte-carlo-v1/opponents/01/agent.py": "77d4c22dee29157e910063d84b37ca62fa40e8c5f9d1261cb5ed337005935c08",
+    "research/monte-carlo-v1/opponents/02/agent.py": "1edbaf9c9c13c30b8179ab7990b1c1060f621e0c94e0938c411590fbcdb9e083",
+    "research/monte-carlo-v1/opponents/03/agent.py": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5",
+    "research/monte-carlo-v1/opponents/04/agent.py": "2b07d104487e56d37d6499ba804be7ee450defe50b4ada9400105755ed24787e",
+    "research/monte-carlo-v1/opponents/05/agent.py": "dbdc7fd7abc223d30aa87b48b1aaebe018ef1bde0290104c40f24b2f71da8597",
+    "research/monte-carlo-v1/opponents/06/agent.py": "2be4da96fa8cdcc70a25c2f1e55038823a8acd577aa8988b630cc6fc2986cb54",
+    "research/monte-carlo-v1/opponents/07/agent.py": "b7593d9e777103dc552dc0e2edc3f049a737c0a8034920a634b6699ac243349b",
+    "research/monte-carlo-v1/opponents/08/agent.py": "2baa90483e9dd3cbd9be57bfbf6c771e0ec0f2c9134f2806f4e38cd5018b0d7f",
+    "research/monte-carlo-v1/opponents/09/agent.py": "40e3dcf9e7a2a8efaf801959f7bab246c3702ab64041d1388f93ff18a99d8c01",
+    "research/monte-carlo-v1/opponents/10/agent.py": "aa99096d0c56eca3ac3c0f77404a05377d50ed519def010be5142c65297910fd",
+    "research/monte-carlo-v1/opponents/11/agent.py": "e2c45ae8c4a43d24d31d6915b90a819bb3607cdce30380e4f3f383ffb7859cf5",
+    "research/monte-carlo-v1/opponents/00/lead-0.json": "b32ab6a25ff1dbd95cd3609d161e6260f2443e39d114b5c5fe49ef0e6a33707c",
+    "research/monte-carlo-v1/opponents/00/lead-1.json": "ee31e64614615ba2711454cb309391c9dd09360990d980464e13315f47b54071",
+    "research/monte-carlo-v1/opponents/00/lead-2.json": "70f1e874103b57d5d31aeb26329278ec068d9180e18ed01ee59c2959288192df",
+    "research/monte-carlo-v1/opponents/00/team.json": "b32ab6a25ff1dbd95cd3609d161e6260f2443e39d114b5c5fe49ef0e6a33707c",
+    "research/monte-carlo-v1/opponents/01/lead-0.json": "4efb651878581246433ff9cbc0f5592c11ecdceec09f9cc3580b9cf0b1d27fb3",
+    "research/monte-carlo-v1/opponents/01/lead-1.json": "132fac4c17fa0d7bdaf131dc1ff0221d9879e1845130f2793021e0710161d189",
+    "research/monte-carlo-v1/opponents/01/lead-2.json": "f419396543ddb5558ae2ffcb435801ad62f8a494ec773202e404d582d0f45879",
+    "research/monte-carlo-v1/opponents/01/team.json": "4efb651878581246433ff9cbc0f5592c11ecdceec09f9cc3580b9cf0b1d27fb3",
+    "research/monte-carlo-v1/opponents/02/lead-0.json": "24b32d1ee78f4226e663ae7d697992fb39b20a9b83ef32f70f97e10190d2fe33",
+    "research/monte-carlo-v1/opponents/02/lead-1.json": "dcec9b8b1c3ca61e3cc1e14f51d83fa961ff2f159449aa2ee5a3acb875d3dfaf",
+    "research/monte-carlo-v1/opponents/02/lead-2.json": "864297b04307d7af05331e155d5389179f5c054f164449540cf5c6ccddf0db0f",
+    "research/monte-carlo-v1/opponents/02/team.json": "24b32d1ee78f4226e663ae7d697992fb39b20a9b83ef32f70f97e10190d2fe33",
+    "research/monte-carlo-v1/opponents/03/lead-0.json": "64277db93575a3453efd91d2c4492f77b059f9b55aa81e74b3630190ef35f624",
+    "research/monte-carlo-v1/opponents/03/lead-1.json": "34285632a25b5b5d72ad45329a7afe5f1ab82af04fe09d2a48f51147820f4819",
+    "research/monte-carlo-v1/opponents/03/lead-2.json": "4b6dd3c90236ea396de81d545408f03881287ad63d7c66a7a34d97fdecc74645",
+    "research/monte-carlo-v1/opponents/03/team.json": "64277db93575a3453efd91d2c4492f77b059f9b55aa81e74b3630190ef35f624",
+    "research/monte-carlo-v1/opponents/04/lead-0.json": "92a39be5a0d2ffb38b7c3a5c1e688b1bdfe974f0a4a6316ccb9de9ecc379de77",
+    "research/monte-carlo-v1/opponents/04/lead-1.json": "a8e26a09fff271256caa2905d554f8b73eb08c6eadb7a9ee73127de44979a258",
+    "research/monte-carlo-v1/opponents/04/lead-2.json": "710391eb10bd68fbb337f119552a21a2ec7716671d2c73c8b32a049e5a927896",
+    "research/monte-carlo-v1/opponents/04/team.json": "92a39be5a0d2ffb38b7c3a5c1e688b1bdfe974f0a4a6316ccb9de9ecc379de77",
+    "research/monte-carlo-v1/opponents/05/lead-0.json": "7ba8ed59e9f3ce0bbcb17ad5789490ebeafa338abbc4c4fca359e784f4e30233",
+    "research/monte-carlo-v1/opponents/05/lead-1.json": "8d758966d823b6a1a8d74cbe33c08d54ce0e4d50f07c6c39e9a82b265a282fb8",
+    "research/monte-carlo-v1/opponents/05/lead-2.json": "a1aee4f156d86a0a952430a0e38bd2354b04ae20aec556f18e53ce4880b9d557",
+    "research/monte-carlo-v1/opponents/05/team.json": "7ba8ed59e9f3ce0bbcb17ad5789490ebeafa338abbc4c4fca359e784f4e30233",
+    "research/monte-carlo-v1/opponents/06/lead-0.json": "d95a9e87f3fbe16a1faed44e5b31f19658d3c6faf58256f8265d306568ae3090",
+    "research/monte-carlo-v1/opponents/06/lead-1.json": "8ad1de2b09d6e6fbf38da56444078e76556f88b4c77e9e8a4ad4fbf89bca095f",
+    "research/monte-carlo-v1/opponents/06/lead-2.json": "c1d23bb1a7a9cd1a5b2eb8b5988eaa397da9dd6d36c14fc0b2929aaf7b04fe22",
+    "research/monte-carlo-v1/opponents/06/team.json": "d95a9e87f3fbe16a1faed44e5b31f19658d3c6faf58256f8265d306568ae3090",
+    "research/monte-carlo-v1/opponents/07/lead-0.json": "1f61fa287994add4f84d425492dbd50f6dd9624a99e08fb6259e4ec59d80c101",
+    "research/monte-carlo-v1/opponents/07/lead-1.json": "09312a4c8d43a5d0e2ab43eff34cbb183c7648c3067478f6165f7142564a206b",
+    "research/monte-carlo-v1/opponents/07/lead-2.json": "705fc8b2edf7f1ec45888f3f4e1b30ced314184f6a8c1b2090b766c6d5b8c278",
+    "research/monte-carlo-v1/opponents/07/team.json": "1f61fa287994add4f84d425492dbd50f6dd9624a99e08fb6259e4ec59d80c101",
+    "research/monte-carlo-v1/opponents/08/lead-0.json": "8a7816b24ef45a7e1d5404bf6521d6c25599a6f7e39fd0b64f16f803ec12d83d",
+    "research/monte-carlo-v1/opponents/08/lead-1.json": "5dc8129c6f8cb0f8d05e3c3a014d3629ceec64d8c1c1111ca07a843fe94fc7af",
+    "research/monte-carlo-v1/opponents/08/lead-2.json": "8ee947ba8361c1b4762567cff6ff0ab6f29e69ef176b641f64b81eaca0f584eb",
+    "research/monte-carlo-v1/opponents/08/team.json": "8a7816b24ef45a7e1d5404bf6521d6c25599a6f7e39fd0b64f16f803ec12d83d",
+    "research/monte-carlo-v1/opponents/09/lead-0.json": "54dd1c34e17482794974424eddb961327f977665a501305cefbdf521a56019be",
+    "research/monte-carlo-v1/opponents/09/lead-1.json": "f9ecd13d4e399b7c931825aed9ad3eead0f6c856d0b9d3bfa63c64f9b7e60d34",
+    "research/monte-carlo-v1/opponents/09/lead-2.json": "29fa46a8e239c5f855b309ff52d883c13265b4fcd5908f6e0c10ac21a848a68e",
+    "research/monte-carlo-v1/opponents/09/team.json": "54dd1c34e17482794974424eddb961327f977665a501305cefbdf521a56019be",
+    "research/monte-carlo-v1/opponents/10/lead-0.json": "2fbf6248b3d975b7a15cea6a90b9413174758adcddb504e923dd5843e99fadfa",
+    "research/monte-carlo-v1/opponents/10/lead-1.json": "baa5759a21ae8cac2b3410316e0bd82e66de9144d744825b49367dddee79bab4",
+    "research/monte-carlo-v1/opponents/10/lead-2.json": "802553ff1e402ea913792f603a10c5e6dac7d2e79f2badae40712f44b4b3624a",
+    "research/monte-carlo-v1/opponents/10/team.json": "2fbf6248b3d975b7a15cea6a90b9413174758adcddb504e923dd5843e99fadfa",
+    "research/monte-carlo-v1/opponents/11/lead-0.json": "fc1da91ca0725bb496920a49a531175d7d3f205559ca93b5d343c323bdd4c855",
+    "research/monte-carlo-v1/opponents/11/lead-1.json": "53ca94b979fd8539e1606d06e466950dd0d6b00a9480cc7da0dff51361b7f192",
+    "research/monte-carlo-v1/opponents/11/lead-2.json": "93287f8b9db67d3a6d3b28be793a9c32b727dcc3928d0a1dfba81fc4293e4cab",
+    "research/monte-carlo-v1/opponents/11/team.json": "fc1da91ca0725bb496920a49a531175d7d3f205559ca93b5d343c323bdd4c855",
+    "research/monte-carlo-v1/suites/confirmation-adaptive-00.json": "7655789097d45abf51f39a42420a61c5b12315fd0e56b4129623722e1f0c4db5",
+    "research/monte-carlo-v1/suites/confirmation-adaptive-01.json": "e6542d488414ae00b9e21d5c3264bccb80df17717e99c9681e5e4ed44e5773c4",
+    "research/monte-carlo-v1/suites/confirmation-adaptive-02.json": "6029ad901c43fbb2060556d6b51bcd849240163cb580a044436ae7b32ae49f36",
+    "research/monte-carlo-v1/suites/confirmation-adaptive-03.json": "4e47125c030b1f79b0c1213ac9cbc3bef92b9fea3177388d6acb62ff643b05d8",
+    "research/monte-carlo-v1/suites/confirmation-adaptive-04.json": "45bcb55eb0c3d8138d7e3f3fdb16ddbae50dbc771b93813fbc4ce9e0af67fd3d",
+    "research/monte-carlo-v1/suites/confirmation-adaptive-05.json": "fc4ff6e77f91cea126708ea9207bc302c6523eaead0530afc07d29e5fdd04eb8",
+    "research/monte-carlo-v1/suites/confirmation-adaptive-06.json": "ed2ab05376a37763f319d7fd1fc8ff9674fe3f22ffccbffbf088008c16e409f0",
+    "research/monte-carlo-v1/suites/confirmation-adaptive-07.json": "430ccc875f0949efc6df6c3ca456861419c294ac4e040e18c54ac46ba4352949",
+    "research/monte-carlo-v1/suites/confirmation-adaptive-08.json": "fbcac33704db0ed64896b452d8ca01b9451b3dea1f8af4ea170b7c4c882eee29",
+    "research/monte-carlo-v1/suites/confirmation-adaptive-09.json": "65287ecbac83fecb5f1fd5463da13f2b04b426a945041c0e6e7f3f1f3f834da3",
+    "research/monte-carlo-v1/suites/confirmation-adaptive-10.json": "595eada00aa77801b47756e2b598d717a1ebc9f482640c97b7a5d6a8fda4cc23",
+    "research/monte-carlo-v1/suites/confirmation-adaptive-11.json": "e0b58510a407639dcfa60afdd1d5b33369d90c9b3d44a12be3ec30ea94223ba4",
+    "research/monte-carlo-v1/suites/confirmation-adaptive-12.json": "615a727775025f49d29106c388ec9eff7536a8b53a20bb28dd808758884483f4",
+    "research/monte-carlo-v1/suites/confirmation-adaptive-13.json": "703ecaeffdd94b486ebceea7044d4c9df2b830d79909fc9aa53cf9e475c65cfc",
+    "research/monte-carlo-v1/suites/confirmation-adaptive-14.json": "f609495d162caf4e0d2359bd803ac9b2fc1544ac708608f75419194acd622db1",
+    "research/monte-carlo-v1/suites/confirmation-adaptive-15.json": "d4b75d481f57b269ade5f3387cdae7324bad8e2b17ce53d76ebefc91baba84ff",
+    "research/monte-carlo-v1/suites/confirmation-tactical-00.json": "05f3707c286c0cb06635b1dfd2a40b2f81d774a1bcedb53ffd88d9426fd1b35b",
+    "research/monte-carlo-v1/suites/confirmation-tactical-01.json": "8995184d5a3d2397f12da472e784e63949da007706a6a7c2b5fa2c9d9eb5aa72",
+    "research/monte-carlo-v1/suites/confirmation-tactical-02.json": "22e6b188198e829f97e920a63fe3c0720e7cd2ccf5deac3190856b483554fd5c",
+    "research/monte-carlo-v1/suites/confirmation-tactical-03.json": "477c0edff7f2d35d662aac8554fb13837b94ff1337aec56c0a1738bc96362168",
+    "research/monte-carlo-v1/suites/confirmation-tactical-04.json": "afd1c6add6dbb50a58ef357f2e9dacfcde725e41f33020ee8f2b5ccb31f9ef7f",
+    "research/monte-carlo-v1/suites/confirmation-tactical-05.json": "b041a6504704b47c45f3427b5c4d14fb2294f92e708ba5b93a57cc2ee511dca9",
+    "research/monte-carlo-v1/suites/confirmation-tactical-06.json": "1d82c8df74bde264b196fe6828f7219e9523051107cec7ad29572974bee7ac3e",
+    "research/monte-carlo-v1/suites/confirmation-tactical-07.json": "a08eb91031da744b54f840fe748d7058b8792f3574b60e0a9001086482293378",
+    "research/monte-carlo-v1/suites/development-adaptive-00.json": "0871df504b3b2b664c8461bf058c469261dfb17b78c6b039a8b8e6ec1b6be588",
+    "research/monte-carlo-v1/suites/development-adaptive-01.json": "4dffe91fc876de8ab70635dc5663b973b3f55b3af0a0cb6c6daa3838ccbc1ed3",
+    "research/monte-carlo-v1/suites/development-adaptive-02.json": "9730bb125580126139d4604856a812e63f9970fb4ff45d7b0042bd665e413a18",
+    "research/monte-carlo-v1/suites/development-adaptive-03.json": "5e9c8dbfa47bbcade3fca6c34063f084ed136e6e724183f8527c74a6e8d629e7",
+    "research/monte-carlo-v1/suites/development-tactical-00.json": "f627901265b15ac4af91d979367b538eefd5f0bedbadb1fcb9288cd7c6572767",
+    "research/monte-carlo-v1/suites/development-tactical-01.json": "2ecdae7b545dd914c411d7297c1db34e65a7f786e2c52a081a1b71f81c300410",
+    "research/monte-carlo-v1/suites/validation-adaptive-00.json": "d5f28f8e4cfaa35970ce2ed859dc2e53802412c46ef01289c01a8ddfdfce149e",
+    "research/monte-carlo-v1/suites/validation-adaptive-01.json": "bcacb9a2381f8004cb84def1420470ebd4df3d6f8977593733aa83c605da8388",
+    "research/monte-carlo-v1/suites/validation-adaptive-02.json": "ec75502ffff9abb758e7380dcced89666b5d75ac094d14c20fc6b0b2eedf144c",
+    "research/monte-carlo-v1/suites/validation-adaptive-03.json": "5c955d224030b43d5bc8083c65d020ba9e89488ac2b723b29add45d10002724d",
+    "research/monte-carlo-v1/suites/validation-adaptive-04.json": "0cc314997a309d247cefc7c4110900b4fb63dce1d2ea66845a564d9f04e74585",
+    "research/monte-carlo-v1/suites/validation-adaptive-05.json": "290da4f2501c13f916ce15788f293518580dbbc1f0763dc4d8be9d68c6c046c2",
+    "research/monte-carlo-v1/suites/validation-adaptive-06.json": "95d61e91c3bf6deaca57da8628f824ad95a54fb3a1d42e49d2d4a05464afc8e4",
+    "research/monte-carlo-v1/suites/validation-adaptive-07.json": "40fab5be24b2a6a074b6454d5cc3e2e6be5eb61501a5bb5ffc1b596100280c10",
+    "research/monte-carlo-v1/suites/validation-tactical-00.json": "bb4677406366b5ac5327ab8684a36090ff8e100d9a998316a3ed5ad37685a4c2",
+    "research/monte-carlo-v1/suites/validation-tactical-01.json": "47297c36f3c66c9a1c6e899f99561e70aad8ff4d67d28a2ea6c2c9d18f6ee9ad",
+    "research/monte-carlo-v1/suites/validation-tactical-02.json": "73ec4335217ac8177b09383e47ebc28503e1bff7d2580ead16e691c79b1a754b",
+    "research/monte-carlo-v1/suites/validation-tactical-03.json": "2c8bc541efd4c4f58f6562877eb2268a2564e322ed9fe84e8dd46cade559ecd1"
+  },
+  "weights": {
+    "adaptive": 0.4,
+    "tactical": 0.2,
+    "league": 0.4
+  },
+  "primaryGames": 6048,
+  "generatedOpponents": 504,
+  "actualSeedOverlapWithPrior": [],
+  "actualDistinctSeeds": 588,
+  "selection": "One challenger chosen on validation before any confirmation. Weighted score, HP margin, prefer mc.",
+  "promotion": "Selected challenger: higher confirmation weighted mean and positive lower paired 95% bound versus control; no validation/confirmation category regression >5 pp; positive confirmation mean versus parent. All checks/audits; preflight median<2x control, p95<4x control, max<500ms.",
+  "caveat": "Root-bandit hybrid rollouts, not full MCTS. Same team. Additional CPU, not equal-CPU. Limited transition/opponent/hidden-set models; no unseen enemy bench. Frozen rosters are known. Scores are not tournament probabilities."
+}

@@ -1,0 +1,11 @@
+{
+  "zipSha256": "6a3ecfa25ce11de7ed18706b123a1ad635e0767be52840cc30e7e3038cc742b7",
+  "files": 1509,
+  "allContentsHashesPassed": true,
+  "noOriginalPrivateTeammateSources": true,
+  "extractedAuditPassed": true,
+  "extractedReleaseMatches": true,
+  "extractedTestsPassed": true,
+  "extractedDirectory": "research/monte-carlo-v1/reproducer-check",
+  "runtime": "Python 3.10; Node 24; installed parent Showdown 0.11.11; npm ci needed on a fresh machine"
+}

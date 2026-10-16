@@ -1,14 +1,50 @@
-# REDLINE Search — v4.6
+# REDLINE Search — v4.7
 
 GitHub: [NotCapt/pokemon-showdown](https://github.com/NotCapt/pokemon-showdown).
 
-The recommended release is `dist/REDLINE_Search.zip` (v4.6), also available as
-`dist/REDLINE_Search_v4_6.zip`. Rename the ZIP to your registered team name
+The recommended release is `dist/REDLINE_Search.zip` (v4.7), also available as
+`dist/REDLINE_Search_v4_7.zip`. Rename the ZIP to your registered team name
 before submission. It contains exactly `agent.py` and `team.txt`.
 
 `submission/agent.py`, `submission/team.txt`, `agent_core.py` and `team.json`
-all describe this release. V4.5 is preserved in `archive/v4_5` and its versioned
+all describe this release. V4.6 is preserved in `archive/v4_6` and its versioned
 ZIP; earlier releases and experiments remain available.
+
+## V4.7: tactical search with Monte Carlo rollouts
+
+V4.7 keeps the v4.6 team and adds up to 96 sampled continuations, each up to
+six turns, when the tactical search has several promising choices. It samples
+damage, accuracy, speed ties and plausible opponent sets, then blends the
+rollout estimate with the original tactical score. Forced switches and late
+turn-cap positions retain their existing handling.
+
+A frozen four-build study completed 6,048 new games. The challenger selected
+on validation won 800/864 independent confirmation games against the shared
+opponent field, versus original v4.6's 746/864. Weighted scores were 91.84%
+and 84.69%: a +7.153-point gain, with a descriptive paired 95% interval of
++2.15 to +12.95 points. Adaptive results improved from 357/384 to 368/384,
+frozen league results from 201/288 to 245/288; tactical results slipped from
+188/192 to 187/192. These are local field estimates, not tournament win odds.
+
+The controlled timing sample measured 16.21 ms median and 84.03 ms p95 for
+v4.7, compared with 11.78 ms and 27.96 ms for v4.6. Monte Carlo uses additional
+CPU; the study does not compare equal compute budgets. A separate, broader
+288-case isolated contract audit measured 30.14 ms median, 272.52 ms p95 and
+529.93 ms maximum. These timings cover different workloads.
+
+All four frozen sources pass 63 Python tests and both JavaScript checks.
+The exact v4.7 ZIP passes team legality, two-file layout and isolated execution
+checks, and won its authorized practice compatibility battle in eight turns.
+That single sample-baseline game is excluded from the strength estimates.
+
+This is bounded Monte Carlo rollout search with an approximate battle model.
+It retains v4.6's Roost/Rest forecasting limitations. Hidden enemy bench,
+voluntary future enemy switches and several continuation details remain
+unmodeled. The separately tested recovery/Phantom Force variant was not the
+validation-selected challenger. See [the full report](research/monte-carlo-v1/REPORT.md)
+and [the frozen protocol](research/monte-carlo-v1/PROTOCOL.md).
+`dist/REDLINE_Monte_Carlo_Project_v1.zip` contains the frozen inputs, every
+battle result and the reproducible audit tools.
 
 ## V4.6: team selected against a diverse opponent league
 
@@ -40,7 +76,7 @@ campaign inputs, compiled agents and schedules. Extract it into a separate
 directory to reproduce the study with its original v4.5 control. The full
 results and audit records remain in `research/diverse-league-v1` locally.
 
-## Current submission audit and policy experiments
+## Historical v4.6 audit and policy experiments
 
 The current docs, starter guide, event ZIP requirements and live roster options
 were checked on 16 October 2026. The original v4.6 ZIP passes the format,
@@ -50,10 +86,11 @@ Rename the ZIP to your registered team name before submitting it.
 
 The audit found recovery-model inaccuracies in Roost typing, Rest timing and
 full-HP Rest. A 4,752-game frozen study tested corrected recovery and whole-team
-forecasts. Neither passed its release gate; v4.6 remains recommended. A separate
+forecasts. Neither passed its release gate, so those experiments retained v4.6. A separate
 1,296-game temporal follow-up models Phantom Force charging and invulnerability.
 Its controls are shared with the first study and are not counted again.
-These experiments do not establish a stronger submission.
+Those experiments did not establish a stronger submission; the later Monte Carlo
+study above selected v4.7.
 
 See [the submission audit](research/readiness-v4_6/REPORT.md),
 [the recovery/roster study](research/roster-forecast-v1/REPORT.md), and
@@ -62,7 +99,7 @@ The original source and team are also preserved in `archive/v4_6`.
 `dist/REDLINE_Forecast_Audit_Project_v1.zip` preserves the frozen experiment
 inputs, all 6,048 result records and verification tools. Extract it into a
 separate directory to audit or rerun the studies. It is a research package;
-the competition submission remains `dist/REDLINE_Search_v4_6.zip`.
+the preserved competition artifact for that study is `dist/REDLINE_Search_v4_6.zip`.
 
 ## V4.5: combined policy and physical Dragapult
 

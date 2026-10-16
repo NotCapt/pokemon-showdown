@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "properties": {
+    "mc": {
+      "publicOpponentPolicyIsolated": true,
+      "staticDataUnchanged": true,
+      "validHiddenPresets": 38,
+      "speedTieOwnSurvivors": 106,
+      "previewResetsDiagnostics": true,
+      "deterministicGivenPublicObservation": true,
+      "fixedRolloutBudget": true,
+      "cappedEndgamesAndForcedEntriesPreserved": true,
+      "sampledPositions": 28,
+      "changedChoices": 4,
+      "testedPositions": 96
+    },
+    "phased_mc": {
+      "publicOpponentPolicyIsolated": true,
+      "staticDataUnchanged": true,
+      "validHiddenPresets": 38,
+      "speedTieOwnSurvivors": 106,
+      "previewResetsDiagnostics": true,
+      "deterministicGivenPublicObservation": true,
+      "fixedRolloutBudget": true,
+      "cappedEndgamesAndForcedEntriesPreserved": true,
+      "sampledPositions": 22,
+      "changedChoices": 3,
+      "testedPositions": 96
+    }
+  },
+  "latency": {
+    "control": {
+      "medianMs": 11.783449997892603,
+      "p95Ms": 27.961100000538863,
+      "maxMs": 50.07100000511855,
+      "decisions": 192
+    },
+    "phased": {
+      "medianMs": 12.577099994814489,
+      "p95Ms": 28.19130000716541,
+      "maxMs": 56.753599987132475,
+      "decisions": 192
+    },
+    "mc": {
+      "medianMs": 16.20524999452755,
+      "p95Ms": 84.03040000121109,
+      "maxMs": 124.62780000350904,
+      "decisions": 192
+    },
+    "phased_mc": {
+      "medianMs": 15.68674999725772,
+      "p95Ms": 99.19839999929536,
+      "maxMs": 134.0416000020923,
+      "decisions": 192
+    }
+  },
+  "timingMethod": "Same 96 public synthetic observations; two randomly interleaved repetitions, no battle workers. Import/init/copy excluded; not strength evidence.",
+  "sourceSha256": {
+    "control": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5",
+    "phased": "b8cda61312dd56d2b18d7f496d26fb33820442485dfa00eda0f39e5779bb7308",
+    "mc": "5dac01afbde238d621a27ca2c11f8bc4e2ee0e094af26f5bb9c47d0c170b62fb",
+    "phased_mc": "2f1318e35e7a840d7f046c131efdd5123e226003665fcd1e66851f8303bd93da"
+  }
+}

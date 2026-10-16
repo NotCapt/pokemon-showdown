@@ -1,0 +1,15 @@
+...............................................................
+----------------------------------------------------------------------
+Ran 63 tests in 4.386s
+
+OK
+✔ nondefault Choice move stays locked after hitting Protect (497.4755ms)
+✔ evaluation policy ignores hidden enemy set and reserve information (411.5459ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 671.9182

@@ -28,7 +28,7 @@ with zipfile.ZipFile(ROOT/args.zip) as archive:
     agent_source=archive.read('agent.py')
 tree=ast.parse(agent_source.decode('utf-8-sig'))
 imports=[n for n in ast.walk(tree) if isinstance(n,(ast.Import,ast.ImportFrom))]
-assert all(isinstance(n,ast.Import) and all(a.name in ('math','re') for a in n.names) for n in imports)
+assert all(isinstance(n,ast.Import) and all(a.name in ('math','re','random') for a in n.names) for n in imports)
 for node in ast.walk(tree):
     if isinstance(node,ast.Call) and isinstance(node.func,ast.Name):
         assert node.func.id not in ('open','exec','eval','compile','__import__','input')

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "mc",
+    "score": 0.9208333333333333,
+    "rates": {
+      "adaptive": 0.9479166666666666,
+      "tactical": 1.0,
+      "league": 0.8541666666666666
+    },
+    "games": 432,
+    "wins": 401,
+    "draws": 0,
+    "hpMargin": 167.94303886273846
+  },
+  {
+    "id": "phased_mc",
+    "score": 0.8805555555555555,
+    "rates": {
+      "adaptive": 0.9583333333333334,
+      "tactical": 1.0,
+      "league": 0.7430555555555556
+    },
+    "games": 432,
+    "wins": 387,
+    "draws": 0,
+    "hpMargin": 160.73288050453235
+  },
+  {
+    "id": "control",
+    "score": 0.8583333333333334,
+    "rates": {
+      "adaptive": 0.9583333333333334,
+      "tactical": 1.0,
+      "league": 0.6875
+    },
+    "games": 432,
+    "wins": 379,
+    "draws": 0,
+    "hpMargin": 144.7576042387969
+  },
+  {
+    "id": "phased",
+    "score": 0.8500000000000001,
+    "rates": {
+      "adaptive": 0.9583333333333334,
+      "tactical": 1.0,
+      "league": 0.6666666666666666
+    },
+    "games": 432,
+    "wins": 376,
+    "draws": 0,
+    "hpMargin": 140.6240072488759
+  }
+]

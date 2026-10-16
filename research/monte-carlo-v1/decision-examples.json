@@ -1,0 +1,762 @@
+{
+  "caveat": "Selected changed choices from the frozen preflight synthetic workload. These are explanations, not fresh battle outcomes or evidence of improvement.",
+  "examples": [
+    {
+      "position": 19,
+      "candidate": "mc",
+      "parentAction": "move 3",
+      "candidateAction": "move 4",
+      "observation": {
+        "turn": 5,
+        "team_preview": false,
+        "force_switch": false,
+        "weather": "",
+        "my_active": {
+          "name": "Snorlax",
+          "hp_percent": 45,
+          "active": true,
+          "fainted": false,
+          "boosts": {}
+        },
+        "my_team": [
+          {
+            "name": "Dragapult",
+            "hp_percent": 75,
+            "active": false,
+            "fainted": false
+          },
+          {
+            "name": "Snorlax",
+            "hp_percent": 45,
+            "active": true,
+            "fainted": false
+          },
+          {
+            "name": "Corviknight",
+            "hp_percent": 15,
+            "active": false,
+            "fainted": false
+          }
+        ],
+        "foe": {
+          "name": "Dragapult",
+          "types": [
+            "Dragon",
+            "Ghost"
+          ],
+          "hp_percent": 60
+        },
+        "valid_moves": [
+          {
+            "index": 1,
+            "id": "bodyslam",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 2,
+            "id": "earthquake",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 3,
+            "id": "crunch",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 4,
+            "id": "rest",
+            "pp": 16,
+            "disabled": false
+          }
+        ],
+        "valid_switches": [
+          {
+            "name": "Dragapult",
+            "hp_percent": 75,
+            "active": false,
+            "fainted": false,
+            "index": 1
+          },
+          {
+            "name": "Corviknight",
+            "hp_percent": 15,
+            "active": false,
+            "fainted": false,
+            "index": 3
+          }
+        ]
+      },
+      "search": {
+        "rollouts": 96,
+        "changed": true,
+        "baseline": "move 3",
+        "actions": [
+          "move 3",
+          "move 4",
+          "move 2"
+        ],
+        "samples": [
+          12,
+          72,
+          12
+        ],
+        "estimates": [
+          -100.73940865868306,
+          -80.29905360934315,
+          -113.83793198765989
+        ]
+      }
+    },
+    {
+      "position": 27,
+      "candidate": "mc",
+      "parentAction": "move 3",
+      "candidateAction": "switch 3",
+      "observation": {
+        "turn": 97,
+        "team_preview": false,
+        "force_switch": false,
+        "weather": "",
+        "my_active": {
+          "name": "Dragapult",
+          "hp_percent": 15,
+          "active": true,
+          "fainted": false,
+          "boosts": {}
+        },
+        "my_team": [
+          {
+            "name": "Dragapult",
+            "hp_percent": 15,
+            "active": true,
+            "fainted": false
+          },
+          {
+            "name": "Snorlax",
+            "hp_percent": 75,
+            "active": false,
+            "fainted": false
+          },
+          {
+            "name": "Corviknight",
+            "hp_percent": 100,
+            "active": false,
+            "fainted": false
+          }
+        ],
+        "foe": {
+          "name": "Scizor",
+          "types": [
+            "Bug",
+            "Steel"
+          ],
+          "hp_percent": 60
+        },
+        "valid_moves": [
+          {
+            "index": 1,
+            "id": "dragondarts",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 2,
+            "id": "phantomforce",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 3,
+            "id": "flamethrower",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 4,
+            "id": "uturn",
+            "pp": 16,
+            "disabled": false
+          }
+        ],
+        "valid_switches": [
+          {
+            "name": "Snorlax",
+            "hp_percent": 75,
+            "active": false,
+            "fainted": false,
+            "index": 2
+          },
+          {
+            "name": "Corviknight",
+            "hp_percent": 100,
+            "active": false,
+            "fainted": false,
+            "index": 3
+          }
+        ]
+      },
+      "search": {
+        "rollouts": 96,
+        "changed": true,
+        "baseline": "move 3",
+        "actions": [
+          "move 3",
+          "switch 3"
+        ],
+        "samples": [
+          12,
+          84
+        ],
+        "estimates": [
+          57.36684373802025,
+          80.94521706245474
+        ]
+      }
+    },
+    {
+      "position": 27,
+      "candidate": "phased_mc",
+      "parentAction": "move 3",
+      "candidateAction": "switch 3",
+      "observation": {
+        "turn": 97,
+        "team_preview": false,
+        "force_switch": false,
+        "weather": "",
+        "my_active": {
+          "name": "Dragapult",
+          "hp_percent": 15,
+          "active": true,
+          "fainted": false,
+          "boosts": {}
+        },
+        "my_team": [
+          {
+            "name": "Dragapult",
+            "hp_percent": 15,
+            "active": true,
+            "fainted": false
+          },
+          {
+            "name": "Snorlax",
+            "hp_percent": 75,
+            "active": false,
+            "fainted": false
+          },
+          {
+            "name": "Corviknight",
+            "hp_percent": 100,
+            "active": false,
+            "fainted": false
+          }
+        ],
+        "foe": {
+          "name": "Scizor",
+          "types": [
+            "Bug",
+            "Steel"
+          ],
+          "hp_percent": 60
+        },
+        "valid_moves": [
+          {
+            "index": 1,
+            "id": "dragondarts",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 2,
+            "id": "phantomforce",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 3,
+            "id": "flamethrower",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 4,
+            "id": "uturn",
+            "pp": 16,
+            "disabled": false
+          }
+        ],
+        "valid_switches": [
+          {
+            "name": "Snorlax",
+            "hp_percent": 75,
+            "active": false,
+            "fainted": false,
+            "index": 2
+          },
+          {
+            "name": "Corviknight",
+            "hp_percent": 100,
+            "active": false,
+            "fainted": false,
+            "index": 3
+          }
+        ]
+      },
+      "search": {
+        "rollouts": 96,
+        "changed": true,
+        "baseline": "move 3",
+        "actions": [
+          "move 3",
+          "switch 3"
+        ],
+        "samples": [
+          12,
+          84
+        ],
+        "estimates": [
+          57.36684373802025,
+          80.94521706245474
+        ]
+      }
+    },
+    {
+      "position": 73,
+      "candidate": "mc",
+      "parentAction": "switch 1",
+      "candidateAction": "move 2",
+      "observation": {
+        "turn": 5,
+        "team_preview": false,
+        "force_switch": false,
+        "weather": "",
+        "my_active": {
+          "name": "Snorlax",
+          "hp_percent": 15,
+          "active": true,
+          "fainted": false,
+          "boosts": {}
+        },
+        "my_team": [
+          {
+            "name": "Dragapult",
+            "hp_percent": 75,
+            "active": false,
+            "fainted": false
+          },
+          {
+            "name": "Snorlax",
+            "hp_percent": 15,
+            "active": true,
+            "fainted": false
+          },
+          {
+            "name": "Corviknight",
+            "hp_percent": 15,
+            "active": false,
+            "fainted": false
+          }
+        ],
+        "foe": {
+          "name": "Garchomp",
+          "types": [
+            "Dragon",
+            "Ground"
+          ],
+          "hp_percent": 100
+        },
+        "valid_moves": [
+          {
+            "index": 1,
+            "id": "bodyslam",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 2,
+            "id": "earthquake",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 3,
+            "id": "crunch",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 4,
+            "id": "rest",
+            "pp": 16,
+            "disabled": false
+          }
+        ],
+        "valid_switches": [
+          {
+            "name": "Dragapult",
+            "hp_percent": 75,
+            "active": false,
+            "fainted": false,
+            "index": 1
+          },
+          {
+            "name": "Corviknight",
+            "hp_percent": 15,
+            "active": false,
+            "fainted": false,
+            "index": 3
+          }
+        ]
+      },
+      "search": {
+        "rollouts": 96,
+        "changed": true,
+        "baseline": "switch 1",
+        "actions": [
+          "switch 1",
+          "move 1",
+          "move 2"
+        ],
+        "samples": [
+          12,
+          43,
+          41
+        ],
+        "estimates": [
+          -209.3681395653735,
+          -45.48142782155334,
+          -41.97132934779199
+        ]
+      }
+    },
+    {
+      "position": 73,
+      "candidate": "phased_mc",
+      "parentAction": "switch 1",
+      "candidateAction": "move 2",
+      "observation": {
+        "turn": 5,
+        "team_preview": false,
+        "force_switch": false,
+        "weather": "",
+        "my_active": {
+          "name": "Snorlax",
+          "hp_percent": 15,
+          "active": true,
+          "fainted": false,
+          "boosts": {}
+        },
+        "my_team": [
+          {
+            "name": "Dragapult",
+            "hp_percent": 75,
+            "active": false,
+            "fainted": false
+          },
+          {
+            "name": "Snorlax",
+            "hp_percent": 15,
+            "active": true,
+            "fainted": false
+          },
+          {
+            "name": "Corviknight",
+            "hp_percent": 15,
+            "active": false,
+            "fainted": false
+          }
+        ],
+        "foe": {
+          "name": "Garchomp",
+          "types": [
+            "Dragon",
+            "Ground"
+          ],
+          "hp_percent": 100
+        },
+        "valid_moves": [
+          {
+            "index": 1,
+            "id": "bodyslam",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 2,
+            "id": "earthquake",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 3,
+            "id": "crunch",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 4,
+            "id": "rest",
+            "pp": 16,
+            "disabled": false
+          }
+        ],
+        "valid_switches": [
+          {
+            "name": "Dragapult",
+            "hp_percent": 75,
+            "active": false,
+            "fainted": false,
+            "index": 1
+          },
+          {
+            "name": "Corviknight",
+            "hp_percent": 15,
+            "active": false,
+            "fainted": false,
+            "index": 3
+          }
+        ]
+      },
+      "search": {
+        "rollouts": 96,
+        "changed": true,
+        "baseline": "switch 1",
+        "actions": [
+          "switch 1",
+          "move 1",
+          "move 2"
+        ],
+        "samples": [
+          12,
+          43,
+          41
+        ],
+        "estimates": [
+          -209.3681395653735,
+          -45.48142782155334,
+          -41.97132934779199
+        ]
+      }
+    },
+    {
+      "position": 74,
+      "candidate": "mc",
+      "parentAction": "move 1",
+      "candidateAction": "move 3",
+      "observation": {
+        "turn": 20,
+        "team_preview": false,
+        "force_switch": false,
+        "weather": "",
+        "my_active": {
+          "name": "Corviknight",
+          "hp_percent": 100,
+          "active": true,
+          "fainted": false,
+          "boosts": {}
+        },
+        "my_team": [
+          {
+            "name": "Dragapult",
+            "hp_percent": 45,
+            "active": false,
+            "fainted": false
+          },
+          {
+            "name": "Snorlax",
+            "hp_percent": 15,
+            "active": false,
+            "fainted": false
+          },
+          {
+            "name": "Corviknight",
+            "hp_percent": 100,
+            "active": true,
+            "fainted": false
+          }
+        ],
+        "foe": {
+          "name": "Garchomp",
+          "types": [
+            "Dragon",
+            "Ground"
+          ],
+          "hp_percent": 100
+        },
+        "valid_moves": [
+          {
+            "index": 1,
+            "id": "bravebird",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 2,
+            "id": "bodypress",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 3,
+            "id": "roost",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 4,
+            "id": "irondefense",
+            "pp": 16,
+            "disabled": false
+          }
+        ],
+        "valid_switches": [
+          {
+            "name": "Dragapult",
+            "hp_percent": 45,
+            "active": false,
+            "fainted": false,
+            "index": 1
+          },
+          {
+            "name": "Snorlax",
+            "hp_percent": 15,
+            "active": false,
+            "fainted": false,
+            "index": 2
+          }
+        ]
+      },
+      "search": {
+        "rollouts": 96,
+        "changed": true,
+        "baseline": "move 1",
+        "actions": [
+          "move 1",
+          "move 3",
+          "move 2"
+        ],
+        "samples": [
+          20,
+          49,
+          27
+        ],
+        "estimates": [
+          11.042242199265358,
+          15.86651431638418,
+          -1.7350310010385126
+        ]
+      }
+    },
+    {
+      "position": 74,
+      "candidate": "phased_mc",
+      "parentAction": "move 1",
+      "candidateAction": "move 3",
+      "observation": {
+        "turn": 20,
+        "team_preview": false,
+        "force_switch": false,
+        "weather": "",
+        "my_active": {
+          "name": "Corviknight",
+          "hp_percent": 100,
+          "active": true,
+          "fainted": false,
+          "boosts": {}
+        },
+        "my_team": [
+          {
+            "name": "Dragapult",
+            "hp_percent": 45,
+            "active": false,
+            "fainted": false
+          },
+          {
+            "name": "Snorlax",
+            "hp_percent": 15,
+            "active": false,
+            "fainted": false
+          },
+          {
+            "name": "Corviknight",
+            "hp_percent": 100,
+            "active": true,
+            "fainted": false
+          }
+        ],
+        "foe": {
+          "name": "Garchomp",
+          "types": [
+            "Dragon",
+            "Ground"
+          ],
+          "hp_percent": 100
+        },
+        "valid_moves": [
+          {
+            "index": 1,
+            "id": "bravebird",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 2,
+            "id": "bodypress",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 3,
+            "id": "roost",
+            "pp": 16,
+            "disabled": false
+          },
+          {
+            "index": 4,
+            "id": "irondefense",
+            "pp": 16,
+            "disabled": false
+          }
+        ],
+        "valid_switches": [
+          {
+            "name": "Dragapult",
+            "hp_percent": 45,
+            "active": false,
+            "fainted": false,
+            "index": 1
+          },
+          {
+            "name": "Snorlax",
+            "hp_percent": 15,
+            "active": false,
+            "fainted": false,
+            "index": 2
+          }
+        ]
+      },
+      "search": {
+        "rollouts": 96,
+        "changed": true,
+        "baseline": "move 1",
+        "actions": [
+          "move 1",
+          "move 3",
+          "move 2"
+        ],
+        "samples": [
+          20,
+          49,
+          27
+        ],
+        "estimates": [
+          11.042242199265358,
+          15.86651431638418,
+          -1.7350310010385126
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": "v4.7",
+  "candidate": "mc",
+  "sourceSha256": "5dac01afbde238d621a27ca2c11f8bc4e2ee0e094af26f5bb9c47d0c170b62fb",
+  "zip": "dist/REDLINE_Search_v4_7.zip",
+  "zipSha256": "42f64dd9e36948c7736d747a0d76cc63bb18ee75cd6030741c19976634c0ac18",
+  "manifestSha256": "42710173f5f045e830219aa8f29edd5957af7d4aac73bdcd12e36e5f19d6696b",
+  "auditSha256": "5744b7ac0b4326e50bffeafb53317140621ff7e700b4f24e390ab1b1b467daf3",
+  "originalV46Preserved": true,
+  "practiceUploadPerformed": true,
+  "practiceSummarySha256": "45ac98b7a0dd38875612e52bc7f0fa15db35861d689a11b2fca7018648db0974"
+}

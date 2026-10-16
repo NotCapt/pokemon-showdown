@@ -1,0 +1,86 @@
+{
+  "optionsSha256": "d3d36c903e93aa9836cc6c444cd43241e4df1bb5add920abf11c89a763067a46",
+  "defaultRowsWithSelectionDiscrepancies": [
+    {
+      "species": "Metagross",
+      "defaultEvs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+      "defaultNature": "Adamant",
+      "findings": [
+        "EV allocation is not one of the selectable presets"
+      ]
+    },
+    {
+      "species": "Salamence",
+      "defaultEvs": "Special Sweeper (252 SpA / 252 Spe / 4 Atk)",
+      "defaultNature": "Naive",
+      "findings": [
+        "EV allocation is not one of the selectable presets"
+      ]
+    },
+    {
+      "species": "Lucario",
+      "defaultEvs": "Physical Sweeper (252 Atk / 252 Spe / 4 SpA)",
+      "defaultNature": "Jolly",
+      "findings": [
+        "EV allocation is not one of the selectable presets"
+      ]
+    },
+    {
+      "species": "Gyarados",
+      "defaultEvs": "Physical Sweeper (252 Atk / 252 Spe / 4 Def)",
+      "defaultNature": "Jolly",
+      "findings": [
+        "EV allocation is not one of the selectable presets"
+      ]
+    },
+    {
+      "species": "Arcanine",
+      "defaultEvs": "Bulky Attacker (252 HP / 252 Atk / 4 Spe)",
+      "defaultNature": "Adamant",
+      "findings": [
+        "EV allocation is not one of the selectable presets"
+      ]
+    },
+    {
+      "species": "Togekiss",
+      "defaultEvs": "Bulky Special (252 HP / 252 Spe / 4 SpA)",
+      "defaultNature": "Timid",
+      "findings": [
+        "EV allocation is not one of the selectable presets"
+      ]
+    },
+    {
+      "species": "Snorlax",
+      "defaultEvs": "Special Wall (252 HP / 4 Def / 252 SpD)",
+      "defaultNature": "Careful",
+      "findings": [
+        "EV label differs but stats match a selectable preset"
+      ]
+    },
+    {
+      "species": "Alakazam",
+      "defaultEvs": "Special Sweeper (252 SpA / 252 Spe / 4 HP)",
+      "defaultNature": "Timid",
+      "findings": [
+        "EV allocation is not one of the selectable presets"
+      ]
+    },
+    {
+      "species": "Ferrothorn",
+      "defaultEvs": "Physical Wall (252 HP / 252 Def / 4 SpD)",
+      "defaultNature": "Relaxed",
+      "findings": [
+        "Default nature is absent from selectable natures"
+      ]
+    },
+    {
+      "species": "Greninja",
+      "defaultEvs": "Special Sweeper (252 SpA / 252 Spe / 4 HP)",
+      "defaultNature": "Timid",
+      "findings": [
+        "EV allocation is not one of the selectable presets"
+      ]
+    }
+  ],
+  "note": "Both parent engines already assume these organizer-provided defaults. Monte Carlo samples defaults half the time and explicitly filtered legal alternatives half the time. The default branch is an approximate prior and is not certified as entirely selectable. Own submission team remains separately legal. This review does not alter frozen sources or outcomes."
+}

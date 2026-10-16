@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "battleId": "sim-1792166737715",
+  "winner": "REDLINE Search",
+  "winnerSlot": "p1",
+  "turns": 8,
+  "agentSha256": "5dac01afbde238d621a27ca2c11f8bc4e2ee0e094af26f5bb9c47d0c170b62fb",
+  "teamSha256": "64277db93575a3453efd91d2c4492f77b059f9b55aa81e74b3630190ef35f624",
+  "probe": false,
+  "responseSha256": "5533d183b9696766b5a864f50c2b005e1c6e1226019fedb79694caabd14b5bef"
+}
