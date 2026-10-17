@@ -1,0 +1,10 @@
+{
+  "status": "aborted",
+  "reason": "Code inspection found that a forced second Phantom Force turn was incorrectly filtered when the first turn consumed the last PP. Preserve v1; do not use its battle results as release evidence.",
+  "replacement": "research/robust-rollout-v2",
+  "sourceAndManifestUnchanged": true,
+  "challengerOutcomesNotExaminedForThisFix": true,
+  "completedReportsRetained": 77,
+  "completedGamesRetained": 376,
+  "notUsedForSelectionOrPromotion": true
+}

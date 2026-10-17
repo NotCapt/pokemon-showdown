@@ -1,0 +1,45 @@
+{
+  "selected": "recovery_guard",
+  "validation": [
+    {
+      "id": "recovery_guard",
+      "score": 0.8729166666666668,
+      "rates": {
+        "adaptive": 0.9375,
+        "strong": 0.8125,
+        "league": 0.8333333333333334
+      },
+      "games": 264,
+      "wins": 228,
+      "draws": 0,
+      "hpMargin": 132.18259324342148
+    },
+    {
+      "id": "control",
+      "score": 0.8673611111111111,
+      "rates": {
+        "adaptive": 0.9375,
+        "strong": 0.8125,
+        "league": 0.8055555555555556
+      },
+      "games": 264,
+      "wins": 226,
+      "draws": 0,
+      "hpMargin": 133.02323621280985
+    },
+    {
+      "id": "recovery_cycle",
+      "score": 0.8635416666666667,
+      "rates": {
+        "adaptive": 0.9166666666666666,
+        "strong": 0.8125,
+        "league": 0.8333333333333334
+      },
+      "games": 264,
+      "wins": 226,
+      "draws": 0,
+      "hpMargin": 130.54467566079768
+    }
+  ],
+  "manifestSha256": "d3ce2b8aa4b2dfac0d572e78a3ce4440044611c30ceffdf4eb72508a36a9a16b"
+}

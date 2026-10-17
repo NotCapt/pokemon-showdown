@@ -1,0 +1,16 @@
+...............................................................
+----------------------------------------------------------------------
+Ran 63 tests in 31.762s
+
+OK
+✔ nondefault Choice move stays locked after hitting Protect (613.2493ms)
+✔ evaluation policy ignores hidden enemy set and reserve information (526.2771ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 799.1646
+{"agent": "D:\\pokemon_showdown\\research\\robust-rollout-v1\\candidates\\aware\\agent.py", "roostGroundingCorrect": true, "roostTypesRestored": true, "restBlocksNextTwoTurns": true, "fullHPRestFails": true, "fullHPRoostKeepsFlying": true, "restOpponentHPTimeline": [100.0, 100.0, 100.0, 69.54749976589568]}

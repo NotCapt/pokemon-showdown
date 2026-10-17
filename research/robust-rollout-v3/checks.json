@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "margin": {
+      "passed": true,
+      "pythonTests": 63,
+      "javascriptChecks": 2,
+      "previewResetsCycles": true,
+      "sourceSha256": "deb78f637c9707cc1195b7ded91a7e97dbd49f2c57d154e835bf9029683b90ab"
+    },
+    "cycle": {
+      "passed": true,
+      "pythonTests": 63,
+      "javascriptChecks": 2,
+      "previewResetsCycles": true,
+      "sourceSha256": "4fd74572feca0415b357d04948c2a9fa961a8b78438ad02fbcd172bd46ee9a77"
+    }
+  },
+  "latency": {
+    "control": {
+      "medianMs": 21.952349998173304,
+      "p95Ms": 127.59250000817701,
+      "maxMs": 256.56150000577327,
+      "decisions": 144
+    },
+    "margin": {
+      "medianMs": 22.771650001232047,
+      "p95Ms": 125.79340000229422,
+      "maxMs": 256.34249999711756,
+      "decisions": 144
+    },
+    "cycle": {
+      "medianMs": 22.346349993313197,
+      "p95Ms": 125.75880000076722,
+      "maxMs": 254.63229999877512,
+      "decisions": 144
+    }
+  },
+  "sampledPositions": {
+    "control": 19,
+    "margin": 19,
+    "cycle": 19
+  },
+  "marginVetoes": {
+    "control": 0,
+    "margin": 0,
+    "cycle": 0
+  },
+  "sourceSha256": {
+    "control": "5dac01afbde238d621a27ca2c11f8bc4e2ee0e094af26f5bb9c47d0c170b62fb",
+    "margin": "deb78f637c9707cc1195b7ded91a7e97dbd49f2c57d154e835bf9029683b90ab",
+    "cycle": "4fd74572feca0415b357d04948c2a9fa961a8b78438ad02fbcd172bd46ee9a77"
+  },
+  "timingMethod": "72 public synthetic positions, two interleaved repetitions after all battle/unit workers end; import/init/copy excluded; not strength evidence."
+}

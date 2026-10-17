@@ -1,0 +1,269 @@
+{
+  "status": "complete",
+  "checkedGames": 2760,
+  "allSourcesSchedulesAndOutcomesAudited": true,
+  "manifestSha256": "d3ce2b8aa4b2dfac0d572e78a3ce4440044611c30ceffdf4eb72508a36a9a16b",
+  "validationSelected": "recovery_guard",
+  "recommended": "control",
+  "comparisons": {
+    "validation": {
+      "recovery_guard": {
+        "categories": {
+          "adaptive": {
+            "controlWins": 90,
+            "challengerWins": 90,
+            "games": 96,
+            "scoreGainPP": 0.0
+          },
+          "strong": {
+            "controlWins": 78,
+            "challengerWins": 78,
+            "games": 96,
+            "scoreGainPP": 0.0
+          },
+          "league": {
+            "controlWins": 58,
+            "challengerWins": 60,
+            "games": 72,
+            "scoreGainPP": 2.7777777777777777
+          }
+        },
+        "weightedGainPP": 0.5555555555555556,
+        "pairedInterval95": [
+          0.0,
+          1.666666666666667
+        ],
+        "improvedGames": 2,
+        "regressedGames": 0,
+        "clusterCounts": {
+          "adaptive": 48,
+          "strong": 24,
+          "league": 12
+        }
+      },
+      "recovery_cycle": {
+        "categories": {
+          "adaptive": {
+            "controlWins": 90,
+            "challengerWins": 88,
+            "games": 96,
+            "scoreGainPP": -2.0833333333333335
+          },
+          "strong": {
+            "controlWins": 78,
+            "challengerWins": 78,
+            "games": 96,
+            "scoreGainPP": 0.0
+          },
+          "league": {
+            "controlWins": 58,
+            "challengerWins": 60,
+            "games": 72,
+            "scoreGainPP": 2.7777777777777777
+          }
+        },
+        "weightedGainPP": -0.38194444444444453,
+        "pairedInterval95": [
+          -2.8125,
+          1.666666666666667
+        ],
+        "improvedGames": 2,
+        "regressedGames": 2,
+        "clusterCounts": {
+          "adaptive": 48,
+          "strong": 24,
+          "league": 12
+        }
+      }
+    },
+    "confirmation": {
+      "recovery_guard": {
+        "categories": {
+          "adaptive": {
+            "controlWins": 184,
+            "challengerWins": 184,
+            "games": 192,
+            "scoreGainPP": 0.0
+          },
+          "strong": {
+            "controlWins": 176,
+            "challengerWins": 180,
+            "games": 192,
+            "scoreGainPP": 2.0833333333333335
+          },
+          "league": {
+            "controlWins": 114,
+            "challengerWins": 114,
+            "games": 144,
+            "scoreGainPP": 0.0
+          }
+        },
+        "weightedGainPP": 0.7291666666666666,
+        "pairedInterval95": [
+          0.0,
+          1.8229166666666667
+        ],
+        "improvedGames": 4,
+        "regressedGames": 0,
+        "clusterCounts": {
+          "adaptive": 96,
+          "strong": 48,
+          "league": 12
+        }
+      },
+      "recovery_cycle": {
+        "categories": {
+          "adaptive": {
+            "controlWins": 184,
+            "challengerWins": 184,
+            "games": 192,
+            "scoreGainPP": 0.0
+          },
+          "strong": {
+            "controlWins": 176,
+            "challengerWins": 180,
+            "games": 192,
+            "scoreGainPP": 2.0833333333333335
+          },
+          "league": {
+            "controlWins": 114,
+            "challengerWins": 113,
+            "games": 144,
+            "scoreGainPP": -0.6944444444444444
+          }
+        },
+        "weightedGainPP": 0.5902777777777777,
+        "pairedInterval95": [
+          -0.2777777777777778,
+          1.6840277777777781
+        ],
+        "improvedGames": 4,
+        "regressedGames": 1,
+        "clusterCounts": {
+          "adaptive": 96,
+          "strong": 48,
+          "league": 12
+        }
+      }
+    }
+  },
+  "direct": {
+    "selected-vs-v4_7": {
+      "wins": 57,
+      "losses": 71,
+      "draws": 0,
+      "games": 128,
+      "scorePct": 44.53125
+    },
+    "selected-vs-v4_6": {
+      "wins": 120,
+      "losses": 8,
+      "draws": 0,
+      "games": 128,
+      "scorePct": 93.75
+    },
+    "control-vs-v4_6": {
+      "wins": 115,
+      "losses": 13,
+      "draws": 0,
+      "games": 128,
+      "scorePct": 89.84375
+    }
+  },
+  "gates": {
+    "strength": false,
+    "categories": true,
+    "runtime": true,
+    "direct": false,
+    "promote": false
+  },
+  "rankings": {
+    "validation": [
+      {
+        "id": "recovery_guard",
+        "score": 0.8729166666666668,
+        "rates": {
+          "adaptive": 0.9375,
+          "strong": 0.8125,
+          "league": 0.8333333333333334
+        },
+        "games": 264,
+        "wins": 228,
+        "draws": 0,
+        "hpMargin": 132.18259324342148
+      },
+      {
+        "id": "control",
+        "score": 0.8673611111111111,
+        "rates": {
+          "adaptive": 0.9375,
+          "strong": 0.8125,
+          "league": 0.8055555555555556
+        },
+        "games": 264,
+        "wins": 226,
+        "draws": 0,
+        "hpMargin": 133.02323621280985
+      },
+      {
+        "id": "recovery_cycle",
+        "score": 0.8635416666666667,
+        "rates": {
+          "adaptive": 0.9166666666666666,
+          "strong": 0.8125,
+          "league": 0.8333333333333334
+        },
+        "games": 264,
+        "wins": 226,
+        "draws": 0,
+        "hpMargin": 130.54467566079768
+      }
+    ],
+    "confirmation": [
+      {
+        "id": "recovery_guard",
+        "score": 0.9177083333333333,
+        "rates": {
+          "adaptive": 0.9583333333333334,
+          "strong": 0.9375,
+          "league": 0.7916666666666666
+        },
+        "games": 528,
+        "wins": 478,
+        "draws": 0,
+        "hpMargin": 161.05222067812363
+      },
+      {
+        "id": "recovery_cycle",
+        "score": 0.9163194444444445,
+        "rates": {
+          "adaptive": 0.9583333333333334,
+          "strong": 0.9375,
+          "league": 0.7847222222222222
+        },
+        "games": 528,
+        "wins": 477,
+        "draws": 0,
+        "hpMargin": 160.73908603945117
+      },
+      {
+        "id": "control",
+        "score": 0.9104166666666667,
+        "rates": {
+          "adaptive": 0.9583333333333334,
+          "strong": 0.9166666666666666,
+          "league": 0.7916666666666666
+        },
+        "games": 528,
+        "wins": 474,
+        "draws": 0,
+        "hpMargin": 162.3870681948896
+      }
+    ]
+  },
+  "sourceSha256": {
+    "control": "5dac01afbde238d621a27ca2c11f8bc4e2ee0e094af26f5bb9c47d0c170b62fb",
+    "recovery_guard": "b7bf8cb740c3fe8b971d8ef6a8b2e7b8968c4107cef0c0290d97713fc736b828",
+    "recovery_cycle": "04b12005d4a130d9d30fa90be6db0e044f738b68b6023bffac3622819cbe7acb"
+  }
+}

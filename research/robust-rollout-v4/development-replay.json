@@ -1,0 +1,721 @@
+{
+  "purpose": "Historical forced observation stream; action diagnostics, not new battle outcomes.",
+  "policies": {
+    "control": [
+      {
+        "turn": 0,
+        "action": "team 123",
+        "diagnostic": {}
+      },
+      {
+        "turn": 1,
+        "action": "move 1",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 1"
+        }
+      },
+      {
+        "turn": 1,
+        "action": "switch 3",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "switch 3"
+        }
+      },
+      {
+        "turn": 2,
+        "action": "move 1",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 1"
+        }
+      },
+      {
+        "turn": 3,
+        "action": "move 1",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 1"
+        }
+      },
+      {
+        "turn": 4,
+        "action": "switch 2",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "switch 2"
+        }
+      },
+      {
+        "turn": 5,
+        "action": "move 1",
+        "diagnostic": {
+          "rollouts": 96,
+          "changed": false,
+          "baseline": "move 1",
+          "actions": [
+            "move 1",
+            "move 2",
+            "move 3"
+          ],
+          "samples": [
+            33,
+            33,
+            30
+          ],
+          "estimates": [
+            152.93766799603299,
+            150.0752401274974,
+            140.40582038604174
+          ]
+        }
+      },
+      {
+        "turn": 6,
+        "action": "move 3",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 3"
+        }
+      },
+      {
+        "turn": 7,
+        "action": "move 2",
+        "diagnostic": {
+          "rollouts": 96,
+          "changed": false,
+          "baseline": "move 2",
+          "actions": [
+            "move 2",
+            "move 3",
+            "move 4"
+          ],
+          "samples": [
+            54,
+            21,
+            21
+          ],
+          "estimates": [
+            -36.52751934494573,
+            -45.194242172723506,
+            -52.42677964971856
+          ]
+        }
+      },
+      {
+        "turn": 7,
+        "action": "switch 2",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "switch 2"
+        }
+      },
+      {
+        "turn": 8,
+        "action": "move 3",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 3"
+        }
+      },
+      {
+        "turn": 9,
+        "action": "move 3",
+        "diagnostic": {
+          "rollouts": 96,
+          "changed": true,
+          "baseline": "move 1",
+          "actions": [
+            "move 1",
+            "move 3"
+          ],
+          "samples": [
+            40,
+            56
+          ],
+          "estimates": [
+            88.2554474072295,
+            91.08035514650216
+          ]
+        }
+      },
+      {
+        "turn": 10,
+        "action": "move 2",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 2"
+        }
+      },
+      {
+        "turn": 11,
+        "action": "move 2",
+        "diagnostic": {
+          "rollouts": 96,
+          "changed": false,
+          "baseline": "move 2",
+          "actions": [
+            "move 2",
+            "move 1"
+          ],
+          "samples": [
+            50,
+            46
+          ],
+          "estimates": [
+            99.59051124485691,
+            94.5001845583314
+          ]
+        }
+      }
+    ],
+    "recovery_guard": [
+      {
+        "turn": 0,
+        "action": "team 123",
+        "diagnostic": {}
+      },
+      {
+        "turn": 1,
+        "action": "move 1",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 1"
+        }
+      },
+      {
+        "turn": 1,
+        "action": "switch 3",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "switch 3"
+        }
+      },
+      {
+        "turn": 2,
+        "action": "move 1",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 1"
+        }
+      },
+      {
+        "turn": 3,
+        "action": "move 1",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 1"
+        }
+      },
+      {
+        "turn": 4,
+        "action": "switch 2",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "switch 2"
+        }
+      },
+      {
+        "turn": 5,
+        "action": "move 1",
+        "diagnostic": {
+          "rollouts": 96,
+          "changed": false,
+          "baseline": "move 1",
+          "actions": [
+            "move 1",
+            "move 2",
+            "move 3"
+          ],
+          "samples": [
+            33,
+            33,
+            30
+          ],
+          "estimates": [
+            152.93766799603299,
+            150.0752401274974,
+            140.40582038604174
+          ]
+        }
+      },
+      {
+        "turn": 6,
+        "action": "move 3",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 3"
+        }
+      },
+      {
+        "turn": 7,
+        "action": "move 2",
+        "diagnostic": {
+          "rollouts": 96,
+          "changed": false,
+          "baseline": "move 2",
+          "actions": [
+            "move 2",
+            "move 3",
+            "move 4"
+          ],
+          "samples": [
+            54,
+            21,
+            21
+          ],
+          "estimates": [
+            -36.52751934494573,
+            -45.194242172723506,
+            -52.42677964971856
+          ]
+        }
+      },
+      {
+        "turn": 7,
+        "action": "switch 2",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "switch 2"
+        }
+      },
+      {
+        "turn": 8,
+        "action": "move 3",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 3"
+        }
+      },
+      {
+        "turn": 9,
+        "action": "move 1",
+        "diagnostic": {
+          "rollouts": 96,
+          "changed": false,
+          "baseline": "move 1",
+          "actions": [
+            "move 1",
+            "move 3"
+          ],
+          "samples": [
+            40,
+            56
+          ],
+          "estimates": [
+            88.2554474072295,
+            91.08035514650216
+          ],
+          "veto": "preserve_finishing_pressure"
+        }
+      },
+      {
+        "turn": 10,
+        "action": "move 2",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 2"
+        }
+      },
+      {
+        "turn": 11,
+        "action": "move 2",
+        "diagnostic": {
+          "rollouts": 96,
+          "changed": false,
+          "baseline": "move 2",
+          "actions": [
+            "move 2",
+            "move 1"
+          ],
+          "samples": [
+            50,
+            46
+          ],
+          "estimates": [
+            99.59051124485691,
+            94.5001845583314
+          ]
+        }
+      }
+    ],
+    "recovery_cycle": [
+      {
+        "turn": 0,
+        "action": "team 123",
+        "diagnostic": {}
+      },
+      {
+        "turn": 1,
+        "action": "move 1",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 1"
+        }
+      },
+      {
+        "turn": 1,
+        "action": "switch 3",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "switch 3"
+        }
+      },
+      {
+        "turn": 2,
+        "action": "move 1",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 1"
+        }
+      },
+      {
+        "turn": 3,
+        "action": "move 1",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 1"
+        }
+      },
+      {
+        "turn": 4,
+        "action": "switch 2",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "switch 2"
+        }
+      },
+      {
+        "turn": 5,
+        "action": "move 1",
+        "diagnostic": {
+          "rollouts": 96,
+          "changed": false,
+          "baseline": "move 1",
+          "actions": [
+            "move 1",
+            "move 2",
+            "move 3"
+          ],
+          "samples": [
+            33,
+            33,
+            30
+          ],
+          "estimates": [
+            152.93766799603299,
+            150.0752401274974,
+            140.40582038604174
+          ]
+        }
+      },
+      {
+        "turn": 6,
+        "action": "move 3",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 3"
+        }
+      },
+      {
+        "turn": 7,
+        "action": "move 2",
+        "diagnostic": {
+          "rollouts": 96,
+          "changed": false,
+          "baseline": "move 2",
+          "actions": [
+            "move 2",
+            "move 3",
+            "move 4"
+          ],
+          "samples": [
+            54,
+            21,
+            21
+          ],
+          "estimates": [
+            -36.52751934494573,
+            -45.194242172723506,
+            -52.42677964971856
+          ]
+        }
+      },
+      {
+        "turn": 7,
+        "action": "switch 2",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "switch 2"
+        }
+      },
+      {
+        "turn": 8,
+        "action": "move 3",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 3"
+        }
+      },
+      {
+        "turn": 9,
+        "action": "move 1",
+        "diagnostic": {
+          "rollouts": 96,
+          "changed": false,
+          "baseline": "move 1",
+          "actions": [
+            "move 1",
+            "move 3"
+          ],
+          "samples": [
+            40,
+            56
+          ],
+          "estimates": [
+            88.2554474072295,
+            91.08035514650216
+          ],
+          "veto": "preserve_finishing_pressure"
+        }
+      },
+      {
+        "turn": 10,
+        "action": "move 2",
+        "diagnostic": {
+          "rollouts": 0,
+          "changed": false,
+          "baseline": "move 2"
+        }
+      },
+      {
+        "turn": 11,
+        "action": "move 2",
+        "diagnostic": {
+          "rollouts": 96,
+          "changed": false,
+          "baseline": "move 2",
+          "actions": [
+            "move 2",
+            "move 1"
+          ],
+          "samples": [
+            50,
+            46
+          ],
+          "estimates": [
+            99.59051124485691,
+            94.5001845583314
+          ]
+        }
+      }
+    ],
+    "recovery_guard-coherent-adaptive-00-v4_7-game-22": [
+      {
+        "turn": 0,
+        "action": "team 123"
+      },
+      {
+        "turn": 1,
+        "action": "move 3"
+      },
+      {
+        "turn": 2,
+        "action": "move 3"
+      },
+      {
+        "turn": 3,
+        "action": "switch 2"
+      },
+      {
+        "turn": 4,
+        "action": "move 1"
+      },
+      {
+        "turn": 5,
+        "action": "move 1"
+      }
+    ],
+    "recovery_cycle-coherent-adaptive-00-v4_7-game-22": [
+      {
+        "turn": 0,
+        "action": "team 123"
+      },
+      {
+        "turn": 1,
+        "action": "move 3"
+      },
+      {
+        "turn": 2,
+        "action": "move 3"
+      },
+      {
+        "turn": 3,
+        "action": "switch 2"
+      },
+      {
+        "turn": 4,
+        "action": "move 1"
+      },
+      {
+        "turn": 5,
+        "action": "move 1"
+      }
+    ],
+    "recovery_guard-coherent-tactical-01-v4_7-game-10": [
+      {
+        "turn": 0,
+        "action": "team 123"
+      },
+      {
+        "turn": 1,
+        "action": "switch 2"
+      },
+      {
+        "turn": 2,
+        "action": "move 1"
+      },
+      {
+        "turn": 3,
+        "action": "move 1"
+      },
+      {
+        "turn": 4,
+        "action": "move 1"
+      },
+      {
+        "turn": 5,
+        "action": "move 1"
+      },
+      {
+        "turn": 6,
+        "action": "switch 3"
+      }
+    ],
+    "recovery_cycle-coherent-tactical-01-v4_7-game-10": [
+      {
+        "turn": 0,
+        "action": "team 123"
+      },
+      {
+        "turn": 1,
+        "action": "switch 2"
+      },
+      {
+        "turn": 2,
+        "action": "move 1"
+      },
+      {
+        "turn": 3,
+        "action": "move 1"
+      },
+      {
+        "turn": 4,
+        "action": "move 1"
+      },
+      {
+        "turn": 5,
+        "action": "move 1"
+      },
+      {
+        "turn": 6,
+        "action": "switch 3"
+      }
+    ],
+    "recovery_guard-coherent-adaptive-00-v4_7-game-06": [
+      {
+        "turn": 0,
+        "action": "team 123"
+      },
+      {
+        "turn": 1,
+        "action": "move 1"
+      },
+      {
+        "turn": 2,
+        "action": "switch 2"
+      },
+      {
+        "turn": 3,
+        "action": "move 1"
+      },
+      {
+        "turn": 4,
+        "action": "switch 3"
+      },
+      {
+        "turn": 5,
+        "action": "move 3"
+      },
+      {
+        "turn": 6,
+        "action": "move 4"
+      },
+      {
+        "turn": 7,
+        "action": "switch 3"
+      }
+    ],
+    "recovery_cycle-coherent-adaptive-00-v4_7-game-06": [
+      {
+        "turn": 0,
+        "action": "team 123"
+      },
+      {
+        "turn": 1,
+        "action": "move 1"
+      },
+      {
+        "turn": 2,
+        "action": "switch 2"
+      },
+      {
+        "turn": 3,
+        "action": "move 1"
+      },
+      {
+        "turn": 4,
+        "action": "switch 3"
+      },
+      {
+        "turn": 5,
+        "action": "move 3"
+      },
+      {
+        "turn": 6,
+        "action": "move 4"
+      },
+      {
+        "turn": 7,
+        "action": "switch 3"
+      }
+    ]
+  }
+}

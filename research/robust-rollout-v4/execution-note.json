@@ -1,0 +1,8 @@
+{
+  "resumedFromCompletedGames": 1152,
+  "reason": "The earlier interactive executor session no longer existed, and no Python or Node process was found before restarting the same runner.",
+  "command": "python tools/evaluate_recovery_guard.py --run --workers 6",
+  "completedReportsReusedWithOriginalStamps": true,
+  "frozenSourcesSeedsSchedulesOrGatesChanged": false,
+  "validationSelectionChanged": false
+}

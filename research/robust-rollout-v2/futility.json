@@ -1,0 +1,17 @@
+{
+  "status": "stopped_for_futility",
+  "reason": "Each challenger has already failed a fixed validation category guard; no remaining validation, confirmation or direct results can make promotion eligible.",
+  "failedCompletedCategoryGainsPP": {
+    "guarded": {
+      "league": -5.5555555555555465
+    },
+    "aware": {
+      "adaptive": -4.1666666666666625
+    }
+  },
+  "protocolDeviation": "Scheduled games stopped early for logical futility; no release and no confirmation claim. Sources/gates unchanged.",
+  "recommended": "control",
+  "notUsedForV3Selection": true,
+  "completedGamesRetained": 792,
+  "completedReportsRetained": 192
+}

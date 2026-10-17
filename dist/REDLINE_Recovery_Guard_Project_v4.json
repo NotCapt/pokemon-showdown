@@ -1,0 +1,11 @@
+{
+  "zip": "dist/REDLINE_Recovery_Guard_Project_v4.zip",
+  "sha256": "3829cc0963c6778b122044ed462c18e35ff275608c375aee3ab20ed22121b6f7",
+  "bytes": 12130538,
+  "files": 3175,
+  "auditedFreshGames": 2760,
+  "abortedGamesPreservedButExcluded": 376,
+  "futileValidationGamesPreservedButExcluded": 792,
+  "otherRetainedV3GamesExcluded": 1000,
+  "originalPrivateTeammateSourcesIncluded": false
+}

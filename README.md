@@ -66,6 +66,34 @@ these tests. See [the matchup report](research/v4_7-matchups-v1/REPORT.md),
 Extract that research ZIP into a separate directory, then run
 `python tools/test_v4_7_matchups.py --audit` to reproduce the report.
 
+### Recovery and switching follow-up
+
+A targeted recovery guard won 478/528 held-out confirmation games versus
+v4.7's 474/528, with four paired improvements and no paired regressions.
+The weighted gain was +0.729 percentage points, with a descriptive paired
+95% interval of 0.00 to +1.82 points. The preset release rule requires a
+strictly positive lower bound, so this promising candidate did not earn
+promotion and v4.7 remains recommended.
+
+The full 2,760-game study also tested direct matchups. The guard lost 57-71
+to v4.7, missing the preset 45% direct-score guard, and beat v4.6 120-8.
+V4.7's separate v4.6 reference scored 115-13; those two v4.6 schedules use
+different seed tags, so their comparison is unpaired. All source, schedule,
+seed, side and outcome audits passed.
+
+Adding a repeated-switch veto failed the adaptive validation guard. Earlier
+broader forecast corrections and blanket Monte Carlo confidence thresholds
+also failed their fixed checks. These attempts remain development evidence;
+their results are excluded from the latest held-out estimate. The targeted
+candidate retains v4.7's approximate recovery and hidden-bench model.
+See [the study report](research/robust-rollout-v4/REPORT.md) and
+[frozen protocol](research/robust-rollout-v4/PROTOCOL.md).
+`dist/REDLINE_Recovery_Guard_Project_v4.zip` preserves the exact inputs,
+raw battle results and audits, including the unsuccessful earlier attempts.
+On Windows, extract that research ZIP into a separate directory before running
+`python tools/evaluate_recovery_guard.py --audit` and
+`python tools/audit_robust_history.py`.
+
 ## V4.6: team selected against a diverse opponent league
 
 V4.6 selects Dragapult / Snorlax / Corviknight using the unchanged v4.5

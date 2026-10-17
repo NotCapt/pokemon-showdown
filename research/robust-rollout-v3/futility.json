@@ -1,0 +1,20 @@
+{
+  "status": "stopped_for_futility",
+  "failedCompletedCategoryGainsPP": {
+    "margin": {
+      "adaptive": -2.083333333333337,
+      "league": -8.333333333333325
+    },
+    "cycle": {
+      "adaptive": -2.083333333333337,
+      "league": -8.333333333333325
+    }
+  },
+  "validationGames": 792,
+  "reason": "Both candidates failed fixed validation category guards; no later outcomes can earn promotion.",
+  "protocolDeviation": "Stopped scheduled continuation for logical futility; no confirmation or promotion claim.",
+  "recommended": "control",
+  "excludedFromFutureStrengthEstimates": true,
+  "completedGamesRetained": 1000,
+  "completedReportsRetained": 209
+}

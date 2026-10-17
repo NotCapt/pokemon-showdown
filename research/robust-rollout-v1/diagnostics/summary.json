@@ -1,0 +1,1035 @@
+{
+  "purpose": "Post-hoc development diagnoses; these replays are not new strength evidence.",
+  "sourceSha256": {
+    "v4_6": "07b1e968db139b43ebf4dcf49900719977096ac42434d217f1f8534984183ac5",
+    "v4_7": "5dac01afbde238d621a27ca2c11f8bc4e2ee0e094af26f5bb9c47d0c170b62fb"
+  },
+  "cases": [
+    {
+      "name": "coherent-adaptive-00-v4_6",
+      "game": 0,
+      "historicalOutcomeReproduced": true,
+      "winner": "agent",
+      "turns": 29,
+      "finalHP": {
+        "agent": 134.35114503816794,
+        "opponent": 0
+      },
+      "monteCarloOverrides": []
+    },
+    {
+      "name": "coherent-adaptive-00-v4_6",
+      "game": 6,
+      "historicalOutcomeReproduced": true,
+      "winner": "baseline",
+      "turns": 17,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 61.49619691931353
+      },
+      "monteCarloOverrides": []
+    },
+    {
+      "name": "coherent-adaptive-00-v4_6",
+      "game": 22,
+      "historicalOutcomeReproduced": true,
+      "winner": "agent",
+      "turns": 15,
+      "finalHP": {
+        "agent": 100.56159847809857,
+        "opponent": 0
+      },
+      "monteCarloOverrides": []
+    },
+    {
+      "name": "coherent-adaptive-00-v4_7",
+      "game": 0,
+      "historicalOutcomeReproduced": true,
+      "winner": "baseline",
+      "turns": 15,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 172.14285714285714
+      },
+      "monteCarloOverrides": [
+        {
+          "turn": 8,
+          "own": "Corviknight",
+          "foe": "Garchomp",
+          "action": "move 4",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 2",
+            "actions": [
+              "move 2",
+              "move 4"
+            ],
+            "samples": [
+              31,
+              65
+            ],
+            "estimates": [
+              134.77685804469678,
+              139.1952393604952
+            ]
+          }
+        },
+        {
+          "turn": 12,
+          "own": "Snorlax",
+          "foe": "Garchomp",
+          "action": "move 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "switch 2",
+            "actions": [
+              "switch 2",
+              "move 1",
+              "move 2"
+            ],
+            "samples": [
+              12,
+              44,
+              40
+            ],
+            "estimates": [
+              -273.67969393099065,
+              -188.04323161309367,
+              -186.55986797673
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "coherent-adaptive-00-v4_7",
+      "game": 6,
+      "historicalOutcomeReproduced": true,
+      "winner": "agent",
+      "turns": 31,
+      "finalHP": {
+        "agent": 233,
+        "opponent": 0
+      },
+      "monteCarloOverrides": [
+        {
+          "turn": 7,
+          "own": "Corviknight",
+          "foe": "Togekiss",
+          "action": "switch 3",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 1",
+            "actions": [
+              "move 1",
+              "switch 3",
+              "move 3"
+            ],
+            "samples": [
+              12,
+              72,
+              12
+            ],
+            "estimates": [
+              3.563061089830511,
+              33.72873953809262,
+              -2.0974326182258265
+            ]
+          }
+        },
+        {
+          "turn": 11,
+          "own": "Corviknight",
+          "foe": "Dragonite",
+          "action": "move 4",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 1",
+            "actions": [
+              "move 1",
+              "move 4",
+              "move 3"
+            ],
+            "samples": [
+              17,
+              66,
+              13
+            ],
+            "estimates": [
+              56.01770205014874,
+              62.376535972433814,
+              44.70714811542004
+            ]
+          }
+        },
+        {
+          "turn": 12,
+          "own": "Corviknight",
+          "foe": "Togekiss",
+          "action": "switch 3",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 1",
+            "actions": [
+              "move 1",
+              "switch 3",
+              "move 3"
+            ],
+            "samples": [
+              12,
+              72,
+              12
+            ],
+            "estimates": [
+              1.574372454850887,
+              23.29956357776166,
+              1.0565312910748457
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "coherent-adaptive-00-v4_7",
+      "game": 22,
+      "historicalOutcomeReproduced": true,
+      "winner": "baseline",
+      "turns": 20,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 150.31210708168743
+      },
+      "monteCarloOverrides": [
+        {
+          "turn": 5,
+          "own": "Snorlax",
+          "foe": "Lapras",
+          "action": "move 4",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 1",
+            "actions": [
+              "move 1",
+              "move 2",
+              "move 4"
+            ],
+            "samples": [
+              19,
+              19,
+              58
+            ],
+            "estimates": [
+              34.97434480520859,
+              31.4835315004608,
+              39.294046356440056
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "coherent-adaptive-01-v4_6",
+      "game": 2,
+      "historicalOutcomeReproduced": true,
+      "winner": "agent",
+      "turns": 12,
+      "finalHP": {
+        "agent": 42.75,
+        "opponent": 0
+      },
+      "monteCarloOverrides": []
+    },
+    {
+      "name": "coherent-adaptive-01-v4_7",
+      "game": 2,
+      "historicalOutcomeReproduced": true,
+      "winner": "baseline",
+      "turns": 11,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 40.3513542913086
+      },
+      "monteCarloOverrides": [
+        {
+          "turn": 9,
+          "own": "Corviknight",
+          "foe": "Dragapult",
+          "action": "move 3",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 1",
+            "actions": [
+              "move 1",
+              "move 3"
+            ],
+            "samples": [
+              40,
+              56
+            ],
+            "estimates": [
+              88.2554474072295,
+              91.08035514650216
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "coherent-tactical-01-v4_6",
+      "game": 10,
+      "historicalOutcomeReproduced": true,
+      "winner": "agent",
+      "turns": 12,
+      "finalHP": {
+        "agent": 225.62213740458014,
+        "opponent": 0
+      },
+      "monteCarloOverrides": []
+    },
+    {
+      "name": "coherent-tactical-01-v4_7",
+      "game": 10,
+      "historicalOutcomeReproduced": true,
+      "winner": "baseline",
+      "turns": 11,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 43.40836012861736
+      },
+      "monteCarloOverrides": [
+        {
+          "turn": 6,
+          "own": "Snorlax",
+          "foe": "Ferrothorn",
+          "action": "move 4",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "switch 3",
+            "actions": [
+              "switch 3",
+              "move 4"
+            ],
+            "samples": [
+              25,
+              71
+            ],
+            "estimates": [
+              -8.346547014926038,
+              -4.038963203963128
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "head-native-00",
+      "game": 22,
+      "historicalOutcomeReproduced": true,
+      "winner": "baseline",
+      "turns": 101,
+      "finalHP": {
+        "agent": 181.25,
+        "opponent": 284.85804416403784
+      },
+      "monteCarloOverrides": [
+        {
+          "turn": 4,
+          "own": "Corviknight",
+          "foe": "Corviknight",
+          "action": "move 4",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 2",
+            "actions": [
+              "move 2",
+              "move 4",
+              "move 1"
+            ],
+            "samples": [
+              12,
+              72,
+              12
+            ],
+            "estimates": [
+              39.600624156596005,
+              61.85275408366749,
+              26.200959654294444
+            ]
+          }
+        },
+        {
+          "turn": 21,
+          "own": "Corviknight",
+          "foe": "Corviknight",
+          "action": "move 3",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 1",
+            "actions": [
+              "move 1",
+              "move 3",
+              "move 4"
+            ],
+            "samples": [
+              25,
+              46,
+              25
+            ],
+            "estimates": [
+              -18.437674807331188,
+              -17.297136028614688,
+              -31.38298763232602
+            ]
+          }
+        },
+        {
+          "turn": 23,
+          "own": "Corviknight",
+          "foe": "Corviknight",
+          "action": "move 3",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 1",
+            "actions": [
+              "move 1",
+              "move 3",
+              "move 4"
+            ],
+            "samples": [
+              21,
+              55,
+              20
+            ],
+            "estimates": [
+              -28.161558553708534,
+              -22.17312839581291,
+              -32.71032802424637
+            ]
+          }
+        },
+        {
+          "turn": 25,
+          "own": "Corviknight",
+          "foe": "Corviknight",
+          "action": "move 1",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 3",
+            "actions": [
+              "move 3",
+              "move 1",
+              "move 4"
+            ],
+            "samples": [
+              29,
+              34,
+              33
+            ],
+            "estimates": [
+              -22.216702346112797,
+              -21.107300641093577,
+              -24.92530812097606
+            ]
+          }
+        },
+        {
+          "turn": 39,
+          "own": "Corviknight",
+          "foe": "Corviknight",
+          "action": "move 3",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 1",
+            "actions": [
+              "move 1",
+              "move 4",
+              "move 3"
+            ],
+            "samples": [
+              25,
+              24,
+              47
+            ],
+            "estimates": [
+              -6.3261086944809835,
+              -10.462981058669781,
+              -6.124051926750868
+            ]
+          }
+        },
+        {
+          "turn": 46,
+          "own": "Corviknight",
+          "foe": "Corviknight",
+          "action": "move 4",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 1",
+            "actions": [
+              "move 1",
+              "move 4"
+            ],
+            "samples": [
+              39,
+              57
+            ],
+            "estimates": [
+              3.2090563284643165,
+              3.5575420225899212
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "head-native-05",
+      "game": 7,
+      "historicalOutcomeReproduced": true,
+      "winner": "baseline",
+      "turns": 101,
+      "finalHP": {
+        "agent": 107.25,
+        "opponent": 121.22113323861583
+      },
+      "monteCarloOverrides": [
+        {
+          "turn": 4,
+          "own": "Corviknight",
+          "foe": "Corviknight",
+          "action": "move 4",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 2",
+            "actions": [
+              "move 2",
+              "move 4",
+              "move 1"
+            ],
+            "samples": [
+              12,
+              72,
+              12
+            ],
+            "estimates": [
+              39.600624156596005,
+              61.85275408366749,
+              26.200959654294444
+            ]
+          }
+        },
+        {
+          "turn": 5,
+          "own": "Corviknight",
+          "foe": "Corviknight",
+          "action": "move 4",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 2",
+            "actions": [
+              "move 2",
+              "move 4"
+            ],
+            "samples": [
+              12,
+              84
+            ],
+            "estimates": [
+              108.99360136987394,
+              132.845070154989
+            ]
+          }
+        },
+        {
+          "turn": 11,
+          "own": "Corviknight",
+          "foe": "Corviknight",
+          "action": "move 3",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 2",
+            "actions": [
+              "move 2",
+              "move 3"
+            ],
+            "samples": [
+              12,
+              84
+            ],
+            "estimates": [
+              147.09056743986676,
+              158.20185597659724
+            ]
+          }
+        },
+        {
+          "turn": 20,
+          "own": "Corviknight",
+          "foe": "Dragapult",
+          "action": "switch 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 3",
+            "actions": [
+              "move 3",
+              "switch 2",
+              "move 1"
+            ],
+            "samples": [
+              12,
+              72,
+              12
+            ],
+            "estimates": [
+              -0.9688663889357088,
+              62.9772623101295,
+              -2.8095801546152863
+            ]
+          }
+        },
+        {
+          "turn": 25,
+          "own": "Corviknight",
+          "foe": "Dragapult",
+          "action": "switch 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 3",
+            "actions": [
+              "move 3",
+              "switch 2"
+            ],
+            "samples": [
+              12,
+              84
+            ],
+            "estimates": [
+              -7.904575066269518,
+              65.3468140816432
+            ]
+          }
+        },
+        {
+          "turn": 30,
+          "own": "Corviknight",
+          "foe": "Dragapult",
+          "action": "switch 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 3",
+            "actions": [
+              "move 3",
+              "switch 2"
+            ],
+            "samples": [
+              12,
+              84
+            ],
+            "estimates": [
+              4.157928515997076,
+              62.781921354970486
+            ]
+          }
+        },
+        {
+          "turn": 35,
+          "own": "Corviknight",
+          "foe": "Dragapult",
+          "action": "switch 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 3",
+            "actions": [
+              "move 3",
+              "switch 2"
+            ],
+            "samples": [
+              12,
+              84
+            ],
+            "estimates": [
+              4.679192226723055,
+              63.179831727553214
+            ]
+          }
+        },
+        {
+          "turn": 41,
+          "own": "Corviknight",
+          "foe": "Dragapult",
+          "action": "switch 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 3",
+            "actions": [
+              "move 3",
+              "switch 2",
+              "move 1"
+            ],
+            "samples": [
+              12,
+              72,
+              12
+            ],
+            "estimates": [
+              8.989849740110303,
+              63.3703934436571,
+              1.4745058732801724
+            ]
+          }
+        },
+        {
+          "turn": 46,
+          "own": "Corviknight",
+          "foe": "Dragapult",
+          "action": "switch 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 3",
+            "actions": [
+              "move 3",
+              "switch 2",
+              "move 1"
+            ],
+            "samples": [
+              12,
+              72,
+              12
+            ],
+            "estimates": [
+              -1.1909053857888257,
+              63.08358152059636,
+              0.5249977877078642
+            ]
+          }
+        },
+        {
+          "turn": 52,
+          "own": "Corviknight",
+          "foe": "Dragapult",
+          "action": "switch 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 3",
+            "actions": [
+              "move 3",
+              "switch 2",
+              "move 1"
+            ],
+            "samples": [
+              12,
+              72,
+              12
+            ],
+            "estimates": [
+              0.6319595346719691,
+              64.71641484118516,
+              0.42590815292865614
+            ]
+          }
+        },
+        {
+          "turn": 57,
+          "own": "Corviknight",
+          "foe": "Dragapult",
+          "action": "switch 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 3",
+            "actions": [
+              "move 3",
+              "switch 2",
+              "move 1"
+            ],
+            "samples": [
+              12,
+              72,
+              12
+            ],
+            "estimates": [
+              -0.3900110072098917,
+              58.683415789841796,
+              -0.1751384835853429
+            ]
+          }
+        },
+        {
+          "turn": 62,
+          "own": "Corviknight",
+          "foe": "Dragapult",
+          "action": "switch 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 3",
+            "actions": [
+              "move 3",
+              "switch 2"
+            ],
+            "samples": [
+              12,
+              84
+            ],
+            "estimates": [
+              7.721649575194576,
+              63.413829596704254
+            ]
+          }
+        },
+        {
+          "turn": 67,
+          "own": "Corviknight",
+          "foe": "Dragapult",
+          "action": "switch 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 3",
+            "actions": [
+              "move 3",
+              "switch 2",
+              "move 1"
+            ],
+            "samples": [
+              12,
+              72,
+              12
+            ],
+            "estimates": [
+              3.2709416711327144,
+              60.702283342231446,
+              -10.996627848404113
+            ]
+          }
+        },
+        {
+          "turn": 72,
+          "own": "Corviknight",
+          "foe": "Dragapult",
+          "action": "switch 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 3",
+            "actions": [
+              "move 3",
+              "switch 2",
+              "move 1"
+            ],
+            "samples": [
+              12,
+              72,
+              12
+            ],
+            "estimates": [
+              -14.209167495385184,
+              62.93739738388792,
+              -7.224633411309036
+            ]
+          }
+        },
+        {
+          "turn": 77,
+          "own": "Corviknight",
+          "foe": "Dragapult",
+          "action": "switch 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 3",
+            "actions": [
+              "move 3",
+              "switch 2",
+              "move 1"
+            ],
+            "samples": [
+              12,
+              72,
+              12
+            ],
+            "estimates": [
+              8.789545078827928,
+              68.10761420076594,
+              -3.3423204304544623
+            ]
+          }
+        },
+        {
+          "turn": 82,
+          "own": "Corviknight",
+          "foe": "Dragapult",
+          "action": "switch 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 3",
+            "actions": [
+              "move 3",
+              "switch 2",
+              "move 1"
+            ],
+            "samples": [
+              12,
+              72,
+              12
+            ],
+            "estimates": [
+              5.632562960411121,
+              63.08705655763539,
+              -6.571149378942957
+            ]
+          }
+        },
+        {
+          "turn": 83,
+          "own": "Snorlax",
+          "foe": "Dragapult",
+          "action": "switch 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 4",
+            "actions": [
+              "move 4",
+              "switch 2"
+            ],
+            "samples": [
+              12,
+              84
+            ],
+            "estimates": [
+              -9.654352767608689,
+              12.15785843268771
+            ]
+          }
+        },
+        {
+          "turn": 88,
+          "own": "Snorlax",
+          "foe": "Dragapult",
+          "action": "switch 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 4",
+            "actions": [
+              "move 4",
+              "switch 2"
+            ],
+            "samples": [
+              12,
+              84
+            ],
+            "estimates": [
+              -10.336813057503072,
+              17.434201820715074
+            ]
+          }
+        },
+        {
+          "turn": 92,
+          "own": "Snorlax",
+          "foe": "Dragapult",
+          "action": "switch 2",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "move 4",
+            "actions": [
+              "move 4",
+              "switch 2",
+              "move 3"
+            ],
+            "samples": [
+              12,
+              72,
+              12
+            ],
+            "estimates": [
+              2.784535355522358,
+              17.730979824995924,
+              -8.337751488390657
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "uniform-adaptive-01-v4_6",
+      "game": 28,
+      "historicalOutcomeReproduced": true,
+      "winner": "agent",
+      "turns": 20,
+      "finalHP": {
+        "agent": 169.94265176872878,
+        "opponent": 0
+      },
+      "monteCarloOverrides": []
+    },
+    {
+      "name": "uniform-adaptive-01-v4_7",
+      "game": 28,
+      "historicalOutcomeReproduced": true,
+      "winner": "baseline",
+      "turns": 19,
+      "finalHP": {
+        "agent": 0,
+        "opponent": 77.54010695187166
+      },
+      "monteCarloOverrides": [
+        {
+          "turn": 4,
+          "own": "Corviknight",
+          "foe": "Arcanine",
+          "action": "switch 3",
+          "diagnostic": {
+            "rollouts": 96,
+            "changed": true,
+            "baseline": "switch 2",
+            "actions": [
+              "switch 2",
+              "switch 3"
+            ],
+            "samples": [
+              34,
+              62
+            ],
+            "estimates": [
+              59.50710100274887,
+              61.67837055383347
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "instrumentSha256": {
+    "trace_matchup.js": "abcc66793b796abb46fd47a6274f68da41a9bfcaa27b9952b57cea486b3f80ae",
+    "trace_worker.py": "d618a0f5d7b25fc13fe37b1e936af2d07a39ab684bb8d344fc46159713a3fff8",
+    "diagnose_robust_rollout.py": "8283c02b5a88550ac4b6e1d8fca41ab1b77323471175b5a2ab8e7afb3b735021"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "checks": {
+    "guarded": {
+      "passed": true,
+      "pythonTests": 63,
+      "javascriptChecks": 2,
+      "publicSleepAndPPPassed": true,
+      "finitePPAndCloneIsolationPassed": true,
+      "hiddenPolicyIsolationPassed": true,
+      "terminalHPObjectivePassed": true,
+      "sourceSha256": "d9be93a754d9b8adc75254e1ea7b161a653f640a1939e1491446ef8598331a57"
+    },
+    "aware": {
+      "passed": true,
+      "pythonTests": 63,
+      "javascriptChecks": 2,
+      "publicSleepAndPPPassed": true,
+      "finitePPAndCloneIsolationPassed": true,
+      "hiddenPolicyIsolationPassed": true,
+      "terminalHPObjectivePassed": true,
+      "sourceSha256": "63af43b47440061092d5e90306b363ee8fa85c87e9261b6726fb96df236417c3"
+    }
+  },
+  "latency": {
+    "control": {
+      "medianMs": 26.18534999055555,
+      "p95Ms": 140.98370001011062,
+      "maxMs": 284.2172999953618,
+      "decisions": 144
+    },
+    "guarded": {
+      "medianMs": 31.606800002919044,
+      "p95Ms": 151.12280000175815,
+      "maxMs": 358.2890999969095,
+      "decisions": 144
+    },
+    "aware": {
+      "medianMs": 32.31745000084629,
+      "p95Ms": 336.8498999916483,
+      "maxMs": 572.7920999925118,
+      "decisions": 144
+    }
+  },
+  "sampledPositions": {
+    "control": 22,
+    "guarded": 27,
+    "aware": 27
+  },
+  "lateSearchPositions": {
+    "control": 0,
+    "guarded": 6,
+    "aware": 6
+  },
+  "sourceSha256": {
+    "control": "5dac01afbde238d621a27ca2c11f8bc4e2ee0e094af26f5bb9c47d0c170b62fb",
+    "guarded": "d9be93a754d9b8adc75254e1ea7b161a653f640a1939e1491446ef8598331a57",
+    "aware": "63af43b47440061092d5e90306b363ee8fa85c87e9261b6726fb96df236417c3"
+  },
+  "timingMethod": "72 public synthetic positions; two interleaved repetitions after all unit processes ended; one public previously seen foe; import/init/copy excluded. Not strength evidence."
+}

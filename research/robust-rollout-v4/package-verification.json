@@ -1,0 +1,12 @@
+{
+  "archive": "dist/REDLINE_Recovery_Guard_Project_v4.zip",
+  "archiveSha256": "3829cc0963c6778b122044ed462c18e35ff275608c375aee3ab20ed22121b6f7",
+  "checkedFiles": 3174,
+  "newExtraction": "research/robust-rollout-v4/reproducer-check",
+  "allMemberHashesVerified": true,
+  "extractedStudyAndHistoryAuditsMatch": true,
+  "recommendedReleaseVerified": true,
+  "pythonTests": 63,
+  "javascriptChecks": 2,
+  "localSimulatorDependency": "Pinned ancestor node_modules; npm ci required on a new machine"
+}

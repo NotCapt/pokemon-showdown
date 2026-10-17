@@ -1,0 +1,38 @@
+{
+  "v1": {
+    "completedReports": 77,
+    "completedGames": 376,
+    "allRetainedSourcesSchedulesAndOutcomesVerified": true,
+    "excludedFromV4StrengthEstimates": true
+  },
+  "v2": {
+    "completedReports": 192,
+    "completedGames": 792,
+    "allRetainedSourcesSchedulesAndOutcomesVerified": true,
+    "excludedFromV4StrengthEstimates": true,
+    "failedCategoryGuardsVerified": {
+      "guarded": {
+        "league": -5.5555555555555465
+      },
+      "aware": {
+        "adaptive": -4.1666666666666625
+      }
+    }
+  },
+  "v3": {
+    "completedReports": 209,
+    "completedGames": 1000,
+    "allRetainedSourcesSchedulesAndOutcomesVerified": true,
+    "excludedFromV4StrengthEstimates": true,
+    "failedCategoryGuardsVerified": {
+      "margin": {
+        "adaptive": -2.083333333333337,
+        "league": -8.333333333333325
+      },
+      "cycle": {
+        "adaptive": -2.083333333333337,
+        "league": -8.333333333333325
+      }
+    }
+  }
+}
